@@ -1,0 +1,184 @@
+{
+ "slug": "problemes-cheveux",
+ "gabarit": "article",
+ "hub": true,
+ "hub_titre": "Les problèmes de cheveux, un par un",
+ "rubrique": "problemes",
+ "court": "Problèmes de cheveux",
+ "kw": "problème cheveux (hub : cheveux gras, secs, qui cassent, pellicules, blancs, chute)",
+ "volume": "n.r. (cluster pellicules 9 900, cuir chevelu qui gratte 8 100, cheveux gras 2 900, chute de cheveux femme 2 900)",
+ "argent": false,
+ "affilie": false,
+ "dermato": true,
+ "title": "Problèmes de cheveux : gras, secs, casse, pellicules",
+ "description": "Cheveux gras, secs, qui cassent, pellicules, cheveux blancs ou chute : comprendre ce qui se passe, les gestes simples, et quand il faut voir un médecin.",
+ "h1": "Problèmes de cheveux : comprendre ce qui se passe, et quoi faire",
+ "chapo": "Tes racines regraissent en un jour, tes pointes cassent, ton cuir chevelu gratte, tu trouves plus de cheveux que d'habitude dans la brosse ? Chaque souci a ses causes et ses gestes. Et certains ne relèvent pas d'une routine, mais d'un médecin. Voici comment t'y retrouver.",
+ "photo_alt": "Une brosse, un peigne à dents larges et un flacon de shampoing posés sur une serviette",
+ "photo_haut": false,
+ "en_bref": [
+  "Commence par situer le problème : le cuir chevelu (gras, sec, pellicules, démangeaisons) ou la fibre (sécheresse, casse).",
+  "Beaucoup de soucis viennent de la routine : shampoing trop fort ou trop doux, chaleur, frottements, produits sur les racines.",
+  "Un cheveu cassé n'est pas un cheveu tombé : la casse se travaille avec des gestes doux, la chute se discute avec un médecin.",
+  "Change une seule chose à la fois, et laisse-lui trois ou quatre lavages avant de juger.",
+  "Plaques, croûtes, douleur, chute en plaques ou très soudaine : direction le médecin ou le dermatologue."
+ ],
+ "sections": [
+  {
+   "h2": "Cuir chevelu ou longueurs : d'où vient le problème ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "C'est la question à se poser en premier, parce que la réponse change tout. Ton **cuir chevelu** est une peau : il produit du sébum, il peut tirailler, peler ou démanger. Tes **longueurs**, elles, sont une fibre morte : elles ne se réparent pas seules, elles s'usent avec le temps, la chaleur et les frottements."
+    },
+    {
+     "type": "p",
+     "texte": "On peut très bien avoir les deux en même temps : des racines grasses et des pointes sèches, c'est même le cas le plus fréquent dès que les cheveux dépassent les épaules. La solution n'est alors pas un produit miracle, mais deux gestes séparés : un shampoing pensé pour ton cuir chevelu, posé sur les racines, et un après-shampoing ou un masque posé seulement sur les longueurs."
+    },
+    {
+     "type": "tableau",
+     "legende": "Repérer où se situe le problème",
+     "entetes": [
+      "Ce que tu remarques",
+      "Ça vient plutôt",
+      "Le guide à lire"
+     ],
+     "lignes": [
+      [
+       "Racines luisantes 24 à 48 h après le lavage",
+       "du cuir chevelu",
+       "[Cheveux gras](cheveux-gras)"
+      ],
+      [
+       "Longueurs rêches, ternes, qui s'emmêlent",
+       "de la fibre",
+       "[Cheveux secs](cheveux-secs)"
+      ],
+      [
+       "Petits morceaux de cheveux sur les vêtements, pointes blanches",
+       "de la fibre",
+       "[Cheveux abîmés et qui cassent](cheveux-abimes)"
+      ],
+      [
+       "Squames blanches ou jaunâtres, démangeaisons",
+       "du cuir chevelu",
+       "[Pellicules et démangeaisons](cuir-chevelu-qui-gratte)"
+      ],
+      [
+       "Cheveux entiers qui tombent, avec un petit bulbe blanc",
+       "du cycle du cheveu",
+       "[Chute de cheveux chez la femme](chute-de-cheveux-femme)"
+      ],
+      [
+       "Mèches qui perdent leur couleur",
+       "du cycle de pigmentation",
+       "[Cheveux blancs](cheveux-blancs)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Les causes qui reviennent le plus souvent",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Quand on reprend les routines une par une, on retrouve souvent les mêmes coupables. Ce ne sont pas des fautes, juste des habitudes qu'on n'a jamais remises en question."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Le mauvais shampoing pour ton cuir chevelu** : trop décapant, il assèche et peut irriter ; trop doux sur un cuir gras, il laisse un film. Mon guide [quel shampoing choisir](meilleur-shampoing) t'aide à trier.",
+      "**La chaleur** : lisseur, fer à boucler, sèche-cheveux très chaud. Sans protecteur thermique et à haute température, c'est la première cause de casse.",
+      "**Les frottements** : serviette éponge frottée, taie en coton, élastiques serrés, démêlage à sec.",
+      "**Les produits posés sur les racines** : masques, huiles et beurres alourdissent et regraissent si on les met trop haut.",
+      "**Les colorations et décolorations répétées**, qui fragilisent la fibre de l'intérieur.",
+      "**Les coiffures qui tirent**, qui peuvent irriter le cuir chevelu et fragiliser les cheveux des tempes."
+     ]
+    },
+    {
+     "type": "astuce",
+     "texte": "Quand quelque chose ne va pas, je ne change pas toute ma salle de bains. Je retire d'abord ce que j'ai ajouté en dernier, puis je modifie un seul geste. C'est moins excitant qu'un nouveau produit, mais c'est la seule façon de savoir ce qui marche."
+    }
+   ]
+  },
+  {
+   "h2": "Ce qui se règle avec la routine, et ce qui n'en relève pas",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Des cheveux gras, secs, ternes ou qui cassent, des pellicules légères : la plupart du temps, une routine mieux adaptée aide vraiment, en quelques semaines. Un cosmétique peut nettoyer, gainer, lisser, limiter les frottements. Il ne soigne pas une maladie et il ne fait pas pousser les cheveux, quoi qu'en dise l'emballage : la [DGCCRF](https://www.economie.gouv.fr/dgccrf/allegations-sur-les-produits-cosmetiques-tout-nest-pas-permis) rappelle d'ailleurs qu'un produit cosmétique ne peut pas revendiquer d'effet thérapeutique."
+    },
+    {
+     "type": "p",
+     "texte": "En revanche, une chute importante ou en plaques, des plaques rouges épaisses, des croûtes, des démangeaisons qui empêchent de dormir ou une douleur ne se règlent pas avec un shampoing. Le site public [Santé.fr](https://www.sante.fr/chute-de-cheveux) rappelle que les causes d'une chute sont multiples et décrit les situations où une perte de cheveux doit être examinée : c'est ton médecin traitant qui t'orientera, si besoin, vers un dermatologue."
+    },
+    {
+     "type": "dermato"
+    }
+   ]
+  },
+  {
+   "h2": "Par où commencer si tu as plusieurs soucis",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "**Le cuir chevelu d'abord** : choisis un shampoing adapté à ce qu'il fait (gras, sec, pellicules) et applique-le seulement sur les racines.",
+      "**Puis les longueurs** : un après-shampoing à chaque lavage, des mi-longueurs aux pointes, et un [masque](masque-cheveux) une fois par semaine si elles sont sèches ou abîmées.",
+      "**Ensuite les gestes** : essorer sans frotter, démêler sous l'après-shampoing, limiter la chaleur, protéger la nuit.",
+      "**Enfin, observe** pendant trois ou quatre lavages avant de changer autre chose.",
+      "**Et si rien ne bouge en deux mois**, ou si quelque chose t'inquiète, parles-en à un professionnel."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Tu ne sais pas encore quel est ton type de cheveux, ni si ton cuir chevelu est plutôt gras ou sec ? Le [quiz](quiz-type-de-cheveux) te le dit en 2 minutes, et te renvoie vers le bon guide."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Peut-on avoir les cheveux gras et secs en même temps ?",
+   "r": "Oui, c'est même très courant : un cuir chevelu qui produit beaucoup de sébum et des longueurs sèches, parce que le sébum ne descend pas jusqu'aux pointes. On traite alors les deux séparément, shampoing sur les racines, soin sur les longueurs."
+  },
+  {
+   "q": "Combien de temps avant de voir un changement ?",
+   "r": "Pour le toucher et l'aspect des longueurs, souvent dès les premiers lavages. Pour le cuir chevelu, compte trois à quatre semaines. Pour tout ce qui touche à la chute, c'est beaucoup plus long, et c'est un médecin qui doit en juger."
+  },
+  {
+   "q": "Les compléments alimentaires pour cheveux sont-ils utiles ?",
+   "r": "Ils ne servent qu'en cas de carence réelle, et c'est un médecin qui peut la repérer par un bilan. Sans carence, rien ne prouve qu'ils changent quoi que ce soit, et certains peuvent même fausser des analyses."
+  },
+  {
+   "q": "Faut-il consulter un dermatologue pour des pellicules ?",
+   "r": "Pas forcément au début : des pellicules légères répondent souvent à un shampoing adapté. Si elles persistent après quelques semaines, s'accompagnent de rougeurs, de plaques ou de démangeaisons fortes, parles-en à ton médecin."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-gras",
+  "cheveux-secs",
+  "cheveux-abimes",
+  "cuir-chevelu-qui-gratte",
+  "chute-de-cheveux-femme",
+  "cheveux-blancs",
+  "meilleur-shampoing",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Assurance maladie, chute de cheveux",
+   "url": "https://www.ameli.fr/assure/sante/themes/chute-cheveux"
+  },
+  {
+   "titre": "DGCCRF, allégations sur les produits cosmétiques",
+   "url": "https://www.economie.gouv.fr/dgccrf/allegations-sur-les-produits-cosmetiques-tout-nest-pas-permis"
+  },
+  {
+   "titre": "Gavazzoni Dias, Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  }
+ ],
+ "maj": "2026-11-22"
+}

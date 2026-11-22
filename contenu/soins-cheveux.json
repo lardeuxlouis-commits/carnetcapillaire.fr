@@ -1,0 +1,184 @@
+{
+ "slug": "soins-cheveux",
+ "gabarit": "article",
+ "hub": true,
+ "hub_titre": "Mes guides soins et produits",
+ "rubrique": "soins",
+ "court": "Soins et produits",
+ "kw": "soin cheveux",
+ "volume": "9 900",
+ "argent": false,
+ "affilie": false,
+ "dermato": false,
+ "photo_haut": false,
+ "title": "Soin cheveux : shampoing, masque, huile, dans quel ordre",
+ "description": "Shampoing, après-shampoing, masque, soin sans rinçage, huile : à quoi sert chaque soin, dans quel ordre l'utiliser, et comment choisir selon tes cheveux.",
+ "h1": "Soins cheveux : à quoi sert chaque produit, et lequel choisir",
+ "chapo": "Shampoing, après-shampoing, masque, sérum, huile, leave-in... Les rayons débordent, et on finit souvent avec dix flacons à moitié vides. Bonne nouvelle : une routine efficace tient en trois ou quatre produits, à condition de savoir à quoi sert chacun. Je t'explique tout ici, puis je te renvoie vers mes sélections détaillées.",
+ "photo_alt": "Flacons de shampoing, après-shampoing et masque alignés sur le rebord d'une baignoire",
+ "en_bref": [
+  "Le shampoing lave le cuir chevelu, l'après-shampoing et le masque s'occupent des longueurs.",
+  "L'après-shampoing se met à chaque lavage, le masque une fois par semaine environ.",
+  "Le soin sans rinçage et l'huile se posent sur cheveux essorés ou secs, en petite quantité.",
+  "On choisit le shampoing selon le cuir chevelu, les soins selon les longueurs et la porosité.",
+  "Un cosmétique peut gainer, lisser, protéger. Il ne soigne pas et ne fait pas pousser."
+ ],
+ "sections": [
+  {
+   "h2": "Les cinq familles de soins, et à quoi elles servent",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Selon la revue de Gavazzoni Dias sur les cosmétiques capillaires, le shampoing a d'abord pour rôle de nettoyer le cuir chevelu, tandis que l'après-shampoing réduit les frottements entre les fibres, aide au démêlage et limite les frisottis. Tout le reste vient compléter ces deux gestes de base."
+    },
+    {
+     "type": "tableau",
+     "legende": "Les soins capillaires en un coup d'œil",
+     "entetes": [
+      "Soin",
+      "Ce qu'il fait",
+      "Quand",
+      "Où le poser"
+     ],
+     "lignes": [
+      [
+       "Shampoing",
+       "Retire sébum, sueur, pollution, restes de produits",
+       "À chaque lavage",
+       "Sur le cuir chevelu, la mousse suffit pour les longueurs"
+      ],
+      [
+       "Après-shampoing",
+       "Lisse la surface du cheveu, facilite le démêlage",
+       "À chaque lavage, 1 à 3 minutes",
+       "Mi-longueurs et pointes"
+      ],
+      [
+       "Masque",
+       "Version plus riche de l'après-shampoing, pose plus longue",
+       "Une fois par semaine environ",
+       "Longueurs, jamais sur les racines"
+      ],
+      [
+       "Soin sans rinçage (leave-in)",
+       "Garde une fine couche protectrice jusqu'au lavage suivant",
+       "Après le lavage, sur cheveux essorés",
+       "Longueurs, en petite quantité"
+      ],
+      [
+       "Huile ou sérum",
+       "Apporte de la brillance, limite les frisottis, gaine les pointes",
+       "En finition, ou en bain avant shampoing",
+       "Pointes et longueurs, quelques gouttes"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Dans quel ordre les utiliser",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "**Éventuellement, un bain d'huile** 20 à 30 minutes avant le shampoing, sur les longueurs sèches (voir l'[huile de ricin et les autres huiles](huile-de-ricin-cheveux)).",
+      "**Le shampoing**, massé sur le cuir chevelu, bien rincé.",
+      "**L'après-shampoing ou le masque**, sur les longueurs essorées, puis rinçage à l'eau tiède ou fraîche.",
+      "**Le soin sans rinçage**, sur cheveux essorés délicatement dans une serviette en microfibre ou un tee-shirt.",
+      "**Le protecteur thermique**, si tu sèches au sèche-cheveux ou si tu lisses.",
+      "**Une goutte d'huile ou de sérum** en finition sur les pointes, si besoin."
+     ]
+    },
+    {
+     "type": "astuce",
+     "texte": "Je ne fais jamais les six étapes en même temps. Au quotidien, c'est shampoing, après-shampoing, et c'est tout. Le masque et le bain d'huile, c'est mon moment du dimanche."
+    }
+   ]
+  },
+  {
+   "h2": "Comment choisir selon tes cheveux",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Deux règles simples t'évitent la plupart des erreurs. **Le shampoing se choisit selon ton cuir chevelu** : gras, sec, sensible, avec des pellicules. **Les soins se choisissent selon tes longueurs** : leur épaisseur, leur texture et leur porosité."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Cuir chevelu qui regraisse vite : un shampoing doux mais efficace, à appliquer sur les racines, voir le guide [cheveux gras](cheveux-gras).",
+      "Longueurs sèches ou bouclées : des soins plus riches, voir [cheveux secs](cheveux-secs) et [cheveux bouclés](cheveux-boucles).",
+      "Cheveux fins : des textures légères, en spray ou en lait, pour ne pas les alourdir, voir [cheveux fins ou épais](cheveux-fins).",
+      "Cheveux abîmés, colorés ou lissés : soins gainants et protection de la chaleur, voir [cheveux abîmés](cheveux-abimes) et [après un lissage brésilien](shampoing-apres-lissage-bresilien).",
+      "Cheveux très poreux, qui boivent tout : le guide de la [porosité](porosite-cheveux) t'explique comment alterner hydratation et protéines."
+     ]
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Tu ne sais pas encore ce qu'il te faut ?"
+    }
+   ]
+  },
+  {
+   "h2": "Acheter moins, mais mieux",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Un bon soin n'est pas forcément cher. Beaucoup de formules de supermarché ou de pharmacie sont très correctes, et la différence se joue souvent sur la texture et le parfum plus que sur le résultat. Ce qui compte, c'est de lire la liste des ingrédients (INCI) et de garder un produit assez longtemps pour le juger, trois ou quatre lavages au minimum."
+    },
+    {
+     "type": "p",
+     "texte": "Méfie-toi des promesses trop belles. Un soin peut réduire la casse liée aux frottements, rendre le cheveu plus doux et plus brillant. Il ne « répare » pas une fibre au sens biologique, il ne fait pas pousser les cheveux et il ne remplace pas un avis médical. Le [règlement européen sur les allégations cosmétiques](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R0655) impose d'ailleurs que les promesses soient étayées et honnêtes."
+    },
+    {
+     "type": "video",
+     "titre": "Ma salle de bains : les 4 produits que je garde vraiment"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Faut-il vraiment un après-shampoing à chaque lavage ?",
+   "r": "Pour la plupart des cheveux, oui, au moins sur les pointes. Il limite les frottements et la casse au démêlage. Si tes cheveux sont très fins et courts, une petite noisette sur les pointes suffit."
+  },
+  {
+   "q": "Masque ou après-shampoing, lequel choisir ?",
+   "r": "Les deux ne font pas exactement la même chose : l'après-shampoing est le geste de tous les jours, le masque est un soin plus riche, une fois par semaine. Mon guide sur le [masque cheveux](masque-cheveux) détaille les différences."
+  },
+  {
+   "q": "Les soins bio ou naturels sont-ils meilleurs ?",
+   "r": "Pas forcément. Naturel ne veut dire ni plus efficace, ni plus doux : certaines huiles essentielles irritent, par exemple. Regarde la formule et la façon dont tes cheveux réagissent."
+  },
+  {
+   "q": "Combien de produits faut-il au minimum ?",
+   "r": "Deux : un shampoing adapté à ton cuir chevelu et un après-shampoing pour tes longueurs. Le reste dépend de tes cheveux et de tes envies."
+  }
+ ],
+ "liens_internes": [
+  "meilleur-shampoing",
+  "masque-cheveux",
+  "cheveux-blancs",
+  "huile-de-ricin-cheveux",
+  "meilleur-shampoing-sans-sulfate",
+  "cheveux-secs",
+  "cheveux-fins",
+  "quiz-type-de-cheveux",
+  "tests-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias, Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "Règlement (UE) n° 655/2013 sur les allégations des produits cosmétiques",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R0655"
+  },
+  {
+   "titre": "DGCCRF, allégations sur les produits cosmétiques",
+   "url": "https://www.economie.gouv.fr/dgccrf/allegations-sur-les-produits-cosmetiques-tout-nest-pas-permis"
+  }
+ ],
+ "maj": "2026-11-22",
+ "simulateur": "routine"
+}

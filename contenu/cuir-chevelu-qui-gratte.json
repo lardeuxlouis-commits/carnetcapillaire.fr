@@ -1,0 +1,288 @@
+{
+ "slug": "cuir-chevelu-qui-gratte",
+ "gabarit": "article",
+ "rubrique": "problemes",
+ "parent": "problemes-cheveux",
+ "court": "Pellicules et démangeaisons",
+ "kw": "pellicules + cuir chevelu qui gratte",
+ "volume": "9 900 + 8 100",
+ "argent": false,
+ "affilie": false,
+ "dermato": true,
+ "title": "Pellicules et cuir chevelu qui gratte : que faire ?",
+ "description": "Pellicules sèches ou grasses, cuir chevelu qui gratte : les causes fréquentes, le bon rythme de lavage, les shampoings de pharmacie et quand consulter.",
+ "h1": "Pellicules et cuir chevelu qui gratte : comprendre, adapter ta routine et savoir quand consulter",
+ "chapo": "Des petites peaux blanches sur le pull noir, un cuir chevelu qui gratte dès le matin : c'est très courant, quel que soit ton type de cheveux. Souvent, quelques changements dans ta routine et un shampoing adapté suffisent. Parfois, c'est autre chose, et là c'est un médecin qui doit regarder. Je t'explique comment faire la différence, sans jamais remplacer un avis médical.",
+ "photo_alt": "Une femme qui masse doucement son cuir chevelu du bout des doigts pendant le lavage",
+ "en_bref": [
+  "Les pellicules touchent environ une personne sur deux en France, selon la Société française de dermatologie. Ce n'est pas un manque d'hygiène.",
+  "Pellicules sèches (fines, blanches, qui tombent) et pellicules grasses (jaunâtres, collées, souvent avec rougeurs) ne se gèrent pas pareil.",
+  "Les shampoings antipelliculaires de pharmacie s'utilisent d'abord 2 à 3 fois par semaine, en alternance avec un shampoing doux, puis plus rarement.",
+  "Rinçage insuffisant, accumulation de produits et coiffures serrées font aussi gratter, surtout avec des cheveux épais.",
+  "Consulte si rien ne change après un mois, ou en cas de plaques, croûtes, suintement, douleur ou chute."
+ ],
+ "sections": [
+  {
+   "h2": "D'abord, ce que cette page n'est pas",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Je ne suis pas médecin, et cette page ne pose aucun diagnostic. Elle t'aide à repérer ce qui, dans ta routine, peut irriter ton cuir chevelu, et à savoir quand il faut arrêter de chercher seule. Un cosmétique, même très doux, ne soigne pas une maladie de peau."
+    },
+    {
+     "type": "attention",
+     "titre": "Consulte sans attendre si",
+     "texte": "tu as des plaques rouges épaisses, des croûtes, des zones qui suintent ou qui font mal, une perte de cheveux en plaques, de la fièvre, ou si les démangeaisons t'empêchent de dormir. Ton médecin ou un dermatologue saura t'orienter."
+    }
+   ]
+  },
+  {
+   "h2": "Pellicules sèches ou pellicules grasses : les reconnaître",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les pellicules, ce sont des amas de cellules mortes du cuir chevelu. Normalement, ta peau se renouvelle en environ 28 jours et les cellules partent une à une, sans qu'on les voie. Quand ce renouvellement s'accélère, elles se détachent par paquets : ce sont les pellicules. La Société française de dermatologie distingue deux grands types."
+    },
+    {
+     "type": "tableau",
+     "legende": "Pellicules sèches et pellicules grasses (d'après la Société française de dermatologie)",
+     "entetes": [
+      "Critère",
+      "Pellicules sèches",
+      "Pellicules grasses"
+     ],
+     "lignes": [
+      [
+       "À quoi elles ressemblent",
+       "Fines, blanches, légères, elles tombent sur les épaules",
+       "Plus épaisses, jaunâtres, elles collent au cuir chevelu"
+      ],
+      [
+       "Le cuir chevelu",
+       "Sec, qui tiraille, sans rougeur",
+       "Gras, souvent avec rougeurs et démangeaisons"
+      ],
+      [
+       "Causes fréquentes",
+       "Shampoing trop décapant, eau très calcaire, froid, air conditionné, coiffage agressif",
+       "Excès de sébum et levure Malassezia (dermatite séborrhéique)"
+      ],
+      [
+       "Ce qui aide",
+       "Shampoing doux, eau tiède, moins de chaleur",
+       "Shampoing antipelliculaire en alternance avec un shampoing doux"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Les pellicules grasses sont le plus souvent une forme de **dermatite séborrhéique**. Selon l'Assurance maladie (Ameli), le sébum favorise la multiplication d'une levure naturellement présente sur la peau, Malassezia, ce qui crée une inflammation. Le stress, la fatigue, la transpiration ou l'humidité peuvent provoquer des poussées. C'est pour ça que les pellicules vont et viennent."
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Ton cuir chevelu est plutôt sec ou plutôt gras ?"
+    }
+   ]
+  },
+  {
+   "h2": "Bien utiliser un shampoing antipelliculaire",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "En pharmacie, tu trouveras des shampoings antipelliculaires sans ordonnance. Ameli et la Société française de dermatologie citent quelques actifs dont l'efficacité est reconnue, comme la **pyrithione de zinc**, la **piroctone olamine**, le **sulfure de sélénium** ou l'**acide salicylique**. Pas besoin de viser une marque en particulier : demande conseil au pharmacien selon ton type de pellicules et ton cuir chevelu."
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "**Phase d'attaque** : utilise le shampoing antipelliculaire 2 à 3 fois par semaine pendant 2 à 4 semaines.",
+      "**Laisse poser** le temps indiqué sur le flacon (souvent 3 à 5 minutes), en massant doucement du bout des doigts.",
+      "**Alterne** avec un shampoing doux les autres jours de lavage, pour ne pas dessécher ta peau et tes longueurs.",
+      "**Rince longtemps** à l'eau tiède, jamais brûlante.",
+      "**Phase d'entretien** : passe ensuite à une fois par semaine, ou toutes les deux semaines.",
+      "Si ça dessèche trop, espace les applications. Si rien ne change au bout d'un mois, prends rendez-vous."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Les pellicules ont tendance à revenir : les shampoings les contrôlent, ils ne les font pas disparaître pour toujours. Ce n'est pas un échec, c'est normal, et c'est pour ça que l'entretien existe."
+    },
+    {
+     "type": "astuce",
+     "texte": "Sur des longueurs sèches, bouclées ou décolorées, j'applique le shampoing antipelliculaire uniquement sur le cuir chevelu et je protège mes longueurs avec un peu d'après-shampoing avant. La mousse qui coule au rinçage suffit pour elles."
+    }
+   ]
+  },
+  {
+   "h2": "Les causes liées à la routine (pour tous les types de cheveux)",
+   "blocs": [
+    {
+     "type": "h3",
+     "texte": "Un rythme de lavage mal adapté"
+    },
+    {
+     "type": "p",
+     "texte": "Avec des [cheveux gras](cheveux-gras), raides ou fins, le sébum s'accumule vite : laver trop rarement laisse un terrain favorable aux pellicules grasses. Avec des [cheveux secs](cheveux-secs), bouclés ou crépus, c'est souvent l'inverse : des lavages trop fréquents ou trop décapants assèchent la peau. Il n'y a pas de bon rythme universel. Écoute ton cuir chevelu plutôt que tes longueurs."
+    },
+    {
+     "type": "h3",
+     "texte": "Un rinçage insuffisant"
+    },
+    {
+     "type": "p",
+     "texte": "Avec des cheveux épais, bouclés ou crépus, l'eau a du mal à atteindre la peau. Des restes de shampoing ou d'après-shampoing collés au cuir chevelu irritent. Rince plus longtemps que tu ne le penses, en écartant les cheveux par sections."
+    },
+    {
+     "type": "h3",
+     "texte": "L'accumulation de produits"
+    },
+    {
+     "type": "p",
+     "texte": "Shampoing sec, laque, gels, crèmes, huiles : ils s'empilent de lavage en lavage. La revue sur les cosmétiques capillaires citée en sources rappelle que le shampoing sert d'abord à nettoyer le cuir chevelu. Un lavage régulier, et un shampoing clarifiant de temps en temps, retirent ce film. Le shampoing sec, pratique sur cheveux fins, ne remplace pas un vrai lavage."
+    },
+    {
+     "type": "h3",
+     "texte": "Les coiffants et les huiles posés sur la peau"
+    },
+    {
+     "type": "p",
+     "texte": "Quand le gel sèche directement sur le cuir chevelu, il tire et peut gratter. Et selon la Société française de dermatologie, les huiles et coiffants gras sur la peau peuvent favoriser les pellicules grasses. Applique tes produits sur les **longueurs**, à un ou deux centimètres des racines."
+    },
+    {
+     "type": "h3",
+     "texte": "Les coiffures trop serrées"
+    },
+    {
+     "type": "p",
+     "texte": "Tresses, extensions, queues hautes, chignons tirés : une tension trop forte provoque des démangeaisons, des petits boutons autour des racines, et peut fragiliser les cheveux des bords. Si ça tire ou fait mal, c'est trop serré."
+    },
+    {
+     "type": "photo",
+     "alt": "Mains qui séparent ses cheveux par sections sous la douche pour rincer le cuir chevelu",
+     "legende": "Je rince section par section : c'est long, mais mon cuir chevelu me dit merci."
+    }
+   ]
+  },
+  {
+   "h2": "Psoriasis, poux, teigne : quand ce n'est pas des pellicules",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le **psoriasis** peut toucher le cuir chevelu, souvent sur les bords (front, derrière les oreilles, nuque), avec des plaques épaisses, bien délimitées, recouvertes de squames blanc argenté. Ameli précise qu'il est parfois difficile à distinguer d'une dermatite séborrhéique : c'est au médecin de trancher."
+    },
+    {
+     "type": "p",
+     "texte": "Les **poux** ne concernent pas que les enfants, et selon Ameli, en avoir n'est pas un signe de mauvaise hygiène. Ils donnent de fortes démangeaisons, surtout sur la nuque et les tempes. Les lentes, contrairement aux pellicules, restent bien collées au cheveu. On les repère en passant un peigne fin sur cheveux humides avec de l'après-shampoing, en insistant derrière les oreilles. Pour le traitement, suis les conseils de ton pharmacien."
+    },
+    {
+     "type": "p",
+     "texte": "La **teigne** est une infection due à des champignons, plus fréquente chez l'enfant, qui donne souvent des zones sans cheveux. Elle doit être vue rapidement par un médecin. Je ne te dirai pas ce que tu as : seul un professionnel de santé peut le dire en regardant ton cuir chevelu."
+    }
+   ]
+  },
+  {
+   "h2": "Mes gestes doux au quotidien",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Ne gratte pas avec les ongles** : tu abîmes la peau et ça entretient le cercle « ça gratte, je gratte ».",
+      "Lave à l'**eau tiède** avec un shampoing doux, en massant du bout des doigts. Mes repères sont dans [mon guide des shampoings](meilleur-shampoing).",
+      "Baisse la température du sèche-cheveux et ne le colle pas au cuir chevelu.",
+      "Un nouveau produit à la fois, pour repérer celui qui irrite.",
+      "Pendant une poussée, évite les colorations, les parfums forts et les lotions irritantes.",
+      "Évite les huiles essentielles pures et les recettes maison sur un cuir chevelu déjà irrité."
+     ]
+    },
+    {
+     "type": "astuce",
+     "texte": "Si tes démangeaisons ont commencé juste après un nouveau produit, arrête-le et reviens à ta routine d'avant pendant deux semaines. Si ça ne s'améliore pas, ou si ça s'aggrave, ce n'est plus le moment de tester : prends rendez-vous."
+    },
+    {
+     "type": "video",
+     "titre": "Comment je rince mon cuir chevelu, cheveux fins comme cheveux épais"
+    }
+   ]
+  },
+  {
+   "h2": "Quand prendre rendez-vous chez le médecin",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "Un mois de shampoing antipelliculaire bien utilisé n'a **rien changé**.",
+      "Tu vois des **plaques**, des **rougeurs** marquées, des **croûtes** ou des zones qui suintent.",
+      "Les plaques s'étendent au **visage** (sourcils, ailes du nez) ou au corps.",
+      "Ton cuir chevelu est **douloureux**, ou tu as des boutons qui s'infectent.",
+      "Tu remarques une **chute** de cheveux inhabituelle ou des zones dégarnies.",
+      "Ce sont des squames chez un **enfant**."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Ton médecin traitant peut t'examiner et, si besoin, t'orienter vers un dermatologue. Il existe des traitements sur ordonnance quand les shampoings de pharmacie ne suffisent pas, c'est à lui de juger. Si tu perds aussi des cheveux, lis ma page sur la [chute de cheveux chez la femme](chute-de-cheveux-femme)."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Les pellicules viennent-elles d'un manque d'hygiène ?",
+   "r": "Non. Les pellicules grasses sont surtout liées au sébum et à une levure naturellement présente sur la peau. Les pellicules sèches viennent plutôt d'un cuir chevelu irrité ou asséché."
+  },
+  {
+   "q": "Faut-il laver plus souvent quand on a des pellicules ?",
+   "r": "Ça dépend du type. Des pellicules grasses profitent souvent de lavages réguliers avec un shampoing adapté. Un cuir chevelu sec préfère des lavages doux et pas trop fréquents. Si tu ne vois pas d'amélioration après un mois, consulte."
+  },
+  {
+   "q": "Peut-on utiliser un shampoing antipelliculaire tous les jours ?",
+   "r": "Ce n'est généralement pas nécessaire et ça peut dessécher. Le rythme habituel est 2 à 3 fois par semaine au début, en alternance avec un shampoing doux, puis une fois par semaine ou moins. Suis la notice et l'avis de ton pharmacien."
+  },
+  {
+   "q": "Pourquoi mon cuir chevelu gratte après le gel ou le shampoing sec ?",
+   "r": "Souvent parce que le produit sèche sur la peau ou s'accumule. Garde les coiffants sur les longueurs et lave bien ton cuir chevelu. Si ça continue, arrête le produit."
+  },
+  {
+   "q": "Pourquoi j'ai plus de pellicules en hiver ?",
+   "r": "Le froid, l'air sec du chauffage et la chaleur du sèche-cheveux assèchent la peau, ce qui favorise les pellicules sèches. Le stress et la fatigue peuvent aussi déclencher des poussées."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-gras",
+  "cheveux-secs",
+  "chute-de-cheveux-femme",
+  "meilleur-shampoing",
+  "problemes-cheveux",
+  "meilleur-shampoing-sans-sulfate",
+  "routine-cheveux-crepus",
+  "quiz-type-de-cheveux",
+  "tests-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Ameli, Dermatite séborrhéique : définition, causes et facteurs favorisants",
+   "url": "https://www.ameli.fr/assure/sante/themes/dermatite-seborrheique/definition-causes-facteurs-favorisants"
+  },
+  {
+   "titre": "Ameli, Pellicules et dermatite séborrhéique : que faire et quand consulter",
+   "url": "https://www.ameli.fr/assure/sante/themes/dermatite-seborrheique/que-faire-cas-faut-consulter"
+  },
+  {
+   "titre": "Société française de dermatologie (Dermato-Info), Tout savoir sur les pellicules",
+   "url": "https://dermato-info.fr/sites/default/files/files/2026-05/Pellicules.pdf"
+  },
+  {
+   "titre": "Ameli, Psoriasis : symptômes, diagnostic et évolution",
+   "url": "https://www.ameli.fr/assure/sante/themes/psoriasis/symptomes-diagnostic-evolution"
+  },
+  {
+   "titre": "Ameli, Reconnaître la présence de poux",
+   "url": "https://www.ameli.fr/assure/sante/themes/poux/reconnaitre-presence-poux"
+  },
+  {
+   "titre": "Gavazzoni Dias M.F., Hair cosmetics: an overview, Int J Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  }
+ ],
+ "maj": "2026-11-22",
+ "simulateur": "cuir"
+}

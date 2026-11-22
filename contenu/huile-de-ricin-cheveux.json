@@ -1,0 +1,344 @@
+{
+ "slug": "huile-de-ricin-cheveux",
+ "gabarit": "article",
+ "rubrique": "soins",
+ "parent": "soins-cheveux",
+ "court": "Huile de ricin",
+ "kw": "huile de ricin cheveux",
+ "volume": "8 100",
+ "argent": false,
+ "affilie": false,
+ "dermato": true,
+ "title": "Huile de ricin cheveux : usages, limites, précautions",
+ "description": "Huile de ricin sur les cheveux : ce qu'elle fait vraiment, comment la diluer et la rincer, et ce qu'on sait de l'huile de coco et de l'huile de romarin.",
+ "h1": "Huile de ricin sur les cheveux : usages, limites et précautions",
+ "chapo": "L'huile de ricin est partout sur les réseaux, souvent avec une promesse de pousse spectaculaire. La réalité est plus modeste, et c'est important de le dire. Elle reste une huile intéressante pour gainer les pointes et les longueurs sèches, quelle que soit ta texture, à condition de bien l'utiliser. Et comme on me pose souvent la question, je fais aussi le point sur l'huile de coco et l'huile de romarin.",
+ "photo_alt": "Flacon d'huile de ricin et petit bol de mélange d'huiles sur le rebord de la salle de bain d'une femme",
+ "en_bref": [
+  "**Aucune étude clinique contrôlée** ne démontre que l'huile de ricin accélère la pousse des cheveux chez l'humain.",
+  "Elle est très épaisse : on la **dilue** dans une huile plus fluide, et on l'utilise surtout sur les longueurs et les pointes.",
+  "L'**huile de coco** est une des rares huiles dont on a montré qu'elle pénètre la fibre et limite la perte de protéines au lavage, en bain d'huile avant le shampoing.",
+  "Pour l'**huile de romarin**, les preuves sont faibles. L'huile essentielle se dilue toujours et ne convient pas à tout le monde.",
+  "Test au pli du coude avant la première fois, et jamais près des yeux.",
+  "Une chute de cheveux inhabituelle relève d'un médecin, pas d'une huile."
+ ],
+ "sections": [
+  {
+   "h2": "Ce que dit vraiment la recherche sur la pousse",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Je préfère commencer par là, parce que c'est ce qu'on lit partout. Même Aroma-Zone, qui vend de l'huile de ricin, écrit sur son site qu'**aucune étude clinique contrôlée n'a démontré que l'huile de ricin accélère la pousse des cheveux chez l'humain**. Les témoignages de cheveux qui « poussent plus vite » s'expliquent souvent par autre chose : moins de casse grâce aux pointes mieux protégées, ou simplement plus d'attention portée à ses cheveux."
+    },
+    {
+     "type": "p",
+     "texte": "En France, les allégations sur les cosmétiques sont encadrées par un règlement européen de 2013 : elles doivent être vraies et prouvées. Un cosmétique ne soigne pas et ne fait pas repousser. Donc si un produit te promet le contraire, méfie-toi."
+    },
+    {
+     "type": "attention",
+     "titre": "Chute de cheveux",
+     "texte": "Si tu perds plus de cheveux que d'habitude, si tu vois des zones clairsemées ou des plaques, l'huile de ricin ne réglera pas le problème. Les causes peuvent être multiples (hormones, carences, stress, maladies du cuir chevelu), je les détaille sur ma page [chute de cheveux chez la femme](chute-de-cheveux-femme). Parles-en à ton médecin ou à un dermatologue."
+    }
+   ]
+  },
+  {
+   "h2": "Ce que l'huile de ricin peut apporter",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ça n'empêche pas l'huile de ricin d'avoir de vraies qualités cosmétiques. Elle est très épaisse et collante, ce qui en fait une bonne huile **de gainage** : elle enrobe la fibre et aide à limiter la perte d'eau. Sur des [cheveux secs](cheveux-secs), des pointes abîmées ou des cheveux frisés et crépus, c'est appréciable. Sur des [cheveux fins](cheveux-fins), une goutte suffit, sinon ils s'aplatissent."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Gainer les pointes** : une toute petite quantité sur les pointes sèches, après le leave-in.",
+      "**Sceller l'hydratation** : comme dernière couche sur des cheveux très secs (le « O » de la méthode LOC, voir ma [routine cheveux crépus](routine-cheveux-crepus)), diluée.",
+      "**Bain d'huile avant le shampoing** : mélangée à une huile plus fluide.",
+      "**Discipliner les bords et les sourcils** : une trace, du bout du doigt."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour le bain d'huile avant le shampoing, sache qu'une huile a été plus étudiée que les autres : l'huile de coco. J'en parle plus bas. Tu peux tout à fait mélanger les deux."
+    }
+   ]
+  },
+  {
+   "h2": "Comment l'appliquer sans galérer",
+   "blocs": [
+    {
+     "type": "cta_quiz",
+     "titre": "Ton type de cheveux change le bon dosage"
+    },
+    {
+     "type": "p",
+     "texte": "Pure, l'huile de ricin est très difficile à étaler et encore plus à rincer. Mon mélange de base :"
+    },
+    {
+     "type": "tableau",
+     "legende": "Proportions indicatives pour un bain d'huile",
+     "entetes": [
+      "Tes cheveux",
+      "Huile de ricin",
+      "Huile fluide (coco, olive, jojoba, amande douce)"
+     ],
+     "lignes": [
+      [
+       "Fins ou raides",
+       "1 part",
+       "3 à 4 parts, ou l'éviter"
+      ],
+      [
+       "Ondulés, bouclés ou épais",
+       "1 part",
+       "2 à 3 parts"
+      ],
+      [
+       "Frisés, crépus ou très secs",
+       "1 part",
+       "1 à 2 parts"
+      ]
+     ]
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Mélange tes huiles dans un petit bol ou un flacon applicateur.",
+      "Sur cheveux secs ou légèrement humides, sépare en sections.",
+      "Applique sur les longueurs et les pointes, en massant doucement.",
+      "Couvre d'un bonnet, laisse 30 minutes à quelques heures.",
+      "Lave avec ton shampoing, éventuellement en deux fois : un premier passage pour dissoudre l'huile, un second pour vraiment nettoyer.",
+      "Termine par ton après-shampoing et la suite de ta routine."
+     ]
+    },
+    {
+     "type": "astuce",
+     "titre": "Mon astuce rinçage",
+     "texte": "Avant de mouiller tes cheveux, applique directement le shampoing sur l'huile et masse. Le shampoing accroche mieux à l'huile sans eau. Puis mouille et rince. C'est beaucoup plus facile."
+    },
+    {
+     "type": "video",
+     "titre": "Bain d'huile de ricin : mon mélange et comment je le rince"
+    }
+   ]
+  },
+  {
+   "h2": "Huile de ricin sur le cuir chevelu : prudence",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "C'est là que la plupart des tutos insistent, pour la pousse. Je te conseille plutôt la prudence. L'huile de ricin est épaisse : sur un cuir chevelu qui graisse vite ou qui a tendance aux pellicules, elle peut alourdir et donner une sensation de démangeaison chez certaines personnes."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Fais toujours un **test au pli du coude** 24 heures avant.",
+      "Si tu l'appliques sur le cuir chevelu, utilise une quantité minuscule, diluée, et lave dans les heures qui suivent.",
+      "Arrête immédiatement en cas de rougeur, de boutons ou de démangeaisons, et lis ma page sur le [cuir chevelu qui gratte](cuir-chevelu-qui-gratte).",
+      "N'en mets **jamais près des yeux** (cils compris, sans avis médical). En cas de contact, rince abondamment à l'eau."
+     ]
+    },
+    {
+     "type": "photo",
+     "alt": "Une femme qui applique quelques gouttes d'huile sur ses pointes",
+     "legende": "Sur les pointes, une ou deux gouttes suffisent."
+    }
+   ]
+  },
+  {
+   "h2": "Huile de ricin classique ou noire ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Tu trouveras deux versions : l'huile de ricin « classique », claire, pressée à froid, et l'huile de ricin noire (souvent dite jamaïcaine), dont les graines sont torréfiées avant pressage. Elle est plus foncée et sent plus fort. Il n'existe pas de preuve solide qu'une version soit meilleure que l'autre pour la pousse. Choisis selon la texture et l'odeur que tu préfères, et regarde surtout que la liste d'ingrédients ne contienne que de l'huile de ricin."
+    }
+   ]
+  },
+  {
+   "h2": "Et l'huile de coco ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "L'huile de coco a un vrai point fort, et il est documenté. En 2003, deux chercheurs, Rele et Mohile, ont comparé l'huile de coco, l'huile de tournesol et l'huile minérale (paraffine) appliquées sur des cheveux avant le lavage. Résultat : **l'huile de coco était la seule à réduire nettement la perte de protéines**, sur des cheveux en bon état comme sur des cheveux abîmés. Leur explication : ses molécules sont petites et linéaires, ce qui lui permet de **pénétrer à l'intérieur de la fibre**, alors que les deux autres restent surtout en surface."
+    },
+    {
+     "type": "p",
+     "texte": "Pourquoi c'est utile ? Quand un cheveu est mouillé, il gonfle, puis se rétracte en séchant. Ces mouvements répétés fatiguent la fibre à chaque lavage. Une huile qui pénètre un peu limite ce phénomène. Ça ne répare pas un cheveu abîmé, mais ça peut l'aider à mieux supporter les lavages."
+    },
+    {
+     "type": "h3",
+     "texte": "Comment l'utiliser"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**En bain d'huile avant le shampoing** : c'est l'usage étudié. Applique-la sur les longueurs et les pointes, 30 minutes à quelques heures avant de laver.",
+      "**Une petite quantité** suffit : réchauffe-la entre tes mains, elle fond tout de suite.",
+      "**Lave ensuite normalement**, éventuellement avec deux shampoings, puis mets ton après-shampoing."
+     ]
+    },
+    {
+     "type": "h3",
+     "texte": "Ses limites"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Elle peut **alourdir les cheveux fins** et les faire graisser plus vite. Dans ce cas, reste sur les pointes, ou passe à une huile plus légère.",
+      "Elle **fige sous 24 °C environ** : en hiver, le pot devient blanc et solide. C'est normal, quelques secondes entre tes mains ou un pot passé sous l'eau chaude suffisent.",
+      "Certaines personnes trouvent que leurs cheveux deviennent rêches avec l'huile de coco. Si c'est ton cas, n'insiste pas.",
+      "Sur le cuir chevelu, elle n'a pas montré d'effet sur la pousse. Si ton cuir chevelu est gras ou sujet aux pellicules, évite-la à cet endroit."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Choisis une huile de coco vierge, pressée à froid, avec un seul ingrédient sur la liste. Elle se combine très bien avec un peu d'huile de ricin pour gainer les pointes, et elle est aussi dans une de mes recettes de [masque cheveux maison](masque-cheveux-maison)."
+    }
+   ]
+  },
+  {
+   "h2": "Et l'huile de romarin ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "L'huile de romarin est devenue la star des réseaux pour la pousse. Ici, il faut être honnête : **les preuves sont faibles**. L'étude qu'on cite partout date de 2015. Des chercheurs iraniens (Panahi et ses collègues) ont comparé, pendant six mois, une huile au romarin et le minoxidil à 2 % (un médicament contre la chute) chez 100 personnes atteintes d'alopécie androgénétique, une forme de chute liée aux hormones. Les deux groupes ont vu leur nombre de cheveux augmenter, sans différence nette entre eux, et le cuir chevelu grattait moins souvent avec le romarin."
+    },
+    {
+     "type": "p",
+     "texte": "Ça a l'air prometteur, mais cette étude a des limites importantes : un petit nombre de participants, une seule équipe, pas de groupe sans traitement pour comparer, et une forme de chute précise. Elle ne dit rien d'une chute après une grossesse, du stress ou d'une carence. Elle n'a pas été confirmée par de grandes études depuis. Donc **aucune promesse de pousse** : si tu perds tes cheveux, c'est ton médecin qui peut chercher la cause et te parler des options."
+    },
+    {
+     "type": "h3",
+     "texte": "Huile de romarin ou huile essentielle de romarin ?"
+    },
+    {
+     "type": "p",
+     "texte": "Attention, ce sont deux produits très différents. L'**huile végétale de romarin** (on dit aussi macérât huileux) est une huile végétale, souvent de tournesol ou d'olive, dans laquelle on a fait macérer du romarin. Elle est douce. L'**huile essentielle de romarin**, elle, est un concentré très puissant de la plante, qu'on ne met **jamais pure** sur la peau."
+    },
+    {
+     "type": "attention",
+     "titre": "Huile essentielle de romarin : précautions",
+     "texte": "Elle se dilue toujours dans une huile végétale ou un shampoing, en très petite quantité, et se teste au pli du coude 24 heures avant. Selon Santé.fr, le site public d'information santé, les huiles essentielles chez la femme enceinte et chez l'enfant demandent un avis médical préalable. Selon les sources, l'huile essentielle de romarin est aussi déconseillée pendant l'allaitement et en cas d'épilepsie. Dans le doute, demande à ton pharmacien. Jamais près des yeux."
+    },
+    {
+     "type": "p",
+     "texte": "Si tu veux essayer, l'huile végétale de romarin en bain d'huile sur les longueurs, ou en massage doux du cuir chevelu, reste l'option la plus simple. Garde des attentes raisonnables : un massage régulier fait surtout du bien, et c'est déjà pas mal."
+    }
+   ]
+  },
+  {
+   "h2": "Ricin, coco, romarin, argan, jojoba : le comparatif",
+   "blocs": [
+    {
+     "type": "tableau",
+     "legende": "Repères généraux. Les preuves scientifiques sur les huiles capillaires restent limitées.",
+     "entetes": [
+      "Huile",
+      "Texture",
+      "Usage le plus utile",
+      "À savoir"
+     ],
+     "lignes": [
+      [
+       "Ricin",
+       "Très épaisse, collante",
+       "Gainer les pointes, discipliner les bords",
+       "À diluer, difficile à rincer, pas de preuve sur la pousse"
+      ],
+      [
+       "Coco",
+       "Solide à froid, fond à la chaleur",
+       "Bain d'huile avant le shampoing",
+       "Pénètre la fibre (étude de 2003), peut alourdir les cheveux fins"
+      ],
+      [
+       "Romarin (huile végétale)",
+       "Fluide",
+       "Bain d'huile, massage doux",
+       "Preuves faibles, ne pas confondre avec l'huile essentielle"
+      ],
+      [
+       "Argan",
+       "Fluide, sèche vite",
+       "Quelques gouttes sur les pointes, finition",
+       "Légère, convient à la plupart des cheveux"
+      ],
+      [
+       "Jojoba",
+       "Très fluide",
+       "Cuir chevelu sec, cheveux fins",
+       "Proche du sébum, peu grasse au toucher"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Si tu veux savoir quelle huile et quels soins conviennent à tes cheveux, le [quiz](quiz-type-de-cheveux) te donne une routine de départ, et toutes mes pages [soins et produits](soins-cheveux) t'aident à aller plus loin."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "L'huile de ricin fait-elle pousser les cheveux ?",
+   "r": "Aucune étude clinique contrôlée ne l'a démontré chez l'humain, comme le rappelle Aroma-Zone. Elle peut aider à protéger les pointes, donc à limiter la casse, mais elle ne fait pas pousser les cheveux."
+  },
+  {
+   "q": "Combien de temps laisser l'huile de ricin sur les cheveux ?",
+   "r": "30 minutes à quelques heures en bain d'huile, diluée, avant le shampoing. Garder une huile aussi épaisse toute la nuit sur le cuir chevelu n'apporte rien de prouvé et peut l'alourdir."
+  },
+  {
+   "q": "Comment rincer l'huile de ricin ?",
+   "r": "Applique ton shampoing sur cheveux encore secs, masse, puis mouille et rince. Fais un second shampoing si besoin."
+  },
+  {
+   "q": "Peut-on mettre de l'huile de ricin sur les cils ?",
+   "r": "Je ne te le conseille pas sans avis médical : la zone de l'œil est fragile. En cas de contact avec l'œil, rince abondamment à l'eau."
+  },
+  {
+   "q": "L'huile de coco est-elle bonne pour les cheveux ?",
+   "r": "C'est une des rares huiles dont une étude a montré qu'elle pénètre la fibre et limite la perte de protéines au lavage, en bain d'huile avant le shampoing. Elle peut alourdir les cheveux fins : reste alors sur les pointes."
+  },
+  {
+   "q": "L'huile de romarin fait-elle pousser les cheveux ?",
+   "r": "Rien ne le prouve solidement. Une petite étude de 2015 l'a comparée à un médicament contre la chute, avec de nombreuses limites. Si tu perds tes cheveux, consulte ton médecin. Et l'huile essentielle de romarin se dilue toujours."
+  }
+ ],
+ "liens_internes": [
+  "soins-cheveux",
+  "chute-de-cheveux-femme",
+  "cheveux-secs",
+  "cheveux-fins",
+  "masque-cheveux-maison",
+  "cuir-chevelu-qui-gratte",
+  "routine-cheveux-crepus",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Aroma-Zone, Huile de ricin et pousse des cheveux : quel lien ?",
+   "url": "https://www.aroma-zone.com/page/huile-de-ricin-et-pousse-des-cheveux-quel-lien"
+  },
+  {
+   "titre": "Rele A.S., Mohile R.B., Effect of mineral oil, sunflower oil, and coconut oil on prevention of hair damage, J Cosmet Sci, 2003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12715094/"
+  },
+  {
+   "titre": "Règlement (UE) n° 655/2013 sur les critères communs des allégations relatives aux produits cosmétiques",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R0655"
+  },
+  {
+   "titre": "DGCCRF, Allégations sur les produits cosmétiques : tout n'est pas permis",
+   "url": "https://www.economie.gouv.fr/dgccrf/allegations-sur-les-produits-cosmetiques-tout-nest-pas-permis"
+  },
+  {
+   "titre": "Panahi Y. et al., Rosemary oil vs minoxidil 2% for the treatment of androgenetic alopecia: a randomized comparative trial, Skinmed, 2015",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25842469/"
+  },
+  {
+   "titre": "Santé.fr, Les médicaments : médicaments à base de plantes et huiles essentielles",
+   "url": "https://www.sante.fr/les-medicaments-medicaments-base-de-plantes-et-huiles-essentielles"
+  }
+ ],
+ "maj": "2026-11-22"
+}

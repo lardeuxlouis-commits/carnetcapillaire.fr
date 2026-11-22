@@ -1,0 +1,256 @@
+{
+ "slug": "routine-cheveux-crepus",
+ "gabarit": "article",
+ "rubrique": "routines",
+ "parent": "cheveux-crepus",
+ "court": "Routine cheveux crépus",
+ "kw": "routine cheveux crépus",
+ "volume": "n.r. (cluster cheveux crépus 6 600)",
+ "argent": false,
+ "affilie": false,
+ "dermato": false,
+ "title": "Routine cheveux crépus : mon wash day pas à pas",
+ "description": "Routine cheveux crépus complète : pré-poo, lavage doux, masque, méthode LOC ou LCO, coiffures protectrices et nuit en satin. Le wash day expliqué simplement.",
+ "h1": "Routine cheveux crépus : le wash day pas à pas",
+ "chapo": "Les cheveux crépus sont magnifiques, et ils sont aussi les plus fragiles de tous. Leur routine repose sur trois mots : douceur, hydratation, protection. Voici mon wash day complet, puis tout ce qui se passe entre deux lavages.",
+ "photo_alt": "Une femme en train de séparer ses cheveux crépus en quatre sections avant le wash day",
+ "en_bref": [
+  "Travaille toujours **en sections** (4 à 8 selon la densité) pour démêler sans casser.",
+  "Le pré-poo à l'huile avant le shampoing limite le dessèchement au lavage.",
+  "Après le lavage, on superpose eau, huile et crème : méthodes **LOC** ou **LCO**.",
+  "Les coiffures protectrices et le satin la nuit limitent les frottements.",
+  "Un wash day par semaine ou tous les dix jours convient à beaucoup de cheveux crépus."
+ ],
+ "sections": [
+  {
+   "h2": "Pourquoi les cheveux crépus demandent autant de douceur",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Un cheveu crépu (types 4A, 4B, 4C) forme des spirales ou des zigzags très serrés. À chaque courbe, la fibre est plus fine et plus vulnérable. Une étude au microscope publiée en 2000 a observé sur des cheveux africains très frisés des nœuds, des fissures et des cassures bien plus fréquents que sur d'autres textures. Ce n'est pas que tes cheveux « ne poussent pas » : ils cassent souvent avant que tu voies la longueur."
+    },
+    {
+     "type": "p",
+     "texte": "La routine sert donc surtout à **réduire la casse** : moins de manipulations, des démêlages lubrifiés, de l'hydratation régulière et des pointes protégées. Si tu n'es pas sûre que tes cheveux soient crépus plutôt que [frisés](cheveux-frises), jette un œil à mon guide des [cheveux crépus](cheveux-crepus) ou fais le [quiz](quiz-type-de-cheveux)."
+    }
+   ]
+  },
+  {
+   "h2": "Le wash day étape par étape",
+   "blocs": [
+    {
+     "type": "h3",
+     "texte": "1. Le pré-poo (avant le shampoing)"
+    },
+    {
+     "type": "p",
+     "texte": "La veille ou 30 minutes avant, applique une huile sur les longueurs, section par section, puis démêle grossièrement avec les doigts. L'huile de coco est intéressante ici : une étude de 2003 a montré qu'appliquée avant le lavage, elle réduit la perte de protéines du cheveu, ce que l'huile minérale et l'huile de tournesol ne faisaient pas dans cette étude. Si tes cheveux n'aiment pas la coco (certaines les trouvent rêches après), prends une autre huile ou un après-shampoing bon marché."
+    },
+    {
+     "type": "h3",
+     "texte": "2. Le lavage doux, en sections"
+    },
+    {
+     "type": "p",
+     "texte": "Garde tes cheveux en 4 à 8 vanilles ou tresses lâches, et lave entre les sections. Choisis un [shampoing adapté aux cheveux crépus](shampoing-cheveux-crepus-frises), doux, et concentre-le sur le cuir chevelu. Masse avec la pulpe des doigts, rince longtemps. Une fois par mois environ, un shampoing plus clarifiant retire l'accumulation de beurres et d'huiles."
+    },
+    {
+     "type": "h3",
+     "texte": "3. Le masque, sous chaleur douce"
+    },
+    {
+     "type": "p",
+     "texte": "Applique un masque hydratant section par section, puis couvre d'un bonnet en plastique. 20 à 30 minutes suffisent. Un bonnet chauffant tiède ou simplement une serviette chaude par-dessus aide le soin à mieux s'étaler. Tu peux aussi utiliser un [masque maison](masque-cheveux-maison) à l'avocat ou au gel de lin."
+    },
+    {
+     "type": "h3",
+     "texte": "4. Le démêlage, le vrai"
+    },
+    {
+     "type": "p",
+     "texte": "C'est pendant que le masque est encore sur les cheveux qu'on démêle. Une section à la fois, des pointes vers les racines, avec les doigts puis un peigne à dents très larges. Si un nœud résiste, ajoute du produit et de l'eau plutôt que de forcer. Retresse chaque section démêlée avant de passer à la suivante, puis rince."
+    },
+    {
+     "type": "h3",
+     "texte": "5. L'hydratation en couches : LOC ou LCO"
+    },
+    {
+     "type": "p",
+     "texte": "Sur cheveux encore mouillés, on superpose trois couches :"
+    },
+    {
+     "type": "tableau",
+     "legende": "Les deux méthodes de superposition",
+     "entetes": [
+      "Méthode",
+      "Ordre",
+      "Pour qui en général"
+     ],
+     "lignes": [
+      [
+       "LOC",
+       "Liquide (eau ou leave-in), puis Huile, puis Crème",
+       "Cheveux à forte porosité, très secs, qui boivent tout"
+      ],
+      [
+       "LCO",
+       "Liquide, puis Crème, puis Huile",
+       "Cheveux à porosité faible ou moyenne, qui saturent vite"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Ce n'est pas magique : les deux fonctionnent, l'important est de tester. Si tes cheveux restent gras en surface et secs dedans, essaie l'autre ordre. Ta [porosité](porosite-cheveux) t'aide à choisir le point de départ."
+    },
+    {
+     "type": "h3",
+     "texte": "6. Le coiffage et le séchage"
+    },
+    {
+     "type": "p",
+     "texte": "Twists, vanilles, bantu knots, wash and go au gel : choisis la coiffure qui te plaît. Laisse sécher à l'air ou au casque tiède. Une étude de 2011 a montré que la chaleur forte abîme davantage la fibre que la chaleur modérée, et qu'un séchage à l'air extrêmement long n'est pas neutre non plus. Le bon compromis : tiède, à distance, en mouvement."
+    },
+    {
+     "type": "video",
+     "titre": "Mon wash day cheveux crépus en entier, du pré-poo aux twists"
+    }
+   ]
+  },
+  {
+   "h2": "Combien de temps prévoir, et à quelle fréquence",
+   "blocs": [
+    {
+     "type": "cta_quiz",
+     "titre": "Crépus, frisés ? Vérifie ton type en 2 minutes"
+    },
+    {
+     "type": "p",
+     "texte": "Un wash day complet prend souvent entre une et trois heures selon la longueur et la densité. C'est long, je sais. C'est pour ça que beaucoup de filles le font une fois par semaine ou tous les dix jours, et se contentent ensuite d'hydrater."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Tous les 7 à 10 jours** : wash day complet (pré-poo, lavage, masque, LOC ou LCO, coiffage).",
+      "**Tous les 2 à 3 jours** : réhydratation des longueurs avec un vaporisateur d'eau ou de leave-in, puis un peu de crème et d'huile sur les pointes.",
+      "**Chaque soir** : protection en satin (voir plus bas).",
+      "**Si ton cuir chevelu gratte ou graisse vite**, tu peux laver le cuir chevelu plus souvent, coiffure protectrice en place. Et si ça dure, lis ma page sur le [cuir chevelu qui gratte](cuir-chevelu-qui-gratte)."
+     ]
+    },
+    {
+     "type": "astuce",
+     "texte": "Ne fais pas ton wash day un soir où tu es pressée. Mets une série, prépare tout à portée de main, et vois ça comme un moment pour toi. C'est quand on se dépêche qu'on casse le plus."
+    }
+   ]
+  },
+  {
+   "h2": "Les coiffures protectrices : oui, mais pas n'importe comment",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Une coiffure protectrice cache les pointes et limite les manipulations : twists, tresses, vanilles, chignon bas, perruque bien posée. C'est l'un des meilleurs moyens de préserver la longueur."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Pas trop serré** : si tu as mal, des petits boutons ou la peau qui tire sur les tempes, c'est trop serré. Une tension répétée peut fragiliser les bords.",
+      "**Pas trop longtemps** : au-delà de quelques semaines, les cheveux qui tombent naturellement s'emmêlent à la racine et les nœuds deviennent difficiles à défaire.",
+      "**Continue d'hydrater** : vaporise régulièrement tes longueurs et nettoie ton cuir chevelu même coiffure en place.",
+      "**Défais avec patience**, avec beaucoup d'huile ou d'après-shampoing."
+     ]
+    },
+    {
+     "type": "photo",
+     "alt": "Une femme qui montre ses twists faits après le wash day, de profil",
+     "legende": "Des twists moyens, faits sur cheveux hydratés : ma coiffure protectrice préférée pour la semaine."
+    }
+   ]
+  },
+  {
+   "h2": "La routine de nuit : le satin, ton meilleur allié",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le coton absorbe l'humidité et frotte contre la fibre toute la nuit. Pour des cheveux crépus, c'est beaucoup de frottements et de sécheresse évitables."
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Réhydrate rapidement les longueurs si elles sont sèches.",
+      "Rassemble tes cheveux en ananas, en grosses vanilles ou en twists.",
+      "Couvre avec un bonnet ou un foulard en satin, ou dors sur une taie en satin.",
+      "Le matin, défais, vaporise un peu d'eau si besoin et mets en forme avec les doigts."
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Les erreurs les plus fréquentes",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Démêler à sec** ou à la brosse fine : c'est la première cause de casse.",
+      "**Ne mettre que de l'huile** sur des cheveux secs : l'huile ne remplace pas l'eau, elle aide à la garder. Hydrate d'abord.",
+      "**Empiler les beurres** sans jamais clarifier : les cheveux deviennent lourds, ternes, et les produits ne pénètrent plus.",
+      "**Négliger les pointes** : ce sont les parties les plus anciennes et les plus abîmées. Une coupe d'entretien de temps en temps évite que la casse remonte.",
+      "**Comparer ta longueur à celle des autres** : le rétrécissement des cheveux crépus cache souvent une grande partie de la longueur réelle."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Tu voudrais une liste de produits accessibles, triés pour les cheveux crépus ? Tu la trouveras dans le [guide PDF des meilleurs produits pour ton type de cheveux](guide-produits-cheveux-pdf)."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Faut-il laver les cheveux crépus tous les jours ?",
+   "r": "Non, ce n'est généralement pas nécessaire et ça multiplie les manipulations. Un wash day par semaine ou tous les dix jours, avec une réhydratation entre deux, convient à beaucoup de cheveux crépus. Ton cuir chevelu reste le juge : s'il graisse ou gratte vite, adapte."
+  },
+  {
+   "q": "LOC ou LCO, comment savoir ?",
+   "r": "Commence selon ta porosité : LOC si tes cheveux boivent tout et sèchent vite, LCO s'ils saturent vite. Puis observe pendant deux ou trois semaines, et inverse si le résultat ne te plaît pas."
+  },
+  {
+   "q": "L'huile de coco convient-elle à tous les cheveux crépus ?",
+   "r": "Une étude de 2003 a montré qu'elle limite la perte de protéines au lavage. Mais certaines chevelures la trouvent desséchante ou rêche. Si c'est ton cas, prends une autre huile pour ton pré-poo."
+  },
+  {
+   "q": "Une coiffure protectrice fait-elle pousser les cheveux ?",
+   "r": "Non, aucune coiffure ne fait pousser les cheveux. Elle limite la casse des pointes, ce qui aide à garder la longueur que tu as déjà."
+  },
+  {
+   "q": "Combien de temps garder des tresses ?",
+   "r": "Quelques semaines au maximum, en continuant à nettoyer le cuir chevelu et à hydrater. Au-delà, les cheveux qui tombent naturellement s'emmêlent à la racine."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-crepus",
+  "shampoing-cheveux-crepus-frises",
+  "porosite-cheveux",
+  "masque-cheveux-maison",
+  "quiz-type-de-cheveux",
+  "guide-produits-cheveux-pdf"
+ ],
+ "sources": [
+  {
+   "titre": "Khumalo N.P. et al., What is normal black African hair? A light and scanning electron-microscopic study, J Am Acad Dermatol, 2000",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11050586/"
+  },
+  {
+   "titre": "Rele A.S., Mohile R.B., Effect of mineral oil, sunflower oil, and coconut oil on prevention of hair damage, J Cosmet Sci, 2003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12715094/"
+  },
+  {
+   "titre": "Lee Y. et al., Hair shaft damage from heat and drying time of hair dryer, Ann Dermatol, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/"
+  },
+  {
+   "titre": "Gavazzoni Dias M.F., Hair cosmetics: an overview, Int J Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  }
+ ],
+ "maj": "2026-11-22"
+}

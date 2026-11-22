@@ -1,0 +1,401 @@
+{
+ "slug": "cheveux-abimes",
+ "gabarit": "article",
+ "rubrique": "problemes",
+ "parent": "problemes-cheveux",
+ "court": "Cheveux abîmés",
+ "kw": "cheveux qui cassent + cheveux abîmés",
+ "volume": "1 900 + 880",
+ "argent": true,
+ "affilie": true,
+ "dermato": false,
+ "title": "Cheveux abîmés qui cassent : causes et vraie routine",
+ "description": "Casse ou chute ? Repère la différence, comprends ce qui abîme tes cheveux et adopte une routine honnête : ce qu'un soin peut faire, et ce qu'il ne fera jamais.",
+ "h1": "Cheveux abîmés et cheveux qui cassent : comprendre et limiter les dégâts",
+ "chapo": "Des petits bouts de cheveux sur ton pull, des pointes qui s'effilochent, une longueur qui ne dépasse jamais les épaules ? Ce n'est pas forcément que tes cheveux tombent : souvent, ils cassent. La bonne nouvelle, c'est que la casse dépend beaucoup de tes gestes. La moins bonne, c'est qu'aucun produit ne recolle un cheveu abîmé. Je t'explique tout, sans promesse magique.",
+ "photo_alt": "Une femme qui observe des pointes de cheveux fourchues entre ses doigts à la lumière d'une fenêtre",
+ "en_bref": [
+  "Un cheveu cassé n'a pas de bulbe au bout, un cheveu tombé a une petite boule blanche à la racine.",
+  "La casse vient surtout de la chaleur, des produits chimiques et des frottements répétés.",
+  "Un cheveu est une fibre morte : un soin peut le gainer et le lisser, pas le réparer biologiquement.",
+  "Une pointe fourchue ne se recolle pas : la seule solution, c'est de la couper.",
+  "Démêlage doux, satin la nuit et chaleur modérée font plus que n'importe quel masque."
+ ],
+ "sections": [
+  {
+   "h2": "Casse ou chute : la différence qui change tout",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ramasse quelques cheveux sur ta brosse ou ton oreiller et regarde leurs extrémités."
+    },
+    {
+     "type": "tableau",
+     "legende": "Comment savoir si ton cheveu a cassé ou s'il est tombé",
+     "entetes": [
+      "",
+      "Cheveu cassé",
+      "Cheveu tombé"
+     ],
+     "lignes": [
+      [
+       "Le bout côté tête",
+       "Net ou effiloché, sans boule",
+       "Une petite boule blanche ou claire (le bulbe)"
+      ],
+      [
+       "La longueur",
+       "Souvent court, des bouts de quelques centimètres",
+       "Toute la longueur du cheveu"
+      ],
+      [
+       "Ce que ça dit",
+       "Le cheveu est fragilisé, la racine continue de pousser",
+       "Le cycle du cheveu s'est terminé"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Perdre des cheveux entiers, c'est normal : l'Académie américaine de dermatologie rappelle qu'on en perd en moyenne **50 à 100 par jour** ([AAD](https://www.aad.org/public/diseases/hair-loss/insider/shedding)). Si tu en perds beaucoup plus, avec le bulbe, ou si tu vois des zones plus clairsemées, ce n'est plus de la casse : lis plutôt ma page sur la [chute de cheveux chez la femme](chute-de-cheveux-femme) et parles-en à ton médecin."
+    }
+   ]
+  },
+  {
+   "h2": "Ce qui abîme tes cheveux au quotidien",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ton cheveu est protégé par une couche d'écailles, la **cuticule**. Chaque agression la soulève ou l'use un peu. Quand elle est trop abîmée, l'intérieur du cheveu se fragilise, et il finit par casser. Les coupables les plus fréquents :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**La chaleur** : lisseur, fer à boucler, sèche-cheveux très chaud et trop près.",
+      "**Les décolorations et colorations** répétées, surtout pour éclaircir beaucoup.",
+      "**Les lissages chimiques** (défrisage, lissage brésilien, permanente), qui modifient la structure du cheveu. Si tu en as fait un, vois aussi ma page [shampoing après lissage brésilien](shampoing-apres-lissage-bresilien).",
+      "**Les frottements** : serviette frottée, oreiller en coton, écharpe en laine, sac à dos.",
+      "**Les élastiques** fins ou à embout métallique, toujours posés au même endroit.",
+      "**Le démêlage à sec** ou trop énergique, en partant des racines.",
+      "**Les coiffures serrées** : queues hautes, tresses tirées, chignons tenus tous les jours.",
+      "**Le manque d'hydratation** : un cheveu sec est moins souple et casse plus vite, c'est le cas typique des [cheveux secs](cheveux-secs).",
+      "**L'excès de protéines** : à force de masques protéinés, certains cheveux deviennent raides et cassants."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Les dermatologues de l'AAD citent presque la même liste dans leurs [10 habitudes qui abîment les cheveux](https://www.aad.org/public/everyday-care/hair-scalp-care/hair/habits-that-damage-hair). Les [cheveux fins](cheveux-fins) et les [cheveux crépus](cheveux-crepus) sont souvent les plus sensibles."
+    }
+   ]
+  },
+  {
+   "h2": "Le test d'élasticité : hydratation ou protéines ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ce test aide à savoir de quoi ton cheveu manque. Prends un cheveu **mouillé** tombé naturellement, tiens-le par les deux bouts et étire-le très doucement."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Il s'étire un peu puis **revient** à sa longueur : il est plutôt équilibré.",
+      "Il s'étire beaucoup, reste **mou et élastique**, comme un chewing-gum, puis casse : il manque probablement de structure, des soins avec protéines peuvent l'aider.",
+      "Il ne s'étire presque pas et **casse net** : il manque plutôt d'hydratation, ou il a reçu trop de protéines."
+     ]
+    },
+    {
+     "type": "attention",
+     "titre": "À prendre avec prudence",
+     "texte": "Ce test donne une tendance, pas un diagnostic. Fais-le sur plusieurs cheveux, et croise-le avec le toucher et ta [porosité](porosite-cheveux). Change une seule chose à la fois dans ta routine pendant deux ou trois semaines avant de juger."
+    }
+   ]
+  },
+  {
+   "h2": "Les pointes fourchues : la vérité que personne n'aime entendre",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Une pointe fourchue, c'est un cheveu dont l'extrémité s'est ouverte en deux ou plusieurs brins. Une fois ouverte, elle ne se referme pas. Les sérums « anti-fourches » peuvent coller temporairement les brins et lisser l'aspect jusqu'au prochain lavage, mais rien ne les ressoude."
+    },
+    {
+     "type": "p",
+     "texte": "Pire : si tu ne coupes pas, la fourche peut remonter le long du cheveu et l'abîmer plus haut. **La seule vraie solution, c'est de couper**, souvent un ou deux centimètres suffisent. Une petite coupe toutes les 8 à 12 semaines te fera paradoxalement garder plus de longueur."
+    },
+    {
+     "type": "astuce",
+     "texte": "J'ai longtemps refusé de couper parce que je voulais des cheveux longs. Résultat : mes pointes cassaient toutes seules et je ne gagnais rien. Depuis que je fais couper un centimètre régulièrement, ma longueur avance enfin."
+    }
+   ]
+  },
+  {
+   "h2": "Ce qu'un soin peut faire, et ce qu'il ne peut pas faire",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ton cheveu, une fois sorti du cuir chevelu, est une **fibre morte**. Il ne se régénère pas. Une revue scientifique sur les cosmétiques capillaires le dit clairement : la kératine abîmée ne peut pas être remplacée, et les acides aminés ajoutés dans les soins ne restaurent pas la structure d'origine ([Gavazzoni Dias, Int J Trichology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/)). Quand un produit promet de « réparer », il parle d'aspect et de toucher."
+    },
+    {
+     "type": "tableau",
+     "legende": "Les vraies capacités d'un soin capillaire",
+     "entetes": [
+      "Un bon soin peut",
+      "Aucun soin ne peut"
+     ],
+     "lignes": [
+      [
+       "Gainer la fibre et la rendre plus lisse",
+       "Ressouder une pointe fourchue"
+      ],
+      [
+       "Réduire les frottements et faciliter le démêlage",
+       "Rendre au cheveu sa structure d'origine"
+      ],
+      [
+       "Limiter la casse mécanique au coiffage",
+       "Agir sur la pousse ou sur la chute"
+      ],
+      [
+       "Apporter de la brillance et de la souplesse",
+       "Effacer des années de décoloration en un masque"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Selon la même revue, les après-shampoings réduisent la friction et les frisottis en lissant la cuticule. Moins de friction, c'est moins de casse au démêlage."
+    }
+   ]
+  },
+  {
+   "h2": "Ma routine pour limiter la casse",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "**Shampoing doux** sur le cuir chevelu seulement : laisse la mousse glisser sur les longueurs sans les frotter.",
+      "**Après-shampoing à chaque lavage**, sur les longueurs et les pointes, pas sur les racines.",
+      "**Démêle sous la douche**, cheveux pleins d'après-shampoing, avec un peigne à dents larges ou tes doigts, **en partant des pointes** et en remontant petit à petit.",
+      "**Masque une fois par semaine** : plutôt hydratant si tes cheveux cassent net, avec protéines de temps en temps s'ils sont mous et trop élastiques.",
+      "**Essore en tamponnant** avec une serviette en microfibre ou un vieux tee-shirt, sans frotter.",
+      "**Soin sans rinçage** sur les longueurs pour garder la souplesse et faciliter le coiffage.",
+      "**Coupe les pointes** abîmées toutes les 8 à 12 semaines."
+     ]
+    },
+    {
+     "type": "photo",
+     "alt": "Une femme qui démêle ses longueurs avec un peigne à dents larges en partant des pointes",
+     "legende": "Toujours des pointes vers les racines, jamais l'inverse."
+    },
+    {
+     "type": "video",
+     "titre": "Comment je démêle mes cheveux sans les casser"
+    },
+    {
+     "type": "p",
+     "texte": "Pour choisir ton masque selon ta texture, regarde ma sélection de [masques cheveux](masque-cheveux)."
+    }
+   ]
+  },
+  {
+   "h2": "La chaleur et la nuit : deux moments clés",
+   "blocs": [
+    {
+     "type": "h3",
+     "texte": "Apprivoiser la chaleur"
+    },
+    {
+     "type": "p",
+     "texte": "Pas besoin de bannir ton sèche-cheveux. Une étude coréenne a même montré que sécher à **15 cm de distance en bougeant sans arrêt** abîmait moins le cheveu qu'un séchage naturel très long, alors que la chaleur trop proche et trop forte abîmait nettement la surface ([Lee et al., Ann Dermatol](https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/))."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Applique toujours un **protecteur thermique** avant sèche-cheveux, lisseur ou fer.",
+      "Choisis la **température la plus basse** qui fonctionne sur tes cheveux.",
+      "Ne passe jamais le lisseur sur des cheveux encore humides.",
+      "Limite le lisseur et le fer à **une fois par semaine** environ, comme le conseille l'AAD."
+     ]
+    },
+    {
+     "type": "h3",
+     "texte": "Protéger tes cheveux la nuit"
+    },
+    {
+     "type": "p",
+     "texte": "Pendant que tu dors, tes cheveux frottent des heures contre la taie d'oreiller. Une **taie ou un bonnet en satin** (ou en soie) glisse mieux que le coton. Attache tes cheveux en tresse lâche ou en chignon souple sur le dessus de la tête, avec un **chouchou en tissu** plutôt qu'un élastique fin."
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Découvre la routine qui va avec ton type de cheveux"
+    }
+   ]
+  },
+  {
+   "h2": "Les soins que je te conseille de regarder",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Des produits faciles à trouver en France, du petit budget au soin plus cher. Ils ne rendront pas ta fibre neuve, mais peuvent la gainer et la protéger."
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "Garnier Fructis",
+       "nom": "Hair Food Papaye, masque 3-en-1",
+       "pourqui": "les cheveux abîmés et secs qui veulent un soin simple à petit prix.",
+       "prix": "€",
+       "points": [
+        "S'utilise en après-shampoing, en masque ou en sans rinçage.",
+        "Facile à trouver en supermarché."
+       ],
+       "limites": "Peut alourdir des cheveux fins si tu en mets trop. Vérifie la liste INCI au moment de l'achat, les formules changent.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-garnier-hair-food-papaye"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-garnier-hair-food-papaye"
+        }
+       ]
+      },
+      {
+       "marque": "L'Oréal Paris Elseve",
+       "nom": "Total Repair 5, masque réparateur",
+       "pourqui": "les cheveux abîmés par la chaleur ou la coloration, avec un petit budget.",
+       "prix": "€",
+       "points": [
+        "Masque riche qui facilite nettement le démêlage.",
+        "Disponible partout, en grandes surfaces comme en ligne."
+       ],
+       "limites": "Contient des silicones : très bien pour le toucher, mais pense à un shampoing un peu plus lavant de temps en temps si tes cheveux saturent.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-elseve-total-repair-5-masque"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-elseve-total-repair-5-masque"
+        }
+       ]
+      },
+      {
+       "marque": "L'Oréal Professionnel",
+       "nom": "Absolut Repair, soin sans rinçage 10-en-1",
+       "pourqui": "les longueurs sensibilisées qui ont besoin d'un spray léger avant le coiffage.",
+       "prix": "€€",
+       "points": [
+        "Se vaporise sur cheveux humides, sans rinçage.",
+        "Aide au démêlage et apporte une protection avant le séchage."
+       ],
+       "limites": "Plus cher qu'un soin de supermarché. Sur cheveux très épais ou crépus, il peut sembler trop léger seul.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-loreal-pro-absolut-repair-10-en-1"
+        },
+        {
+         "marchand": "Lookfantastic",
+         "id": "lookfantastic-loreal-pro-absolut-repair-10-en-1"
+        }
+       ]
+      },
+      {
+       "marque": "Olaplex",
+       "nom": "N°3 Hair Perfector",
+       "pourqui": "les cheveux décolorés, méchés ou très traités chimiquement.",
+       "prix": "€€€",
+       "points": [
+        "Soin à poser avant le shampoing, pensé pour les cheveux sensibilisés par la décoloration.",
+        "Petite quantité nécessaire à chaque fois."
+       ],
+       "limites": "Cher, et ce n'est pas un soin hydratant : il faut garder ton après-shampoing et ton masque. Ne remplace pas une coupe des pointes.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-olaplex-n3"
+        },
+        {
+         "marchand": "Sephora",
+         "id": "sephora-olaplex-n3"
+        }
+       ]
+      },
+      {
+       "marque": "got2b (Schwarzkopf)",
+       "nom": "Guardian Angel, spray protecteur thermique",
+       "pourqui": "celles qui utilisent un lisseur, un fer ou un sèche-cheveux chaud.",
+       "prix": "€",
+       "points": [
+        "Spray à appliquer avant tout outil chauffant.",
+        "Petit prix, facile à trouver."
+       ],
+       "limites": "Un protecteur limite les dégâts, il ne permet pas de chauffer fort tous les jours. Il peut donner une légère tenue que tout le monde n'aime pas.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-got2b-guardian-angel"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-got2b-guardian-angel"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Comment savoir si mes cheveux cassent ou tombent ?",
+   "r": "Regarde le bout du cheveu côté racine. S'il y a une petite boule blanche, c'est un cheveu tombé avec son bulbe. S'il n'y a rien et que le cheveu est court ou effiloché, il a cassé. Une chute importante avec bulbes mérite un avis médical."
+  },
+  {
+   "q": "Peut-on vraiment réparer des cheveux abîmés ?",
+   "r": "Pas au sens biologique : le cheveu est une fibre morte qui ne se régénère pas. Les soins gainent, lissent et rendent le cheveu plus souple, ce qui limite la casse. La partie trop abîmée finit par être coupée."
+  },
+  {
+   "q": "Les pointes fourchues peuvent-elles se recoller ?",
+   "r": "Non. Un sérum peut masquer la fourche jusqu'au lavage suivant, mais seule la coupe la supprime. Couper un ou deux centimètres régulièrement évite qu'elle remonte le long du cheveu."
+  },
+  {
+   "q": "Faut-il arrêter complètement le lisseur ?",
+   "r": "Pas forcément. Utilise-le moins souvent, à la température la plus basse qui marche pour toi, toujours sur cheveux secs et avec un protecteur thermique."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-secs",
+  "porosite-cheveux",
+  "cheveux-blancs",
+  "masque-cheveux",
+  "shampoing-apres-lissage-bresilien",
+  "cheveux-fins",
+  "chute-de-cheveux-femme",
+  "cheveux-crepus",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias M. F., Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "Lee Y. et al., Hair shaft damage from heat and drying time of hair dryer, Annals of Dermatology, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/"
+  },
+  {
+   "titre": "American Academy of Dermatology, 10 hair care habits that can damage your hair",
+   "url": "https://www.aad.org/public/everyday-care/hair-scalp-care/hair/habits-that-damage-hair"
+  },
+  {
+   "titre": "American Academy of Dermatology, Do you have hair loss or hair shedding?",
+   "url": "https://www.aad.org/public/diseases/hair-loss/insider/shedding"
+  }
+ ],
+ "maj": "2026-11-22"
+}

@@ -1,0 +1,5 @@
+site/
+.DS_Store
+__pycache__/
+_guide/guide-produits-cheveux.md
+_guide/types/*.md

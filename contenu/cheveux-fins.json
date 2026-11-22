@@ -1,0 +1,411 @@
+{
+ "slug": "cheveux-fins",
+ "gabarit": "article",
+ "rubrique": "types",
+ "parent": "types-de-cheveux",
+ "court": "Cheveux fins ou épais",
+ "kw": "cheveux fins",
+ "volume": "1 600",
+ "argent": true,
+ "affilie": true,
+ "dermato": true,
+ "title": "Cheveux fins ou épais : le test et la bonne routine",
+ "description": "Cheveux fins ou épais ? Fais le test du fil, distingue épaisseur et densité, puis adopte les bons gestes : volume pour les fins, soins riches pour les épais.",
+ "h1": "Cheveux fins ou cheveux épais : reconnaître ton épaisseur et en prendre soin",
+ "chapo": "On parle beaucoup de raides, ondulés ou bouclés. Mais il y a une autre question, tout aussi importante : ton cheveu est-il fin ou épais ? C'est souvent elle qui explique pourquoi un produit adoré par ta copine écrase tes cheveux, ou au contraire ne leur fait rien. Je t'explique comment le savoir et quoi changer dans ta routine.",
+ "photo_alt": "Une femme qui compare un cheveu fin et un cheveu épais à côté d'un fil à coudre",
+ "en_bref": [
+  "L'épaisseur, c'est le diamètre d'un seul cheveu. La densité, c'est le nombre de cheveux sur ta tête. Ce n'est pas la même chose.",
+  "Test simple : compare un cheveu à un fil à coudre. Plus fin, il est fin. Pareil, il est moyen. Plus gros, il est épais.",
+  "L'épaisseur se combine avec toutes les textures : on peut être raide et épais, crépu et fin.",
+  "Cheveux fins : textures légères, peu de produit, attention à la casse.",
+  "Cheveux épais : démêlage patient, séchage par sections, soins plus riches."
+ ],
+ "sections": [
+  {
+   "h2": "Fin, épais, peu dense : ne pas tout mélanger",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Quand on dit « j'ai des cheveux fins », on parle souvent de deux choses différentes. Prends le temps de les séparer, parce que la routine n'est pas la même."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**L'épaisseur (ou diamètre)** : la grosseur d'un seul cheveu. Un cheveu fin est mince et léger, un cheveu épais est plus gros et plus rigide.",
+      "**La densité** : le nombre de cheveux qui poussent sur ton cuir chevelu. Peu dense, on voit facilement la peau entre les mèches. Très dense, on a « beaucoup de cheveux »."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Tu peux donc avoir des cheveux **fins mais très denses** (une grosse masse qui manque pourtant de tenue), ou des cheveux **épais mais peu denses**. Les chiffres varient beaucoup d'une personne à l'autre : une revue de 2020 rapporte des densités moyennes d'environ 160 à 230 cheveux par cm² selon les populations, avec de gros écarts entre individus ([Leerunyakul et Suchonwanit, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7187942/)). Une étude ghanéenne de 2019 mesurait, elle, des cheveux du cuir chevelu autour de 71 micromètres, contre une moyenne souvent citée de 80 ([Kalmoni et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6385518/))."
+    },
+    {
+     "type": "p",
+     "texte": "Retiens surtout ceci : **l'épaisseur se combine avec toutes les textures**. Des [cheveux raides](cheveux-raides) peuvent être fins ou épais, des [cheveux ondulés](cheveux-ondules) aussi, et c'est pareil pour les bouclés, frisés et crépus."
+    }
+   ]
+  },
+  {
+   "h2": "Le test du fil à coudre pour connaître ton épaisseur",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Prends **un cheveu tombé** sur ta brosse ou ton oreiller, propre et sec, sans produit.",
+      "Coupe un morceau de **fil à coudre classique** de la même longueur.",
+      "Pose-les côte à côte sur une feuille blanche, sous une bonne lumière.",
+      "Compare : ton cheveu paraît **plus fin** que le fil, il est fin. **Pareil**, il est moyen. **Plus gros**, il est épais.",
+      "Recommence avec un cheveu pris ailleurs sur la tête (nuque, dessus) : l'épaisseur varie parfois selon les zones."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Autre indice : roule un cheveu entre ton pouce et ton index. Si tu le sens à peine, il est sûrement fin. Si tu le sens bien, comme un petit fil, il est plutôt épais."
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Fin, moyen ou épais ? Le quiz combine épaisseur et texture"
+    }
+   ]
+  },
+  {
+   "h2": "Cheveux fins : volume, légèreté et douceur",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Un cheveu fin a peu de matière. Il s'aplatit sous le moindre poids, regraisse vite et se casse plus facilement, surtout quand il est mouillé."
+    },
+    {
+     "type": "h3",
+     "texte": "Les bons gestes"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Shampoing doux ou volume** sur le cuir chevelu, autant de fois que nécessaire. Si tes racines graissent vite, la page [cheveux gras](cheveux-gras) t'aidera.",
+      "**Après-shampoing fluide** sur les pointes uniquement, bien rincé.",
+      "**Masque** une fois par semaine au maximum, sur les pointes, ou un masque léger.",
+      "**Coiffants légers** : mousse ou spray volume plutôt que crème épaisse.",
+      "**Huile** : une goutte sur les pointes, jamais plus."
+     ]
+    },
+    {
+     "type": "h3",
+     "texte": "Ce qu'il faut savoir sur les produits volume"
+    },
+    {
+     "type": "p",
+     "texte": "La revue de Gavazzoni Dias explique que certains polymères utilisés dans les soins se déposent sur la fibre et changent son comportement ([Gavazzoni Dias, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/)). Concrètement, un produit volume donne de la tenue et de la légèreté **tant qu'il est sur tes cheveux**. Il ne change pas le cheveu qui pousse : aucun shampoing ne rend un cheveu fin plus épais pour de bon."
+    },
+    {
+     "type": "h3",
+     "texte": "Limiter la casse"
+    },
+    {
+     "type": "p",
+     "texte": "Démêle toujours en partant des pointes, avec un peigne à dents larges et de l'après-shampoing. Évite les élastiques fins et serrés, les brossages énergiques sur cheveux mouillés et la chaleur forte. Si tes pointes cassent déjà, va voir [cheveux abîmés](cheveux-abimes)."
+    },
+    {
+     "type": "astuce",
+     "texte": "Sur cheveux fins, je mets mon après-shampoing avant le shampoing quand mes pointes sont sèches : il protège les longueurs, et le shampoing derrière enlève l'excès. Mes racines restent légères."
+    }
+   ]
+  },
+  {
+   "h2": "Cheveux épais : comment les dompter sans les étouffer",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les cheveux épais ont de la matière et de la tenue. Ils supportent mieux la chaleur et les coiffures, mais ils ont leurs propres défis : ils sont longs à démêler, longs à sécher, et peuvent paraître secs ou gonflés."
+    },
+    {
+     "type": "h3",
+     "texte": "Démêler par sections"
+    },
+    {
+     "type": "p",
+     "texte": "Divise ta tête en quatre ou six sections avec des pinces. Démêle chacune avec beaucoup d'après-shampoing, des pointes vers les racines. C'est plus rapide qu'attaquer toute la masse d'un coup, et ça casse moins."
+    },
+    {
+     "type": "h3",
+     "texte": "Un séchage long, à gérer"
+    },
+    {
+     "type": "p",
+     "texte": "Un cheveu épais garde l'eau longtemps. Une étude de 2011 a montré qu'un séchage naturel très long abîmait aussi le cheveu, et qu'un sèche-cheveux tenu à environ 15 cm et en mouvement constant faisait moins de dégâts ([Lee et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/)). Essore bien avec une serviette en microfibre, puis sèche section par section à chaleur douce, en commençant par l'intérieur et la nuque."
+    },
+    {
+     "type": "h3",
+     "texte": "Des soins plus riches"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Après-shampoing nourrissant à chaque lavage, sur toutes les longueurs.",
+      "Masque une à deux fois par semaine, laissé quelques minutes. Mes idées dans [masque cheveux](masque-cheveux).",
+      "Crème sans rinçage ou un peu d'huile sur les pointes pour limiter les frisottis.",
+      "Lavages moins fréquents si ton cuir chevelu le permet."
+     ]
+    },
+    {
+     "type": "photo",
+     "alt": "Une femme qui sépare une chevelure épaisse en sections avec des pinces avant le démêlage",
+     "legende": "Quatre sections et des pinces : sur cheveux épais, c'est le secret d'un démêlage sans larmes."
+    }
+   ]
+  },
+  {
+   "h2": "Fins ou épais : le tableau récapitulatif",
+   "blocs": [
+    {
+     "type": "tableau",
+     "legende": "Adapter sa routine à l'épaisseur du cheveu",
+     "entetes": [
+      "",
+      "Cheveux fins",
+      "Cheveux épais"
+     ],
+     "lignes": [
+      [
+       "Shampoing",
+       "Doux ou volume, aussi souvent que nécessaire",
+       "Doux, souvent plus espacé"
+      ],
+      [
+       "Après-shampoing",
+       "Fluide, pointes seulement",
+       "Nourrissant, toutes les longueurs"
+      ],
+      [
+       "Masque",
+       "Léger, une fois par semaine au plus",
+       "Riche, une à deux fois par semaine"
+      ],
+      [
+       "Coiffants",
+       "Mousse, spray volume",
+       "Crème, gel, un peu d'huile"
+      ],
+      [
+       "Séchage",
+       "Rapide, racines d'abord",
+       "Par sections, intérieur d'abord"
+      ],
+      [
+       "Risque principal",
+       "Cheveux plats, casse",
+       "Nœuds, sécheresse, frisottis"
+      ]
+     ]
+    },
+    {
+     "type": "video",
+     "titre": "Fin ou épais ? Je fais le test du fil en direct et je compare deux routines"
+    }
+   ]
+  },
+  {
+   "h2": "Les erreurs fréquentes selon ton épaisseur",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Cheveux fins** : utiliser une routine pensée pour cheveux épais ou crépus, avec beurres et masques à chaque lavage.",
+      "**Cheveux fins** : accumuler les produits volume et la laque sans jamais faire un lavage plus profond.",
+      "**Cheveux épais** : se contenter d'un après-shampoing léger et s'étonner que ça fasse des nœuds.",
+      "**Cheveux épais** : dormir avec les cheveux encore humides à l'intérieur.",
+      "**Tout le monde** : croire qu'un produit va changer l'épaisseur du cheveu qui pousse."
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Mes cheveux s'affinent : quand s'inquiéter",
+   "blocs": [
+    {
+     "type": "dermato",
+     "texte": "Si tes cheveux deviennent beaucoup plus fins ou moins nombreux en quelques mois, ce n'est pas une question de routine. Le site public Santé.fr rappelle que la chute de cheveux a de nombreuses causes possibles (stress, accouchement, carence en fer...) et qu'un diagnostic rapide aide. Parles-en à ton médecin, et lis ma page sur la [chute de cheveux chez la femme](chute-de-cheveux-femme)."
+    }
+   ]
+  },
+  {
+   "h2": "Ma sélection de produits pour cheveux fins",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ces produits existent en France et visent les cheveux fins. Je ne les ai pas encore testés moi-même. Aucun ne rend un cheveu plus épais : ils donnent de la légèreté et de la tenue, le temps d'un lavage à l'autre."
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "Elseve",
+       "nom": "Fibralogy, shampoing volume",
+       "pourqui": "les cheveux fins qui veulent tester une gamme volume de supermarché.",
+       "prix": "€",
+       "points": [
+        "Facile à trouver en grande surface.",
+        "Pensé pour les cheveux fins en manque de volume."
+       ],
+       "limites": "Les promesses de l'emballage vont plus loin que ce qu'un shampoing peut faire. Vérifie la liste d'ingrédients au moment de l'achat, les formules changent.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-elseve-fibralogy-shampoing"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-elseve-fibralogy-shampoing"
+        }
+       ]
+      },
+      {
+       "marque": "Klorane",
+       "nom": "Shampoing volume au lin",
+       "pourqui": "les cheveux fins et plats qui graissent vite.",
+       "prix": "€€",
+       "points": [
+        "Formule légère, vendue en pharmacie.",
+        "Existe aussi en après-shampoing et en shampoing sec de la même gamme."
+       ],
+       "limites": "Peut sembler un peu sec sur des pointes très abîmées : garde un après-shampoing pour les longueurs.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-klorane-shampoing-lin"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-klorane-shampoing-lin"
+        }
+       ]
+      },
+      {
+       "marque": "Klorane",
+       "nom": "Shampoing sec volume au lin",
+       "pourqui": "les jours sans lavage, pour décoller les racines.",
+       "prix": "€€",
+       "points": [
+        "Pratique entre deux lavages.",
+        "Donne de la tenue aux racines plates."
+       ],
+       "limites": "Ne remplace pas un vrai lavage. Peut laisser un voile clair sur cheveux foncés s'il est mal brossé.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-klorane-shampoing-sec-lin"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-klorane-shampoing-sec-lin"
+        }
+       ]
+      },
+      {
+       "marque": "René Furterer",
+       "nom": "Volumea, shampoing expanseur",
+       "pourqui": "les cheveux fins et sans volume, budget plus confortable.",
+       "prix": "€€€",
+       "points": [
+        "Gamme volume connue de pharmacie.",
+        "Texture pensée pour ne pas alourdir."
+       ],
+       "limites": "Prix élevé pour un shampoing. Le résultat reste cosmétique et disparaît au lavage suivant.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-rene-furterer-volumea-shampoing"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-rene-furterer-volumea-shampoing"
+        }
+       ]
+      },
+      {
+       "marque": "Phyto",
+       "nom": "Phytovolume, shampoing volumateur",
+       "pourqui": "les cheveux fins qui cherchent une formule sans sulfate.",
+       "prix": "€€€",
+       "points": [
+        "Annoncé sans sulfate et sans silicone.",
+        "Disponible en pharmacie et parapharmacie."
+       ],
+       "limites": "Cher au millilitre. Une formule sans sulfate peut mousser moins et demander deux applications sur cuir chevelu gras.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-phyto-phytovolume-shampoing"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-phyto-phytovolume-shampoing"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour comparer avec d'autres familles de shampoings, va voir [meilleur shampoing](meilleur-shampoing)."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Peut-on rendre ses cheveux fins plus épais ?",
+   "r": "Non, pas avec un cosmétique. L'épaisseur du cheveu qui pousse dépend surtout de toi (génétique, âge, santé). Les produits volume donnent de la tenue tant qu'ils sont sur tes cheveux, c'est tout."
+  },
+  {
+   "q": "J'ai beaucoup de cheveux mais ils sont plats, c'est normal ?",
+   "r": "Oui, c'est le cas typique des cheveux fins mais denses. La masse est là, mais chaque cheveu est léger et s'écrase. Traite-les comme des cheveux fins : produits légers et racines séchées en premier."
+  },
+  {
+   "q": "Les cheveux épais ont-ils besoin d'être lavés moins souvent ?",
+   "r": "Souvent, oui, parce que le sébum met plus de temps à descendre et que les longueurs ont tendance à être sèches. Mais c'est ton cuir chevelu qui décide : s'il graisse vite, lave-le."
+  },
+  {
+   "q": "Est-ce que mes cheveux peuvent changer d'épaisseur ?",
+   "r": "Ils peuvent évoluer avec l'âge, une grossesse ou des changements hormonaux. Si tu remarques un affinement important et rapide, parles-en à ton médecin."
+  },
+  {
+   "q": "Un cheveu fin est-il forcément raide ?",
+   "r": "Non. L'épaisseur et la texture sont indépendantes. Il existe des cheveux crépus très fins, et des cheveux raides épais."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-raides",
+  "cheveux-ondules",
+  "cheveux-gras",
+  "cheveux-abimes",
+  "meilleur-shampoing",
+  "chute-de-cheveux-femme",
+  "masque-cheveux",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias M. F., Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "Lee Y. et al., Hair shaft damage from heat and drying time of hair dryer, Annals of Dermatology, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/"
+  },
+  {
+   "titre": "Leerunyakul K., Suchonwanit P., Asian hair: a review of structures, properties, and distinctive disorders, Clinical, Cosmetic and Investigational Dermatology, 2020",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7187942/"
+  },
+  {
+   "titre": "Kalmoni et al., Light microscopic morphology of indigenous Ghanaian African hair, International Journal of Trichology, 2019",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6385518/"
+  },
+  {
+   "titre": "Santé.fr, Chute de cheveux",
+   "url": "https://www.sante.fr/chute-de-cheveux"
+  }
+ ],
+ "maj": "2026-11-22"
+}

@@ -1,0 +1,199 @@
+{
+ "slug": "cheveux-ondules",
+ "gabarit": "article",
+ "rubrique": "types",
+ "parent": "types-de-cheveux",
+ "court": "Cheveux ondulés (2A à 2C)",
+ "kw": "cheveux ondulés",
+ "volume": "n.r.",
+ "argent": false,
+ "affilie": false,
+ "dermato": false,
+ "title": "Cheveux ondulés 2A à 2C : le guide pour des vagues nettes",
+ "description": "Tes ondulations retombent ou frisottent ? Reconnais ton type 2A, 2B ou 2C, évite les produits trop lourds et adopte une routine légère qui garde le mouvement.",
+ "h1": "Cheveux ondulés : comment réveiller tes vagues (2A, 2B, 2C)",
+ "chapo": "Les cheveux ondulés sont souvent les grands oubliés : trop texturés pour les routines de cheveux raides, trop légers pour les soins pensés pour les boucles. Avec quelques gestes simples, tes vagues peuvent pourtant devenir nettes et tenir toute la journée.",
+ "photo_alt": "Une femme avec des cheveux ondulés en S, coiffés au naturel",
+ "en_bref": [
+  "Type 2A : ondulation très légère. 2B : S bien visibles sur les longueurs. 2C : S marqués, parfois quelques boucles.",
+  "Le piège n°1 des ondulés : des produits trop riches qui écrasent la vague.",
+  "Mise sur la légèreté : après-shampoing fluide, mousse ou gel léger, peu d'huile.",
+  "Applique tes produits sur cheveux très mouillés et ne touche plus jusqu'au séchage.",
+  "Les racines plates se gèrent avec un séchage tête en bas ou des pinces à la racine."
+ ],
+ "sections": [
+  {
+   "h2": "Reconnaître des cheveux ondulés",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Des cheveux ondulés forment des **vagues en S** plutôt que des spirales. Souvent, la racine est plutôt lisse et l'ondulation apparaît à partir des oreilles. Mouillés, ils semblent presque raides, puis la vague revient en séchant."
+    },
+    {
+     "type": "tableau",
+     "legende": "Les trois sous-types de cheveux ondulés",
+     "entetes": [
+      "Sous-type",
+      "À quoi ça ressemble",
+      "Souci fréquent"
+     ],
+     "lignes": [
+      [
+       "2A",
+       "Ondulation légère, presque un mouvement",
+       "Cheveux qui deviennent raides sous le moindre produit"
+      ],
+      [
+       "2B",
+       "S nets sur les longueurs, racines plates",
+       "Frisottis sur le dessus, vague qui s'affaisse"
+      ],
+      [
+       "2C",
+       "S marqués, quelques boucles qui se forment",
+       "Volume difficile à gérer, sécheresse des pointes"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Beaucoup de filles ignorent qu'elles ont des cheveux ondulés : elles les brossent à sec depuis l'enfance, ce qui casse la vague et donne un aspect gonflé. Si tes cheveux ont toujours été « bizarres, ni raides ni bouclés », c'est peut-être ton cas. Pour situer ta texture parmi les autres, va voir le guide des [types de cheveux](types-de-cheveux)."
+    }
+   ]
+  },
+  {
+   "h2": "Pourquoi tes ondulations retombent",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Une vague en S est fragile : elle a besoin d'un peu de tenue, mais pas de poids. Voici les causes les plus courantes d'une ondulation qui disparaît :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Des soins trop riches** : beurres de karité, masques épais et huiles en grande quantité alourdissent le cheveu fin, et la vague s'étire sous son propre poids.",
+      "**Le brossage à sec** : il sépare les mèches qui forment la vague et crée des frisottis.",
+      "**Trop de manipulations pendant le séchage** : chaque fois que tu touches tes cheveux humides, tu casses le motif qui se met en place.",
+      "**L'accumulation de produits** : certains ingrédients filmogènes s'accumulent au fil des lavages et alourdissent le cheveu. Un lavage plus clarifiant de temps en temps aide à repartir de zéro."
+     ]
+    },
+    {
+     "type": "astuce",
+     "texte": "Si tu hésites entre crème et gel, commence par une mousse ou un gel léger. Sur les ondulés, c'est souvent ce qui donne le plus de tenue sans aplatir."
+    }
+   ]
+  },
+  {
+   "h2": "La routine légère pour cheveux ondulés",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "**Lavage doux** deux à trois fois par semaine selon ton cuir chevelu, avec un shampoing sans sulfate ou un shampoing doux. Ma sélection de [shampoings sans sulfate](meilleur-shampoing-sans-sulfate) indique ceux qui conviennent aux textures fines.",
+      "**Après-shampoing fluide** uniquement sur les longueurs et les pointes. Démêle avec les doigts ou un peigne à dents larges pendant qu'il est appliqué.",
+      "**Rinçage** à l'eau tiède. Tu peux garder un tout petit peu d'après-shampoing sur les pointes si elles sont sèches.",
+      "**Produit coiffant sur cheveux trempés** : mousse ou gel léger, appliqué en froissant les mèches de bas en haut (le fameux « scrunch »).",
+      "**Essorage** avec un t-shirt en coton ou une serviette en microfibre, en pressant, jamais en frottant.",
+      "**Séchage** à l'air ou au diffuseur, sans toucher. Une fois sec, froisse doucement pour casser l'effet cartonné du gel."
+     ]
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "2A, 2B ou 2C ? Le quiz te le dit en 2 minutes"
+    },
+    {
+     "type": "video",
+     "titre": "Ma routine express pour cheveux ondulés, du lavage au scrunch"
+    }
+   ]
+  },
+  {
+   "h2": "Donner du volume aux racines",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les racines plates sont la plainte numéro un des ondulés. Quelques astuces simples :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Sèche tête en bas au diffuseur pendant les premières minutes.",
+      "Place des petites pinces plates à la racine sur le dessus de la tête pendant le séchage, puis retire-les quand tout est sec.",
+      "Change ta raie de côté de temps en temps : la racine se soulève naturellement.",
+      "Évite les produits riches sur les racines, garde-les pour les pointes."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour le séchage, une étude publiée en 2011 a montré qu'un sèche-cheveux tenu à environ 15 cm et en mouvement constant abîmait moins la surface du cheveu qu'un séchage naturel très long, alors que la chaleur forte et proche augmentait les dégâts ([Lee et al., Annals of Dermatology](https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/)). Diffuseur à chaleur douce et bonne distance, donc, plutôt que sèche-cheveux brûlant collé aux cheveux."
+    },
+    {
+     "type": "photo",
+     "alt": "Une femme qui sèche ses cheveux ondulés tête en bas avec un diffuseur",
+     "legende": "Le séchage tête en bas, mon geste préféré pour décoller les racines."
+    }
+   ]
+  },
+  {
+   "h2": "Les erreurs que je vois le plus souvent",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "Appliquer une routine de cheveux crépus (beurres, huiles, masques chaque lavage) sur des ondulations fines.",
+      "Mettre le coiffant sur cheveux essorés presque secs : il faut beaucoup d'eau pour que la vague se forme.",
+      "Toucher, tortiller, vérifier toutes les cinq minutes pendant le séchage.",
+      "Brosser une fois sec : garde le peigne pour la douche.",
+      "Abandonner après un seul essai : les ondulés ont souvent besoin de deux ou trois semaines pour retrouver leur forme après des années de brossage."
+     ]
+    },
+    {
+     "type": "astuce",
+     "titre": "Pour la nuit",
+     "texte": "Une taie en satin ou un petit chignon lâche sur le haut de la tête (l'« ananas ») aide à garder tes vagues jusqu'au lendemain. Le matin, un peu d'eau en brume et un scrunch suffisent souvent."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Est-ce que les cheveux ondulés ont besoin d'un shampoing sans sulfate ?",
+   "r": "Pas forcément. Les ondulés supportent souvent bien les shampoings doux classiques. Si tes cheveux sont secs ou frisottent beaucoup, un shampoing sans sulfate peut aider. Si tu utilises beaucoup de produits, un lavage plus clarifiant de temps en temps évite qu'ils s'accumulent."
+  },
+  {
+   "q": "Peut-on suivre la méthode curly avec des cheveux ondulés ?",
+   "r": "Oui, en version allégée. Garde le principe (lavage doux, pas de brossage à sec, coiffant sur cheveux mouillés) mais choisis des produits légers. La version stricte avec beaucoup de crèmes convient rarement aux ondulés fins."
+  },
+  {
+   "q": "Pourquoi mes cheveux sont ondulés dessous et raides dessus ?",
+   "r": "C'est très courant. Les mèches du dessus sont plus exposées aux frottements, au soleil et au brossage. Elles ondulent souvent moins. Un peu plus de coiffant sur ces zones et moins de manipulation aident."
+  },
+  {
+   "q": "Combien de temps pour voir mes ondulations revenir ?",
+   "r": "Ça dépend de l'état de tes cheveux. Beaucoup de filles voient une différence dès le premier lavage sans brossage. Pour des cheveux abîmés par la chaleur, il faut parfois attendre que les longueurs abîmées soient coupées."
+  }
+ ],
+ "liens_internes": [
+  "types-de-cheveux",
+  "cheveux-boucles",
+  "routine-cheveux-boucles",
+  "porosite-cheveux",
+  "meilleur-shampoing-sans-sulfate",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Lee Y. et al., Hair shaft damage from heat and drying time of hair dryer, Annals of Dermatology, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/"
+  },
+  {
+   "titre": "Gavazzoni Dias M. F., Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "De La Mettrie R. et al., Shape variability and classification of human hair: a worldwide approach, Human Biology, 2007",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18078200/"
+  }
+ ],
+ "maj": "2026-11-22"
+}

@@ -1,0 +1,232 @@
+{
+ "slug": "porosite-cheveux",
+ "gabarit": "article",
+ "rubrique": "types",
+ "parent": "types-de-cheveux",
+ "court": "Porosité des cheveux",
+ "kw": "porosité cheveux",
+ "volume": "1 300",
+ "argent": false,
+ "affilie": false,
+ "dermato": false,
+ "title": "Porosité des cheveux : le test en 2 min et quoi en faire",
+ "description": "Faible, moyenne ou forte porosité ? Fais le test du toucher et du séchage, comprends les limites du verre d'eau et choisis enfin des soins adaptés.",
+ "h1": "Porosité des cheveux : le test en 2 minutes et quoi en faire",
+ "chapo": "Tu as déjà eu l'impression que ton masque restait posé sur tes cheveux sans rien faire ? Ou au contraire que tes cheveux buvaient tout et redevenaient secs une heure après ? C'est la porosité. Une fois que tu la connais, choisir tes produits devient beaucoup plus simple.",
+ "photo_alt": "Une femme qui observe une mèche de cheveux entre ses doigts devant un verre d'eau",
+ "en_bref": [
+  "La porosité, c'est la capacité de ton cheveu à absorber l'eau et à la garder.",
+  "Faible porosité : les produits restent en surface et les cheveux sèchent lentement.",
+  "Forte porosité : les cheveux boivent tout, sèchent vite et frisottent.",
+  "Le test du verre d'eau est populaire mais peu fiable : le toucher et le temps de séchage en disent plus.",
+  "La porosité peut varier entre tes racines et tes pointes."
+ ],
+ "sections": [
+  {
+   "h2": "C'est quoi, la porosité des cheveux ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ton cheveu est recouvert d'une couche protectrice appelée **cuticule**, faite de petites écailles qui se chevauchent, un peu comme des tuiles sur un toit. Quand elles sont bien serrées, l'eau a du mal à entrer, mais elle ne ressort pas non plus facilement. Quand elles sont soulevées ou abîmées, l'eau entre vite et ressort aussi vite."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Faible porosité** : cuticule très fermée. Le cheveu est souvent brillant mais les soins pénètrent mal.",
+      "**Porosité moyenne** : l'équilibre. Le cheveu absorbe et garde l'eau correctement.",
+      "**Forte porosité** : cuticule ouverte ou abîmée. Le cheveu absorbe tout, perd son eau vite, frisotte et casse plus facilement."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "La porosité dépend en partie de ta nature de cheveu, mais aussi de ce qu'il a subi : colorations, décolorations, défrisages, lissages, chaleur répétée et soleil ouvrent la cuticule. C'est pour ça que tes pointes, plus anciennes, sont souvent plus poreuses que tes racines."
+    }
+   ]
+  },
+  {
+   "h2": "Le test du verre d'eau, et pourquoi il ne suffit pas",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "C'est le test le plus partagé sur les réseaux : tu poses un cheveu propre dans un verre d'eau. S'il flotte, faible porosité. S'il coule vite, forte porosité. S'il reste au milieu, porosité moyenne."
+    },
+    {
+     "type": "p",
+     "texte": "Le problème, c'est que le résultat dépend de beaucoup de choses qui n'ont rien à voir avec la porosité : un reste de produit ou de sébum sur le cheveu, la tension de surface de l'eau, la température, l'épaisseur du cheveu, le temps que tu attends. Le même cheveu peut flotter ou couler selon les conditions. Tu peux le faire pour t'amuser, mais ne bâtis pas toute ta routine dessus."
+    },
+    {
+     "type": "astuce",
+     "texte": "Si tu veux quand même le faire, prends plusieurs cheveux propres (sans produit), à différents endroits de la tête, et regarde au bout de quelques minutes. Puis croise avec les deux tests qui suivent."
+    }
+   ]
+  },
+  {
+   "h2": "Deux tests plus parlants",
+   "blocs": [
+    {
+     "type": "h3",
+     "texte": "Le test du toucher"
+    },
+    {
+     "type": "p",
+     "texte": "Prends un cheveu entre ton pouce et ton index et fais glisser tes doigts de la pointe vers la racine. S'il est **lisse et glissant**, ta cuticule est plutôt fermée (porosité faible à moyenne). Si tu sens des **petites aspérités**, comme une surface rugueuse, la cuticule est ouverte (porosité plutôt forte)."
+    },
+    {
+     "type": "h3",
+     "texte": "Le test du séchage"
+    },
+    {
+     "type": "p",
+     "texte": "Après un lavage, laisse sécher sans produit et note le temps :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Tes cheveux mettent **très longtemps** à être mouillés sous la douche et des heures à sécher : porosité plutôt faible.",
+      "Ils se mouillent facilement et sèchent **dans un temps raisonnable** : porosité moyenne.",
+      "Ils sont trempés en quelques secondes et **secs très vite**, avec des frisottis : porosité plutôt forte."
+     ]
+    },
+    {
+     "type": "photo",
+     "alt": "Une femme qui fait glisser un cheveu entre son pouce et son index pour tester sa porosité",
+     "legende": "Le test du toucher : lisse ou rugueux ?"
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Le quiz croise ces tests pour toi"
+    }
+   ]
+  },
+  {
+   "h2": "Que faire si ta porosité est faible ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ton défi : faire entrer l'hydratation sans étouffer le cheveu sous les produits."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Préfère les **textures légères** : laits, leave-in fluides, gels aqueux. Les beurres épais restent souvent en surface.",
+      "Applique tes soins sur **cheveux bien mouillés** et utilise un peu de **chaleur douce** pendant le masque (bonnet chauffant, serviette chaude) pour aider le soin à pénétrer.",
+      "Fais un **lavage plus clarifiant** de temps en temps : les cheveux peu poreux accumulent vite les résidus de produits.",
+      "Utilise de **petites quantités** et ajoute si besoin, plutôt que l'inverse."
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Que faire si ta porosité est moyenne ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "C'est la situation la plus confortable. Ton cheveu absorbe et retient l'eau assez bien. Garde une routine simple : un shampoing doux, un après-shampoing à chaque lavage, un masque une fois par semaine, et un coiffant adapté à ta texture. Ton enjeu principal est de **préserver** cette porosité : chaleur modérée, colorations espacées, protection solaire en été."
+    }
+   ]
+  },
+  {
+   "h2": "Que faire si ta porosité est forte ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ton défi : garder l'eau dans le cheveu et le protéger des frottements."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Mise sur les **textures riches** : crèmes, beurres, masques épais, appliqués sur cheveux mouillés.",
+      "**Scelle l'hydratation** avec une huile ou un gel en dernière couche, c'est la logique des méthodes LOC et LCO.",
+      "Pense aux **soins avec protéines** de temps en temps : ils aident à combler la surface abîmée. Si tes cheveux deviennent raides et cassants, espace-les.",
+      "Les huiles avant lavage peuvent aider : dans une étude de laboratoire, l'huile de coco appliquée avant le shampoing a réduit la perte de protéines, y compris sur cheveux abîmés ([Rele et Mohile, J Cosmet Sci](https://pubmed.ncbi.nlm.nih.gov/12715094/)).",
+      "**Limite la chaleur** et protège tes cheveux la nuit avec du satin."
+     ]
+    },
+    {
+     "type": "video",
+     "titre": "Ma routine pour pointes très poreuses : avant et après"
+    },
+    {
+     "type": "astuce",
+     "texte": "Beaucoup de filles ont des racines peu poreuses et des pointes très poreuses. Dans ce cas, textures légères en haut et riches sur les pointes. Ça change tout."
+    }
+   ]
+  },
+  {
+   "h2": "Porosité et choix des produits : le résumé",
+   "blocs": [
+    {
+     "type": "tableau",
+     "legende": "Quels types de produits privilégier selon ta porosité",
+     "entetes": [
+      "Porosité",
+      "Textures conseillées",
+      "À utiliser avec modération"
+     ],
+     "lignes": [
+      [
+       "Faible",
+       "Laits, leave-in fluides, gels aqueux, masques sous chaleur douce",
+       "Beurres épais, couches d'huile répétées"
+      ],
+      [
+       "Moyenne",
+       "Routine simple et équilibrée",
+       "Chaleur et colorations répétées"
+      ],
+      [
+       "Forte",
+       "Crèmes riches, beurres, masques, huile ou gel pour sceller",
+       "Shampoings très détergents, chaleur forte"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour aller plus loin, choisis ton shampoing dans ma sélection de [shampoings sans sulfate par type de cheveux](meilleur-shampoing-sans-sulfate), et adapte ta routine avec la [routine cheveux bouclés](routine-cheveux-boucles) ou la [routine cheveux crépus](routine-cheveux-crepus)."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "La porosité peut-elle changer ?",
+   "r": "Oui. La porosité augmente avec les agressions : colorations, décolorations, lissages, chaleur et soleil. On ne peut pas vraiment la faire baisser une fois la cuticule abîmée, mais une routine douce et la coupe des pointes abîmées améliorent nettement le toucher."
+  },
+  {
+   "q": "Le test du verre d'eau est-il fiable ?",
+   "r": "Pas vraiment. Le résultat dépend des résidus de produit, de la température de l'eau, de l'épaisseur du cheveu et du temps d'attente. Croise-le avec le test du toucher et le temps de séchage, beaucoup plus parlants."
+  },
+  {
+   "q": "Les protéines sont-elles bonnes pour tous les cheveux ?",
+   "r": "Elles sont surtout utiles aux cheveux poreux et abîmés. Sur des cheveux peu poreux, trop de protéines peut donner un toucher raide et cassant. Si ça arrive, espace-les et reviens à des soins plus hydratants."
+  },
+  {
+   "q": "Peut-on avoir plusieurs porosités sur la même tête ?",
+   "r": "Oui, c'est fréquent. Les pointes sont souvent plus poreuses que les racines, surtout si les cheveux sont longs ou colorés. Adapte la texture de tes produits selon les zones."
+  }
+ ],
+ "liens_internes": [
+  "quiz-type-de-cheveux",
+  "types-de-cheveux",
+  "routine-cheveux-boucles",
+  "routine-cheveux-crepus",
+  "meilleur-shampoing-sans-sulfate",
+  "masque-cheveux-maison"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias M. F., Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "Rele A. S., Mohile R. B., Effect of mineral oil, sunflower oil, and coconut oil on prevention of hair damage, J Cosmet Sci, 2003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12715094/"
+  },
+  {
+   "titre": "Lee Y. et al., Hair shaft damage from heat and drying time of hair dryer, Annals of Dermatology, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/"
+  }
+ ],
+ "maj": "2026-11-22"
+}

@@ -1,0 +1,94 @@
+{
+ "cheveux-raides": [
+  1,
+  "Racines qui regraissent, pas de volume : les bons gestes du type 1."
+ ],
+ "cheveux-fins": [
+  2,
+  "Fins ou épais : l'épaisseur change tout, quelle que soit ta texture."
+ ],
+ "cheveux-ondules": [
+  3,
+  "Des vagues en S qui s'aplatissent vite si on les alourdit."
+ ],
+ "cheveux-boucles": [
+  4,
+  "Des spirales qui adorent l'eau et détestent la serviette éponge."
+ ],
+ "cheveux-frises": [
+  5,
+  "Des boucles serrées et pleines de volume, souvent assoiffées."
+ ],
+ "cheveux-crepus": [
+  6,
+  "La texture la plus dense et la plus fragile, qui demande de la douceur."
+ ],
+ "porosite-cheveux": [
+  7,
+  "Le test en 2 minutes, et ce qu'il change pour tes soins."
+ ],
+ "routine-cheveux-boucles": [
+  8,
+  "Les 5 étapes, de la débutante à la confirmée."
+ ],
+ "routine-cheveux-crepus": [
+  9,
+  "Le jour de lavage pas à pas, méthode LOC comprise."
+ ],
+ "cheveux-gras": [
+  1,
+  "Pourquoi ça regraisse si vite, et quel shampoing choisir."
+ ],
+ "cheveux-secs": [
+  2,
+  "Longueurs rêches et ternes : causes, routine, shampoing."
+ ],
+ "cheveux-abimes": [
+  3,
+  "Casse, pointes fourchues : ce qu'un soin peut faire, ou pas."
+ ],
+ "cuir-chevelu-qui-gratte": [
+  4,
+  "Pellicules et démangeaisons : gestes doux et quand consulter."
+ ],
+ "cheveux-blancs": [
+  5,
+  "Les assumer ou les couvrir, henné compris, sans idée reçue."
+ ],
+ "chute-de-cheveux-femme": [
+  6,
+  "Ce qui est normal, ce qui ne l'est pas, et quand voir un médecin."
+ ],
+ "meilleur-shampoing": [
+  1,
+  "Quel shampoing selon ton cuir chevelu et tes longueurs."
+ ],
+ "meilleur-shampoing-sans-sulfate": [
+  2,
+  "Comment lire une étiquette, et ma sélection par profil."
+ ],
+ "masque-cheveux": [
+  3,
+  "Masque, après-shampoing, leave-in : lequel, et comment."
+ ],
+ "masque-cheveux-maison": [
+  4,
+  "Des recettes simples et sûres, avec les bons dosages."
+ ],
+ "huile-de-ricin-cheveux": [
+  5,
+  "Ricin, coco, romarin : ce qu'elles font vraiment."
+ ],
+ "meilleur-shampoing-cheveux-boucles": [
+  6,
+  "Shampoing doux ou co-wash pour respecter les boucles."
+ ],
+ "shampoing-cheveux-crepus-frises": [
+  7,
+  "Nettoyer sans dessécher les textures les plus serrées."
+ ],
+ "shampoing-apres-lissage-bresilien": [
+  8,
+  "Les shampoings qui aident ton lissage à durer."
+ ]
+}

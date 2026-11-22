@@ -1,0 +1,114 @@
+{
+  "_lisez_moi": "SEUL endroit où vivent les prix et les produits payants (guides par type + pack). Lu par build.py, pages_speciales.py, guide_pdf.py et injecté dans simulateurs.js (window.CC_OFFRES). TODO validation Louis : prix 9 € / 19 € à confirmer avant la création des Payment Links Stripe.",
+  "lancement": true,
+  "_lancement": "MODE LANCEMENT (true) tant que Stripe et Brevo de Clara n'existent pas : boutons d'achat remplacés par « Bientôt disponible », formulaires e-mail masqués, liens #affilie- remplacés par l'URL directe de la fiche produit (_affiliation/a-brancher.md) ou masqués. Passer à false pour tout réactiver (Stripe, Brevo, affiliés).",
+  "devise": "€",
+  "prix_type": 9,
+  "prix_pack": 19,
+  "pack": {
+    "id": "pack",
+    "nom": "Le pack complet tous types",
+    "titre_pdf": "Les meilleurs produits pour ton type de cheveux",
+    "stripe": "#stripe-pack",
+    "pdf": "guide-produits-cheveux.pdf",
+    "contenu": "le guide complet (7 profils, tous les problèmes) et les 6 guides par type"
+  },
+  "types": [
+    {
+      "id": "raides",
+      "slug": "cheveux-raides",
+      "nom": "raides",
+      "Nom": "Raides",
+      "photo": "type-raides",
+      "alt": "Femme aux cheveux raides et lisses",
+      "curl": 0,
+      "accroche": "Du volume aux racines, des pointes qui restent souples.",
+      "problemes": [
+        "racines grasses",
+        "cheveux plats",
+        "électricité statique",
+        "pointes sèches"
+      ]
+    },
+    {
+      "id": "fins",
+      "slug": "cheveux-fins",
+      "nom": "fins",
+      "Nom": "Fins",
+      "photo": null,
+      "alt": "Illustration de mèches fines",
+      "curl": 0,
+      "accroche": "Du corps sans alourdir, et moins de casse.",
+      "problemes": [
+        "manque de volume",
+        "racines grasses",
+        "nœuds et casse",
+        "densité qui diminue"
+      ]
+    },
+    {
+      "id": "ondules",
+      "slug": "cheveux-ondules",
+      "nom": "ondulés",
+      "Nom": "Ondulés",
+      "photo": "type-ondules",
+      "alt": "Femme aux cheveux ondulés mi-longs",
+      "curl": 1,
+      "accroche": "Des vagues qui tiennent, sans effet carton.",
+      "problemes": [
+        "frisottis",
+        "vagues qui s'aplatissent",
+        "racines grasses et pointes sèches",
+        "produits qui s'accumulent"
+      ]
+    },
+    {
+      "id": "boucles",
+      "slug": "cheveux-boucles",
+      "nom": "bouclés",
+      "Nom": "Bouclés",
+      "photo": "type-boucles",
+      "alt": "Femme aux cheveux bouclés en spirales",
+      "curl": 2,
+      "accroche": "Des boucles définies et hydratées, jour 1 comme jour 3.",
+      "problemes": [
+        "longueurs sèches",
+        "frisottis",
+        "boucles qui se défont",
+        "cuir chevelu chargé"
+      ]
+    },
+    {
+      "id": "frises",
+      "slug": "cheveux-frises",
+      "nom": "frisés",
+      "Nom": "Frisés",
+      "photo": null,
+      "alt": "Illustration de boucles serrées",
+      "curl": 3,
+      "accroche": "Contre la sécheresse et les frisottis, une routine qui tient.",
+      "problemes": [
+        "sécheresse",
+        "frisottis",
+        "nœuds et casse",
+        "rétraction"
+      ]
+    },
+    {
+      "id": "crepus",
+      "slug": "cheveux-crepus",
+      "nom": "crépus",
+      "Nom": "Crépus",
+      "photo": "type-crepus",
+      "alt": "Femme aux cheveux crépus portés au naturel",
+      "curl": 4,
+      "accroche": "Wash day, méthode LOC et coiffures protectrices, pas à pas.",
+      "problemes": [
+        "sécheresse et casse",
+        "nœuds en boule",
+        "bords fragilisés",
+        "cuir chevelu qui gratte sous les tresses"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+ "slug": "masque-cheveux",
+ "gabarit": "article",
+ "rubrique": "soins",
+ "parent": "soins-cheveux",
+ "court": "Masque cheveux",
+ "kw": "masque cheveux (+ après-shampoing 9 900 en cluster)",
+ "volume": "9 900",
+ "argent": true,
+ "affilie": true,
+ "dermato": false,
+ "title": "Masque cheveux : bien le choisir et bien l'appliquer",
+ "description": "Masque, après-shampoing ou soin sans rinçage : les différences, comment choisir selon tes cheveux et leur porosité, le bon geste et 5 masques réels.",
+ "h1": "Masque cheveux : lequel choisir et comment l'appliquer",
+ "chapo": "Un masque peut vraiment changer le toucher de tes cheveux, à condition de prendre le bon et de bien l'appliquer. Entre après-shampoing, masque, soin sans rinçage, masque hydratant, nourrissant ou protéiné, on s'y perd vite. Je te fais le tri, simplement, pour que tu saches quoi acheter et quoi en faire.",
+ "photo_alt": "Pot de masque capillaire ouvert à côté d'une serviette en microfibre et d'un peigne à dents larges",
+ "en_bref": [
+  "L'après-shampoing s'utilise à chaque lavage, le masque une à deux fois par semaine, le soin sans rinçage se garde sur les cheveux.",
+  "Cheveux secs : masque hydratant ou nourrissant. Cheveux abîmés ou très poreux : un masque protéiné de temps en temps.",
+  "On l'applique sur cheveux essorés, sur les longueurs et les pointes, jamais sur les racines.",
+  "Le temps de pose indiqué suffit souvent : une chaleur douce peut aider, la nuit entière n'apporte rien de plus.",
+  "Trop de protéines rend les cheveux rêches et cassants : alterne avec un masque hydratant."
+ ],
+ "sections": [
+  {
+   "h2": "Après-shampoing, masque, soin sans rinçage : quelle différence ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les trois produits ont le même but : rendre la fibre plus douce, plus facile à démêler, et limiter les frottements. Une revue publiée en 2015 dans l'International Journal of Trichology explique que les masques contiennent simplement des ingrédients plus concentrés, ou une texture plus épaisse, qu'un après-shampoing classique. Ce qui change, c'est surtout l'intensité et le temps de contact."
+    },
+    {
+     "type": "tableau",
+     "legende": "Repères généraux, à adapter selon l'étiquette de ton produit.",
+     "entetes": [
+      "",
+      "Après-shampoing",
+      "Masque",
+      "Soin sans rinçage"
+     ],
+     "lignes": [
+      [
+       "Texture",
+       "Fluide à crémeuse",
+       "Épaisse, plus riche",
+       "Lait, crème, spray"
+      ],
+      [
+       "Quand",
+       "À chaque lavage",
+       "1 à 2 fois par semaine",
+       "Sur cheveux essorés ou secs, après le lavage"
+      ],
+      [
+       "Temps de pose",
+       "1 à 3 minutes",
+       "5 à 20 minutes environ",
+       "Reste sur les cheveux"
+      ],
+      [
+       "Rinçage",
+       "Oui",
+       "Oui",
+       "Non"
+      ],
+      [
+       "Pour qui",
+       "Tout le monde",
+       "Cheveux secs, abîmés, colorés, bouclés",
+       "Cheveux secs, bouclés, frisés, crépus, ou démêlage difficile"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Si tu dois n'en garder qu'un, garde l'après-shampoing. Le masque est un renfort. Le soin sans rinçage est très utile si tes cheveux sont secs ou texturés, mais il peut alourdir des [cheveux fins](cheveux-fins)."
+    }
+   ]
+  },
+  {
+   "h2": "Hydratant, nourrissant, protéiné : lequel pour toi ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Hydratant** : riche en eau et en ingrédients qui retiennent l'eau, comme la glycérine ou l'aloe vera. Pour des cheveux rêches, ternes, qui manquent de souplesse.",
+      "**Nourrissant** : riche en beurres et en huiles (karité, coco, avocat). Pour des [cheveux secs](cheveux-secs) qui frisottent et des pointes qui manquent de gaine.",
+      "**Protéiné ou réparateur** : contient des protéines hydrolysées (kératine, blé, soja, riz). Pour des [cheveux abîmés](cheveux-abimes), décolorés ou lissés, qui cassent ou deviennent élastiques mouillés."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "La même revue de 2015 note que les protéines hydrolysées se déposent sur la surface du cheveu, ce qui améliore la brillance, surtout sur les cheveux traités chimiquement. Une revue pour dermatologues publiée la même année dans l'Indian Journal of Dermatology précise que cet effet est **temporaire** : les protéines rassemblent les pointes fourchues jusqu'au lavage suivant. Aucun masque ne recolle durablement un cheveu cassé."
+    },
+    {
+     "type": "h3",
+     "texte": "Et la porosité ?"
+    },
+    {
+     "type": "tableau",
+     "legende": "La porosité, c'est la façon dont ton cheveu absorbe et retient l'eau.",
+     "entetes": [
+      "Ta porosité",
+      "Ce que tu remarques",
+      "Ce qui convient souvent"
+     ],
+     "lignes": [
+      [
+       "Faible",
+       "L'eau perle, les produits restent en surface",
+       "Masques légers et hydratants, un peu de chaleur douce"
+      ],
+      [
+       "Moyenne",
+       "Cheveux plutôt faciles à vivre",
+       "Alterner hydratant et nourrissant"
+      ],
+      [
+       "Forte",
+       "Les cheveux boivent tout puis sèchent vite",
+       "Masques nourrissants, et protéinés de temps en temps"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour savoir où tu te situes, les tests sont expliqués sur ma page [porosité des cheveux](porosite-cheveux). Et si tu ne connais pas encore ta texture, le [quiz](quiz-type-de-cheveux) te donne un point de départ."
+    }
+   ]
+  },
+  {
+   "h2": "Comment appliquer un masque",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Lave tes cheveux avec ton shampoing habituel et rince bien.",
+      "**Essore** tes cheveux en les pressant dans une serviette en microfibre : un cheveu qui ruisselle dilue le masque.",
+      "Prends une noisette de produit, plus si tes cheveux sont longs ou épais, et réchauffe-la entre tes mains.",
+      "Applique sur les **longueurs et les pointes**, en commençant à quelques centimètres des racines.",
+      "Démêle doucement avec les doigts ou un peigne à dents larges pour bien répartir.",
+      "Respecte le **temps de pose** de l'étiquette, souvent 5 à 10 minutes.",
+      "Si tu veux, ajoute une **chaleur douce** : bonnet en plastique puis serviette chaude par-dessus.",
+      "Rince à l'eau tiède jusqu'à ce que les cheveux ne glissent plus de manière grasse."
+     ]
+    },
+    {
+     "type": "astuce",
+     "titre": "Mon astuce",
+     "texte": "Je divise mes cheveux en quatre sections avec des pinces avant d'appliquer le masque. Ça prend une minute de plus, mais chaque mèche reçoit du produit, et j'en utilise moins."
+    },
+    {
+     "type": "p",
+     "texte": "La revue de l'Indian Journal of Dermatology décrit des soins profonds laissés environ 20 à 30 minutes pour les cheveux très secs ou abîmés. Au-delà, ou toute une nuit, il n'y a pas de bénéfice démontré, et les cheveux mouillés longtemps restent plus fragiles."
+    },
+    {
+     "type": "video",
+     "titre": "Appliquer un masque par sections, en 5 minutes"
+    }
+   ]
+  },
+  {
+   "h2": "À quelle fréquence faire un masque ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Cheveux fins ou gras** : une fois par semaine ou tous les 15 jours, un masque léger, uniquement sur les pointes.",
+      "**Cheveux normaux** : une fois par semaine, ou quand ils semblent ternes.",
+      "**Cheveux secs, colorés, bouclés** : une à deux fois par semaine, à la place de l'après-shampoing.",
+      "**Cheveux frisés ou crépus** : à chaque jour de lavage, souvent une fois par semaine."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour les [cheveux bouclés](cheveux-boucles), le masque remplace souvent l'après-shampoing les jours de lavage. Pour un masque protéiné, reste à une fois toutes les deux à quatre semaines, sauf si tes cheveux sont très abîmés."
+    }
+   ]
+  },
+  {
+   "h2": "Les erreurs qui gâchent un bon masque",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Le mettre sur les racines** : le cuir chevelu graisse plus vite et les cheveux s'aplatissent. Le masque, c'est pour les longueurs.",
+      "**Trop de protéines** : des cheveux qui deviennent raides, rêches et cassants après plusieurs masques réparateurs ont souvent besoin d'hydratation. Alterne avec un masque hydratant.",
+      "**Appliquer sur cheveux trempés** : le produit glisse et se dilue.",
+      "**Mal rincer** : un reste de masque donne un aspect lourd et terne.",
+      "**Changer de masque chaque semaine** : impossible de savoir ce qui marche. Garde-le trois ou quatre utilisations."
+     ]
+    },
+    {
+     "type": "attention",
+     "titre": "Démangeaisons ou boutons",
+     "texte": "Si ton cuir chevelu rougit ou gratte après un masque, rince bien et arrête le produit. Si ça ne passe pas, demande conseil à ton pharmacien ou à ton médecin."
+    }
+   ]
+  },
+  {
+   "h2": "Cinq masques pour commencer",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ce sont des produits réels, faciles à trouver en France, du petit budget au premium. Ce n'est pas un classement : je ne les ai pas encore testés moi-même, et les formules peuvent changer. Lis toujours l'étiquette au moment de l'achat. Les mentions du type « répare 99 % des dommages » doivent être prouvées, selon un règlement européen de 2013, mais elles décrivent un effet mesuré sur la fibre juste après l'usage, pas un cheveu reconstruit."
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "Garnier",
+       "nom": "Ultra Doux Hair Food Banane, masque 3 en 1",
+       "pourqui": "Cheveux secs, petit budget",
+       "prix": "€",
+       "points": [
+        "Utilisable en après-shampoing, masque ou soin sans rinçage",
+        "Vendu en supermarché"
+       ],
+       "limites": "Texture riche qui peut alourdir les cheveux fins.",
+       "liens": [
+        {
+         "marchand": "Amazon",
+         "id": "amazon-garnier-hair-food-banane"
+        },
+        {
+         "marchand": "Notino",
+         "id": "notino-garnier-hair-food-banane"
+        }
+       ]
+      },
+      {
+       "marque": "L'Oréal Paris",
+       "nom": "Elseve Total Repair 5, masque réparateur",
+       "pourqui": "Cheveux abîmés, pointes fourchues",
+       "prix": "€",
+       "points": [
+        "Masque réparateur facile à trouver",
+        "Temps de pose court"
+       ],
+       "limites": "Contient des silicones : un clarifiant de temps en temps aide si tes cheveux saturent.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-elseve-total-repair-5-masque"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-elseve-total-repair-5-masque"
+        }
+       ]
+      },
+      {
+       "marque": "Cantu",
+       "nom": "Shea Butter Deep Treatment Masque",
+       "pourqui": "Boucles, frisés et crépus secs",
+       "prix": "€",
+       "points": [
+        "Riche en beurre de karité",
+        "Pensé pour les textures"
+       ],
+       "limites": "Trop riche pour des cheveux fins ou raides.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-cantu-deep-treatment-masque"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-cantu-deep-treatment-masque"
+        }
+       ]
+      },
+      {
+       "marque": "Kérastase",
+       "nom": "Nutritive, Masquintense",
+       "pourqui": "Cheveux secs, fins à moyens",
+       "prix": "€€€",
+       "points": [
+        "Existe en version pour cheveux fins et en version riche",
+        "Texture agréable, temps de pose court"
+       ],
+       "limites": "Prix élevé pour un usage chaque semaine.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-kerastase-masquintense"
+        },
+        {
+         "marchand": "Sephora",
+         "id": "sephora-kerastase-masquintense"
+        }
+       ]
+      },
+      {
+       "marque": "Olaplex",
+       "nom": "N°8 Bond Intense Moisture Mask",
+       "pourqui": "Cheveux décolorés ou colorés",
+       "prix": "€€€",
+       "points": [
+        "Pensé pour les cheveux traités chimiquement",
+        "Petit pot qui se dose en petite quantité"
+       ],
+       "limites": "Cher au millilitre. Pas utile si tes cheveux sont en bonne santé.",
+       "liens": [
+        {
+         "marchand": "Lookfantastic",
+         "id": "lookfantastic-olaplex-n8"
+        },
+        {
+         "marchand": "Sephora",
+         "id": "sephora-olaplex-n8"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "photo",
+     "alt": "Cinq pots de masques capillaires alignés sur une étagère",
+     "legende": "Ma sélection du moment, avant les tests."
+    }
+   ]
+  },
+  {
+   "h2": "Envie d'un masque maison ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Un masque du commerce a l'avantage d'être stable, conservé et facile à rincer. Un masque maison peut être sympa et économique, à condition de respecter quelques règles d'hygiène et de le préparer juste avant usage. Pour les recettes (avocat, aloe vera, huile de coco, yaourt), j'ai tout regroupé sur ma page [masque cheveux maison](masque-cheveux-maison)."
+    },
+    {
+     "type": "p",
+     "texte": "Et n'oublie pas que le masque ne fait pas tout. Un [shampoing adapté](meilleur-shampoing) à ton cuir chevelu, un démêlage doux et moins de chaleur comptent autant."
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Trouve le soin qui va avec ta texture"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Peut-on utiliser un masque à la place de l'après-shampoing ?",
+   "r": "Oui, les jours où tu fais un masque, il remplace l'après-shampoing. Inutile de mettre les deux."
+  },
+  {
+   "q": "Faut-il laisser un masque toute la nuit ?",
+   "r": "Ce n'est pas nécessaire. Le temps indiqué sur l'étiquette suffit souvent, et des cheveux mouillés longtemps restent plus fragiles."
+  },
+  {
+   "q": "Le masque doit-il aller avant ou après le shampoing ?",
+   "r": "Après, sur cheveux essorés, dans la plupart des cas. Seul le bain d'huile se fait avant le shampoing."
+  },
+  {
+   "q": "Comment savoir si mes cheveux ont trop de protéines ?",
+   "r": "Ils deviennent rêches, raides, cassants, même après un soin. Fais une pause dans les masques réparateurs et passe à un masque hydratant pendant quelques semaines."
+  },
+  {
+   "q": "Un masque peut-il réparer des cheveux abîmés ?",
+   "r": "Il améliore le toucher et la brillance, mais l'effet est temporaire. Une fibre abîmée ne se reconstruit pas. La seule vraie solution, c'est de couper les pointes et de limiter les agressions."
+  }
+ ],
+ "liens_internes": [
+  "masque-cheveux-maison",
+  "cheveux-secs",
+  "cheveux-abimes",
+  "cheveux-fins",
+  "porosite-cheveux",
+  "cheveux-boucles",
+  "meilleur-shampoing",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias M.F., Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "D'Souza P., Rathi S.K., Shampoo and conditioners: what a dermatologist should know?, Indian Journal of Dermatology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4458934/"
+  },
+  {
+   "titre": "Règlement (UE) n° 655/2013 sur les critères communs des allégations relatives aux produits cosmétiques",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R0655"
+  }
+ ],
+ "maj": "2026-11-22"
+}

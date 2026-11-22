@@ -1,0 +1,381 @@
+{
+ "slug": "cheveux-gras",
+ "gabarit": "article",
+ "rubrique": "problemes",
+ "parent": "problemes-cheveux",
+ "court": "Cheveux gras",
+ "kw": "shampoing cheveux gras + cheveux gras",
+ "volume": "6 600 + 2 900",
+ "argent": true,
+ "affilie": true,
+ "dermato": true,
+ "title": "Cheveux gras : quel shampoing et quels gestes adopter",
+ "description": "Cheveux gras qui regraissent vite : pourquoi ça arrive, à quelle fréquence laver, comment choisir ton shampoing et ma sélection de 5 formules.",
+ "h1": "Cheveux gras : pourquoi ils regraissent et quel shampoing choisir",
+ "chapo": "Tu laves tes cheveux le matin et le soir, ils collent déjà aux racines ? Tu n'es pas seule, et ce n'est pas un manque d'hygiène. Le sébum, c'est normal, il en faut. Le souci, c'est quand il y en a trop ou quand il est mal géré par ta routine. Je t'explique d'où ça vient, comment laver sans te prendre la tête, et quels shampoings regarder selon ta texture.",
+ "photo_alt": "Une femme qui applique du shampoing uniquement sur les racines, cheveux séparés en deux",
+ "en_bref": [
+  "Le sébum protège ta peau et tes cheveux : le but n'est pas de le supprimer, mais d'éviter l'excès.",
+  "Hormones, chaleur, sport, brosse et mains dans les cheveux font regraisser plus vite.",
+  "L'effet rebond des lavages fréquents n'est pas bien démontré : laver souvent avec un shampoing doux n'est pas un problème.",
+  "Le shampoing va sur le cuir chevelu, l'après-shampoing sur les longueurs, jamais sur les racines.",
+  "Rougeurs, squames grasses et démangeaisons qui durent : demande l'avis d'un médecin."
+ ],
+ "sections": [
+  {
+   "h2": "Pourquoi tes cheveux regraissent si vite",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ton cuir chevelu fabrique du **sébum**, une sorte d'huile naturelle produite par de petites glandes à la base de chaque cheveu. Il sert à protéger la peau et à gainer la fibre. Chez certaines, ces glandes travaillent plus fort que chez d'autres, et c'est souvent une question de terrain plus que de routine."
+    },
+    {
+     "type": "h3",
+     "texte": "Les hormones"
+    },
+    {
+     "type": "p",
+     "texte": "Les glandes sébacées réagissent aux hormones, en particulier aux androgènes, comme le rappelle une revue scientifique sur le rôle de la glande sébacée citée en sources. C'est pour ça que le cuir chevelu graisse plus à l'adolescence, et que beaucoup de femmes voient une différence selon le moment du cycle, après l'arrêt d'une pilule ou pendant une grossesse. Si le changement est brutal et vient avec d'autres signes (acné marquée, poils inhabituels, règles irrégulières), parles-en à ton médecin."
+    },
+    {
+     "type": "h3",
+     "texte": "La chaleur et la transpiration"
+    },
+    {
+     "type": "p",
+     "texte": "Été, sport, bonnet, casque de vélo : la sueur se mélange au sébum et les racines s'affaissent plus vite. L'eau très chaude au lavage n'aide pas non plus, préfère de l'eau tiède."
+    },
+    {
+     "type": "h3",
+     "texte": "Les mains et la brosse"
+    },
+    {
+     "type": "p",
+     "texte": "Chaque fois que tu passes les doigts dans tes racines ou que tu te brosses longuement, tu étales le sébum du cuir chevelu vers les longueurs. Brosser cent coups le soir, c'est le meilleur moyen d'avoir des cheveux plats le lendemain."
+    },
+    {
+     "type": "h3",
+     "texte": "Des soins trop riches posés sur les racines"
+    },
+    {
+     "type": "p",
+     "texte": "Masques, huiles, crèmes sans rinçage : utiles sur des longueurs sèches, ils alourdissent tout dès qu'ils touchent le cuir chevelu. Garde-les à partir de la mi-longueur."
+    },
+    {
+     "type": "photo",
+     "alt": "Racines d'une femme vues de près, avec la raie au milieu, avant et après le lavage",
+     "legende": "Le shampoing pour les racines, le soin pour les pointes : c'est la règle que je répète le plus."
+    }
+   ]
+  },
+  {
+   "h2": "L'effet rebond : vrai ou faux ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "On entend partout que laver souvent « fait regraisser plus ». Honnêtement, les preuves sont minces. Une étude menée sur 1 500 personnes en Chine (Punyani et al., 2021, citée en sources) a même observé l'inverse : les participants qui se lavaient les cheveux souvent avaient moins de pellicules, moins de démangeaisons, et le lavage quotidien réduisait le sébum accumulé. Les auteurs concluent que la peur du « trop laver » n'était pas fondée dans leur échantillon."
+    },
+    {
+     "type": "p",
+     "texte": "Attention, l'étude portait sur des populations asiatiques sans problème de cuir chevelu, on ne peut pas tout généraliser. Ce qui pose vraiment souci, c'est plutôt un shampoing trop décapant sur une peau sensible : il tire, il gratte, et tu relaves. Inutile en tout cas de « sevrer » tes cheveux en gardant des racines grasses."
+    }
+   ]
+  },
+  {
+   "h2": "À quelle fréquence laver des cheveux gras",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La bonne fréquence, c'est celle qui te permet d'avoir un cuir chevelu propre et confortable. Pour un cuir chevelu gras, ça peut être tous les jours ou tous les deux jours, et c'est très bien comme ça, à condition d'utiliser un shampoing doux."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Cheveux raides et fins** : souvent tous les jours ou un jour sur deux, parce que le sébum glisse vite le long de la fibre. Voir ma page [cheveux raides](cheveux-raides).",
+      "**Cheveux ondulés** : en général tous les deux ou trois jours.",
+      "**Cheveux bouclés ou crépus avec cuir chevelu gras** : tu peux laver le cuir chevelu plus souvent que tu ne nourris tes longueurs, en ne massant que les racines."
+     ]
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Pas sûre de ta texture ? Fais le quiz"
+    }
+   ]
+  },
+  {
+   "h2": "Comment choisir un shampoing pour cheveux gras",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Un shampoing pour cheveux gras lave un peu plus franchement le cuir chevelu, sans laisser de film. Il contient souvent de l'argile, de l'ortie ou des actifs dits séborégulateurs. Attention, aucun shampoing ne change durablement la quantité de sébum que tu produis : il t'aide surtout à te sentir propre plus longtemps. La revue sur les cosmétiques capillaires citée en sources rappelle aussi que les tensioactifs forts lavent bien, mais peuvent augmenter les frisottis et les frottements sur la fibre. Le plus important, c'est donc d'adapter le choix à tes longueurs."
+    },
+    {
+     "type": "tableau",
+     "legende": "Repères pour choisir, à ajuster selon ton ressenti.",
+     "entetes": [
+      "Ton profil",
+      "Ce qu'il te faut",
+      "Ce qu'il faut éviter"
+     ],
+     "lignes": [
+      [
+       "Racines grasses et longueurs sèches",
+       "Shampoing purifiant sur les racines, après-shampoing léger sur les pointes",
+       "Les shampoings « nutrition » riches, qui alourdissent les racines"
+      ],
+      [
+       "[Cheveux fins](cheveux-fins) qui graissent vite",
+       "Formule légère, transparente, sans silicones lourds",
+       "Les crèmes lavantes et les 2 en 1, qui aplatissent"
+      ],
+      [
+       "[Cheveux bouclés](cheveux-boucles) avec cuir chevelu gras",
+       "Shampoing doux mais efficace au cuir chevelu, ou [sans sulfate](meilleur-shampoing-sans-sulfate) en alternance avec un purifiant",
+       "Le co-wash seul, qui nettoie trop peu le cuir chevelu"
+      ],
+      [
+       "Cuir chevelu gras et sensible",
+       "Formule courte, sans parfum fort, en pharmacie",
+       "Les huiles essentielles en cascade et les shampoings qui piquent"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Ma méthode de lavage, avec le double shampoing",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Mouille bien tes cheveux à l'**eau tiède**, jusqu'au cuir chevelu.",
+      "Premier shampoing : une petite noisette sur les **racines uniquement**, masse une minute, rince. Ce passage enlève le gros du sébum et des résidus, il mousse peu, c'est normal.",
+      "Deuxième shampoing : encore moins de produit, masse avec la pulpe des doigts, laisse mousser, rince longtemps.",
+      "Laisse la mousse descendre sur les longueurs au rinçage, sans les frotter.",
+      "Après-shampoing sur les **pointes et la mi-longueur**, jamais sur les racines. Rince bien.",
+      "Sèche les racines en premier, au sèche-cheveux tiède, pour garder du volume."
+     ]
+    },
+    {
+     "type": "astuce",
+     "texte": "Le double shampoing, je le garde pour les jours où mes racines sont vraiment chargées, après le sport ou une huile en bain. Les autres jours, un seul passage bien massé suffit largement."
+    },
+    {
+     "type": "video",
+     "titre": "Mon double shampoing en deux minutes, racines seulement"
+    }
+   ]
+  },
+  {
+   "h2": "Le shampoing sec, oui, mais avec modération",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le shampoing sec absorbe le sébum en surface et redonne du volume. Pratique pour tenir un jour de plus, mais il ne lave pas : poudre et sébum restent sur la peau."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Vaporise de loin, sur les racines seulement, puis masse.",
+      "Pas plus d'un ou deux jours d'affilée, ensuite un vrai lavage.",
+      "Si ton cuir chevelu gratte ou fait des petites plaques, arrête et lave avec un shampoing doux."
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Ma sélection de shampoings pour cheveux gras",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Cinq shampoings faciles à trouver en France, du supermarché à la pharmacie. Pour d'autres besoins, va voir ma page [meilleur shampoing](meilleur-shampoing). Les formules évoluent, vérifie toujours la liste des ingrédients au moment de l'achat."
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "L'Oréal Paris Elsève",
+       "nom": "Argile Extraordinaire, shampoing purifiant",
+       "pourqui": "les racines qui graissent vite avec des longueurs normales à sèches, petit budget.",
+       "prix": "€",
+       "points": [
+        "Formule aux argiles, pensée pour les cheveux à tendance à regraisser.",
+        "En vente dans tous les supermarchés, avec l'après-shampoing assorti."
+       ],
+       "limites": "Contient des tensioactifs assez forts et du parfum : peut tirailler un cuir chevelu sensible. Pas idéal pour des boucles sèches au quotidien.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-elseve-argile-extraordinaire-shampoing"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-elseve-argile-extraordinaire-shampoing"
+        }
+       ]
+      },
+      {
+       "marque": "Cattier",
+       "nom": "Shampooing Argile Verte, cuir chevelu gras",
+       "pourqui": "celles qui veulent une formule bio certifiée, à petit prix.",
+       "prix": "€",
+       "points": [
+        "Bio certifié, à l'argile verte, marque française historique.",
+        "Trouvable en magasin bio, en parapharmacie et en ligne."
+       ],
+       "limites": "Contient de l'huile essentielle de sauge : à éviter si ton cuir chevelu réagit aux huiles essentielles. Peut sembler un peu sec sur les longueurs, prévois un après-shampoing.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-cattier-shampooing-argile-verte"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-cattier-shampooing-argile-verte"
+        }
+       ]
+      },
+      {
+       "marque": "Klorane",
+       "nom": "Shampoing séboréducteur à l'Ortie BIO",
+       "pourqui": "les cheveux fins et raides qui graissent en une journée.",
+       "prix": "€€",
+       "points": [
+        "Formule à l'ortie, classique des pharmacies pour cheveux gras.",
+        "Existe en plusieurs tailles, dont un grand format."
+       ],
+       "limites": "Peut assécher les pointes si tu l'appliques sur toute la chevelure. Concentre-le sur les racines.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-klorane-shampoing-ortie"
+        },
+        {
+         "marchand": "Sephora",
+         "id": "sephora-klorane-shampoing-ortie"
+        }
+       ]
+      },
+      {
+       "marque": "Ducray",
+       "nom": "Sabal, shampooing séborégulateur",
+       "pourqui": "les cuirs chevelus très gras qui ont déjà tout essayé en supermarché.",
+       "prix": "€€",
+       "points": [
+        "Gamme de pharmacie dédiée au cuir chevelu gras.",
+        "Le fabricant le présente comme un soin à utiliser en cure, pas forcément à chaque lavage."
+       ],
+       "limites": "Plus cher au millilitre et texture assez technique. Ce n'est pas un médicament : si ton cuir chevelu est rouge ou squameux, consulte plutôt que d'enchaîner les cures.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-ducray-sabal-shampooing"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-ducray-sabal-shampooing"
+        }
+       ]
+      },
+      {
+       "marque": "René Furterer",
+       "nom": "Curbicia, shampooing purifiant légèreté",
+       "pourqui": "celles qui veulent une formule sans sulfate pour un cuir chevelu gras, et acceptent d'y mettre le prix.",
+       "prix": "€€€",
+       "points": [
+        "Sans sulfate et sans silicone d'après la marque, plutôt doux.",
+        "Convient bien aux longueurs sèches ou colorées avec racines grasses."
+       ],
+       "limites": "Petit tube pour le prix, et parfum d'huiles essentielles marqué. Un shampoing doux peut sembler insuffisant les jours très chargés.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-rene-furterer-curbicia"
+        },
+        {
+         "marchand": "Lookfantastic",
+         "id": "lookfantastic-rene-furterer-curbicia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Les erreurs qui font regraisser plus vite",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Frotter fort avec les ongles** : ça irrite la peau, sans laver mieux.",
+      "**Mettre l'après-shampoing ou le masque sur les racines.**",
+      "**Laver à l'eau très chaude.**",
+      "**Tenir des jours avec du shampoing sec** au lieu de laver.",
+      "**Changer de shampoing toutes les semaines** : laisse trois ou quatre semaines à une routine avant de juger.",
+      "**Choisir un shampoing trop décapant** qui fait tirailler, puis relaver pour compenser."
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Quand ce n'est plus seulement des cheveux gras",
+   "blocs": [
+    {
+     "type": "dermato",
+     "texte": "Un cuir chevelu gras avec des rougeurs, des squames jaunâtres ou grasses et des démangeaisons qui reviennent peut faire penser à une dermatite séborrhéique. L'Assurance maladie la décrit comme une affection fréquente, qui évolue par poussées. Un shampoing pour cheveux gras ne soigne pas ce problème : c'est à ton médecin ou à un dermatologue de regarder. J'en parle plus en détail sur ma page [cuir chevelu qui gratte](cuir-chevelu-qui-gratte)."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Est-ce grave de laver ses cheveux gras tous les jours ?",
+   "r": "Non. Avec un shampoing doux et une petite dose sur les racines, laver tous les jours ne pose pas de problème à la plupart des gens. Une étude sur 1 500 personnes n'a pas trouvé de trace d'effet néfaste d'un lavage fréquent."
+  },
+  {
+   "q": "Peut-on « habituer » ses cheveux à regraisser moins ?",
+   "r": "Rien ne le prouve vraiment. Espacer les lavages peut te sembler plus confortable avec le temps, mais la production de sébum dépend surtout de tes hormones et de ta peau. Ne te force pas à garder des racines grasses."
+  },
+  {
+   "q": "J'ai les racines grasses et les pointes sèches, je fais comment ?",
+   "r": "Shampoing purifiant uniquement sur le cuir chevelu, après-shampoing ou masque uniquement sur les longueurs. Ma page [cheveux secs](cheveux-secs) t'aide pour la partie pointes."
+  },
+  {
+   "q": "Un shampoing sans sulfate convient-il aux cheveux gras ?",
+   "r": "Oui, souvent, surtout si ton cuir chevelu est sensible. Il lave plus doucement, donc masse bien et n'hésite pas à faire deux passages. Tout est expliqué sur ma page [shampoing sans sulfate](meilleur-shampoing-sans-sulfate)."
+  },
+  {
+   "q": "Le shampoing sec abîme-t-il les cheveux ?",
+   "r": "De temps en temps, pas vraiment. Tous les jours sans vrai lavage, il s'accumule et peut faire gratter."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-raides",
+  "cheveux-fins",
+  "cheveux-secs",
+  "cuir-chevelu-qui-gratte",
+  "meilleur-shampoing",
+  "meilleur-shampoing-sans-sulfate",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Punyani S. et al., The Impact of Shampoo Wash Frequency on Scalp and Hair Conditions, Skin Appendage Disorders, 2021",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8138261/"
+  },
+  {
+   "titre": "Makrantonaki E. et al., An update on the role of the sebaceous gland in the pathogenesis of acne, Dermato-Endocrinology, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3051853/"
+  },
+  {
+   "titre": "Ameli, Pellicules et dermatite séborrhéique de l'adulte",
+   "url": "https://www.ameli.fr/assure/sante/themes/dermatite-seborrheique"
+  },
+  {
+   "titre": "Gavazzoni Dias M.F., Hair cosmetics: an overview, Int J Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  }
+ ],
+ "maj": "2026-11-22"
+}

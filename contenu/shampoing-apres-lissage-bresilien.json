@@ -1,0 +1,338 @@
+{
+ "slug": "shampoing-apres-lissage-bresilien",
+ "gabarit": "article",
+ "rubrique": "soins",
+ "court": "Shampoing après lissage",
+ "kw": "shampoing après lissage brésilien",
+ "volume": "n.r. (cluster lissage brésilien 22 200)",
+ "argent": true,
+ "affilie": true,
+ "dermato": false,
+ "title": "Shampoing après lissage brésilien : lequel choisir ?",
+ "description": "Shampoing après lissage brésilien : pourquoi éviter sulfates et sel, quand faire le premier lavage, piscine et mer, et ma sélection de 5 shampoings doux.",
+ "h1": "Shampoing après lissage brésilien : comment choisir, et ma sélection",
+ "chapo": "Un lissage brésilien coûte cher, alors autant le faire durer. Le shampoing que tu utilises ensuite joue un vrai rôle : certains ingrédients accélèrent le retour des frisottis. Voici quoi éviter, quand faire ton premier lavage, et cinq shampoings doux à regarder de près.",
+ "photo_alt": "Une femme aux cheveux lissés tenant un flacon de shampoing doux",
+ "en_bref": [
+  "Après un lissage, choisis un shampoing sans sulfate et sans chlorure de sodium (le sel).",
+  "Le délai avant le premier shampoing dépend du produit utilisé : suis la consigne de ton salon.",
+  "Piscine et mer : mouille tes cheveux à l'eau douce avant et rince-les juste après.",
+  "Moins tu laves souvent, plus le lissage dure en général.",
+  "Si tu veux retrouver tes boucles naturelles, une transition douce est possible."
+ ],
+ "sections": [
+  {
+   "h2": "Ma sélection en un coup d'œil",
+   "blocs": [
+    {
+     "type": "tableau",
+     "legende": "Gammes de prix indicatives : € abordable, €€ milieu de gamme, €€€ haut de gamme.",
+     "entetes": [
+      "Produit",
+      "Pour qui",
+      "Gamme de prix",
+      "Où l'acheter"
+     ],
+     "lignes": [
+      [
+       "OGX, Ever Straightening + Brazilian Keratin Therapy",
+       "Petit budget, cheveux lissés",
+       "€",
+       "[Notino](#affilie-notino-ogx-brazilian-keratin), [Amazon](#affilie-amazon-ogx-brazilian-keratin)"
+      ],
+      [
+       "Klorane, shampoing au lait d'avoine",
+       "Lavages fréquents, cuir chevelu sensible",
+       "€",
+       "[Notino](#affilie-notino-klorane-avoine), [Nocibé](#affilie-nocibe-klorane-avoine)"
+      ],
+      [
+       "Moroccanoil, Smoothing Shampoo",
+       "Cheveux lissés indisciplinés",
+       "€€€",
+       "[Lookfantastic](#affilie-lookfantastic-moroccanoil-smoothing), [Notino](#affilie-notino-moroccanoil-smoothing), [Sephora](#affilie-sephora-moroccanoil-smoothing)"
+      ],
+      [
+       "Kérastase, Discipline Bain Fluidealiste",
+       "Anti-frisottis, gamme pro",
+       "€€€",
+       "[Lookfantastic](#affilie-lookfantastic-kerastase-fluidealiste), [Notino](#affilie-notino-kerastase-fluidealiste)"
+      ],
+      [
+       "Christophe Robin, shampoing hydratant à l'aloe vera",
+       "Cheveux lissés secs ou colorés",
+       "€€€",
+       "[Sephora](#affilie-sephora-christophe-robin-aloe), [Notino](#affilie-notino-christophe-robin-aloe)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour chaque produit, vérifie la liste INCI au moment de l'achat : les marques font évoluer leurs formules, et ce qui compte ici, c'est l'absence de sulfates forts et de sodium chloride."
+    }
+   ]
+  },
+  {
+   "h2": "Pourquoi un shampoing spécial après un lissage ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Un lissage brésilien dépose un soin qui gaine la fibre et la discipline pendant plusieurs semaines. Chaque lavage en retire un peu. Deux familles d'ingrédients sont connues pour accélérer ce processus."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Les sulfates forts** (sodium lauryl sulfate, sodium laureth sulfate) : ils lavent très fort, ce qui use le soin plus vite. Une revue de 2015 rappelle que ces tensioactifs anioniques laissent aussi la fibre plus rêche.",
+      "**Le chlorure de sodium** (sodium chloride sur l'étiquette) : c'est du sel, ajouté pour épaissir la formule. Il est déconseillé par la plupart des salons après un lissage."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour repérer ces ingrédients, j'ai fait un tableau de lecture INCI complet sur ma page [shampoing sans sulfate](meilleur-shampoing-sans-sulfate)."
+    },
+    {
+     "type": "astuce",
+     "texte": "Prends en photo la liste INCI de ton shampoing actuel et montre-la à ta coiffeuse lors du lissage. Elle te dira tout de suite s'il est compatible avec le produit qu'elle utilise."
+    }
+   ]
+  },
+  {
+   "h2": "Le détail de ma sélection",
+   "blocs": [
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "OGX",
+       "nom": "Ever Straightening + Brazilian Keratin Therapy, shampoing",
+       "pourqui": "les cheveux lissés qui veulent une option abordable et facile à trouver.",
+       "prix": "€",
+       "points": [
+        "Gamme pensée pour les cheveux lissés à la kératine.",
+        "Prix accessible pour un usage régulier."
+       ],
+       "limites": "Vérifie la liste INCI au moment de l'achat, les formules changent selon les pays et les années. Assure-toi de l'absence de sodium chloride.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-ogx-brazilian-keratin"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-ogx-brazilian-keratin"
+        }
+       ]
+      },
+      {
+       "marque": "Klorane",
+       "nom": "Shampoing au lait d'avoine",
+       "pourqui": "celles qui lavent souvent et ont un cuir chevelu sensible.",
+       "prix": "€",
+       "points": [
+        "Marque de pharmacie très répandue.",
+        "Pensé pour des lavages fréquents."
+       ],
+       "limites": "Vérifie la liste INCI au moment de l'achat : je n'ai pas encore confirmé l'absence de sulfate et de sel sur la formule actuelle.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-klorane-avoine"
+        },
+        {
+         "marchand": "Nocibé",
+         "id": "nocibe-klorane-avoine"
+        }
+       ]
+      },
+      {
+       "marque": "Moroccanoil",
+       "nom": "Smoothing Shampoo",
+       "pourqui": "les cheveux lissés qui ont tendance à regonfler à l'humidité.",
+       "prix": "€€€",
+       "points": [
+        "Gamme lissante à l'huile d'argan.",
+        "Disponible chez plusieurs marchands."
+       ],
+       "limites": "Prix élevé. Vérifie la liste INCI au moment de l'achat, les formules changent.",
+       "liens": [
+        {
+         "marchand": "Lookfantastic",
+         "id": "lookfantastic-moroccanoil-smoothing"
+        },
+        {
+         "marchand": "Notino",
+         "id": "notino-moroccanoil-smoothing"
+        },
+        {
+         "marchand": "Sephora",
+         "id": "sephora-moroccanoil-smoothing"
+        }
+       ]
+      },
+      {
+       "marque": "Kérastase",
+       "nom": "Discipline, Bain Fluidealiste",
+       "pourqui": "les cheveux lissés qui veulent une gamme anti-frisottis de salon.",
+       "prix": "€€€",
+       "points": [
+        "Gamme pensée contre les frisottis.",
+        "Existe en version sans sulfate."
+       ],
+       "limites": "Plusieurs versions coexistent : choisis bien celle marquée sans sulfate et vérifie la liste INCI.",
+       "liens": [
+        {
+         "marchand": "Lookfantastic",
+         "id": "lookfantastic-kerastase-fluidealiste"
+        },
+        {
+         "marchand": "Notino",
+         "id": "notino-kerastase-fluidealiste"
+        }
+       ]
+      },
+      {
+       "marque": "Christophe Robin",
+       "nom": "Shampoing hydratant à l'aloe vera",
+       "pourqui": "les cheveux lissés et secs, ou lissés et colorés.",
+       "prix": "€€€",
+       "points": [
+        "Texture légère qui n'alourdit pas.",
+        "Pensé pour les cheveux déshydratés."
+       ],
+       "limites": "Prix élevé pour un shampoing. Vérifie la liste INCI au moment de l'achat.",
+       "liens": [
+        {
+         "marchand": "Sephora",
+         "id": "sephora-christophe-robin-aloe"
+        },
+        {
+         "marchand": "Notino",
+         "id": "notino-christophe-robin-aloe"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Premier shampoing, fréquence, piscine et mer",
+   "blocs": [
+    {
+     "type": "h3",
+     "texte": "Quand faire le premier shampoing ?"
+    },
+    {
+     "type": "p",
+     "texte": "Il n'y a pas de délai unique : selon le produit utilisé, certains salons demandent d'attendre plusieurs jours, d'autres rincent eux-mêmes le jour même. **Suis la consigne de ton salon**, c'est elle qui compte. En attendant, évite les élastiques serrés, les pinces et de mettre tes cheveux derrière les oreilles si on te l'a déconseillé."
+    },
+    {
+     "type": "h3",
+     "texte": "À quelle fréquence laver ?"
+    },
+    {
+     "type": "p",
+     "texte": "En règle générale, moins tu laves souvent, plus le lissage tient. Espace tes lavages autant que ton cuir chevelu le permet. Si ton cuir chevelu graisse vite, garde ton rythme mais avec un shampoing doux, et ne frotte que les racines."
+    },
+    {
+     "type": "h3",
+     "texte": "Piscine et mer"
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Mouille tes cheveux à l'eau douce avant de te baigner : ils absorberont moins d'eau chlorée ou salée.",
+      "Applique un peu d'après-shampoing sans rinçage sur les longueurs.",
+      "Attache-les en tresse lâche.",
+      "Rince à l'eau douce dès la sortie de l'eau, puis lave avec ton shampoing doux le soir."
+     ]
+    },
+    {
+     "type": "video",
+     "titre": "Comment je protège mon lissage à la piscine"
+    }
+   ]
+  },
+  {
+   "h2": "Et si tu veux retrouver tes boucles ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Beaucoup de filles font un lissage pour gagner du temps, puis ont envie de revenir à leur texture naturelle. C'est tout à fait possible. Le lissage s'estompe au fil des lavages et la repousse arrive avec ta boucle d'origine."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Passe progressivement à une [routine boucles](routine-cheveux-boucles) sur la repousse.",
+      "Coupe les pointes lissées petit à petit pour ne pas tout perdre d'un coup.",
+      "Découvre ton type de boucles avec mon guide des [types de cheveux](types-de-cheveux)."
+     ]
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Mon conseil si tu as les cheveux en transition"
+    }
+   ]
+  },
+  {
+   "h2": "Comment j'ai fait cette sélection",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "J'ai retenu des gammes pensées pour les cheveux lissés ou anti-frisottis, à plusieurs prix, en privilégiant les formules annoncées sans sulfate. Aucune marque ne m'a payée pour apparaître ici."
+    },
+    {
+     "type": "attention",
+     "titre": "Tests en cours",
+     "texte": "Je n'ai pas encore testé ces shampoings sur cheveux lissés. Mes tests et mes photos datées arriveront ici. D'ici là, vérifie toujours la liste INCI : l'absence de sodium chloride est le point clé."
+    },
+    {
+     "type": "photo",
+     "alt": "Flacons de shampoings doux pour cheveux lissés",
+     "legende": "La sélection à tester, avant les photos de résultat."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quel shampoing utiliser après un lissage brésilien ?",
+   "r": "Un shampoing sans sulfate fort et sans chlorure de sodium (sodium chloride). Vérifie les premières lignes de la liste INCI, et demande conseil à ton salon selon le produit utilisé."
+  },
+  {
+   "q": "Combien de temps attendre avant le premier shampoing ?",
+   "r": "Ça dépend du produit de lissage. Certains salons demandent plusieurs jours, d'autres non. La consigne de ton salon fait foi."
+  },
+  {
+   "q": "Le sel abîme-t-il le lissage brésilien ?",
+   "r": "Le chlorure de sodium est déconseillé par la plupart des salons, car il accélérerait la perte du soin. L'eau de mer aussi : rince-toi à l'eau douce après la baignade."
+  },
+  {
+   "q": "Peut-on utiliser un shampoing normal après un lissage ?",
+   "r": "Tu peux, mais le lissage risque de durer moins longtemps. Si tu tiens à le faire durer, un shampoing doux sans sulfate est le choix le plus prudent."
+  }
+ ],
+ "liens_internes": [
+  "meilleur-shampoing-sans-sulfate",
+  "routine-cheveux-boucles",
+  "types-de-cheveux",
+  "cheveux-boucles",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias, Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "Règlement (UE) n° 655/2013 sur les allégations des produits cosmétiques",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R0655"
+  },
+  {
+   "titre": "DGCCRF, allégations sur les produits cosmétiques",
+   "url": "https://www.economie.gouv.fr/dgccrf/allegations-sur-les-produits-cosmetiques-tout-nest-pas-permis"
+  }
+ ],
+ "maj": "2026-11-22",
+ "parent": "soins-cheveux"
+}

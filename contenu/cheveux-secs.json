@@ -1,0 +1,396 @@
+{
+ "slug": "cheveux-secs",
+ "gabarit": "article",
+ "rubrique": "problemes",
+ "parent": "problemes-cheveux",
+ "court": "Cheveux secs",
+ "kw": "cheveux secs + shampoing cheveux secs",
+ "volume": "1 900 + 1 900",
+ "argent": true,
+ "affilie": true,
+ "dermato": false,
+ "title": "Cheveux secs : causes, routine et shampoing à choisir",
+ "description": "Cheveux secs, rêches ou ternes : les vraies causes, la différence avec un cuir chevelu sec, une routine simple et 5 shampoings pour cheveux secs.",
+ "h1": "Cheveux secs : d'où ça vient et comment les chouchouter",
+ "chapo": "Des cheveux qui accrochent, qui manquent de brillance, qui gonflent au moindre souffle d'humidité : ce sont souvent des cheveux secs. Bonne nouvelle, c'est l'un des soucis qui répondent le mieux à une routine bien pensée. Je t'explique pourquoi ils sèchent, comment les distinguer d'un cuir chevelu sec ou de cheveux abîmés, et quel shampoing choisir.",
+ "photo_alt": "Une femme qui touche ses longueurs bouclées et sèches, à la lumière du jour",
+ "en_bref": [
+  "Un cheveu sec manque de lipides et d'eau à sa surface : il est rêche, terne et s'emmêle.",
+  "Les cheveux bouclés et crépus sont plus souvent secs, parce que le sébum descend mal le long de la fibre.",
+  "Chaleur, colorations, soleil, calcaire et shampoings décapants accentuent la sécheresse.",
+  "La routine de base : shampoing doux, après-shampoing à chaque lavage, masque une fois par semaine.",
+  "Cheveux secs, cuir chevelu sec et cheveux abîmés sont trois choses différentes."
+ ],
+ "sections": [
+  {
+   "h2": "À quoi on reconnaît des cheveux secs",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Passe une mèche entre tes doigts : si elle est rêche, mate, si elle fait des nœuds facilement et si tes pointes semblent plus claires ou plus fines que tes racines, tes cheveux manquent sans doute de lipides. La cuticule, la couche externe du cheveu, est alors moins lisse, la lumière se reflète mal, et les cheveux frottent entre eux."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Aspect terne, même juste après le lavage.",
+      "Cheveux qui gonflent ou frisottent à l'humidité.",
+      "Démêlage difficile, nœuds au bout des mèches.",
+      "Sensation de paille sur les longueurs, alors que les racines vont bien."
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Les causes les plus fréquentes",
+   "blocs": [
+    {
+     "type": "h3",
+     "texte": "Ta texture"
+    },
+    {
+     "type": "p",
+     "texte": "Sur des cheveux raides, le sébum glisse facilement de la racine aux pointes. Sur des [cheveux bouclés](cheveux-boucles) ou [crépus](cheveux-crepus), chaque courbe freine sa descente, et les longueurs en reçoivent peu. Une étude au microscope publiée en 2000 (Khumalo et al., citée en sources) a aussi montré que les cheveux crépus forment beaucoup plus de nœuds et de cassures au peignage. Ces textures ont donc besoin de plus de douceur et de plus de soin, ce n'est pas un défaut."
+    },
+    {
+     "type": "h3",
+     "texte": "La chaleur"
+    },
+    {
+     "type": "p",
+     "texte": "Sèche-cheveux brûlant, lisseur, fer à boucler : plus la température monte, plus la surface du cheveu s'abîme. Une étude coréenne de 2011 (Lee et al.) a observé que les dégâts en surface augmentaient avec la chaleur, mais aussi qu'un séchage tiède à 15 cm en bougeant sans arrêt abîmait moins que de laisser les cheveux mouillés très longtemps. Le bon réflexe : sèche-cheveux tiède, tenu à distance, et protecteur de chaleur avant tout outil chauffant."
+    },
+    {
+     "type": "h3",
+     "texte": "Colorations, décolorations et lissages"
+    },
+    {
+     "type": "p",
+     "texte": "Les produits chimiques ouvrent la cuticule pour agir à l'intérieur du cheveu. Après plusieurs passages, la fibre retient moins bien l'eau et les soins. Une décoloration, en particulier, assèche presque toujours les longueurs."
+    },
+    {
+     "type": "h3",
+     "texte": "Le soleil, le sel et le chlore"
+    },
+    {
+     "type": "p",
+     "texte": "Le soleil fragilise la surface du cheveu et fait ternir la couleur. Ajoute la mer ou la piscine, et les longueurs sortent de l'été rêches. Rince-les à l'eau claire après chaque baignade."
+    },
+    {
+     "type": "h3",
+     "texte": "Le calcaire"
+    },
+    {
+     "type": "p",
+     "texte": "Dans beaucoup de régions françaises, l'eau est dure. Une étude publiée en 2018 (Luqman et al.) a mesuré une baisse de résistance des cheveux trempés dans une eau très calcaire, même si toutes les études ne vont pas dans le même sens. Si tes cheveux sont rêches juste après le rinçage, le calcaire peut jouer : un shampoing clarifiant de temps en temps aide à retirer les dépôts."
+    },
+    {
+     "type": "h3",
+     "texte": "Des lavages trop décapants"
+    },
+    {
+     "type": "p",
+     "texte": "La revue sur les cosmétiques capillaires citée en sources rappelle que les tensioactifs forts, comme certains sulfates, augmentent les charges électriques à la surface du cheveu, donc les frisottis et les frottements. Pour des cheveux secs, un [shampoing sans sulfate](meilleur-shampoing-sans-sulfate) ou très doux change souvent beaucoup de choses."
+    }
+   ]
+  },
+  {
+   "h2": "Cheveux secs, cuir chevelu sec ou cheveux abîmés ?",
+   "blocs": [
+    {
+     "type": "tableau",
+     "legende": "Trois soucis qui se ressemblent, mais qui ne se traitent pas pareil.",
+     "entetes": [
+      "Ce que tu as",
+      "Ce que tu remarques",
+      "Ce qui aide"
+     ],
+     "lignes": [
+      [
+       "Cheveux secs",
+       "Longueurs rêches, ternes, qui s'emmêlent, cuir chevelu normal",
+       "Shampoing doux, après-shampoing, masque, huile en finition"
+      ],
+      [
+       "Cuir chevelu sec",
+       "Peau qui tiraille, petites peaux fines, démangeaisons",
+       "Eau tiède, shampoing très doux, et avis médical si ça dure, voir [cuir chevelu qui gratte](cuir-chevelu-qui-gratte)"
+      ],
+      [
+       "[Cheveux abîmés](cheveux-abimes)",
+       "Cassures, pointes fourchues, cheveux qui ne poussent plus en longueur",
+       "Moins de chaleur et de chimie, coupe des pointes, soins protéinés"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Souvent, les trois se mélangent : des cheveux secs mal protégés finissent par casser. Si tes cheveux absorbent les soins en deux minutes puis redeviennent secs, jette un œil à ma page sur la [porosité des cheveux](porosite-cheveux)."
+    }
+   ]
+  },
+  {
+   "h2": "Ma routine pour cheveux secs",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "**Shampoing doux** sur le cuir chevelu, une à trois fois par semaine selon tes racines. Laisse la mousse glisser sur les longueurs sans les frotter.",
+      "**Après-shampoing à chaque lavage**, sans exception, sur les longueurs et les pointes. Démêle à ce moment-là, avec les doigts ou un peigne à dents larges.",
+      "**Masque une fois par semaine**, à la place de l'après-shampoing, en le laissant poser 10 à 20 minutes. Mes idées sur la page [masque cheveux](masque-cheveux) et en version [maison](masque-cheveux-maison).",
+      "**Soin sans rinçage (leave-in)** sur cheveux essorés, surtout si tu as des boucles.",
+      "**Une goutte d'huile en finition**, sur les pointes uniquement, pour sceller. Ricin, coco ou autre, je compare sur ma page [huile de ricin](huile-de-ricin-cheveux).",
+      "Séchage tiède, ou à l'air libre en serrant les cheveux dans une serviette en microfibre ou un tee-shirt, sans frotter."
+     ]
+    },
+    {
+     "type": "astuce",
+     "texte": "Mon plus gros changement, ça a été l'après-shampoing systématique. Avant, je le zappais quand j'étais pressée. Maintenant, même deux minutes sous la douche, je le mets, et mes nœuds ont nettement diminué."
+    },
+    {
+     "type": "photo",
+     "alt": "Une femme qui applique une noisette d'après-shampoing sur ses pointes, mèches séparées",
+     "legende": "L'après-shampoing, c'est sur les longueurs, et à chaque lavage."
+    },
+    {
+     "type": "video",
+     "titre": "Ma routine cheveux secs en cinq gestes"
+    }
+   ]
+  },
+  {
+   "h2": "Comment choisir un shampoing pour cheveux secs",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Un bon shampoing pour cheveux secs lave sans faire crisser. Il mousse souvent moins, et c'est normal. Regarde la liste des ingrédients : les glucosides, la cocamidopropyl betaine ou les iséthionates sont plus doux que le sodium lauryl sulfate. Et retiens qu'un shampoing ne remplace jamais l'après-shampoing : son rôle, c'est de nettoyer."
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Ta situation",
+      "Ce qu'il te faut",
+      "Ce qu'il faut éviter"
+     ],
+     "lignes": [
+      [
+       "Cheveux fins et secs",
+       "Formule douce et légère, qui n'alourdit pas",
+       "Les crèmes lavantes très riches au beurre"
+      ],
+      [
+       "Cheveux épais ou bouclés secs",
+       "Shampoing crémeux sans sulfate, ou co-wash une fois sur deux",
+       "Les shampoings purifiants pour cheveux gras"
+      ],
+      [
+       "Cheveux crépus très secs",
+       "Formule très douce, pré-poo à l'huile avant le lavage",
+       "Frotter les longueurs, laver tous les jours"
+      ],
+      [
+       "Cheveux colorés ou décolorés",
+       "Shampoing doux spécial couleur, eau tiède",
+       "L'eau très chaude et les clarifiants fréquents"
+      ],
+      [
+       "Racines grasses, pointes sèches",
+       "Shampoing léger sur les racines, soin riche sur les pointes, voir [cheveux gras](cheveux-gras)",
+       "Un shampoing « nutrition » sur tout le cuir chevelu"
+      ]
+     ]
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Trouve ta texture pour choisir le bon soin"
+    }
+   ]
+  },
+  {
+   "h2": "Ma sélection de shampoings pour cheveux secs",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Cinq shampoings faciles à trouver en France, du supermarché aux enseignes beauté. Pour aller plus loin par texture, j'ai aussi une page [meilleur shampoing](meilleur-shampoing). Les formules changent, vérifie toujours la liste des ingrédients au moment de l'achat."
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "Garnier Ultra Doux",
+       "nom": "Nutrition Profonde, avocat et karité",
+       "pourqui": "les cheveux secs, bouclés à crépus, avec un petit budget.",
+       "prix": "€",
+       "points": [
+        "À l'huile d'avocat et au beurre de karité, texture nourrissante.",
+        "En supermarché partout, grand format disponible."
+       ],
+       "limites": "Peut alourdir des cheveux fins ou des ondulations légères. Parfum assez présent.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-garnier-ultra-doux-avocat-karite"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-garnier-ultra-doux-avocat-karite"
+        }
+       ]
+      },
+      {
+       "marque": "Cattier",
+       "nom": "Shampooing Moelle de Bambou, cheveux secs",
+       "pourqui": "celles qui veulent une formule bio certifiée et douce, à petit prix.",
+       "prix": "€",
+       "points": [
+        "Bio, à la moelle de bambou et à l'huile de macadamia.",
+        "Trouvable en magasin bio et en parapharmacie."
+       ],
+       "limites": "Texture plus liquide que les crèmes lavantes : sur des cheveux crépus très secs, il faudra un soin riche derrière.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-cattier-moelle-de-bambou"
+        },
+        {
+         "marchand": "Greenweez",
+         "id": "greenweez-cattier-moelle-de-bambou"
+        }
+       ]
+      },
+      {
+       "marque": "L'Oréal Paris Elsève",
+       "nom": "Huile Extraordinaire, shampoing nourrissant",
+       "pourqui": "les cheveux raides à ondulés secs, qui veulent de la brillance.",
+       "prix": "€",
+       "points": [
+        "Gamme très connue pour cheveux secs, avec soins assortis.",
+        "Laisse les longueurs douces et faciles à démêler."
+       ],
+       "limites": "Contient des tensioactifs classiques : pas l'option la plus douce pour des boucles très sèches. Peut graisser vite des racines déjà grasses.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-elseve-huile-extraordinaire-shampoing"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-elseve-huile-extraordinaire-shampoing"
+        }
+       ]
+      },
+      {
+       "marque": "Klorane",
+       "nom": "Shampoing Nutrition à la Mangue",
+       "pourqui": "les cheveux secs de toute texture, avec un cuir chevelu sensible.",
+       "prix": "€€",
+       "points": [
+        "Au beurre de mangue, formule de pharmacie bien tolérée selon la marque.",
+        "Existe aussi en version solide, pratique en voyage."
+       ],
+       "limites": "Un peu léger pour des cheveux crépus très secs. Plus cher qu'un shampoing de supermarché.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-klorane-shampoing-mangue"
+        },
+        {
+         "marchand": "Sephora",
+         "id": "sephora-klorane-shampoing-mangue"
+        }
+       ]
+      },
+      {
+       "marque": "Kérastase",
+       "nom": "Nutritive, Bain Satin",
+       "pourqui": "les cheveux secs, moyens à épais, si tu veux te faire plaisir.",
+       "prix": "€€€",
+       "points": [
+        "Gamme de salon dédiée aux cheveux secs, texture crémeuse.",
+        "Existe en version plus riche pour les cheveux très secs."
+       ],
+       "limites": "Prix élevé. Sur des cheveux fins, la version riche peut aplatir.",
+       "liens": [
+        {
+         "marchand": "Lookfantastic",
+         "id": "lookfantastic-kerastase-nutritive-bain-satin"
+        },
+        {
+         "marchand": "Sephora",
+         "id": "sephora-kerastase-nutritive-bain-satin"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Les erreurs qui assèchent encore plus",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Frotter les longueurs** avec le shampoing ou avec la serviette.",
+      "**Sauter l'après-shampoing** parce qu'on est pressée.",
+      "**Brosser à sec** des cheveux bouclés ou crépus.",
+      "**Lisser tous les jours** sans protecteur de chaleur.",
+      "**Mettre de l'huile sur des cheveux secs et non hydratés** : l'huile scelle, elle n'apporte pas d'eau. Pose-la sur des cheveux humides ou après ton leave-in.",
+      "**Empiler les masques riches** : s'ils laissent un film, les cheveux paraissent lourds et toujours rêches. Un clarifiant de temps en temps remet les compteurs à zéro."
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "À quelle fréquence laver des cheveux secs ?",
+   "r": "Ça dépend surtout de ton cuir chevelu. Souvent une à trois fois par semaine suffit, avec un shampoing doux. Si tes racines graissent vite, lave-les plus souvent et protège les longueurs avec ton après-shampoing."
+  },
+  {
+   "q": "L'huile suffit-elle à hydrater des cheveux secs ?",
+   "r": "Non. L'huile aide à garder l'eau dans le cheveu et apporte de la brillance, mais l'hydratation vient de l'eau et des soins à base d'eau. Pose-la en dernier, sur cheveux humides."
+  },
+  {
+   "q": "Faut-il couper ses pointes quand on a les cheveux secs ?",
+   "r": "Si elles sont fourchues ou cassantes, oui : aucun soin ne recolle une pointe abîmée. Une coupe légère tous les trois ou quatre mois aide à garder des longueurs nettes."
+  },
+  {
+   "q": "Le co-wash est-il une bonne idée pour les cheveux secs ?",
+   "r": "Pour les bouclés, frisés et crépus secs, souvent oui, en alternance avec un shampoing doux pour garder un cuir chevelu propre. Pour des cheveux fins, il risque d'alourdir."
+  },
+  {
+   "q": "Mes cheveux sont secs depuis peu, sans raison, c'est normal ?",
+   "r": "Un changement d'eau, de saison, de produit ou une coloration récente l'explique souvent. Si la sécheresse vient avec une chute inhabituelle ou un cuir chevelu irrité, parles-en à ton médecin."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-abimes",
+  "cheveux-boucles",
+  "cheveux-blancs",
+  "cheveux-crepus",
+  "porosite-cheveux",
+  "masque-cheveux",
+  "masque-cheveux-maison",
+  "huile-de-ricin-cheveux",
+  "meilleur-shampoing"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias M.F., Hair cosmetics: an overview, Int J Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "Khumalo N.P. et al., What is normal black African hair? A light and scanning electron-microscopic study, J Am Acad Dermatol, 2000",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11050586/"
+  },
+  {
+   "titre": "Lee Y. et al., Hair Shaft Damage from Heat and Drying Time of Hair Dryer, Annals of Dermatology, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/"
+  },
+  {
+   "titre": "Luqman M.W. et al., To Evaluate and Compare Changes in Baseline Strength of Hairs after Treating them with Deionized Water and Hard Water, Int J Trichology, 2018",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6028999/"
+  }
+ ],
+ "maj": "2026-11-22"
+}

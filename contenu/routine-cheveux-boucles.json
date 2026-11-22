@@ -1,0 +1,303 @@
+{
+ "slug": "routine-cheveux-boucles",
+ "gabarit": "article",
+ "rubrique": "routines",
+ "parent": "cheveux-boucles",
+ "court": "Routine cheveux bouclés",
+ "kw": "routine cheveux bouclés",
+ "volume": "3 600",
+ "argent": false,
+ "affilie": false,
+ "dermato": false,
+ "title": "Routine cheveux bouclés : les 5 étapes simples",
+ "description": "Ma routine cheveux bouclés en 5 étapes : lavage doux, démêlage sous l'eau, leave-in, gel et séchage. Version débutante, version avancée et erreurs à éviter.",
+ "h1": "Routine cheveux bouclés : les 5 étapes, de débutante à experte",
+ "chapo": "Une belle routine boucles, ce n'est pas dix produits ni deux heures dans la salle de bain. C'est cinq gestes faits dans le bon ordre, avec des produits adaptés à ta porosité. Je te montre la version de base, puis comment l'ajuster quand tu connais mieux tes cheveux.",
+ "photo_alt": "Une femme sous la douche en train de démêler ses boucles avec les doigts, après-shampoing appliqué",
+ "en_bref": [
+  "Les 5 étapes : lavage doux, après-shampoing et démêlage sous l'eau, leave-in, gel ou crème, séchage doux.",
+  "On applique les produits sur cheveux **trempés**, c'est le secret des boucles définies.",
+  "Lavage en général une à deux fois par semaine, à ajuster selon ton cuir chevelu.",
+  "Entre deux lavages, un refresh à l'eau suffit souvent.",
+  "Tu ne connais pas ta porosité ? Le [quiz](quiz-type-de-cheveux) te la donne en 2 minutes."
+ ],
+ "sections": [
+  {
+   "h2": "Pourquoi les cheveux bouclés ont besoin d'une routine à part",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Une boucle, c'est un cheveu qui tourne sur lui-même. Le sébum produit par le cuir chevelu descend mal le long de ces courbes, donc les longueurs et les pointes manquent plus vite de gras protecteur. Résultat : des cheveux qui paraissent secs, des frisottis, et des boucles qui se séparent en mousse dès qu'on les touche."
+    },
+    {
+     "type": "p",
+     "texte": "La bonne nouvelle, c'est qu'une routine pensée pour les boucles change vraiment la donne. Le principe tient en trois idées : **laver sans décaper**, **hydrater beaucoup**, et **figer la boucle pendant qu'elle sèche** pour qu'elle garde sa forme. Toute la suite découle de là."
+    },
+    {
+     "type": "p",
+     "texte": "Cette routine marche pour les [cheveux bouclés](cheveux-boucles) de type 3A à 3C, et elle s'adapte facilement aux [cheveux ondulés](cheveux-ondules). Si tes cheveux sont plutôt frisés serrés ou crépus, regarde plutôt ma [routine cheveux crépus](routine-cheveux-crepus), qui insiste davantage sur la nutrition et la protection."
+    }
+   ]
+  },
+  {
+   "h2": "Les 5 étapes de la routine, pas à pas",
+   "blocs": [
+    {
+     "type": "h3",
+     "texte": "Étape 1 : un lavage doux, ou un co-wash"
+    },
+    {
+     "type": "p",
+     "texte": "Les shampoings classiques contiennent souvent des tensioactifs très nettoyants. Ils retirent bien les résidus, mais aussi une partie des lipides naturels du cheveu. Une revue sur les cosmétiques capillaires rappelle que le rôle d'un shampoing est d'abord de nettoyer le cuir chevelu, et que les formules douces sont mieux tolérées par les cheveux fragiles. Pour les boucles, on choisit donc un [shampoing sans sulfate](meilleur-shampoing-sans-sulfate) ou un co-wash (un après-shampoing lavant)."
+    },
+    {
+     "type": "p",
+     "texte": "Concentre le produit **sur le cuir chevelu**, masse du bout des doigts (pas avec les ongles), puis laisse la mousse glisser sur les longueurs au rinçage. Les longueurs n'ont presque pas besoin d'être frottées."
+    },
+    {
+     "type": "h3",
+     "texte": "Étape 2 : après-shampoing et démêlage sous l'eau"
+    },
+    {
+     "type": "p",
+     "texte": "C'est l'étape la plus importante. Applique une bonne dose d'après-shampoing sur les longueurs, puis démêle **sous un filet d'eau**, avec les doigts d'abord, puis éventuellement un peigne à dents larges, des pointes vers les racines. L'eau et le produit font glisser les nœuds sans tirer."
+    },
+    {
+     "type": "p",
+     "texte": "Tu peux rincer à moitié seulement (on garde un peu de produit) si tes cheveux sont secs. Une fois par semaine ou tous les quinze jours, remplace l'après-shampoing par un masque, ou essaie un [masque maison](masque-cheveux-maison)."
+    },
+    {
+     "type": "h3",
+     "texte": "Étape 3 : le leave-in, sur cheveux trempés"
+    },
+    {
+     "type": "p",
+     "texte": "Ne sèche surtout pas tes cheveux avant. Sur cheveux encore ruisselants, applique un soin sans rinçage (leave-in) section par section. Il hydrate, il facilite le coiffage, et il prépare le terrain pour le gel. Une petite noisette par section suffit au début, tu ajusteras."
+    },
+    {
+     "type": "h3",
+     "texte": "Étape 4 : gel ou crème, en praying hands puis scrunch"
+    },
+    {
+     "type": "p",
+     "texte": "Le gel crée une sorte de coque qui garde la boucle en place pendant le séchage. Deux gestes à connaître :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Praying hands** : tu prends une mèche entre tes deux paumes, comme pour prier, et tu fais glisser tes mains du haut vers le bas. Ça lisse les frisottis sans casser la boucle.",
+      "**Scrunch** : tu remontes les longueurs dans tes mains en coupe et tu serres doucement, plusieurs fois. Tu dois entendre un petit bruit d'eau : c'est bon signe.",
+      "Si tu trouves le gel trop sec, commence par une crème coiffante, ou superpose une crème puis un gel."
+     ]
+    },
+    {
+     "type": "h3",
+     "texte": "Étape 5 : séchage en plopping ou au diffuseur"
+    },
+    {
+     "type": "p",
+     "texte": "Le **plopping** consiste à poser tes cheveux sur un tee-shirt en coton ou une serviette en microfibre étalée, à enrouler le tissu autour de ta tête, et à laisser 10 à 20 minutes. Ça absorbe l'excès d'eau sans frotter."
+    },
+    {
+     "type": "p",
+     "texte": "Ensuite, à l'air libre ou au **diffuseur**, à température tiède. Une étude de 2011 a montré que le sèche-cheveux tenu à environ 15 cm et en mouvement continu abîme moins la fibre qu'un séchage à l'air très prolongé, mais que les dégâts augmentent quand la température monte. Donc diffuseur oui, mais tiède et sans le coller au crâne. Ne touche pas tes cheveux tant qu'ils ne sont pas secs à 100 %."
+    },
+    {
+     "type": "astuce",
+     "texte": "Une fois secs, ta coque de gel peut sembler cartonnée. C'est normal ! Mets une goutte d'huile au creux des mains et froisse doucement les boucles vers le haut : on appelle ça « scrunch out the crunch ». La coque se casse et il reste des boucles souples."
+    },
+    {
+     "type": "video",
+     "titre": "Mon wash day boucles en temps réel, de la douche au diffuseur"
+    }
+   ]
+  },
+  {
+   "h2": "Version débutante ou version avancée : laquelle choisir ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Tu n'as pas besoin de tout acheter d'un coup. Je te conseille vraiment de commencer petit, d'observer tes boucles pendant trois ou quatre lavages, puis d'ajouter un produit à la fois. Comme ça tu sais ce qui marche."
+    },
+    {
+     "type": "tableau",
+     "legende": "Deux niveaux de routine pour cheveux bouclés",
+     "entetes": [
+      "Étape",
+      "Débutante (3 produits)",
+      "Avancée"
+     ],
+     "lignes": [
+      [
+       "Lavage",
+       "Shampoing sans sulfate",
+       "Alternance shampoing doux et co-wash, shampoing clarifiant ponctuel"
+      ],
+      [
+       "Soin",
+       "Après-shampoing riche, démêlage sous l'eau",
+       "Après-shampoing + masque une fois par semaine ou tous les quinze jours"
+      ],
+      [
+       "Leave-in",
+       "L'après-shampoing en partie non rincé",
+       "Leave-in dédié choisi selon ta porosité"
+      ],
+      [
+       "Coiffant",
+       "Gel",
+       "Crème puis gel, en praying hands et scrunch"
+      ],
+      [
+       "Séchage",
+       "Plopping puis air libre",
+       "Plopping, diffuseur tiède, scrunch out the crunch"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour choisir tes produits selon ta texture, j'ai rassemblé mes repères dans [mon comparatif de shampoings pour cheveux bouclés](meilleur-shampoing-cheveux-boucles)."
+    }
+   ]
+  },
+  {
+   "h2": "À quelle fréquence laver ses cheveux bouclés ?",
+   "blocs": [
+    {
+     "type": "cta_quiz",
+     "titre": "Ta routine dépend aussi de ta porosité"
+    },
+    {
+     "type": "p",
+     "texte": "Il n'y a pas de règle universelle. Beaucoup de filles aux cheveux bouclés lavent une à deux fois par semaine, mais tout dépend de ton cuir chevelu, de ton sport, de la quantité de produits que tu utilises."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Cuir chevelu qui graisse vite** : tu peux laver plus souvent, avec un shampoing doux, en ne lavant que les racines.",
+      "**Cuir chevelu sec, longueurs très sèches** : espace les lavages et utilise le co-wash entre deux shampoings.",
+      "**Beaucoup de gel ou d'huile** : un shampoing clarifiant de temps en temps (par exemple une fois par mois) retire l'accumulation qui alourdit les boucles.",
+      "**Démangeaisons persistantes** : ce n'est pas qu'une question de routine, lis ma page sur le [cuir chevelu qui gratte](cuir-chevelu-qui-gratte)."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Ta [porosité](porosite-cheveux) joue aussi : des cheveux à faible porosité absorbent mal les produits et préfèrent des textures légères, des cheveux à forte porosité boivent tout et ont besoin de soins plus riches."
+    }
+   ]
+  },
+  {
+   "h2": "Le refresh entre deux lavages",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le deuxième ou le troisième jour, les boucles s'aplatissent, surtout après une nuit. Pas besoin de tout relaver. Voici mon refresh express :"
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Vaporise de l'eau (pure ou avec un peu de leave-in) sur les zones écrasées, jusqu'à ce qu'elles soient bien humides.",
+      "Fais un scrunch doux pour réveiller la boucle.",
+      "Si une mèche a perdu sa forme, enroule-la autour de ton doigt.",
+      "Si besoin, une petite noisette de gel dilué dans les mains, puis scrunch.",
+      "Laisse sécher sans toucher, ou un petit coup de diffuseur tiède."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour la nuit, une taie d'oreiller en satin ou un « ananas » (un chouchou lâche sur le haut de la tête) protège beaucoup les boucles et rend le refresh presque inutile."
+    },
+    {
+     "type": "photo",
+     "alt": "Une femme qui vaporise de l'eau sur ses boucles le matin, devant le miroir",
+     "legende": "Le refresh du jour 3 : un vaporisateur, un scrunch, et c'est reparti."
+    }
+   ]
+  },
+  {
+   "h2": "Les erreurs qui cassent tes boucles",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Démêler à sec à la brosse** : c'est la façon la plus rapide de transformer des boucles en mousse et de casser les cheveux.",
+      "**Frotter avec une serviette éponge** : le tissu rugueux ébouriffe la fibre. Préfère un tee-shirt ou une microfibre, et presse sans frotter.",
+      "**Appliquer les produits sur cheveux essorés** : la boucle se forme dans l'eau. Plus tes cheveux sont mouillés, plus elle sera définie.",
+      "**Toucher les cheveux pendant le séchage** : chaque geste crée des frisottis.",
+      "**Changer tous les produits en même temps** : impossible ensuite de savoir lequel posait problème.",
+      "**Mettre trop de protéines** : certains cheveux deviennent rêches et cassants avec trop de soins protéinés. Si c'est ton cas, reviens à des soins hydratants."
+     ]
+    },
+    {
+     "type": "astuce",
+     "titre": "Ce qui a tout changé chez moi",
+     "texte": "Chez moi, le déclic a été de démêler uniquement sous la douche, avec beaucoup d'après-shampoing. Mes boucles se sont regroupées dès le premier lavage. Ça ne marchera pas forcément pareil pour toi, mais c'est le geste par lequel je commencerais."
+    }
+   ]
+  },
+  {
+   "h2": "Et la méthode curly girl, dans tout ça ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La méthode curly girl a été popularisée par la coiffeuse Lorraine Massey. Elle repose sur quelques règles : pas de shampoing aux sulfates, pas de silicones non solubles dans l'eau, pas de brosse à sec, pas de chaleur forte. La routine que je te propose s'en inspire beaucoup."
+    },
+    {
+     "type": "p",
+     "texte": "Mon avis de grande sœur : prends-la comme une boîte à idées, pas comme une religion. Certains silicones apportent de la glisse et protègent la fibre, comme le rappelle la revue sur les cosmétiques capillaires citée en sources. Et un shampoing clarifiant de temps en temps n'a jamais tué personne. L'important, c'est d'observer tes boucles, pas de cocher une liste."
+    },
+    {
+     "type": "p",
+     "texte": "Tu veux savoir quels produits choisir pour tes boucles, sans tout tester toi-même ? C'est le but du [guide PDF des meilleurs produits pour ton type de cheveux](guide-produits-cheveux-pdf)."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Combien de produits faut-il pour une routine cheveux bouclés ?",
+   "r": "Trois suffisent pour commencer : un shampoing doux, un après-shampoing riche et un gel. Tu ajouteras un leave-in ou un masque ensuite, si tes boucles en ont besoin."
+  },
+  {
+   "q": "Dois-je arrêter complètement le shampoing ?",
+   "r": "Non. Le co-wash convient à certaines, mais le cuir chevelu a besoin d'être vraiment nettoyé régulièrement. Un shampoing sans sulfate une fois par semaine, ou un clarifiant de temps en temps, évite l'accumulation."
+  },
+  {
+   "q": "Pourquoi mes boucles sont-elles cartonnées après le gel ?",
+   "r": "C'est la coque de gel, elle est voulue. Une fois les cheveux secs à 100 %, froisse doucement tes boucles avec une goutte d'huile dans les mains : elles deviennent souples."
+  },
+  {
+   "q": "Combien de temps avant de voir un résultat ?",
+   "r": "On voit souvent une différence dès les premiers lavages sur la définition. Mais il faut quelques semaines pour bien régler les quantités et trouver les bons produits. Sois patiente et note ce que tu fais."
+  },
+  {
+   "q": "Le diffuseur abîme-t-il les boucles ?",
+   "r": "Utilisé tiède, à distance et en mouvement, il reste raisonnable. Une étude de 2011 a observé que les dégâts augmentent surtout avec la température. Évite la chaleur maximale."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-boucles",
+  "meilleur-shampoing-cheveux-boucles",
+  "meilleur-shampoing-sans-sulfate",
+  "porosite-cheveux",
+  "masque-cheveux-maison",
+  "quiz-type-de-cheveux",
+  "guide-produits-cheveux-pdf"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias M.F., Hair cosmetics: an overview, Int J Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "Lee Y. et al., Hair shaft damage from heat and drying time of hair dryer, Ann Dermatol, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/"
+  },
+  {
+   "titre": "De La Mettrie R. et al., Shape variability and classification of human hair: a worldwide approach, Hum Biol, 2007",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18078200/"
+  }
+ ],
+ "maj": "2026-11-22"
+}

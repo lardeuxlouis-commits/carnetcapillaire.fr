@@ -1,0 +1,264 @@
+{
+ "slug": "types-de-cheveux",
+ "gabarit": "article",
+ "rubrique": "types",
+ "court": "Types de cheveux",
+ "kw": "type de cheveux (raides, ondulés, bouclés, frisés, crépus, classification 1A à 4C)",
+ "volume": "n.r. (cluster cheveux bouclés 22 200, frisés 8 100, crépus 6 600, fins 1 600)",
+ "argent": false,
+ "affilie": false,
+ "dermato": false,
+ "title": "Types de cheveux : de raides à crépus, trouve le tien",
+ "description": "Raides, ondulés, bouclés, frisés ou crépus, fins ou épais : comprends la classification de 1A à 4C et observe tes cheveux pour choisir la bonne routine.",
+ "h1": "Types de cheveux : de raides à crépus, comment reconnaître les tiens",
+ "chapo": "Raides, ondulés, bouclés, frisés, crépus : la forme de tes cheveux n'est qu'une partie de l'histoire. Leur épaisseur, leur porosité et ton cuir chevelu comptent tout autant. Voici comment lire les codes de 1A à 4C, et surtout comment observer tes propres cheveux sans te prendre la tête.",
+ "photo_alt": "Plusieurs mèches de cheveux côte à côte, des plus raides aux plus crépus",
+ "en_bref": [
+  "La classification de 1 à 4 (avec les sous-types A, B, C) a été popularisée dans les années 1990 par le coiffeur Andre Walker.",
+  "Type 1 : raides. Type 2 : ondulés en S. Type 3 : boucles en spirale. Type 4 : frisures serrées et crépus.",
+  "Une même tête mélange souvent plusieurs types : c'est normal.",
+  "L'épaisseur du cheveu, la porosité et ton cuir chevelu (gras ou sec) comptent autant que la forme pour choisir tes produits.",
+  "Le plus simple pour démarrer : observer tes cheveux propres, sans produit, séchés à l'air."
+ ],
+ "sections": [
+  {
+   "h2": "D'où vient la classification 1A à 4C ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le système le plus connu a été popularisé dans les années 1990 par **Andre Walker**, un coiffeur américain. Il range les cheveux en quatre grandes familles : 1 pour les cheveux raides, 2 pour les ondulés, 3 pour les bouclés et 4 pour les frisés serrés et crépus. Chaque famille est ensuite découpée en sous-types A, B et C, du plus lâche au plus serré."
+    },
+    {
+     "type": "p",
+     "texte": "Ce n'est pas une classification scientifique au départ. C'était un outil de coiffeur pour parler de textures et vendre des soins adaptés. Mais il est devenu le langage commun de toute la communauté beauté sur Instagram, TikTok et YouTube. C'est pour ça qu'il est utile de le connaître : quand quelqu'un dit qu'elle a des cheveux 3B, tu vois tout de suite à peu près à quoi ressemblent ses boucles."
+    },
+    {
+     "type": "tableau",
+     "legende": "Les grandes familles de la classification Andre Walker",
+     "entetes": [
+      "Type",
+      "Forme",
+      "Ce qu'on remarque souvent"
+     ],
+     "lignes": [
+      [
+       "1A, 1B, 1C",
+       "Cheveux raides, sans ondulation, de très fins et souples à épais et rebelles",
+       "Regraissent vite à la racine, manquent parfois de volume, brillent facilement"
+      ],
+      [
+       "2A, 2B, 2C",
+       "Ondulations en S, de très légères à bien marquées",
+       "Racines plutôt plates, frisottis, ondulation qui retombe vite"
+      ],
+      [
+       "3A, 3B, 3C",
+       "Boucles en spirale, de larges à serrées",
+       "Boucles définies quand elles sont hydratées, volume, sécheresse des pointes"
+      ],
+      [
+       "4A, 4B, 4C",
+       "Frisures très serrées, en ressort ou en zigzag",
+       "Rétraction importante, cheveux fragiles, besoin d'hydratation constant"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Les limites de ces codes (et pourquoi ce n'est pas grave)",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La classification Andre Walker a deux gros défauts. D'abord, elle ne regarde que la forme de la boucle. Elle ne dit rien de l'épaisseur de ton cheveu, de sa densité, ni de sa **porosité**, alors que ce sont souvent ces critères qui expliquent pourquoi un produit marche sur ta copine et pas sur toi."
+    },
+    {
+     "type": "p",
+     "texte": "Ensuite, elle est floue entre deux catégories. Entre un 3C et un 4A, même les coiffeuses ne sont pas toujours d'accord. Et la plupart des têtes ont plusieurs textures : des boucles plus serrées sur la nuque, plus lâches devant, une mèche qui fait sa vie."
+    },
+    {
+     "type": "p",
+     "texte": "Des chercheurs ont proposé une approche plus rigoureuse. En 2007, l'équipe de De La Mettrie a mesuré la courbure des cheveux de personnes du monde entier et a proposé de les classer en **8 types de courbure**, du plus raide au plus frisé ([étude publiée dans Human Biology](https://pubmed.ncbi.nlm.nih.gov/18078200/)). Ce travail montre surtout une chose : la texture est un continuum, il n'y a pas de frontière nette entre les catégories."
+    },
+    {
+     "type": "astuce",
+     "texte": "Ne passe pas des heures à savoir si tu es 3B ou 3C. Prends le code comme un point de départ pour trouver des vidéos et des routines de filles qui ont des cheveux proches des tiens. C'est ça, sa vraie utilité."
+    }
+   ]
+  },
+  {
+   "h2": "Comment observer tes boucles, pas à pas",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Pour bien voir ta texture naturelle, il faut la regarder sans rien qui la modifie. Voici la méthode que je conseille :"
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Lave tes cheveux avec un shampoing doux et un après-shampoing léger, sans masque ni huile ce jour-là.",
+      "Ne mets aucun produit coiffant : pas de crème, pas de gel, pas de mousse.",
+      "Essore doucement avec un t-shirt en coton, sans frotter.",
+      "Laisse sécher à l'air libre, sans toucher. Oui, même si ça frisotte.",
+      "Une fois secs, regarde plusieurs mèches à différents endroits : devant, sur le dessus, sur la nuque.",
+      "Compare la forme à un objet : une vague en S (type 2), une spirale de la taille d'un feutre ou d'un crayon (type 3), un ressort très serré ou un zigzag (type 4)."
+     ]
+    },
+    {
+     "type": "photo",
+     "alt": "Mèches de cheveux secs sans produit posées à côté d'un feutre et d'un crayon pour comparer la taille des boucles",
+     "legende": "Le test du crayon : compare tes boucles à un objet du quotidien."
+    },
+    {
+     "type": "p",
+     "texte": "Regarde aussi la **rétraction** : prends une mèche sèche, étire-la doucement et compare avec sa longueur au repos. Plus la boucle est serrée, plus le cheveu paraît court par rapport à sa vraie longueur. C'est très marqué sur les cheveux crépus."
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Tu préfères qu'on le fasse ensemble ?"
+    }
+   ]
+  },
+  {
+   "h2": "Les cinq familles, en un coup d'œil",
+   "blocs": [
+    {
+     "type": "h3",
+     "texte": "Cheveux raides (1A à 1C)"
+    },
+    {
+     "type": "p",
+     "texte": "Aucune ondulation, ou presque. Le sébum descend facilement le long d'un cheveu lisse : les racines regraissent vite et les longueurs brillent. Les raides fins manquent souvent de volume, les raides épais peuvent être rebelles. Tout est dans le guide des [cheveux raides](cheveux-raides)."
+    },
+    {
+     "type": "h3",
+     "texte": "Cheveux ondulés (2A à 2C)"
+    },
+    {
+     "type": "p",
+     "texte": "Des vagues en S, plus ou moins marquées, souvent plates à la racine. Ils se chargent vite en produit et l'ondulation peut disparaître sous une crème trop riche. Tout est expliqué dans le guide des [cheveux ondulés](cheveux-ondules)."
+    },
+    {
+     "type": "h3",
+     "texte": "Cheveux bouclés (3A à 3C)"
+    },
+    {
+     "type": "p",
+     "texte": "De vraies spirales, larges ou serrées, qui se définissent quand le cheveu est bien hydraté. La sécheresse des pointes et les frisottis sont les soucis les plus fréquents. Le guide complet est ici : [cheveux bouclés](cheveux-boucles)."
+    },
+    {
+     "type": "h3",
+     "texte": "Cheveux frisés (3C à 4A)"
+    },
+    {
+     "type": "p",
+     "texte": "La zone frontière : des boucles très serrées, beaucoup de volume, une forte tendance à se déshydrater. On en parle en détail dans le guide des [cheveux frisés](cheveux-frises)."
+    },
+    {
+     "type": "h3",
+     "texte": "Cheveux crépus (4A à 4C)"
+    },
+    {
+     "type": "p",
+     "texte": "Des frisures en ressort ou en zigzag, une rétraction importante, un cheveu qui a besoin de douceur et d'hydratation. Tout est dans le guide des [cheveux crépus](cheveux-crepus)."
+    }
+   ]
+  },
+  {
+   "h2": "Au-delà de la forme : épaisseur, porosité, cuir chevelu",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Deux personnes aux cheveux raides, ou deux personnes 3B, peuvent avoir besoin de routines totalement différentes. Ce qui fait la différence, ce sont quatre critères :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**La porosité** : la façon dont ton cheveu absorbe et retient l'eau. Un cheveu peu poreux laisse les produits en surface, un cheveu très poreux boit tout mais sèche vite. C'est le critère le plus utile pour choisir tes soins, je t'explique comment la tester dans le guide de la [porosité des cheveux](porosite-cheveux).",
+      "**L'épaisseur du cheveu** : prends un seul cheveu entre tes doigts. Si tu le sens à peine, il est fin et risque d'être alourdi par les produits riches. S'il est bien perceptible, il est épais et supporte mieux les beurres et les crèmes. J'en parle en détail dans le guide des [cheveux fins ou épais](cheveux-fins).",
+      "**La densité** : le nombre de cheveux sur ta tête. Si tu vois facilement ton cuir chevelu sans écarter les cheveux, ta densité est plutôt faible. Une forte densité demande plus de produit et un démêlage par sections.",
+      "**Ton cuir chevelu** : il regraisse en un jour, il tiraille, il gratte ? C'est lui qui décide de ton shampoing, bien plus que tes longueurs. Voir les guides [cheveux gras](cheveux-gras), [cheveux secs](cheveux-secs) et [pellicules et démangeaisons](cuir-chevelu-qui-gratte)."
+     ]
+    },
+    {
+     "type": "video",
+     "titre": "Je teste mon épaisseur, ma porosité et ma densité en 3 minutes"
+    }
+   ]
+  },
+  {
+   "h2": "Et maintenant, quelle routine ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Une fois que tu as une idée de ta texture, de ton épaisseur et de ta porosité, tu peux construire une routine simple. La base est presque toujours la même : un lavage adapté à ton cuir chevelu, un après-shampoing sur les longueurs, un soin profond de temps en temps, puis, pour les cheveux texturés, un produit qui hydrate et un produit qui fixe."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Pour les cheveux raides ou fins : les guides [cheveux raides](cheveux-raides) et [cheveux fins ou épais](cheveux-fins).",
+      "Pour les ondulés et les bouclés : la [routine cheveux bouclés en 5 étapes](routine-cheveux-boucles).",
+      "Pour les frisés serrés et les crépus : la [routine cheveux crépus, wash day pas à pas](routine-cheveux-crepus).",
+      "Pour choisir ton shampoing, quel que soit ton type : [quel shampoing choisir selon tes cheveux](meilleur-shampoing).",
+      "Si quelque chose te gêne (gras, sécheresse, casse, pellicules) : tous les [problèmes de cheveux](problemes-cheveux), un par un."
+     ]
+    },
+    {
+     "type": "astuce",
+     "texte": "Change un seul produit à la fois et garde-le au moins deux ou trois lavages. Sinon, impossible de savoir ce qui t'aide vraiment et ce qui te dessert."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Est-ce qu'on peut avoir plusieurs types de boucles sur la même tête ?",
+   "r": "Oui, c'est même le cas le plus fréquent. Les boucles sont souvent plus serrées sur la nuque et plus lâches sur le devant. Dans ce cas, choisis tes produits pour la texture la plus présente et ajuste la quantité selon les zones."
+  },
+  {
+   "q": "Mon type de boucles peut-il changer ?",
+   "r": "La forme naturelle de ton cheveu dépend de ton follicule, mais son aspect peut beaucoup varier. Des cheveux abîmés par la chaleur ou les colorations bouclent moins bien, et les variations hormonales peuvent modifier la texture. Une routine plus douce redonne souvent de la définition."
+  },
+  {
+   "q": "Quelle est la différence entre cheveux frisés et crépus ?",
+   "r": "Les frisés ont des boucles très serrées mais encore visibles en spirale (autour de 3C et 4A). Les crépus ont des frisures en ressort ou en zigzag, avec une rétraction plus importante (4A à 4C). La frontière est floue, l'important est d'adapter les soins à ce que tu observes."
+  },
+  {
+   "q": "Faut-il connaître son type exact pour bien prendre soin de ses cheveux ?",
+   "r": "Non. Le type sert surtout à trouver des conseils et des routines proches de ta texture. La porosité et l'épaisseur du cheveu sont plus utiles pour choisir tes produits."
+  },
+  {
+   "q": "Pourquoi mes boucles sont-elles plus définies certains jours ?",
+   "r": "L'humidité de l'air, la quantité d'eau au moment de coiffer, le temps de séchage et le produit utilisé changent beaucoup le résultat. Note ce que tu fais les bons jours : c'est la meilleure façon de trouver ta routine."
+  }
+ ],
+ "liens_internes": [
+  "quiz-type-de-cheveux",
+  "cheveux-raides",
+  "cheveux-fins",
+  "cheveux-ondules",
+  "cheveux-boucles",
+  "cheveux-frises",
+  "cheveux-crepus",
+  "porosite-cheveux",
+  "problemes-cheveux",
+  "meilleur-shampoing"
+ ],
+ "sources": [
+  {
+   "titre": "De La Mettrie R. et al., Shape variability and classification of human hair: a worldwide approach, Human Biology, 2007",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18078200/"
+  },
+  {
+   "titre": "Khumalo N. P. et al., What is normal black African hair? A light and scanning electron-microscopic study, J Am Acad Dermatol, 2000",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11050586/"
+  },
+  {
+   "titre": "Gavazzoni Dias M. F., Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  }
+ ],
+ "maj": "2026-11-22",
+ "hub": true,
+ "hub_titre": "Les guides par type de cheveux"
+}

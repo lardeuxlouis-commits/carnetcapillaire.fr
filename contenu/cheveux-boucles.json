@@ -1,0 +1,239 @@
+{
+ "slug": "cheveux-boucles",
+ "gabarit": "article",
+ "rubrique": "types",
+ "parent": "types-de-cheveux",
+ "court": "Cheveux bouclés (3A à 3C)",
+ "kw": "cheveux bouclés",
+ "volume": "22 200",
+ "argent": false,
+ "affilie": false,
+ "dermato": false,
+ "title": "Cheveux bouclés : le guide pour des boucles définies",
+ "description": "Boucles sèches, frisottis, définition qui ne tient pas ? Tout pour comprendre tes cheveux bouclés 3A, 3B ou 3C et construire une routine simple qui marche.",
+ "h1": "Cheveux bouclés : le guide complet pour des boucles définies et douces",
+ "chapo": "Des boucles magnifiques le jour du lavage, un nuage de frisottis le lendemain : si tu connais ce scénario, tu n'es pas seule. Les cheveux bouclés demandent surtout de comprendre comment ils fonctionnent. Ensuite, la routine devient simple.",
+ "photo_alt": "Une femme de profil avec des boucles 3B définies et brillantes",
+ "en_bref": [
+  "Les cheveux bouclés (3A, 3B, 3C) forment des spirales, de la taille d'une craie à celle d'un crayon.",
+  "Leur forme rend la répartition du sébum plus difficile le long du cheveu : les pointes ont tendance à sécher.",
+  "Les trois piliers : lavage doux, hydratation généreuse, coiffant appliqué sur cheveux mouillés.",
+  "Le démêlage se fait sur cheveux mouillés et enduits d'après-shampoing, jamais à sec.",
+  "La porosité de tes cheveux compte autant que ton type pour choisir tes produits."
+ ],
+ "sections": [
+  {
+   "h2": "3A, 3B, 3C : reconnaître tes boucles",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les cheveux bouclés forment de vraies **spirales**, contrairement aux ondulés qui dessinent des S. Dans la classification popularisée par Andre Walker, on distingue trois sous-types, que tu peux comparer à des objets du quotidien :"
+    },
+    {
+     "type": "tableau",
+     "legende": "Repères pour situer tes boucles",
+     "entetes": [
+      "Sous-type",
+      "Taille de la boucle",
+      "Ce que tu remarques souvent"
+     ],
+     "lignes": [
+      [
+       "3A",
+       "Large, comme une craie",
+       "Boucles souples et brillantes, qui s'étirent facilement sous le poids"
+      ],
+      [
+       "3B",
+       "Moyenne, comme un gros feutre",
+       "Beaucoup de rebond, des frisottis par temps humide"
+      ],
+      [
+       "3C",
+       "Serrée, comme un crayon",
+       "Beaucoup de volume, sécheresse marquée, proche des cheveux frisés"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Ta tête mélange sûrement plusieurs sous-types, c'est normal. Si tu as un doute, le guide des [types de cheveux](types-de-cheveux) t'explique comment observer tes cheveux propres et sans produit. Et si tes boucles sont très serrées, jette un œil au guide des [cheveux frisés](cheveux-frises)."
+    }
+   ]
+  },
+  {
+   "h2": "Pourquoi les cheveux bouclés sont plus secs",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ton cuir chevelu produit du sébum, une sorte d'huile naturelle qui protège le cheveu. Sur un cheveu raide, il glisse facilement jusqu'aux pointes. Sur un cheveu bouclé, chaque courbe le freine. Résultat : des racines parfois grasses, des longueurs et des pointes qui manquent de gras et d'eau."
+    },
+    {
+     "type": "p",
+     "texte": "La courbure crée aussi des points de fragilité. Une étude au microscope publiée en 2000 a observé sur des cheveux très frisés davantage de nœuds, de fissures et de cassures que sur des cheveux moins texturés ([Khumalo et al., J Am Acad Dermatol](https://pubmed.ncbi.nlm.nih.gov/11050586/)). Plus la boucle est serrée, plus il faut être douce au démêlage."
+    },
+    {
+     "type": "p",
+     "texte": "C'est pour ça que les routines de cheveux bouclés insistent tant sur deux choses : **ne pas retirer trop de gras au lavage**, et **apporter de l'hydratation** à chaque étape. Les shampoings très détergents, les brosses à sec et la chaleur forte aggravent la sécheresse."
+    },
+    {
+     "type": "photo",
+     "alt": "Gros plan sur une mèche bouclée d'une femme montrant des racines souples et des pointes plus sèches",
+     "legende": "Racines et pointes n'ont pas les mêmes besoins : c'est la clé."
+    }
+   ]
+  },
+  {
+   "h2": "Les 5 étapes d'une routine pour cheveux bouclés",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "**Laver en douceur** : un shampoing sans sulfate ou un shampoing doux, massé uniquement sur le cuir chevelu. La mousse qui coule suffit à nettoyer les longueurs. Une à deux fois par semaine convient à la plupart des boucles.",
+      "**Hydrater et démêler** : un après-shampoing généreux sur les longueurs, puis démêlage aux doigts ou au peigne à dents larges, des pointes vers les racines.",
+      "**Nourrir en profondeur** : un masque une fois par semaine ou tous les deux lavages, 10 à 20 minutes. Si tu veux tester une version maison, j'ai réuni mes [recettes de masque cheveux maison](masque-cheveux-maison).",
+      "**Coiffer sur cheveux trempés** : un leave-in ou une crème pour l'hydratation, puis un gel ou une mousse pour la tenue. Applique mèche par mèche ou en lissant à plat, puis froisse vers le haut.",
+      "**Sécher sans toucher** : à l'air libre ou au diffuseur, chaleur douce. Quand c'est sec à 100 %, froisse avec un peu d'huile sur les mains pour casser l'effet cartonné du gel."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Chaque étape est détaillée avec les quantités et les variantes dans la [routine cheveux bouclés en 5 étapes](routine-cheveux-boucles)."
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Ta routine dépend aussi de ta porosité"
+    },
+    {
+     "type": "video",
+     "titre": "Mon wash day complet sur boucles 3B, en temps réel"
+    }
+   ]
+  },
+  {
+   "h2": "Bien choisir tes produits",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Pas besoin d'une salle de bain remplie de pots. Une routine qui marche tient souvent en quatre produits : un shampoing, un après-shampoing, un masque et un coiffant. Ce qui compte, c'est de les choisir selon ta texture et ta porosité."
+    },
+    {
+     "type": "h3",
+     "texte": "Le shampoing"
+    },
+    {
+     "type": "p",
+     "texte": "Les tensioactifs sont les ingrédients qui lavent. Les plus détergents, comme certains sulfates, retirent efficacement le sébum mais peuvent dessécher les cheveux texturés. Une revue scientifique de 2015 rappelle que la formule d'un shampoing équilibre nettoyage, douceur et pH, et que les tensioactifs plus doux limitent les frisottis ([Gavazzoni Dias, Int J Trichology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/)). J'ai sélectionné les formules qui conviennent aux boucles dans mon [comparatif des shampoings pour cheveux bouclés](meilleur-shampoing-cheveux-boucles)."
+    },
+    {
+     "type": "h3",
+     "texte": "L'après-shampoing et le masque"
+    },
+    {
+     "type": "p",
+     "texte": "L'après-shampoing gaine le cheveu, facilite le démêlage et réduit les frottements entre les mèches. Pour les boucles, c'est l'étape à ne jamais sauter. Le masque va plus loin, avec une texture plus riche et un temps de pose plus long."
+    },
+    {
+     "type": "h3",
+     "texte": "Le coiffant"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Leave-in ou crème** : apporte souplesse et hydratation. Idéal pour les boucles sèches et poreuses.",
+      "**Gel** : donne la tenue et la définition, limite les frisottis. Indispensable si l'air est humide.",
+      "**Mousse** : tenue légère, parfaite pour les boucles fines ou 3A qui s'aplatissent vite.",
+      "**Huile** : en finition, quelques gouttes sur les pointes. Elle ne remplace pas l'hydratation."
+     ]
+    },
+    {
+     "type": "astuce",
+     "texte": "Sur cheveux fins, crème légère et gel. Sur cheveux épais et très poreux, crème riche et gel plus fort. Si tes boucles sont molles et collantes, tu mets probablement trop de crème."
+    }
+   ]
+  },
+  {
+   "h2": "Les erreurs qui cassent tes boucles",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Brosser à sec** : c'est la première cause du « nuage de frisottis ». Le démêlage se fait sous la douche.",
+      "**Frotter avec une serviette éponge** : les fibres accrochent les boucles. Un t-shirt en coton ou une serviette en microfibre, en pressant.",
+      "**Appliquer le coiffant sur cheveux presque secs** : la boucle se forme dans l'eau. Plus tes cheveux sont mouillés, plus elle est définie.",
+      "**Toucher pendant le séchage** : chaque geste crée des frisottis. Patience jusqu'au séchage complet.",
+      "**Fer et lisseur trop chauds trop souvent** : la chaleur forte abîme la structure du cheveu, et une boucle abîmée boucle moins bien.",
+      "**Changer tous les produits en même temps** : impossible ensuite de savoir lequel a fait la différence."
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Garder ses boucles plusieurs jours",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les boucles du deuxième ou du troisième jour peuvent être aussi belles que celles du wash day, à condition de les protéger la nuit et de les réveiller le matin."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**La nuit** : taie d'oreiller en satin, bonnet en satin ou « ananas » (un chignon très lâche sur le dessus de la tête).",
+      "**Le matin** : un brumisateur d'eau, éventuellement mélangée à un peu de leave-in, puis un scrunch doux.",
+      "**Les boucles rebelles** : enroule-les autour de ton doigt avec un peu de gel sur la main.",
+      "**Entre deux lavages** : si ton cuir chevelu gratte ou devient gras, ne force pas pour tenir une semaine. Lave-le, tout simplement."
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "À quelle fréquence laver des cheveux bouclés ?",
+   "r": "Une à deux fois par semaine convient à la plupart des boucles. Ce qui compte, c'est ton cuir chevelu : s'il devient gras ou gratte avant, lave plus souvent avec un shampoing doux. Il n'y a pas de règle à suivre coûte que coûte."
+  },
+  {
+   "q": "Faut-il forcément suivre la méthode curly ?",
+   "r": "Non. La méthode curly a popularisé de bons réflexes (lavage doux, pas de brossage à sec, coiffant sur cheveux mouillés), mais il n'est pas nécessaire d'en suivre toutes les règles. Garde ce qui marche sur tes cheveux."
+  },
+  {
+   "q": "Pourquoi mes boucles sont cartonnées ?",
+   "r": "C'est l'effet du gel qui forme une coque en séchant. C'est voulu : cette coque protège la définition. Une fois les cheveux 100 % secs, froisse-les avec un peu d'huile sur les mains pour retrouver la souplesse."
+  },
+  {
+   "q": "Les silicones sont-ils interdits sur cheveux bouclés ?",
+   "r": "Pas interdits. Certains silicones apportent glisse et brillance. Le souci vient de l'accumulation si tu ne laves qu'avec des shampoings très doux. Si tes boucles deviennent lourdes et ternes, un lavage plus clarifiant de temps en temps règle souvent le problème."
+  },
+  {
+   "q": "Mes boucles ont disparu avec le temps, pourquoi ?",
+   "r": "Les causes fréquentes sont la chaleur, les colorations, le brossage à sec et les produits trop lourds. Les variations hormonales peuvent aussi modifier la texture. Si tu constates en même temps une chute de cheveux importante, parles-en à ton médecin."
+  }
+ ],
+ "liens_internes": [
+  "routine-cheveux-boucles",
+  "meilleur-shampoing-cheveux-boucles",
+  "porosite-cheveux",
+  "masque-cheveux-maison",
+  "cheveux-frises",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Khumalo N. P. et al., What is normal black African hair? A light and scanning electron-microscopic study, J Am Acad Dermatol, 2000",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11050586/"
+  },
+  {
+   "titre": "Gavazzoni Dias M. F., Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "Lee Y. et al., Hair shaft damage from heat and drying time of hair dryer, Annals of Dermatology, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/"
+  },
+  {
+   "titre": "De La Mettrie R. et al., Shape variability and classification of human hair: a worldwide approach, Human Biology, 2007",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18078200/"
+  }
+ ],
+ "maj": "2026-11-22"
+}

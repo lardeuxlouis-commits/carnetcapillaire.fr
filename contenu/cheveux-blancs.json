@@ -1,0 +1,397 @@
+{
+ "slug": "cheveux-blancs",
+ "gabarit": "article",
+ "rubrique": "problemes",
+ "parent": "problemes-cheveux",
+ "court": "Cheveux blancs",
+ "kw": "cheveux blancs",
+ "volume": "5 400 (+ cluster henné cheveux 4 400, coloration naturelle cheveux 1 900)",
+ "argent": true,
+ "affilie": true,
+ "dermato": true,
+ "title": "Cheveux blancs : pourquoi, les assumer ou les couvrir",
+ "description": "Pourquoi les cheveux blanchissent, ce que dit vraiment la science sur le stress, et comment les assumer ou les couvrir, henné compris, sans prendre de risque.",
+ "h1": "Cheveux blancs : comprendre, assumer ou couvrir, à ta façon",
+ "chapo": "Le premier cheveu blanc, on s'en souvient toutes. Certaines l'arrachent, d'autres foncent chez la coiffeuse, d'autres décident de laisser faire. Il n'y a pas de bon choix, seulement le tien. Je t'explique pourquoi on blanchit, ce qui relève du mythe, et comment prendre soin de tes cheveux blancs ou les couvrir sans abîmer ta peau ni tes longueurs.",
+ "photo_alt": "Une femme qui montre quelques cheveux blancs au niveau de sa tempe devant un miroir",
+ "en_bref": [
+  "Un cheveu blanchit quand les cellules qui fabriquent sa couleur, les mélanocytes, s'épuisent.",
+  "L'âge et la génétique sont les deux grands facteurs, le lien avec le stress chez l'humain reste discuté.",
+  "Arracher un cheveu blanc ne sert à rien : le suivant sera blanc aussi, et tu fragilises la racine.",
+  "Aucun produit ne fait revenir la couleur d'origine.",
+  "Coloration classique ou henné : fais toujours la touche d'essai 48 heures avant, et fuis le « henné noir »."
+ ],
+ "sections": [
+  {
+   "h2": "Pourquoi les cheveux deviennent blancs",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La couleur de ton cheveu vient d'un pigment, la **mélanine**, fabriqué par des cellules installées à la racine : les **mélanocytes**. Avec le temps, ces cellules et leurs réserves (des cellules souches) s'épuisent. Le cheveu pousse alors sans pigment, et il paraît blanc. Un effet « gris », c'est un mélange de cheveux colorés et blancs."
+    },
+    {
+     "type": "p",
+     "texte": "Deux facteurs pèsent plus que tout le reste :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**L'âge** : c'est le phénomène normal du vieillissement du cheveu.",
+      "**La génétique** : si ta mère ou ton père ont blanchi tôt, il y a de bonnes chances que ce soit ton cas aussi."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "On parle de **canitie précoce** quand les cheveux blanchissent tôt. Une revue de dermatologie retient comme repères : avant 20 ans chez les personnes à peau claire, avant 25 ans chez les personnes d'origine asiatique et avant 30 ans chez les personnes d'origine africaine ([Pandhi et Khanna, IJDVL](https://ijdvl.com/premature-graying-of-hair/)). La même revue rappelle que, le plus souvent, c'est une affaire de famille, mais que certaines situations médicales y sont parfois associées, par exemple des troubles de la thyroïde ou un manque de vitamine B12."
+    }
+   ]
+  },
+  {
+   "h2": "Et le stress, alors ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "En 2020, une étude publiée dans la revue Nature a montré, **chez la souris**, qu'un stress intense active certains nerfs qui libèrent de la noradrénaline. Ce signal pousse les cellules souches des mélanocytes à s'activer d'un coup, puis à disparaître de la racine. Résultat : des poils blancs, de façon durable ([Zhang et al., Nature](https://pmc.ncbi.nlm.nih.gov/articles/PMC7184936/))."
+    },
+    {
+     "type": "p",
+     "texte": "Découverte sérieuse, mais attention aux raccourcis : une souris n'est pas une femme, et les stress utilisés étaient très forts. On ne peut pas dire que ton stress du quotidien explique tes cheveux blancs, ni qu'en te détendant ils retrouveront leur couleur. Chez l'humain, la question reste ouverte."
+    },
+    {
+     "type": "astuce",
+     "texte": "J'ai d'abord accusé mon année difficile. Puis j'ai vu sur les photos de famille que ma mère avait la même mèche au même âge."
+    }
+   ]
+  },
+  {
+   "h2": "Arracher un cheveu blanc : mauvaise idée",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Arracher un cheveu blanc n'en fait pas pousser plusieurs à sa place, c'est un mythe. Mais ça ne sert à rien : le nouveau cheveu sera blanc lui aussi."
+    },
+    {
+     "type": "p",
+     "texte": "Surtout, arracher encore et encore au même endroit **abîme la racine** (le follicule) : le cheveu peut revenir plus fin, de travers, voire plus du tout, et la peau peut s'irriter. Si un cheveu blanc te gêne, coupe-le à ras avec de petits ciseaux."
+    }
+   ]
+  },
+  {
+   "h2": "Assumer tes cheveux blancs",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Arrêter la coloration est un vrai choix, mais la transition demande un peu de patience."
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "**Décide de ton rythme** : laisser pousser simplement, ou couper court pour aller plus vite.",
+      "**Demande à ta coiffeuse des mèches claires** ou un balayage pour flouter la ligne entre racines blanches et longueurs colorées.",
+      "**Coupe régulièrement** les anciennes longueurs colorées, souvent plus abîmées.",
+      "**Adopte un shampoing violet** une fois par semaine si tes cheveux blancs jaunissent.",
+      "**Nourris davantage** tes longueurs : masque hebdomadaire et soin sans rinçage.",
+      "**Protège tes cheveux du soleil** (chapeau, soin avec filtre), car le blanc jaunit plus vite à la lumière."
+     ]
+    },
+    {
+     "type": "h3",
+     "texte": "Pourquoi les cheveux blancs jaunissent"
+    },
+    {
+     "type": "p",
+     "texte": "Sans pigment, le cheveu blanc jaunit plus facilement (soleil, pollution, fumée, calcaire). Le **shampoing violet** (ou bleu) contient des pigments qui neutralisent ce jaune, sur le même principe que le cercle des couleurs. Utilise-le une fois par semaine, avec un temps de pose court : trop longtemps, il peut laisser un léger reflet lilas."
+    },
+    {
+     "type": "h3",
+     "texte": "Une texture qui change"
+    },
+    {
+     "type": "p",
+     "texte": "Beaucoup de femmes trouvent leurs cheveux blancs plus rêches et plus secs. Si c'est ton cas, traite-les comme des [cheveux secs](cheveux-secs) : shampoing doux, après-shampoing à chaque lavage, et un bon [masque](masque-cheveux) une fois par semaine."
+    },
+    {
+     "type": "photo",
+     "alt": "Cheveux gris argentés après un shampoing violet, à côté d'une mèche au reflet jaune",
+     "legende": "Avant et après un shampoing violet : le jaune disparaît, pas la couleur blanche."
+    }
+   ]
+  },
+  {
+   "h2": "Couvrir tes cheveux blancs : les options",
+   "blocs": [
+    {
+     "type": "tableau",
+     "legende": "Les grandes familles de colorations pour cheveux blancs",
+     "entetes": [
+      "Option",
+      "Couvrance",
+      "Durée",
+      "À savoir"
+     ],
+     "lignes": [
+      [
+       "Coloration d'oxydation (permanente)",
+       "Totale",
+       "Jusqu'à la repousse",
+       "La plus couvrante, mais la plus allergisante. Touche d'essai obligatoire."
+      ],
+      [
+       "Ton sur ton",
+       "Partielle, fond les cheveux blancs",
+       "Quelques semaines, s'estompe au lavage",
+       "Plus douce, idéale quand les blancs sont encore peu nombreux."
+      ],
+      [
+       "Henné et colorations végétales",
+       "Variable, souvent en deux applications",
+       "Longue, s'estompe lentement",
+       "Pas d'éclaircissement possible, résultat moins prévisible."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "L'ANSM (à l'époque Afssaps) rappelle dans ses recommandations sur les colorations permanentes qu'elles couvrent la totalité des cheveux blancs, avec des racines visibles en général **3 à 6 semaines** après, au rythme de la repousse ([recommandations ANSM](https://ansm.sante.fr/uploads/2021/03/11/0e7b1006d4bf0500e3ac7ef489ebdea6.pdf))."
+    }
+   ]
+  },
+  {
+   "h2": "Henné et coloration naturelle des cheveux",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le **henné** et les colorations végétales gainent le cheveu, apportent de la brillance et ne contiennent pas les colorants de synthèse des teintures classiques."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Le henné pur** donne uniquement des reflets cuivrés à roux. Sur des cheveux blancs, le résultat peut être très orangé.",
+      "**Pour du châtain ou du brun**, les mélanges associent le henné à d'autres plantes, comme l'indigo.",
+      "**Le henné neutre** (en réalité une autre plante, la cassia) ne colore presque pas : il sert de soin gainant. Sur cheveux blancs, il peut laisser un léger reflet jaune.",
+      "**Il n'éclaircit jamais** : impossible de passer d'un brun à un blond.",
+      "**C'est difficile à enlever** : pour revenir à une coloration classique, demande conseil à ta coiffeuse avant. L'ANSM déconseille d'appliquer une coloration permanente sur des cheveux colorés au henné."
+     ]
+    },
+    {
+     "type": "attention",
+     "titre": "Fuis le « henné noir »",
+     "texte": "Le henné naturel ne donne jamais du noir. Les produits vendus comme « henné noir », surtout en tatouage éphémère, contiennent souvent de la **paraphénylènediamine (PPD)** ajoutée illégalement. Le Vidal, relayant l'ANSM, explique que le PPD n'est autorisé que dans les teintures capillaires, et que ces tatouages peuvent provoquer des eczémas sévères avec une allergie définitive, qui peut ensuite se déclarer avec n'importe quelle coloration ([Vidal](https://www.vidal.fr/actualites/13272-tatouages-ephemeres-noirs-a-base-de-henne-des-risques-de-reactions-cutanees-severes.html)). Lis toujours la composition de ton henné."
+    }
+   ]
+  },
+  {
+   "h2": "Avant toute coloration : le test d'allergie 48 heures",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Même « naturelle », même « sans ammoniaque », une coloration peut déclencher une allergie. L'ANSM précise que ces mentions ne suffisent pas à écarter le risque, et que la réaction prend souvent la forme d'un eczéma qui apparaît quelques heures à quelques jours après."
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "**48 heures avant**, prépare une petite quantité du produit comme indiqué sur la notice.",
+      "**Applique-la** derrière l'oreille ou au pli du coude, sur une peau saine.",
+      "**Ne lave pas** la zone et surveille-la pendant 48 heures.",
+      "**Rougeur, démangeaison, gonflement** : n'utilise pas le produit et parles-en à ton médecin ou à ton pharmacien.",
+      "**Refais le test à chaque coloration**, même avec ton produit habituel : on peut devenir allergique avec le temps."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Un test sans réaction réduit le risque, mais ne l'élimine pas complètement, rappelle l'ANSM. N'utilise jamais de coloration sur un cuir chevelu irrité, ni si tu as déjà réagi à une teinture ou à un tatouage au henné noir."
+    },
+    {
+     "type": "video",
+     "titre": "Comment je fais ma touche d'essai avant une coloration"
+    }
+   ]
+  },
+  {
+   "h2": "Quand en parler à un médecin",
+   "blocs": [
+    {
+     "type": "dermato",
+     "texte": "Des cheveux blancs qui apparaissent très tôt, ou qui arrivent d'un coup en quelques mois, méritent un avis médical. Ton médecin peut vérifier, si besoin, ta thyroïde ou un éventuel manque de vitamine B12, et t'orienter vers un dermatologue."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Tu blanchis **avant 20 à 30 ans** selon ton origine, sans antécédent dans ta famille.",
+      "Le blanchiment est **brutal** ou se fait par **plaques**.",
+      "Il s'accompagne d'une **chute de cheveux** ou d'une grande fatigue. Lis aussi ma page sur la [chute de cheveux chez la femme](chute-de-cheveux-femme)."
+     ]
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Trouve la routine adaptée à tes cheveux"
+    }
+   ]
+  },
+  {
+   "h2": "Les produits que je te conseille de regarder",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Des produits faciles à trouver en France pour entretenir ou couvrir tes cheveux blancs. Pour le reste de ta routine, regarde aussi ma sélection du [meilleur shampoing](meilleur-shampoing) et mes conseils [soins des cheveux](soins-cheveux)."
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "L'Oréal Paris Elseve",
+       "nom": "Color-Vive, shampooing violet déjaunisseur",
+       "pourqui": "les cheveux blancs ou gris qui jaunissent, avec un petit budget.",
+       "prix": "€",
+       "points": [
+        "Pigments violets pour neutraliser les reflets jaunes.",
+        "Disponible en supermarché."
+       ],
+       "limites": "Pose très courte sur cheveux blancs, sinon reflet lilas. À alterner avec ton shampoing habituel.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-elseve-color-vive-violet"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-elseve-color-vive-violet"
+        }
+       ]
+      },
+      {
+       "marque": "Klorane",
+       "nom": "Shampoing déjaunissant à la centaurée bio",
+       "pourqui": "les cheveux blancs ou gris qui préfèrent un déjaunisseur plus doux, en pharmacie.",
+       "prix": "€€",
+       "points": [
+        "Pigment bleu issu de la centaurée pour atténuer le jaune.",
+        "Existe aussi en après-shampoing dans la même gamme."
+       ],
+       "limites": "Effet plus subtil qu'un shampoing violet très chargé. Vérifie la liste INCI au moment de l'achat.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-klorane-centauree"
+        },
+        {
+         "marchand": "Atida",
+         "id": "atida-klorane-centauree"
+        }
+       ]
+      },
+      {
+       "marque": "Les Couleurs de Jeanne",
+       "nom": "Coloration 100 % végétale",
+       "pourqui": "celles qui veulent couvrir leurs cheveux blancs avec une coloration naturelle déjà dosée.",
+       "prix": "€€",
+       "points": [
+        "Marque française, nombreuses nuances du blond au châtain.",
+        "Mélanges prêts à l'emploi à base de henné et d'autres plantes."
+       ],
+       "limites": "Sur 100 % de blancs, une deuxième application est souvent nécessaire. Résultat moins prévisible qu'une coloration classique.",
+       "liens": [
+        {
+         "marchand": "Greenweez",
+         "id": "greenweez-couleurs-de-jeanne"
+        },
+        {
+         "marchand": "Atida",
+         "id": "atida-couleurs-de-jeanne"
+        }
+       ]
+      },
+      {
+       "marque": "Khadi",
+       "nom": "Coloration végétale et henné pur",
+       "pourqui": "les habituées des poudres qui veulent un henné ou un mélange henné et indigo.",
+       "prix": "€€",
+       "points": [
+        "Gamme large : henné pur, nuances châtain et brun, cassia (henné neutre).",
+        "Sans ammoniaque ni colorant de synthèse."
+       ],
+       "limites": "Pâte à préparer, pose longue. Test d'allergie quand même.",
+       "liens": [
+        {
+         "marchand": "Greenweez",
+         "id": "greenweez-khadi-coloration-vegetale"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-khadi-coloration-vegetale"
+        }
+       ]
+      },
+      {
+       "marque": "Aroma-Zone",
+       "nom": "Henné d'Égypte, poudre",
+       "pourqui": "les débutantes en henné qui veulent tester à petit prix des reflets cuivrés.",
+       "prix": "€",
+       "points": [
+        "Henné pur en poudre, à préparer soi-même.",
+        "Fiche technique détaillée sur le site de la marque."
+       ],
+       "limites": "Cuivré à roux uniquement, très orangé sur cheveux blancs. Préparation et pose longues.",
+       "liens": [
+        {
+         "marchand": "Aroma-Zone",
+         "id": "aromazone-henne-egypte"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-aromazone-henne-egypte"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Peut-on faire revenir la couleur des cheveux blancs ?",
+   "r": "Non, aucun shampoing, complément ou huile ne rend durablement au cheveu sa couleur d'origine. Si un produit te le promet, méfie-toi. Tu peux seulement les assumer ou les couvrir."
+  },
+  {
+   "q": "Est-ce que le stress donne des cheveux blancs ?",
+   "r": "Une étude de 2020 l'a montré chez la souris, avec des stress très intenses. Chez l'humain, le lien n'est pas établi de façon aussi claire. L'âge et la génétique restent les grands responsables."
+  },
+  {
+   "q": "Le henné couvre-t-il bien les cheveux blancs ?",
+   "r": "Il les colore, mais le henné pur donne un résultat cuivré, parfois très orangé sur du blanc. Pour du châtain ou du brun, il faut un mélange avec d'autres plantes, souvent en deux applications. Fais toujours la touche d'essai avant."
+  },
+  {
+   "q": "Le henné neutre colore-t-il ?",
+   "r": "Presque pas : c'est surtout un soin gainant. Sur cheveux blancs ou très clairs, il peut toutefois laisser un léger reflet jaune."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-secs",
+  "cheveux-abimes",
+  "chute-de-cheveux-femme",
+  "soins-cheveux",
+  "meilleur-shampoing",
+  "masque-cheveux",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Zhang B. et al., Hyperactivation of sympathetic nerves drives depletion of melanocyte stem cells, Nature, 2020",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7184936/"
+  },
+  {
+   "titre": "Pandhi D., Khanna D., Premature graying of hair, Indian Journal of Dermatology, Venereology and Leprology, 2013",
+   "url": "https://ijdvl.com/premature-graying-of-hair/"
+  },
+  {
+   "titre": "ANSM (ex-Afssaps), Recommandations de bon usage des colorations capillaires permanentes, 2010",
+   "url": "https://ansm.sante.fr/uploads/2021/03/11/0e7b1006d4bf0500e3ac7ef489ebdea6.pdf"
+  },
+  {
+   "titre": "Vidal, Tatouages éphémères noirs à base de henné : des risques de réactions cutanées sévères, 2013",
+   "url": "https://www.vidal.fr/actualites/13272-tatouages-ephemeres-noirs-a-base-de-henne-des-risques-de-reactions-cutanees-severes.html"
+  }
+ ],
+ "maj": "2026-11-22"
+}

@@ -1,0 +1,556 @@
+{
+ "slug": "meilleur-shampoing",
+ "gabarit": "article",
+ "rubrique": "soins",
+ "parent": "soins-cheveux",
+ "court": "Choisir son shampoing",
+ "kw": "meilleur shampoing (cluster shampoing 74 000)",
+ "volume": "4 400",
+ "argent": true,
+ "affilie": true,
+ "dermato": true,
+ "title": "Quel shampoing choisir selon ton type de cheveux",
+ "description": "Il n'existe pas de meilleur shampoing pour tout le monde. Choisis selon ton cuir chevelu puis tes longueurs, avec mon tableau et des idées par profil.",
+ "h1": "Meilleur shampoing : comment choisir celui qui convient à tes cheveux",
+ "chapo": "On cherche toutes « le meilleur shampoing », et la vraie réponse est un peu frustrante : il n'y en a pas un seul. Celui qui fait des miracles chez ta copine peut te laisser le cuir chevelu gras en une journée, ou les longueurs comme de la paille. La bonne nouvelle, c'est que la méthode pour choisir est simple. Le shampoing sert d'abord à laver ton cuir chevelu, donc on part de lui. Ensuite seulement, on regarde tes longueurs.",
+ "photo_alt": "Plusieurs flacons de shampoing alignés au bord de la baignoire, de formules différentes",
+ "en_bref": [
+  "Il n'existe pas de shampoing idéal pour tout le monde : il dépend de ton cuir chevelu et de tes longueurs.",
+  "Choisis d'abord pour ton **cuir chevelu** (gras, sec, sensible, pellicules), puis pour tes **longueurs** (fins, épais, secs, colorés, bouclés).",
+  "Le shampoing se masse sur le cuir chevelu, la mousse suffit pour les longueurs, et l'après-shampoing va sur les longueurs.",
+  "Il n'y a pas de fréquence de lavage universelle : lave quand ton cuir chevelu en a besoin.",
+  "Un clarifiant de temps en temps aide si tu utilises beaucoup de produits coiffants.",
+  "Pellicules qui durent, plaques ou démangeaisons fortes : c'est un avis médical qu'il te faut, pas un nouveau flacon."
+ ],
+ "sections": [
+  {
+   "h2": "Pourquoi il n'existe pas de meilleur shampoing universel",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Un shampoing, c'est surtout un mélange de **tensioactifs** : les ingrédients qui décrochent le sébum, la sueur et les résidus de produits. Certains lavent fort, d'autres très doucement. Une revue publiée en 2015 dans l'International Journal of Trichology rappelle que les tensioactifs les plus puissants nettoient très bien mais peuvent rendre la fibre plus rêche et plus électrique. Ce qui est parfait pour un cuir chevelu gras peut donc être trop décapant pour des longueurs sèches."
+    },
+    {
+     "type": "p",
+     "texte": "C'est pour ça que je te propose de choisir en deux temps. **D'abord ton cuir chevelu**, parce que c'est lui que tu laves. **Ensuite tes longueurs**, que tu peux compléter avec un après-shampoing ou un [masque](masque-cheveux). Si tu hésites sur ta texture, le [quiz](quiz-type-de-cheveux) te donne une base en deux minutes."
+    }
+   ]
+  },
+  {
+   "h2": "Ton profil, ce qu'il te faut, la page à lire",
+   "blocs": [
+    {
+     "type": "tableau",
+     "legende": "Repère-toi d'abord sur la ligne de ton cuir chevelu, puis sur celle de tes longueurs.",
+     "entetes": [
+      "Ton profil",
+      "Ce qu'il te faut",
+      "La page à lire"
+     ],
+     "lignes": [
+      [
+       "Cuir chevelu gras, racines plates en 1 ou 2 jours",
+       "Shampoing qui lave bien, formule légère, peu d'huiles",
+       "[Cheveux gras](cheveux-gras)"
+      ],
+      [
+       "Cuir chevelu sec, qui tiraille",
+       "Shampoing doux, lavages espacés, pas d'eau trop chaude",
+       "[Cheveux secs](cheveux-secs)"
+      ],
+      [
+       "Cuir chevelu sensible, qui rougit ou gratte",
+       "Formule très douce, sans parfum fort, rinçage soigneux",
+       "[Cuir chevelu qui gratte](cuir-chevelu-qui-gratte)"
+      ],
+      [
+       "Pellicules",
+       "Shampoing antipelliculaire, conseil du pharmacien, avis médical si ça dure",
+       "[Cuir chevelu qui gratte](cuir-chevelu-qui-gratte)"
+      ],
+      [
+       "Cheveux fins, qui s'aplatissent",
+       "Shampoing léger, après-shampoing seulement sur les pointes",
+       "[Cheveux fins](cheveux-fins)"
+      ],
+      [
+       "Cheveux épais ou très denses",
+       "Bien répartir le shampoing par sections, soin plus riche sur les longueurs",
+       "[Cheveux fins et épais](cheveux-fins)"
+      ],
+      [
+       "Cheveux raides",
+       "Souvent à l'aise avec un shampoing classique, attention au cuir chevelu",
+       "[Cheveux raides](cheveux-raides)"
+      ],
+      [
+       "Longueurs sèches ou colorées",
+       "Shampoing doux, souvent sans sulfate, soin à chaque lavage",
+       "[Shampoing sans sulfate](meilleur-shampoing-sans-sulfate)"
+      ],
+      [
+       "Cheveux bouclés",
+       "Shampoing doux, co-wash possible, clarifiant de temps en temps",
+       "[Shampoing cheveux bouclés](meilleur-shampoing-cheveux-boucles)"
+      ],
+      [
+       "Cheveux frisés ou crépus",
+       "Formule très douce et riche, bain d'huile avant si besoin",
+       "[Shampoing cheveux crépus et frisés](shampoing-cheveux-crepus-frises)"
+      ],
+      [
+       "Après un lissage brésilien",
+       "Shampoing sans sulfate ni sel, pour faire durer le lissage",
+       "[Shampoing après lissage](shampoing-apres-lissage-bresilien)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Tu peux tout à fait cocher deux lignes. Un cuir chevelu gras avec des pointes sèches, c'est même très courant. Dans ce cas, le shampoing suit le cuir chevelu, et le soin s'occupe des longueurs."
+    }
+   ]
+  },
+  {
+   "h2": "Comment lire l'étiquette en 30 secondes",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La liste d'ingrédients (la liste **INCI**) est rangée du plus présent au moins présent. Les premiers ingrédients après l'eau (aqua) te disent l'essentiel."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Sodium lauryl sulfate, sodium laureth sulfate** : des tensioactifs qui lavent fort. Utiles pour un cuir chevelu gras, parfois trop pour des longueurs sèches.",
+      "**Coco-glucoside, decyl glucoside, cocamidopropyl betaine, iséthionates** : des tensioactifs plus doux.",
+      "**Silicones** (souvent en « -cone », comme la dimethicone) : ils gainent et font briller, mais peuvent alourdir les cheveux fins.",
+      "**Parfum** en haut de liste : à surveiller si ton cuir chevelu est sensible."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Les mentions comme « réparateur » ou « nutrition intense » sont des allégations marketing. Un règlement européen de 2013 les oblige à être vraies et prouvées, mais elles restent vagues. Pour tout le détail des tensioactifs doux, lis ma page [shampoing sans sulfate](meilleur-shampoing-sans-sulfate)."
+    }
+   ]
+  },
+  {
+   "h2": "Quelques idées par profil",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ce ne sont pas des classements, juste des points de départ réels, faciles à trouver en France, à plusieurs prix. Je n'ai pas encore testé ces produits moi-même."
+    },
+    {
+     "type": "h3",
+     "texte": "Cuir chevelu gras ou cheveux fins"
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "Klorane",
+       "nom": "Shampoing séboréducteur à l'ortie bio",
+       "pourqui": "Cuir chevelu qui graisse vite, petit budget",
+       "prix": "€",
+       "points": [
+        "Formule pensée pour les cheveux gras",
+        "Facile à trouver en pharmacie et en parapharmacie"
+       ],
+       "limites": "Peut assécher des pointes déjà sèches : mets un après-shampoing léger sur les longueurs.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-klorane-ortie-shampoing"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-klorane-ortie-shampoing"
+        }
+       ]
+      },
+      {
+       "marque": "Ducray",
+       "nom": "Sabal, shampooing séborégulateur",
+       "pourqui": "Racines grasses, cheveux fins qui s'aplatissent",
+       "prix": "€€",
+       "points": [
+        "Gamme de pharmacie dédiée au cuir chevelu gras",
+        "Texture qui n'alourdit pas"
+       ],
+       "limites": "Plus cher qu'un shampoing de supermarché pour un usage fréquent.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-ducray-sabal-shampooing"
+        }
+       ]
+      },
+      {
+       "marque": "Kérastase",
+       "nom": "Spécifique, Bain Divalent",
+       "pourqui": "Racines grasses et longueurs sensibilisées",
+       "prix": "€€€",
+       "points": [
+        "Pensé pour le profil racines grasses, pointes sèches",
+        "Petite quantité suffisante"
+       ],
+       "limites": "Prix élevé, à réserver si les options simples ne t'ont pas convenu.",
+       "liens": [
+        {
+         "marchand": "Lookfantastic",
+         "id": "lookfantastic-kerastase-bain-divalent"
+        },
+        {
+         "marchand": "Notino",
+         "id": "notino-kerastase-bain-divalent"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "texte": "Cheveux secs ou colorés"
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "L'Oréal Paris",
+       "nom": "Elseve Color-Vive, shampooing",
+       "pourqui": "Cheveux colorés, petit budget",
+       "prix": "€",
+       "points": [
+        "Vendu partout en supermarché",
+        "Gamme complète avec après-shampoing assorti"
+       ],
+       "limites": "Formule classique : si tes longueurs sont très sèches, un shampoing plus doux peut mieux convenir.",
+       "liens": [
+        {
+         "marchand": "Amazon",
+         "id": "amazon-elseve-color-vive-shampooing"
+        },
+        {
+         "marchand": "Notino",
+         "id": "notino-elseve-color-vive-shampooing"
+        }
+       ]
+      },
+      {
+       "marque": "Klorane",
+       "nom": "Shampoing nutrition à la mangue",
+       "pourqui": "Cheveux secs, cuir chevelu normal",
+       "prix": "€",
+       "points": [
+        "Formule douce et confortable",
+        "Disponible en pharmacie"
+       ],
+       "limites": "Peut sembler un peu riche sur des cheveux fins.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-klorane-mangue-shampoing"
+        }
+       ]
+      },
+      {
+       "marque": "René Furterer",
+       "nom": "Okara Color, shampooing protection couleur",
+       "pourqui": "Coloration ou mèches à faire durer",
+       "prix": "€€",
+       "points": [
+        "Gamme dédiée aux cheveux colorés",
+        "Vendu en pharmacie et en ligne"
+       ],
+       "limites": "Aucun shampoing n'empêche totalement une couleur de dégorger : l'eau chaude et le soleil comptent aussi.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-furterer-okara-color-shampooing"
+        },
+        {
+         "marchand": "Lookfantastic",
+         "id": "lookfantastic-furterer-okara-color-shampooing"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "texte": "Cuir chevelu sensible"
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "Klorane",
+       "nom": "Shampoing extra-doux au lait d'avoine",
+       "pourqui": "Lavages fréquents, toute la famille",
+       "prix": "€",
+       "points": [
+        "Formule très douce",
+        "Petit prix pour un grand flacon"
+       ],
+       "limites": "Lave doucement : peut ne pas suffire si tu utilises beaucoup de produits coiffants.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-klorane-avoine-shampoing"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-klorane-avoine-shampoing"
+        }
+       ]
+      },
+      {
+       "marque": "La Roche-Posay",
+       "nom": "Kerium Doux Extrême, shampooing-gel physiologique",
+       "pourqui": "Cuir chevelu sensible qui tiraille",
+       "prix": "€€",
+       "points": [
+        "Pensé pour les cuirs chevelus sensibles",
+        "Sans silicone"
+       ],
+       "limites": "Ne remplace pas un avis médical si ton cuir chevelu reste rouge ou irrité.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-laroche-kerium-doux-extreme"
+        }
+       ]
+      },
+      {
+       "marque": "Ducray",
+       "nom": "Sensinol, shampooing physioprotecteur",
+       "pourqui": "Cuir chevelu réactif, démangeaisons légères",
+       "prix": "€€",
+       "points": [
+        "Gamme de pharmacie pour cuir chevelu sensible",
+        "Formule apaisante, sans parfum fort"
+       ],
+       "limites": "Si les démangeaisons durent ou s'accompagnent de plaques, consulte.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-ducray-sensinol-shampooing"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "texte": "Cheveux bouclés"
+    },
+    {
+     "type": "produits",
+     "items": [
+      {
+       "marque": "Garnier",
+       "nom": "Fructis Method for Curls, shampoing",
+       "pourqui": "Ondulés et bouclés, petit budget",
+       "prix": "€",
+       "points": [
+        "Vendu en supermarché",
+        "Formule pensée pour les boucles"
+       ],
+       "limites": "Peut sembler léger sur des boucles très sèches.",
+       "liens": [
+        {
+         "marchand": "Notino",
+         "id": "notino-garnier-method-curls-shampoing"
+        },
+        {
+         "marchand": "Amazon",
+         "id": "amazon-garnier-method-curls-shampoing"
+        }
+       ]
+      },
+      {
+       "marque": "Les Secrets de Loly",
+       "nom": "Perfect Match",
+       "pourqui": "Bouclés à frisés, cuir chevelu normal",
+       "prix": "€€",
+       "points": [
+        "Marque française spécialiste des textures",
+        "Lave sans assécher"
+       ],
+       "limites": "Moins facile à trouver en magasin.",
+       "liens": [
+        {
+         "marchand": "Les Secrets de Loly",
+         "id": "loly-perfect-match"
+        }
+       ]
+      },
+      {
+       "marque": "Bouclème",
+       "nom": "Curl Cleanser",
+       "pourqui": "Bouclés et frisés secs",
+       "prix": "€€",
+       "points": [
+        "Nettoyant crème très doux",
+        "Pensé pour les routines boucles"
+       ],
+       "limites": "Mousse peu : il faut bien le masser sur le cuir chevelu.",
+       "liens": [
+        {
+         "marchand": "Lookfantastic",
+         "id": "lookfantastic-boucleme-curl-cleanser"
+        },
+        {
+         "marchand": "Notino",
+         "id": "notino-boucleme-curl-cleanser"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "attention",
+     "titre": "Formules qui changent",
+     "texte": "Les marques modifient parfois leurs formules. Vérifie toujours la liste d'ingrédients au moment de l'achat, surtout si ton cuir chevelu est sensible."
+    }
+   ]
+  },
+  {
+   "h2": "Tous les combien se laver les cheveux ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Il n'y a pas de bonne fréquence pour tout le monde. Une revue destinée aux dermatologues, publiée en 2015 dans l'Indian Journal of Dermatology, explique qu'un lavage fréquent avec un shampoing bien formulé n'abîme pas les cheveux, à condition d'utiliser un après-shampoing. Laver tous les jours n'est donc pas un problème en soi."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Cuir chevelu gras** : souvent tous les 1 à 2 jours, avec un shampoing doux pour un usage fréquent.",
+      "**Cuir chevelu normal** : 2 à 3 fois par semaine en général.",
+      "**Cheveux secs, bouclés, frisés** : 1 à 2 fois par semaine, parfois avec un co-wash entre deux.",
+      "**Cheveux crépus** : souvent une fois par semaine, ou toutes les une à deux semaines selon le cuir chevelu."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Écoute surtout ton cuir chevelu : s'il gratte, sent ou graisse, il a besoin d'être lavé, quel que soit le calendrier."
+    }
+   ]
+  },
+  {
+   "h2": "Comment bien se laver les cheveux",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Démêle tes cheveux à sec, ou avec un peu d'huile si ce sont des boucles.",
+      "Mouille-les longtemps à l'eau tiède, pas brûlante : l'eau doit bien traverser toute la chevelure.",
+      "Mets une petite quantité de shampoing dans tes mains, frotte-les, puis dépose-le **sur le cuir chevelu**, par zones.",
+      "Masse avec la pulpe des doigts, jamais avec les ongles, de l'avant vers l'arrière.",
+      "Laisse la mousse glisser sur les longueurs en rinçant : ça suffit à les laver.",
+      "Rince très soigneusement, surtout la nuque et derrière les oreilles.",
+      "Applique l'après-shampoing sur les longueurs et les pointes, loin des racines, puis rince.",
+      "Essore avec une serviette en microfibre ou un vieux tee-shirt, en tapotant, sans frotter."
+     ]
+    },
+    {
+     "type": "astuce",
+     "titre": "Mon réflexe",
+     "texte": "Si tes cheveux sont épais ou longs, je te conseille de faire deux petits shampoings plutôt qu'un gros. Le premier décroche, le second lave vraiment, et tu utilises au final moins de produit."
+    },
+    {
+     "type": "video",
+     "titre": "Le bon geste pour se laver les cheveux, étape par étape"
+    }
+   ]
+  },
+  {
+   "h2": "Clarifiant, shampoing solide : ça sert à quoi ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le **shampoing clarifiant** lave plus fort, pour enlever l'accumulation de produits coiffants, d'huiles ou de silicones. Si tes cheveux sont ternes, lourds et que tes soins ne pénètrent plus, un passage toutes les deux à quatre semaines peut aider. Enchaîne toujours avec un après-shampoing."
+    },
+    {
+     "type": "p",
+     "texte": "Le **shampoing solide**, c'est surtout un format : moins d'emballage, et un pain qui dure longtemps. Mais solide ne veut pas dire doux. Beaucoup contiennent des tensioactifs puissants. Lis la liste d'ingrédients comme pour un flacon, frotte le pain entre tes mains plutôt que directement sur la tête, et laisse-le sécher entre deux usages."
+    },
+    {
+     "type": "photo",
+     "alt": "Un pain de shampoing solide posé sur un porte-savon à côté d'un flacon",
+     "legende": "Solide ou liquide, c'est la formule qui compte."
+    }
+   ]
+  },
+  {
+   "h2": "Quel budget prévoir ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Un prix élevé ne veut pas dire une meilleure formule pour toi. Un shampoing de supermarché bien choisi peut très bien convenir, et les gammes de pharmacie sont souvent une bonne option pour les cuirs chevelus gras ou sensibles. Le premium se justifie surtout par la texture, le parfum ou le plaisir d'utilisation."
+    },
+    {
+     "type": "p",
+     "texte": "Mon conseil : ne change qu'un produit à la fois, et garde-le trois ou quatre lavages avant de juger. Sinon, impossible de savoir ce qui marche."
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Trouve ta texture avant d'acheter ton prochain shampoing"
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quel est le meilleur shampoing pour tout le monde ?",
+   "r": "Il n'en existe pas. Le bon shampoing dépend d'abord de ton cuir chevelu (gras, sec, sensible, pellicules), puis de tes longueurs. Commence par mon tableau des profils, plus haut sur cette page."
+  },
+  {
+   "q": "Faut-il changer de shampoing régulièrement ?",
+   "r": "Pas forcément. Si ton shampoing te convient, garde-le. Change seulement si ton cuir chevelu ou tes cheveux évoluent : nouvelle couleur, saison, grossesse, nouveaux produits coiffants."
+  },
+  {
+   "q": "Un shampoing antipelliculaire, c'est pour tous les jours ?",
+   "r": "Selon l'Assurance maladie, on l'alterne en général avec un shampoing doux. Ton pharmacien peut t'aider à choisir. Si les pellicules durent malgré tout, ou s'il y a des plaques rouges, consulte ton médecin."
+  },
+  {
+   "q": "Le shampoing doit-il mousser beaucoup ?",
+   "r": "Non. La mousse ne dit rien de la propreté. Les shampoings doux moussent moins, et c'est normal. Ce qui compte, c'est de bien masser le cuir chevelu et de bien rincer."
+  },
+  {
+   "q": "Peut-on utiliser le shampoing de son conjoint ou de ses enfants ?",
+   "r": "Oui, si ça convient à ton cuir chevelu et à tes longueurs. Un shampoing doux pour la famille est souvent une bonne base. Ajoute simplement un soin adapté à tes longueurs."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-gras",
+  "cheveux-secs",
+  "cheveux-fins",
+  "cheveux-raides",
+  "meilleur-shampoing-sans-sulfate",
+  "meilleur-shampoing-cheveux-boucles",
+  "cuir-chevelu-qui-gratte",
+  "quiz-type-de-cheveux",
+  "tests-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias M.F., Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "D'Souza P., Rathi S.K., Shampoo and conditioners: what a dermatologist should know?, Indian Journal of Dermatology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4458934/"
+  },
+  {
+   "titre": "Assurance maladie, Dermatite séborrhéique : que faire et quand consulter ?",
+   "url": "https://www.ameli.fr/assure/sante/themes/dermatite-seborrheique/que-faire-cas-faut-consulter"
+  },
+  {
+   "titre": "Règlement (UE) n° 655/2013 sur les critères communs des allégations relatives aux produits cosmétiques",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R0655"
+  }
+ ],
+ "maj": "2026-11-22",
+ "simulateur": "shampoing"
+}

@@ -1,0 +1,294 @@
+{
+ "slug": "cheveux-raides",
+ "gabarit": "article",
+ "rubrique": "types",
+ "parent": "types-de-cheveux",
+ "court": "Cheveux raides (1A à 1C)",
+ "kw": "cheveux raides",
+ "volume": "n.r. (texture type 1, cluster soin cheveux 9 900)",
+ "argent": false,
+ "affilie": false,
+ "dermato": false,
+ "title": "Cheveux raides : la routine simple pour du volume",
+ "description": "Cheveux raides qui graissent vite ou tombent à plat ? Fréquence de lavage, choix du shampoing, séchage et gestes pour du volume sans alourdir tes longueurs.",
+ "h1": "Cheveux raides : bien les laver, leur donner du volume et les protéger",
+ "chapo": "On croit souvent que les cheveux raides sont les plus faciles. Ils brillent, se démêlent bien, se coiffent vite. Mais ils ont leurs petits soucis : racines qui graissent dès le lendemain, longueurs plates, marques d'élastique qui restent. Voici comment je m'y prendrais avec eux, sans routine compliquée.",
+ "photo_alt": "Une femme avec des cheveux raides et brillants, lâchés sur les épaules",
+ "en_bref": [
+  "Type 1A : très lisse et souple. 1B : lisse avec un peu de corps. 1C : raide avec un léger mouvement sur les pointes.",
+  "Le sébum descend vite le long d'un cheveu raide : les racines paraissent grasses plus tôt.",
+  "Choisis ton shampoing selon ton cuir chevelu, pas selon tes longueurs.",
+  "L'après-shampoing va sur les longueurs et les pointes uniquement, jamais sur les racines.",
+  "Chaleur douce, sèche-cheveux en mouvement et protecteur thermique avant le lisseur ou le fer."
+ ],
+ "sections": [
+  {
+   "h2": "Reconnaître des cheveux raides (1A, 1B, 1C)",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Des cheveux raides tombent droit de la racine aux pointes, sans former de vague en S. Mouillés comme secs, ils gardent à peu près la même forme. Une revue publiée en 2020 sur les cheveux asiatiques, souvent très raides, rappelle qu'un cheveu raide a une **coupe plutôt ronde** et une forme bien cylindrique ([Leerunyakul et Suchonwanit, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7187942/)). C'est ce qui lui donne cette surface lisse qui reflète la lumière."
+    },
+    {
+     "type": "tableau",
+     "legende": "Les trois sous-types de cheveux raides",
+     "entetes": [
+      "Sous-type",
+      "À quoi ça ressemble",
+      "Souci fréquent"
+     ],
+     "lignes": [
+      [
+       "1A",
+       "Très lisse, souple, aucun mouvement",
+       "Racines plates, cheveux qui ne tiennent aucune coiffure"
+      ],
+      [
+       "1B",
+       "Lisse avec un peu de corps",
+       "Racines grasses vite, longueurs qui tombent à plat"
+      ],
+      [
+       "1C",
+       "Raide avec un léger mouvement, plus épais",
+       "Frisottis par temps humide, pointes un peu sèches"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Si tu vois apparaître des S sur tes longueurs quand tu les laisses sécher sans brosse, tu as peut-être plutôt des [cheveux ondulés](cheveux-ondules). Le [quiz](quiz-type-de-cheveux) t'aide à trancher."
+    }
+   ]
+  },
+  {
+   "h2": "Pourquoi tes cheveux raides graissent et manquent de volume",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Ce n'est pas que ton cuir chevelu produit forcément plus de sébum. Sur un cheveu lisse, ce sébum glisse facilement de la racine vers les longueurs, alors que sur des boucles il reste bloqué près du cuir chevelu. Résultat : un aspect brillant, puis gras, plus tôt que chez une copine bouclée."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**La brillance** est un atout : la lumière rebondit sur une surface lisse.",
+      "**Le manque de volume** vient du poids : un cheveu raide n'a aucune courbe pour se soulever, il colle au crâne.",
+      "**Les marques** (élastique, pince, oreiller) restent visibles parce que la forme se fige en séchant.",
+      "**Les produits trop riches** se voient tout de suite : une goutte d'huile en trop et les longueurs paraissent sales."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "La revue de Gavazzoni Dias sur les cosmétiques capillaires le dit clairement : sur des cheveux raides et non traités, les soins sans rinçage peuvent donner **un aspect gras et terne** ([Gavazzoni Dias, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/)). Avec cette texture, moins on en met, mieux c'est."
+    }
+   ]
+  },
+  {
+   "h2": "À quelle fréquence laver des cheveux raides",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Il n'y a pas de règle fixe. Lave tes cheveux **quand ton cuir chevelu en a besoin**, pas pour suivre un calendrier. Pour beaucoup de filles aux cheveux raides, ça veut dire tous les deux jours, parfois tous les jours si le cuir chevelu est gras ou si tu fais du sport."
+    },
+    {
+     "type": "p",
+     "texte": "Laver souvent n'abîme pas les cheveux si ton shampoing est doux et si tu n'y ajoutes pas de chaleur forte à chaque fois. Essayer d'espacer coûte que coûte, avec des racines qui collent, ne sert pas à grand-chose. Si tes racines graissent en quelques heures, la page [cheveux gras](cheveux-gras) t'explique comment t'y prendre."
+    },
+    {
+     "type": "astuce",
+     "texte": "Les jours où je veux tenir un jour de plus, je fais une queue haute et lâche, ou je lave seulement la frange au lavabo. Ça change tout sur la sensation de cheveux propres."
+    }
+   ]
+  },
+  {
+   "h2": "Choisir son shampoing selon son cuir chevelu",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Gavazzoni Dias rappelle que le shampoing vise **le cuir chevelu plus que les cheveux**. C'est donc lui qui décide, pas tes pointes."
+    },
+    {
+     "type": "tableau",
+     "legende": "Quel shampoing pour quel cuir chevelu",
+     "entetes": [
+      "Ton cuir chevelu",
+      "Ce qu'il te faut",
+      "À éviter"
+     ],
+     "lignes": [
+      [
+       "Gras, racines lourdes en un jour",
+       "Shampoing doux pour cuir chevelu gras, ou purifiant de temps en temps",
+       "Shampoings « nutrition » très riches"
+      ],
+      [
+       "Normal",
+       "Shampoing doux, éventuellement volume",
+       "Empiler shampoing nutritif et masque à chaque lavage"
+      ],
+      [
+       "Sec, qui tiraille",
+       "Shampoing doux, peut-être sans sulfate",
+       "Eau très chaude, shampoings décapants tous les jours"
+      ],
+      [
+       "Mixte : racines grasses, pointes sèches",
+       "Shampoing doux sur les racines, soin uniquement sur les pointes",
+       "Shampoing riche sur toute la tête"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour aller plus loin, j'ai rassemblé les repères dans ma page sur le [meilleur shampoing](meilleur-shampoing). Et si tu as fait un lissage brésilien, il y a des précautions en plus : je les détaille dans [shampoing après lissage brésilien](shampoing-apres-lissage-bresilien)."
+    }
+   ]
+  },
+  {
+   "h2": "Ma routine de lavage pour cheveux raides",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "**Mouille bien** tes cheveux à l'eau tiède pendant une bonne minute.",
+      "**Shampoing sur le cuir chevelu seulement** : une noisette, massée du bout des doigts. La mousse qui coule en rinçant suffit pour les longueurs.",
+      "**Rince longtemps**, surtout derrière les oreilles et sur la nuque.",
+      "**Après-shampoing léger** à partir de la hauteur des oreilles, jusqu'aux pointes. Selon la même revue, il sert à réduire les frottements, démêler et limiter les frisottis.",
+      "**Rince complètement** l'après-shampoing : sur des cheveux raides, un reste se voit.",
+      "**Essore en pressant** avec une serviette, sans frotter, puis démêle avec un peigne à dents larges en partant des pointes."
+     ]
+    },
+    {
+     "type": "cta_quiz",
+     "titre": "Raides, ondulés, fins ou épais ? Fais le quiz en 2 minutes"
+    }
+   ]
+  },
+  {
+   "h2": "Donner du volume sans alourdir",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Sèche tes racines en premier**, tête en bas ou en soulevant les mèches avec les doigts.",
+      "**Change ta raie de côté** : la racine, habituée à tomber d'un côté, se décolle.",
+      "**Un spray ou une mousse volume** sur les racines humides, en petite quantité.",
+      "**Le shampoing sec** les jours sans lavage, vaporisé à 20 cm puis brossé.",
+      "**Pas d'huile sur les racines**. Si tu en utilises, une goutte sur les pointes sèches suffit.",
+      "**Une coupe dégradée légère** peut donner du mouvement aux longueurs très plates."
+     ]
+    },
+    {
+     "type": "photo",
+     "alt": "Une femme qui sèche ses racines tête en bas avec un sèche-cheveux tenu à distance",
+     "legende": "Tête en bas pour les racines, puis brosse ronde sur les longueurs : mon combo volume."
+    },
+    {
+     "type": "video",
+     "titre": "Mon brushing volume en 10 minutes sur cheveux raides"
+    }
+   ]
+  },
+  {
+   "h2": "Séchage, lisseur et chaleur : protéger tes cheveux",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Bonne nouvelle : le sèche-cheveux n'est pas l'ennemi. Une étude de 2011 a comparé plusieurs façons de sécher. Tenu à **environ 15 cm et en mouvement constant**, le sèche-cheveux abîmait moins la surface du cheveu qu'un séchage naturel très long. La chaleur forte et proche, elle, augmentait nettement les dégâts ([Lee et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/))."
+    },
+    {
+     "type": "attention",
+     "titre": "Lisseur et fer à boucler",
+     "texte": "Sur cheveux raides, on a vite tendance à repasser le lisseur pour « finir ». Utilise-le uniquement sur cheveux bien secs, à température modérée, en un ou deux passages par mèche. Avant, applique un protecteur thermique : Gavazzoni Dias explique qu'il aide à répartir la chaleur sur la surface du cheveu. Des pointes qui cassent ou blanchissent sont un signal : jette un œil à [cheveux abîmés](cheveux-abimes)."
+    }
+   ]
+  },
+  {
+   "h2": "Raides et fins ou raides et épais : deux routines différentes",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La texture (raide) et l'épaisseur du cheveu sont deux choses différentes. Tu peux avoir des cheveux raides et très fins, ou raides et épais, et ça change la routine."
+    },
+    {
+     "type": "h3",
+     "texte": "Raides et fins"
+    },
+    {
+     "type": "p",
+     "texte": "Ce sont les plus sensibles au poids. Shampoing volume, après-shampoing fluide sur les pointes uniquement, masque une fois par semaine au maximum. Tout ce qui est crème épaisse ou huile se voit. Je détaille tout dans [cheveux fins](cheveux-fins)."
+    },
+    {
+     "type": "h3",
+     "texte": "Raides et épais"
+    },
+    {
+     "type": "p",
+     "texte": "Plus fréquents chez les cheveux 1C. Ils tiennent mieux les coiffures, mais sèchent plus lentement et frisottent par temps humide. Ils supportent un après-shampoing plus nourrissant et un masque régulier sur les longueurs. Sèche-les par sections pour ne pas laisser l'intérieur humide."
+    }
+   ]
+  },
+  {
+   "h2": "Les erreurs que je vois le plus souvent",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "Mettre l'après-shampoing ou le masque jusqu'aux racines.",
+      "Choisir un shampoing « nutrition intense » alors que le cuir chevelu est gras.",
+      "Brosser énergiquement les cheveux mouillés : c'est là qu'ils sont le plus fragiles.",
+      "Passer le lisseur sur cheveux encore humides.",
+      "Ajouter de l'huile tous les jours pour « faire briller » des cheveux qui brillent déjà.",
+      "Attacher toujours au même endroit avec un élastique serré : la marque reste, et la casse finit souvent par apparaître à cet endroit."
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Est-ce grave de laver mes cheveux raides tous les jours ?",
+   "r": "Non, si ton shampoing est doux et que tu ne sèches pas avec une chaleur forte à chaque fois. Si ton cuir chevelu est gras, laver souvent est plus agréable que de supporter des racines lourdes."
+  },
+  {
+   "q": "Pourquoi mes cheveux raides sont gras en haut et secs en bas ?",
+   "r": "Le sébum descend le long des racines mais n'atteint pas toujours les pointes, qui sont aussi les plus anciennes et les plus exposées. Shampoing doux sur le cuir chevelu, après-shampoing seulement sur les pointes."
+  },
+  {
+   "q": "Le shampoing sec abîme-t-il les cheveux raides ?",
+   "r": "Utilisé de temps en temps, c'est un bon dépannage. Il ne remplace pas un vrai lavage : s'il s'accumule plusieurs jours, il peut alourdir et irriter le cuir chevelu."
+  },
+  {
+   "q": "Comment éviter les marques d'élastique ?",
+   "r": "Choisis des chouchous en tissu ou des pinces, attache sur cheveux bien secs et varie la hauteur. Si la marque est là, humidifie un peu la zone et sèche-la à la brosse."
+  },
+  {
+   "q": "Un protecteur thermique est-il vraiment utile ?",
+   "r": "Avant un lisseur ou un fer, oui, c'est un geste simple qui limite les dégâts. Il ne rend pas la chaleur inoffensive : la température modérée et le nombre de passages comptent autant."
+  }
+ ],
+ "liens_internes": [
+  "cheveux-gras",
+  "cheveux-fins",
+  "cheveux-abimes",
+  "meilleur-shampoing",
+  "shampoing-apres-lissage-bresilien",
+  "cheveux-ondules",
+  "quiz-type-de-cheveux"
+ ],
+ "sources": [
+  {
+   "titre": "Gavazzoni Dias M. F., Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  },
+  {
+   "titre": "Lee Y. et al., Hair shaft damage from heat and drying time of hair dryer, Annals of Dermatology, 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3229938/"
+  },
+  {
+   "titre": "Leerunyakul K., Suchonwanit P., Asian hair: a review of structures, properties, and distinctive disorders, Clinical, Cosmetic and Investigational Dermatology, 2020",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7187942/"
+  }
+ ],
+ "maj": "2026-11-22"
+}
