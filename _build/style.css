@@ -666,7 +666,7 @@ details>p{margin:0 0 16px}
 /* Bandeau déroulant des marques analysables */
 .marques{padding:30px 0 34px;background:#fbf6f1;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden}
 .marq{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);margin-top:12px}
-.marq ul{display:flex;gap:44px;list-style:none;margin:0;padding:0;width:max-content;animation:marq 60s linear infinite}
+.marq ul{display:flex;gap:44px;list-style:none;margin:0;padding:0;width:max-content;animation:marq 28s linear infinite}
 .marq li{font:500 24px/1.2 var(--serif);color:var(--brun);opacity:.72;white-space:nowrap}
 .marq li:nth-child(3n+2){font-style:italic;color:var(--terra-d)}
 .marq-note{text-align:center;font-size:12px;color:var(--mut);margin:14px 20px 0}
