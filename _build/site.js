@@ -90,3 +90,7 @@
 window.cc_evt=function(n){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:n,title:n,event:true})}catch(e){}};
 document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var h=a.getAttribute("href")||"";
 if(/^https?:\/\//.test(h)&&h.indexOf(location.host)<0)cc_evt("clic-produit-"+(a.hostname||"").replace(/^www\./,""));});
+
+// Vidéos plus bas dans la page : chargées seulement quand elles approchent de l'écran
+(function(){var v=document.querySelectorAll("video[data-lazyvid]");if(!v.length)return;function go(x){x.querySelectorAll("source[data-src]").forEach(function(s){s.src=s.getAttribute("data-src")});x.load();var p=x.play();if(p&&p.catch)p.catch(function(){})}
+if(!("IntersectionObserver" in window)){v.forEach(go);return}var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){go(e.target);o.unobserve(e.target)}})},{rootMargin:"300px"});v.forEach(function(x){o.observe(x)})})();
