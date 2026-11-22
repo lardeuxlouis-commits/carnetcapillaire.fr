@@ -38,10 +38,10 @@
   },
   "amazon-head-shoulders-classic": {
    "ean": "8006540687505",
-   "fiche": "Head & Shoulders Classic",
+   "fiche": "Shampooing antipelliculaire classic",
    "marque": "Head & Shoulders",
-   "inci": "Aqua, Sodium Laureth Sulfate, Sodium Lauryl Sulfate, Sodium Chloride, Cocamidopropyl Betaine, Sodium Xylenesulfonate, Glycol Distearate, Sodium Citrate, Parfum,",
-   "source": "obf"
+   "inci": "Aqua, Sodium Laureth Sulfate, Sodium Lauryl Sulfate, Sodium Chloride, Cocamidopropyl Betaine, Sodium Xylenesulfonate, Glycol Distearate, Sodium Citrate, Parfum, Piroctone Olamine, Sodium Benzoate, Dimethiconol, Citric Acid, Sodium Salicylate, Guar Hydroxypropyltrimonium Chloride, Dimethicone, Hexyl Cinnamal, Linalool, Tetrasodium EDTA, Sodium Hydroxide, TEA-Dodecylbenzenesulfonate, Trideceth-10, Niacinamide, Panthenol, Tocopheryl Acetate, Benzyl Alcohol, Triethylene Glycol, Propylene Glycol, CI 42090, CI 17200",
+   "source": "carnet-enrichi"
   }
  },
  "populaires": [
@@ -525,11 +525,20 @@
  "top": [
   {
    "ean": "3600540539397",
-   "nom": "garnier",
+   "nom": "Crème de soin 2-en-1 nutrition bouclante Pure Huile d’Avocat & Beurre de Karité",
    "marque": "Garnier",
-   "inci": "aqua, cetearyl alcohol, glycerin, cocos nucifera oil, behentrimonium chloride, isopropyl myristate, parfum, persea gratissima oil, butyrospermum parkii butter, dicaprylyl ether, dicaprylyl carbonate, citric acid, sodium benzoate, cetrimonium chloride, linalool, benzyl alcohol, benzyl salicylate, citronellol, geraniol, limonene, alpha-isomethyl ionone, rosmarinus officinalis leaf extract",
-   "categories": "",
-   "source": "obf",
+   "inci": "AQUA / WATER, GLYCERIN, CETEARYL ALCOHOL, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, ROSMARINUS OFFICINALIS LEAF EXTRACT / ROSEMARY LEAF EXTRACT, PERSEA GRATISSIMA OIL / AVOCADO OIL, BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, STEARAMIDOPROPYL DIMETHYLAMINE, GLYCERYL STEARATE, HYDROXYPROPYL GUAR, CAPRYLYL GLYCOL, CITRIC ACID, TARTARIC ACID, CETYL ESTERS, TOCOPHEROL, SALICYLIC ACID, CARAMEL, LINALOOL, COUMARIN, LIMONENE, CITRONELLOL, BENZYL ALCOHOL, BENZYL SALICYLATE, PARFUM / FRAGRANCE",
+   "categories": "en:hair-oils",
+   "source": "carnet-enrichi",
+   "n": 2
+  },
+  {
+   "ean": "3600542656610",
+   "nom": "Shampooing hydratant régénérant Vignes Merveilleuses",
+   "marque": "Garnier",
+   "inci": "AQUA / WATER, SODIUM LAURYL SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, VITIS VINIFERA FRUIT WATER / GRAPE FRUIT WATER, VITIS VINIFERA SEED OIL / GRAPE SEED OIL, ROSMARINUS OFFICINALIS EXTRACT / ROSEMARY EXTRACT, CARBOMER, GLYCERYL OLEATE, GLYCOL DISTEARATE, TRIETHYL CITRATE, LECITHIN, SODIUM HYDROXIDE, COCO-BETAINE, COCO-GLUCOSIDE, HYDROGENATED PALM GLYCERIDES CITRATE, HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CITRIC ACID, LAUROYL/MYRISTOYL METHYL GLUCAMIDE, TOCOPHEROL, ASCORBYL PALMITATE, SORBIC ACID, SODIUM BENZOATE, CI 17200 / RED 33, LINALOOL, LINALYL ACETATE, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, HEXYL CINNAMAL, PARFUM / FRAGRANCE",
+   "categories": "en:shampoos",
+   "source": "carnet-enrichi",
    "n": 2
   },
   {
@@ -539,6 +548,141 @@
    "inci": "Aqua, Paraffinum Liquidum, Cera Microcristallina, Glycerin, Lanolin Alcohol (Eucerit), paraffin, Panthenol, Decyl Oleate, Octyldodecanol, Aluminum Stearates, Citric Acid, magnesium Sulfate, Magnesium Stearate, Parfum, Limonene, Geraniol, Hydroxycitronellal, Linalool, citronellol, benzyl Benzoate, Cinnamyl Alcohol.",
    "categories": "en:body,en:face,en:facial-creams,en:body-creams,fr:cremes-hydratantes,en:open-beauty-facts",
    "source": "obf",
+   "n": 1
+  },
+  {
+   "ean": "3600542525671",
+   "nom": "Shampooing Nutrition Intense Pure Huile d’Avocat & Beurre de Karité",
+   "marque": "Garnier",
+   "inci": "AQUA / WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, GLYCERIN, GLYCOL DISTEARATE, SODIUM CHLORIDE, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, ROSMARINUS OFFICINALIS LEAF EXTRACT / ROSEMARY LEAF EXTRACT, PERSEA GRATISSIMA OIL / AVOCADO OIL, BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, CARBOMER, PPG-5-CETETH-20, SODIUM HYDROXIDE, CITRIC ACID, POLYQUATERNIUM-10, TOCOPHEROL, SODIUM BENZOATE, CI 15985 / YELLOW 6, CI 19140 / YELLOW 5, LINALOOL, COUMARIN, BENZYL ALCOHOL, PARFUM / FRAGRANCE",
+   "categories": "en:shampoos",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3600541128484",
+   "nom": "Shampooing à la Pomme verte et Kiwi",
+   "marque": "Garnier",
+   "inci": "AQUA / WATER, SODIUM LAURETH SULFATE, PEG-200 HYDROGENATED GLYCERYL PALMATE, GLYCERIN, COCO-BETAINE, SODIUM CHLORIDE, PYRUS MALUS FRUIT EXTRACT / APPLE FRUIT EXTRACT, PEG-7 GLYCERYL COCOATE, SODIUM ACETATE, SODIUM HYDROXIDE, ACTINIDIA CHINENSIS FRUIT WATER / KIWI FRUIT WATER, ISOPROPYL ALCOHOL, CITRIC ACID, POLYQUATERNIUM-10, POLYSORBATE 20, HEXYLENE GLYCOL, SODIUM BENZOATE, SALICYLIC ACID, PARFUM / FRAGRANCE",
+   "categories": "en:shampoos",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3600542150446",
+   "nom": "Garnier Fructis Hairfood Papaye - Soin 3 usages",
+   "marque": "Garnier",
+   "inci": "AQUA / WATER, CETEARYL ALCOHOL, GLYCERIN, ISOPROPYL MYRISTATE, STEARAMIDOPROPYL DIMETHYLAMINE, CARICA PAPAYA FRUIT EXTRACT / PAPAYA FRUIT EXTRACT, PHYLLANTHUS EMBLICA FRUIT EXTRACT, GLYCINE SOJA OIL / SOYBEAN OIL, SODIUM HYDROXIDE, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, COCO-CAPRYLATE/CAPRATE, COCOS NUCIFERA OIL / COCONUT OIL, HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CAPRYLIC/CAPRIC TRIGLYCERIDE, CAPRYLYL GLYCOL, CITRIC ACID, TARTARIC ACID, CETYL ESTERS, POTASSIUM SORBATE, SALICYLIC ACID, CARAMEL, LINALOOL, GERANIOL, LIMONENE, PARFUM / FRAGRANCE",
+   "categories": "en:hair-masks",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3600542575836",
+   "nom": "Shampooing fortifiant 2en1 force et brillance cheveux normaux",
+   "marque": "Garnier",
+   "inci": "AQUA / WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, GLYCOL DISTEARATE, CITRUS GRANDIS FRUIT WATER / GRAPEFRUIT FRUIT WATER, FUMARIC ACID, CARBOMER, NIACINAMIDE, PPG-5-CETETH-20, PEG-55 PROPYLENE GLYCOL OLEATE, SODIUM CHLORIDE, SODIUM HYDROXIDE, PYRIDOXINE HCl, PROPYLENE GLYCOL, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CITRIC ACID, OCTYLDODECANOL, SODIUM BENZOATE, SALICYLIC ACID, LINALOOL, GERANYL ACETATE, AMYL CINNAMAL, HEXYL CINNAMAL, BENZYL ALCOHOL, PARFUM / FRAGRANCE",
+   "categories": "en:shampoos,en:2-in-1-shampoos",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3600542613309",
+   "nom": "Masque nourrissant cheveux secs banane",
+   "marque": "Garnier",
+   "inci": "AQUA / WATER, CETEARYL ALCOHOL, STEARAMIDOPROPYL DIMETHYLAMINE, ISOPROPYL MYRISTATE, CETYL ESTERS, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, BUTYROSPERMUM PARKII BUTTER / SHEA BUTTER, MUSA PARADISIACA FRUIT JUICE / BANANA FRUIT JUICE, GLYCINE SOJA OIL / SOYBEAN OIL, GLYCERIN, GLYCERYL LINOLEATE, GLYCERYL LINOLENATE, GLYCERYL OLEATE, ASCORBYL GLUCOSIDE, CAPRYLYL GLYCOL, LACTIC ACID, TARTARIC ACID, TOCOPHEROL, POTASSIUM SORBATE, SODIUM BENZOATE, SALICYLIC ACID, CARAMEL, LINALOOL, EUGENOL, ROSE KETONES, VANILLIN, COUMARIN, TERPINEOL, HYDROXYCITRONELLAL, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, BENZALDEHYDE, BENZYL ALCOHOL, PARFUM / FRAGRANCE",
+   "categories": "en:hair-masks",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3600542509602",
+   "nom": "Masque Remède Hydratant Délicatesse d'Avoine",
+   "marque": "Garnier",
+   "inci": "AQUA / WATER, CETEARYL ALCOHOL, GLYCERIN, ISOPROPYL MYRISTATE, STEARAMIDOPROPYL DIMETHYLAMINE, GLYCINE SOJA OIL / SOYBEAN OIL, HELIANTHUS ANNUUS SEED OIL / SUNFLOWER SEED OIL, AVENA SATIVA KERNEL EXTRACT / OAT KERNEL EXTRACT, ORYZA SATIVA BRAN OIL / RICE BRAN OIL, COCO-CAPRYLATE/CAPRATE, HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CAPRYLYL GLYCOL, CITRIC ACID, XANTHAN GUM, TARTARIC ACID, CETYL ESTERS, POTASSIUM SORBATE, SODIUM BENZOATE, BENZOIC ACID, PARFUM / FRAGRANCE",
+   "categories": "en:hair-masks",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3600542289825",
+   "nom": "Shampooing hydratation à l'Aloe Vera",
+   "marque": "Garnier",
+   "inci": "AQUA / WATER, SODIUM LAURYL SULFATE, COCO-GLUCOSIDE, COCO-BETAINE, ALOE BARBADENSIS LEAF JUICE, COCOS NUCIFERA OIL / COCONUT OIL, GLYCERYL OLEATE, TRIETHYL CITRATE, LECITHIN, SODIUM CHLORIDE, SODIUM HYDROXIDE, HYDROGENATED PALM GLYCERIDES CITRATE, HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CITRIC ACID, TOCOPHEROL, ASCORBYL PALMITATE, POTASSIUM SORBATE, SODIUM BENZOATE, SALICYLIC ACID, LINALOOL, GERANIOL, CITRONELLOL, PARFUM / FRAGRANCE",
+   "categories": "en:shampoos",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3600524246433",
+   "nom": "Huile extraordinaire coco Masque nutrition légère cheveux fins, secs",
+   "marque": "L'Oréal Paris",
+   "inci": "AQUA / WATER, GLYCERIN, CETEARYL ALCOHOL, STEARAMIDOPROPYL DIMETHYLAMINE, PARFUM / FRAGRANCE, SORBITAN ISOSTEARATE, MYRISTYL ALCOHOL, LACTIC ACID, COCOS NUCIFERA OIL / COCONUT OIL, COCO-BETAINE, SODIUM CHLORIDE, SODIUM HYDROXIDE, PHENOXYETHANOL, BENZOIC ACID, LINALOOL, JUNIPERUS VIRGINIANA OIL, AMODIMETHICONE, TARTARIC ACID, CARAMEL, CETYL ESTERS, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, CITRIC ACID, COUMARIN, HEXYL CINNAMAL",
+   "categories": "en:hair-masks",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3600551172354",
+   "nom": "Shampoing 2 EN 1 ultra démêlant à l'amande douce",
+   "marque": "Dop",
+   "inci": "AQUA / WATER, SODIUM LAURETH SULFATE, PEG-200 HYDROGENATED GLYCERYL PALMATE, COCO-BETAINE, SODIUM CHLORIDE, SORBIC ACID, GLYCERIN, SODIUM BENZOATE, SODIUM HYDROXIDE, ARGILLA / MAGNESIUM ALUMINUM SILICATE, PRUNUS AMYGDALUS DULCIS FRUIT EXTRACT / SWEET ALMOND FRUIT EXTRACT, PROPYLENE GLYCOL, CITRIC ACID, CITRUS AURANTIUM AMARA FLOWER EXTRACT / BITTER ORANGE FLOWER EXTRACT, XANTHAN GUM, POLYSORBATE 20, HEXYLENE GLYCOL, POLYQUATERNIUM-10, PEG-7 GLYCERYL COCOATE, PARFUM / FRAGRANCE",
+   "categories": "en:shampoos,en:2-in-1-shampoos",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "8700216280044",
+   "nom": "Head & Shoulders Pure Intense Détox Du Cuir Chevelu Shampooing",
+   "marque": "Head & Shoulders",
+   "inci": "Aqua, Sodium Laureth Sulfate, Sodium Xylenesulfonate, Cocamide MEA, Cocamidopropyl Betaine, Sodium Chloride, Sodium Citrate, Parfum, Piroctone Olamine, Citric Acid, Glycerin, Sodium Salicylate, Sodium Benzoate, Polyquaternium-10, Guar Hydroxypropyltrimonium Chloride, Sodium Hydroxide, Hexyl Cinnamal, Linalool, Limonene, Propylene Glycol, Maris Sal, Melissa Officinalis Leaf Extract, CI 42090, CI 17200, CI 19140",
+   "categories": "en:shampoos",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3282770145281",
+   "nom": "EXTRA-DOUX Shampoing solide",
+   "marque": "Klorane",
+   "inci": "TRITICUM VULGARE (WHEAT) STARCH (TRITICUM VULGARE STARCH), SODIUM COCOYL ISETHIONATE, DISODIUM LAURYL SULFOSUCCINATE, CETEARYL ALCOHOL, WATER (AQUA), GLYCERIN, HYDROGENATED CASTOR OIL, ZEA MAYS (CORN) STARCH (ZEA MAYS STARCH), AVENA SATIVA (OAT) LEAF/STEM EXTRACT (AVENA SATIVA LEAF/STEM EXTRACT), ACRYLAMIDOPROPYLTRIMONIUM CHLORIDE/ACRYLAMIDE COPOLYMER, COCAMIDOPROPYL BETAINE, DECYL GLUCOSIDE, FRAGRANCE (PARFUM), HEXAMETHYLINDANOPYRAN, LINALYL ACETATE",
+   "categories": "en:shampoos",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3474637136321",
+   "nom": "Serum Cellulaire Nuit Anti-Pelliculaire Intensif",
+   "marque": "Kérastase",
+   "inci": "AQUA / WATER / EAU, ALCOHOL DENAT., AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, CITRIC ACID, PEG-40 HYDROGENATED CASTOR OIL, AMINOMETHYL PROPANOL, PIROCTONE OLAMINE, SQUALANE, SALICYLIC ACID, BIFIDA FERMENT LYSATE, LIMONENE, GLYCERIN, BENZYL SALICYLATE, BENZYL ALCOHOL, LINALOOL, CITRONELLOL, CITRAL, GERANIOL, ARTEMISIA UMBELLIFORMIS FLOWER EXTRACT, COUMARIN, PHENOXYETHANOL, SODIUM BENZOATE, POTASSIUM SORBATE, PARFUM / FRAGRANCE",
+   "categories": "en:leave-in-conditioners",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3574661768403",
+   "nom": "Shampoing Expert réparation à l'huile de jojoba bio cheveux cassants",
+   "marque": "Le Petit Marseillais",
+   "inci": "Aqua, Ammonium Lauryl Sulfate, Cocamidopropyl Betaine, Glycerin, Sodium Chloride, Parfum, Sodium Benzoate, Carbomer, Polyquaternium-10, Glycol Distearate, Starch Hydroxypropyltrimonium Chloride, Sodium Hydroxide, Citric Acid, Sodium Lactate, Lactic acid, Urea, Simmondsia Chinensis Seed Oil, Benzoic Acid",
+   "categories": "en:shampoos",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "3178041367158",
+   "nom": "Gliss Full Hair Wonder shampooing effet densité cheveux fragiles et affaiblis",
+   "marque": "Schwarzkopf",
+   "inci": "Aqua (Water, Eau), Sodium Laureth Sulfate, Cocamidopropyl Betaine, Sodium Chloride, Caffeine, Hydrolyzed Wheat Protein, Parfum (Fragrance), Sodium Benzoate, Coco-Glucoside, Citric Acid, Glyceryl Oleate, PEG-7 Glyceryl Cocoate, Hydroxypropyl Guar Hydroxypropyltrimonium Chloride, PEG-120 Methyl Glucose Dioleate, Glycol Distearate, Laureth-4, Hydrogenated Castor Oil, Citrus Aurantium Peel Oil, Limonene, Sodium Hydroxide, Benzyl Alcohol, Propylene Glycol",
+   "categories": "en:shampoos",
+   "source": "carnet-enrichi",
+   "n": 1
+  },
+  {
+   "ean": "5033871000133",
+   "nom": "Shampooing nourrissant huiles précieuses cheveux secs et ternes",
+   "marque": "Timotei",
+   "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Sodium Chloride, Glycerin, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Argania Spinosa Kernel Oil, Cocos Nucifera (Coconut) Oil, Jasminum Officinale (Jasmine) Flower Extract, Sodium Benzoate, Parfum, Citric Acid, Polyquaternium-10, Disodium EDTA, Sodium Acetate, Isopropyl Alcohol, PEG-40 Hydrogenated Castor Oil, Bisabolol, Pentylene Glycol, Trideceth-9, Propylene Glycol, Sodium Sulfate, Sodium Citrate, Alpha-Isomethyl Ionone, Linalool, Linalyl Acetate, Tetramethyl Acetyloctahydronaphthalenes, CI 15985, CI 19140, CI 14700",
+   "categories": "en:shampoos",
+   "source": "carnet-enrichi",
    "n": 1
   }
  ]

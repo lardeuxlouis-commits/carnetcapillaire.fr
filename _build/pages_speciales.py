@@ -124,7 +124,6 @@ def accueil():
                               '<div data-capture="accueil-encart" data-titre="Avant de partir : le mini-guide gratuit" data-sous="Les 5 erreurs qui abîment tes cheveux, en 5 pages."></div></div>\n')
     body = f"""<section class="hero hero-v">{VIDEO}
 <div class="wrap"><div>
-<p class="kicker">Carnet capillaire</p>
 <h1>Tes cheveux, <em>enfin</em> compris</h1>
 <p class="lead">Raides, bouclés ou crépus, gras ou secs : découvre ton type, ta routine et les produits qui te vont vraiment.</p>
 <div class="cta-main"><a class="btn btn-xl" href="/quiz-type-de-cheveux/">Fais le test gratuit (2 min)</a>
