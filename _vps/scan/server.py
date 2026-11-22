@@ -4,11 +4,13 @@
 Derrière Caddy : https://187-124-173-12.sslip.io/scan/...  ->  127.0.0.1:8083 (service systemd « scan », utilisateur scanobf)
   GET  /scan/produit/<ean>          fiche d'un code-barres (8 à 14 chiffres), cascade :
                                     1. partages des utilisatrices (INCI la plus fréquente, puis la plus récente)
-                                    2. dump local Open Beauty Facts / Open Products Facts avec INCI
+                                    2. dump local Open Beauty Facts / Open Products Facts avec INCI, ou fiche « carnet-enrichi »
+                                       (relevée sur les fiches des marques et distributeurs, table enrichi de scan.db) si OBF
+                                       n'a pas d'INCI ou une INCI nettement plus courte (< 80 % de la fiche enrichie)
                                     3. API en direct OBF, Open Food Facts, OPF (cache 14 jours, positif et négatif)
                                     4. nom seul : dump sans INCI, cache, puis UPCitemdb (quota gratuit ~100/jour, coupe-circuit sur 429)
                                     200 {ean, nom, marque, inci, categories, image, source, licence} ; 404 {"status": 0}
-                                    source = partage | obf | opf | obf-live | off | opf-live | nom-obf | nom-off | nom-opf | upcitemdb
+                                    source = partage | obf | opf | carnet-enrichi | obf-live | off | opf-live | nom-obf | nom-off | nom-opf | upcitemdb
   GET  /scan/recherche?q=..&n=12    recherche par nom / marque (FTS5, sans accents), produits avec INCI d'abord, n <= 24
                                     200 {"produits": [{ean, nom, marque, inci, categories, image, source, licence}]}
   POST /scan/produit                {ean, nom, marque, inci, categorie, source: "ocr"|"collage", consentement: true}
@@ -16,7 +18,7 @@ Derrière Caddy : https://187-124-173-12.sslip.io/scan/...  ->  127.0.0.1:8083 (
   GET  /scan/voisins/<ean>?n=12    EAN inconnu : marque devinée par le préfixe GS1 (9 à 6 chiffres, >= 3 produits)
                                     200 {marque_probable, prefixe, confiance (0-1), produits: [fiches avec INCI, même préfixe puis même marque, par proximité de l'EAN]}
   GET  /scan/top?n=60               EAN les plus consultés ayant une INCI : {"produits": [{ean, nom, marque, inci, categories, source, n}]}
-  GET  /scan/sante                  {ok, nb_obf, nb_partages, date_import}
+  GET  /scan/sante                  {ok, nb_obf, nb_partages, nb_enrichi, date_import}
 
 Données : /var/lib/scan/obf.db (dump, remplacé chaque dimanche 4 h par import_obf.py) et /var/lib/scan/scan.db
 (partages, vues agrégées par EAN, cache des API externes). Aucune IP ni donnée personnelle n'est écrite :
@@ -34,7 +36,7 @@ ORIGINES = {"https://carnetcapillaire.fr", "https://www.carnetcapillaire.fr", "h
 UA = "CarnetCapillaire-scan/1.0 (https://carnetcapillaire.fr ; lardeuxlouis@gmail.com)"
 LICENCE = {"obf": "ODbL Open Beauty Facts", "opf": "ODbL Open Products Facts", "obf-live": "ODbL Open Beauty Facts",
            "off": "ODbL Open Food Facts", "opf-live": "ODbL Open Products Facts", "nom-obf": "ODbL Open Beauty Facts",
-           "nom-off": "ODbL Open Food Facts", "nom-opf": "ODbL Open Products Facts"}
+           "nom-off": "ODbL Open Food Facts", "nom-opf": "ODbL Open Products Facts", "carnet-enrichi": ""}
 LIVE = [("obf-live", "https://world.openbeautyfacts.org"), ("off", "https://world.openfoodfacts.org"), ("opf-live", "https://world.openproductsfacts.org")]
 CHAMPS = "code,product_name,product_name_fr,generic_name_fr,brands,ingredients_text_fr,ingredients_text,ingredients_text_en,categories_tags,image_front_small_url"
 CACHE_JOURS = 14
@@ -81,15 +83,27 @@ def init():
       CREATE TABLE IF NOT EXISTS partages(id INTEGER PRIMARY KEY, ean TEXT, nom TEXT, marque TEXT, inci TEXT, categorie TEXT, source TEXT, date TEXT);
       CREATE INDEX IF NOT EXISTS partages_ean ON partages(ean);
       CREATE TABLE IF NOT EXISTS vues(ean TEXT PRIMARY KEY, n INTEGER, derniere_date TEXT);
+      CREATE TABLE IF NOT EXISTS enrichi(ean TEXT PRIMARY KEY, nom TEXT, marque TEXT, gamme TEXT, type TEXT, format TEXT, inci TEXT,
+                                         categories TEXT, url_source TEXT, site TEXT, date TEXT, note TEXT, cherche TEXT);
       CREATE TABLE IF NOT EXISTS cache_ext(ean TEXT, source TEXT, trouve INTEGER, nom TEXT, marque TEXT, inci TEXT, categories TEXT, image TEXT, date REAL,
                                            PRIMARY KEY(ean, source));
     """)
     c.commit(); c.close()
 
 
-def fiche(ean, nom, marque, inci, categories, image, source):
-    return {"ean": ean, "nom": nom or "", "marque": marque or "", "inci": inci or "", "categories": categories or "",
-            "image": image or "", "source": source, "licence": LICENCE.get(source, "")}
+def fiche(ean, nom, marque, inci, categories, image, source, url_source=""):
+    f = {"ean": ean, "nom": nom or "", "marque": marque or "", "inci": inci or "", "categories": categories or "",
+         "image": image or "", "source": source, "licence": LICENCE.get(source, "")}
+    if url_source:
+        f["url_source"] = url_source
+    return f
+
+
+def depuis_enrichi(c, ean):
+    r = c.execute("SELECT * FROM enrichi WHERE ean=?", (ean,)).fetchone()
+    if not r or not r["inci"]:
+        return None
+    return fiche(ean, r["nom"], r["marque"], r["inci"], r["categories"] or r["type"], "", "carnet-enrichi", r["url_source"])
 
 
 # --- Cascade, sans réseau (aussi utilisée par /scan/top) ---
@@ -139,8 +153,13 @@ def resoudre_local(c, ean):
         if not p["nom"] and r is not None:
             p["nom"], p["marque"] = r["nom"], r["marque"]
         return p, None
-    if r is not None and r["inci"]:
+    e = depuis_enrichi(c, ean)
+    if r is not None and r["inci"] and not (e and len(r["inci"]) < 0.8 * len(e["inci"])):
         return fiche(ean, r["nom"], r["marque"], r["inci"], r["categories"], r["image"], r["base"]), None
+    if e:
+        if r is not None and r["image"]:
+            e["image"] = r["image"]
+        return e, None
     f = depuis_cache(c, ean, True)
     if f:
         return f, None
@@ -268,6 +287,13 @@ def rechercher(q, n):
             f = depuis_partages(c, r["ean"])
             if f and f["nom"]:
                 out.append(f); vus.add(f["ean"])
+        if len(out) < n:
+            cond = " AND ".join(["cherche LIKE ?"] * len(mots))  # cherche = plat(marque nom gamme), écrit par charger_enrichi.py
+            for r in c.execute("SELECT ean FROM enrichi WHERE " + cond + " LIMIT ?", [f"%{m}%" for m in mots] + [n]):
+                if r["ean"] not in vus:
+                    f, _ = resoudre_local(c, r["ean"])
+                    if f:
+                        out.append(f); vus.add(r["ean"])
     finally:
         c.close()
     o = obf_db()
@@ -303,6 +329,9 @@ def voisins(ean, n):
             rows = [dict(r) for r in o.execute("SELECT ean, nom, marque, inci, categories, image, base FROM obf WHERE ean >= ? AND ean < ?", bornes)] if o else []
             rows += [dict(r) | {"image": "", "base": "partage", "categories": r["categorie"]} for r in
                      c.execute("SELECT ean, nom, marque, inci, categorie FROM partages WHERE ean >= ? AND ean < ?", bornes)]
+            deja_vu = {r["ean"] for r in rows}
+            rows += [dict(r) | {"image": "", "base": "carnet-enrichi"} for r in
+                     c.execute("SELECT ean, nom, marque, inci, categories FROM enrichi WHERE ean >= ? AND ean < ?", bornes) if r["ean"] not in deja_vu]
             rows = [r for r in rows if r["ean"] != ean]
             if len(rows) < 3:
                 continue
@@ -359,6 +388,7 @@ def sante():
     c = scan_db()
     try:
         np = c.execute("SELECT COUNT(*) FROM partages").fetchone()[0]
+        ne = c.execute("SELECT COUNT(*) FROM enrichi").fetchone()[0]
     finally:
         c.close()
     o, nb, date = obf_db(), 0, ""
@@ -369,7 +399,7 @@ def sante():
             date = r[0] if r else ""
         finally:
             o.close()
-    return {"ok": True, "nb_obf": nb, "nb_partages": np, "date_import": date}
+    return {"ok": True, "nb_obf": nb, "nb_partages": np, "nb_enrichi": ne, "date_import": date}
 
 
 def limite(table, cle, regles):

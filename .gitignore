@@ -3,3 +3,4 @@ site/
 __pycache__/
 _guide/guide-produits-cheveux.md
 _guide/types/*.md
+_data/
