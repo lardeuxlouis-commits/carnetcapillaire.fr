@@ -1,0 +1,526 @@
+{
+ "_note": "Généré par _build/classement_data.py, ne pas éditer à la main. Données Open Beauty Facts (ODbL) et partages des utilisatrices.",
+ "catalogue": {
+  "notino-garnier-ultra-doux-avocat-karite": {
+   "ean": "3600542571951",
+   "fiche": "Shampoing nutrition Ultra Doux Avocat et Karité",
+   "marque": "Garnier",
+   "inci": "AQUA/WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, GLYCERIN, GLYCOL DISTEARATE, SODIUM CHLORIDE, HELIANTHUS ANNUUS SEED OIL/ SUNFLOWER SEED OIL, ROSMARINUS OFFICINALIS LEAF EXTRACT/ROSEMARY LEAF EXTRACT, POUR PLUS D'INFORMATIONS PERSEA GRATISSIMA OIL / AVOCADO OIL, BUTYROSPERMUM PARKII BUTTER/SHEA BUTTER, CARBOMER, PPG-5-CETETH-20, SODIUM HYDROXIDE, CITRIC ACID, POLYQUATERNIUM-10, TOCOPHEROL, SODIUM BENZOATE, CI 15985/YELLOW 6, CI 19140/ YELLOW 5, LINALOOL, COUMARIN, BENZYL ALCOHOL, PARFUM/ FRAGRANCE (F.I.LZ70050466/1)",
+   "source": "obf"
+  },
+  "amazon-elseve-color-vive-shampooing": {
+   "ean": "3600522401032",
+   "fiche": "Elvital Shampoo Color Vive",
+   "marque": "L'OREAL NORGE AS",
+   "inci": "1199588 B - AQUA / WATER , SODIUMLAURETH SULFATE , DIMETHICONE , COCO-BETAINE , SODIUM CHLORIDE , GLYCOL DISTEARATE , GUARHYDROXYPROPYLTRIMONIUM CHLORIDE , COCAMIDEMIPA , COCOS NUCIFERA OIL / COCONUT OIL , SODIUMBENZOATE , SODIUM HYDROXIDE , PAEONIAALBIFLORA ROOT EXTRACT , PAEONIA OFFICINALISFLOWER EXTRACT , ETHYLHEXYL SALICYLATE , SALICYLIC ACID , FUMARIC ACID , BENZYL ALCOHOL , BENZYL SALICYLATE , LINALOOL , ALPHA-ISOMETHYLIONONE , CARBOMER , GERANIOL , CITRIC ACID , CITRONELLOL , POTASSIUM SORBATE , HEXYLENEGLYCOL , HEXYL CINNAMAL , GLYCERIN , PARFUM /FRAGRANCE. FIL C241469/1",
+   "source": "obf"
+  },
+  "notino-elseve-fibralogy-shampoing": {
+   "ean": "3600522497035",
+   "fiche": "Elseve Fibralogy Shampooing créateur de matière (maxi format)",
+   "marque": "Elseve",
+   "inci": "1110933 B - INGREDIENTS : AQUA / WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, SODIUM LAURYL SULFATE, SODIUM CHLORIDE, GLYCOL DISTEARATE, HEXYLENE GLYCOL, LACTIC ACID, ALCOHOL DENAT., HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, SODIUM HYDROXIDE, AMINOPROPYL TRIETHOXYSILANE, POLYQUATERNIUM-30, LIMONENE, LINALOOL, CARBOMER, CITRONELLOL, METHYLCHLOROISOTHIAZOLINONE, METHYLISOTHIAZOLINONE, PARFUM / FRAGRANCE. (F.I.L C159447/2)",
+   "source": "obf"
+  },
+  "lookfantastic-sheamoisture-coconut-hibiscus": {
+   "ean": "0764302314325",
+   "fiche": "Coconut & Hibiscus Curl & Shine Shampoo",
+   "marque": "SheaMoisture",
+   "inci": "Water, Sodium Lauroyl Methyl Isethionate, Cocamidopropyl Betaine, Lauryl Glucoside, Glycol Stearate, Fragrance (Essential Oil Blend), Butyrospermum Parkii (Shea) Butter*, Cocos Nucifera (Coconut) Oil, Aloe Barbadensis Leaf Juice, Tocopherol, Panthenol, Hydrolyzed Silk, Sodium Chloride, Glycerin, Guar Hydroxypropyltrimonium Chloride, Caprylyl Glycol, Sodium Benzoate, Citric Acid, Sodium Hydroxide",
+   "source": "obf"
+  },
+  "notino-elseve-color-vive-violet": {
+   "ean": "3600523682751",
+   "fiche": "Elvital Shampoo Color Vive Silver 200ml",
+   "marque": "L Oreal Norge As",
+   "inci": "1170883 E - AQUA / WATER , SODIUM LAURETH SULFATE , COCO-BETAINE, GLYCOL DISTEARATE , COCAMIDE MIPA , CI 60730 / ACID VIOLET 43 , SODIUM LAURYLSULFATE , SODIUM CHLORIDE , SODIUM BENZOATE , SODIUM HYDROXIDE , TRIDECETH-6, IRIS FLORENTINA ROOT EXTRACT , POLYQUATERNIUM-7 , POLYQUATERNIUM-10 , SALICYLIC ACID , LIMONENE , LINALOOL , BENZYL SALICYLATE , BENZYL ALCOHOL , BENZOPHENONE-4 , AMODIMETHICONE , ALPHA-ISOMETHYL IONONE , CARBOMER , CITRIC ACID , CITRONELLOL , CETRIMONIUM CHLORIDE , BUTYLENE GLYCOL , COUMARIN, HEXYLENE GLYCOL , AMYL CINNAMAL , PARFUM / FRAGRANCE. FIL C226042/2",
+   "source": "obf"
+  },
+  "amazon-head-shoulders-classic": {
+   "ean": "8006540687505",
+   "fiche": "Head & Shoulders Classic",
+   "marque": "Head & Shoulders",
+   "inci": "Aqua, Sodium Laureth Sulfate, Sodium Lauryl Sulfate, Sodium Chloride, Cocamidopropyl Betaine, Sodium Xylenesulfonate, Glycol Distearate, Sodium Citrate, Parfum,",
+   "source": "obf"
+  }
+ },
+ "populaires": [
+  {
+   "ean": "3600551119816",
+   "nom": "Shampoing très doux démêlant karité pur + huile de jojoba",
+   "marque": "Mixa Bébé",
+   "inci": "AQUA/WATER, SODIUM LAURETH SULFATE, PEG-200 HYDROGENATED GLYCERYL PALMATE, COCO-BETAINE, SODIUM CHLORIDE, SODIUM BENZOATE, SODIUM HYDROXIDE, SIMMONDSIA CHINENSIS SEED OIL/JOJOBA SEED OIL, CITRIC ACID, POLYSORBATE 20, HEXYLENE GLYCOL, POLYQUATERNIUM-10, BUTYROSPERMUM PARKII BUTTER/SHEA BUTTER, PEG-7 GLYCERYL COCOATE, CI 14700/RED 4, CI 47005/ ACID YELLOW 3, PARFUM/FRAGRANCE. (F.I.L. Z288697/2).",
+   "scans": 109
+  },
+  {
+   "ean": "3574661574561",
+   "nom": "Shampooing crème nutrition miel de provence et karité bio",
+   "marque": "Le Petit Marseillais",
+   "inci": "Aqua, Ammonium Lauryl Sulfate, Cocamidopropyl Betaine, Glycerin, Sodium Chloride, Butyrospermum Parkii Butter, Helianthus Annuus Seed Oil, Mel Extract, Lactic acid, Starch Hydroxypropyltrimonium Chloride, Urea, Polyquaternium-10, Glycol Distearate, Carbomer, Sodium Lactate, Sodium Hydroxide, Citric Acid, Benzoic Acid, Sodium Benzoate, Parfum, Benzyl Salicylate, Alpha-Isomethyl Ionone, Coumarin",
+   "scans": 31
+  },
+  {
+   "ean": "0022796976116",
+   "nom": "ogx  argan",
+   "marque": "OGX",
+   "inci": "Aqua/Water/Eau, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Hydroxysultaine, PPG-2 Hydroxyethyl Coco/lsostearamide, Sodium Chloride, Argania Spinosa (Argan) Kernel Oil, Panthenol, Dimethicone, Amodimethicone, Glycol Distearate, PEG-120 Methyl Glucose Dioleate, Chloride, Polyquatenium-6, Polyquaternium-10, Laureth-4, Betaine, Cetrimonium Chloride, Trideceth-12, Citric Acid, Sodium Hydroxide, EDTA, Propylene Glycol, Diazoldinyl Urea, lodopropynyl Butylcarbamate, Phenoxyethanol, Parfum/Fragrance, Hexyl Cinnamal, Benzyl Salicylate, Butylphenyl Linalool, Limonene, Alpha-isomethy lonone, Benzyl Benzoate, Cl Hydroxypropyltrimonium Cocamidopropyl Guar Laureth-23, Sorbitan Laurate, Tetrasodium Methylproplonal, 19140/Yellow 5, Cl 16035/Red 40.",
+   "scans": 28
+  },
+  {
+   "ean": "3574661574554",
+   "nom": "Shampooing crème nutrition miel de Provence et karité bio",
+   "marque": "Le Petit Marseillais",
+   "inci": "Aqua, Ammonium Lauryl Sulfate, Cocamidopropyl Betaine, Glycerin, Sodium Chloride, Butyrospermum Parkii Butter, Helianthus Annuus Seed Oil, Mel Extract, Lactic acid, Starch Hydroxypropyltrimonium Chloride, Urea, Polyquaternium-10, Glycol Distearate, Carbo mer, Sodium Lactate, Sodium Hydroxyde, Citric Acid, Benzoic Acid, Sodium Benzoate, Parfum, Benzyl Salicylate, Alpha-Isomethyl Ionone, Coumarin. [PR-0001787]",
+   "scans": 26
+  },
+  {
+   "ean": "3600542525770",
+   "nom": "Shampooing  doux apaisant délicatesse  d'avoine",
+   "marque": "Garnier Ultra Doux",
+   "inci": "AQUA/WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, GLYCOL DISTEARATE, GLYCERIN, GLYCINE SOJA OIL/SOYBEAN OIL, ALOE BARBADENSIS LEAF JUICE, AVENA SATIVA KERNEL EXTRACT/OAT KERNEL EXTRACT, ORYZA SATIVA STARCH/RICE STARCH, PPG-5-CETETH-20, PEG-55 PROPYLENE GLYCOL OLEATE, PEG-60 HYDROGENATED CASTOR OIL, DICAPRYLYL ETHER, DILAURYL THIODIPROPIONATE, CARBOMER, SODIUM CHLORIDE, SODIUM HYDROXIDE, PROPYLENE GLYCOL, HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CITRIC ACID, XANTHAN GUM, POLYQUATERNIUM-7, TOCOPHEROL, POTASSIUM SORBATE, SODIUM BENZOATE, SALICYLIC ACID, PARFUM/FRAGRANCE. (F.I.L C253486/1).",
+   "scans": 22
+  },
+  {
+   "ean": "3600542525794",
+   "nom": "Shampooing doux Ultra Doux",
+   "marque": "Garnier",
+   "inci": "AQUA/WATER, AMMONIUM LAURYL SULFATE, SODIUM CHLORIDE, COCAMIDOPROPYL BETAINE, TILIA CORDATA FLOWER EXTRACT, TRIETHYL CITRATE, SODIUM HYDROXIDE, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CITRIC ACID, MALTODEXTRIN, SODIUM BENZOATE, BENZOIC ACID, LINALOOL, GERANIOL, CITRONELLOL, BENZYL. ALCOHOL, PARFUM/FRAGRANCE. F.I.L. Z297683/1",
+   "scans": 21
+  },
+  {
+   "ean": "3286010022042",
+   "nom": "Shampooing Extra-doux",
+   "marque": "Naturé Moi",
+   "inci": "AQUA, DISODIUM LAURYL SULFOSUCCINATE, COCAMIDOPROPYL BETAINE, DECYL GLUCOSIDE, COCO-BETAINE, PARFUM, COCO-GLUCOSIDE, GLYCERYL OLEATE, SODIUM BENZOATE, GLYCOL DISTEARATE, POLYQUATERNIUM-10, CITRIC ACID, SODIUM CHLORIDE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, SALICYLIC ACID, GLYCERIN, FICUS CARICA FRUIT EXTRACT, PRUNUS AMYGDALUS DULCIS FRUIT EXTRACT, TOCOPHEROL, POTASSIUM SORBATE, HYDROGENATED PALM GLYCERIDES CITRATE, CITRONELLOL, GERANIOL.",
+   "scans": 21
+  },
+  {
+   "ean": "3600542571951",
+   "nom": "Shampoing nutrition Ultra Doux Avocat et Karité",
+   "marque": "Garnier",
+   "inci": "AQUA/WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, GLYCERIN, GLYCOL DISTEARATE, SODIUM CHLORIDE, HELIANTHUS ANNUUS SEED OIL/ SUNFLOWER SEED OIL, ROSMARINUS OFFICINALIS LEAF EXTRACT/ROSEMARY LEAF EXTRACT, POUR PLUS D'INFORMATIONS PERSEA GRATISSIMA OIL / AVOCADO OIL, BUTYROSPERMUM PARKII BUTTER/SHEA BUTTER, CARBOMER, PPG-5-CETETH-20, SODIUM HYDROXIDE, CITRIC ACID, POLYQUATERNIUM-10, TOCOPHEROL, SODIUM BENZOATE, CI 15985/YELLOW 6, CI 19140/ YELLOW 5, LINALOOL, COUMARIN, BENZYL ALCOHOL, PARFUM/ FRAGRANCE (F.I.LZ70050466/1)",
+   "scans": 19
+  },
+  {
+   "ean": "3600550817584",
+   "nom": "Shampooing anti-dessèchement",
+   "marque": "Dessange",
+   "inci": "AQUA / WATER, SODIUM LAURETH SULFATE, DIMETHICONE, COCO-BETAINE, SODIUM CHLORIDE, GLYCOL DISTEARATE COCAMIDE MIPA, FUMARIC ACID, CARBOMER, ALPHA-ISOMETHYL IONONE SODIUM BENZOATE, SODIUM HYDROXIDE, SALICYLIC ACID, PLUKENETIA VOLUBILIS SEED OIL, COUMARIN, TOCOPHEROL, CITRIC ACID HYDROXYPROPYLTRIMONIUM CHLORIDE, PANTHENOL, HEXYLENE GLYCOL BENZYL SALICYLATE, BENZYL BENZOATE, BENZYL ALCOHOL, PARFUM / FRAGRANCE. (FI.L. GUAR C229046/1).",
+   "scans": 19
+  },
+  {
+   "ean": "3450601028878",
+   "nom": "Shampooing nutrition",
+   "marque": "L'arbre vert",
+   "inci": "aqua, sodium laureth sulfate, glycerin, disodium cocoamphodiacetate, inulin, sodium chloride, sodium citrate, jojoba oil, glycereth-8 esters, mél extract, panthénol, coco-glucoside, glyceryl oleate, parfum, glycol distearate, tocopherol, hydrogenated palm glycerides citrate, guar hydroxypropyltrimonium chloride, citric acid, sodium benzoate.",
+   "scans": 18
+  },
+  {
+   "ean": "4056489254744",
+   "nom": "cien shampoo",
+   "marque": "Cien",
+   "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Glycerin, Guar Hydroxypropyltrimonium Chloride, DL Panthenol, Mel, Cetrimonium Chloride, Tocopherol, drogenated Palm Glycerides Citrate, Glycol Distearate, PCA Glyceryl Oleate, Coco-Glucoside, Glyceryl Oleate, Sodium Chloride, Cb c Acid, Parfum, Linalool, Sodium Benzoate, Benzoic Acid, CI 19140, CI 15985.",
+   "scans": 17
+  },
+  {
+   "ean": "3286010022059",
+   "nom": "Shampooing purifiant à l'extrait de thym bio & de citron bio de Provence",
+   "marque": "Biopha",
+   "inci": "AQUA, SODIUM LAUROYL METHYL ISETHIONATE,COCAMIDOPROPYL BETAINE, KAOLIN, ACRYLATES COPOLYMER, PARFUM, SODIUM BENZOATE, SALICYLIC ACID, SODIUM HYDROXIDE, GLYCERIN,TRISODIUM ETHYLENEDIAMINE DISUCCINATE, THYMUS VULGARIS LEAF EXTRACT, CITRUS LIMON FRUIT EXTRACT, POTASSIUM SORBATE, LIMONENE, LINALOOL",
+   "scans": 14
+  },
+  {
+   "ean": "3600542525657",
+   "nom": "Shampoing illuminant camomille",
+   "marque": "Garnier",
+   "inci": "AQUA/WATER, AMMONIUM LAURYL SULFATE, SODIUM CHLORIDE, COCAMIDOPROPYL BETAINE, CHAMOMILLA RECUTITA FLOWER EXTRACT/ MATRICARIA FLOWER EXTRACT, MEL/HONEY, TRIETHYL CITRATE, SODIUM HYDROXIDE, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CITRIC ACID, MALTODEXTRIN, SODIUM BENZOATE, BENZOIC ACID, CARAMEL, LINALOOL, BENZYL ALCOHOL, PARFUM / FRAGRANCE. (F.I.L Z290768/1).",
+   "scans": 14
+  },
+  {
+   "ean": "0022796977519",
+   "nom": "ogx keratin oil",
+   "marque": "OGX",
+   "inci": "Aqua/Water/Eau, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Hydroxysultaine, PPG-2 Hydroxyethyl Coco/isostearamide, Sodium Chloride, Hydrolyzed Keratin, Argania Spinosa Kernel Oil, Amodimethicone, Dimethicone, Cocamidopropyl Betaine, PEG-120 Methyl Glucose Dioleate, Guar Hydroxypropyltrimonium Chloride, Glycol Distearate, Polyquaternium-6, Laureth-23, Cetrimonium Chloride Trideceth-12, Sorbitan Laurate, Sodium Hydroxide, Propylene Glycol, Citric Acid, Tetrasodium EDTA, Diazolidinyl Urea, lodopropynyl Butylcarbamate, Sodium Benzoate, Salicylic Acid, Potassium Sorbate, Parfum/Fragrance, Butylphenyl Methylpropional, Coumarin, Hexyl Cinnamal, Linalool, Cl 19140/Yellow 5, ClI Polyquaternium-10, Laureth-4, Phenoxyethanol, 15985/Yellow 6.",
+   "scans": 13
+  },
+  {
+   "ean": "3140100143096",
+   "nom": "Shampooing anti pelliculaire classique, cheveux normaux",
+   "marque": "Pétrole Hahn",
+   "inci": "AQUA/WATER/EAU, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, ZINC PYRITHIONE, PEG-40 HYDROGENATED CASTOR OIL, ACRYLATES COPOLYMER, PARFUM (FRAGRANCE), GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, LIMONENE, DMDM HYDANTOIN, QUATERNIUM-80, PROPYLENE GLYCOL, CITRUS AURANTIUM DULCIS (ORANGE) PEEL OIL, CITRUS AURANTIUM BERGAMIA (BERGAMOT) PEEL OIL, CITRUS LIMON (LEMON) PEEL OIL, LINALOOL, PANTHENOL, HEXYL CINNAMAL, CITRAL, HYDROXYISOHEXYL 3-CYCLOHEXENE CARBOXALDEHYDE, YELLOW 5 (CI 19140), GREEN 5 (CI 61570), GERANIOL, SODIUM HYDROXIDE, CITRIC ACID, LAURETH-2, (F01).",
+   "scans": 12
+  },
+  {
+   "ean": "3560070968893",
+   "nom": "Shampooing normalisant",
+   "marque": "Carrefour",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, SODIUM LAURYL SULFATE, SODIUM CHLORIDE, COCAMIDOPROPYL BETAINE, SORBITAN CAPRYLATE, COCAMIDE MEA, PARFUM, GLYCERIN, PROPANEDIOL, BENZOIC ACID, TETRASODIUM EDTA, CITRIC ACID, CITRUS AURANTIUM DULCIS FRUIT EXTRACT, ROSMARINUS OFFICINALIS LEAF EXTRACT, SODIUM HYDROXIDE, SODIUM BENZOATE, POTASSIUM SORBATE, HEXYL CINNAMAL, CI 15985, CI 42090.",
+   "scans": 11
+  },
+  {
+   "ean": "3450970142731",
+   "nom": "Shampooing aux oeufs",
+   "marque": "Eco+",
+   "inci": "aqua, sodium chloride, sodium laureth sulfate, glycol stearate, cocamide mipa, laureth-4, ovum, parfum, tetrasodium EDTA, citric acid, 2-bromo-2-nitropropane-1, 3-diol, potassium sorbate, CI 19140, CI 16255.",
+   "scans": 11
+  },
+  {
+   "ean": "3140100289343",
+   "nom": "Shampooing Stop Pellicules + anti-démangeaisons",
+   "marque": "Pétrole Hahn",
+   "inci": "AQUA/WATER/EAU, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, GLYCERIN, ZINC PYRITHIONE, PEG-40 HYDROGENATED CASTOR OIL, ACRYLATES COPOLYMER, PARFUM (FRAGRANCE), BUTYLENE GLYCOL, FOMES OFFICINALIS (MUSHROOM) EXTRACT, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, DMDM HYDANTOIN, MENTHOL, EUCALYPTUS GLOBULUS LEAF OIL, PANTHENOL, COUMARIN, BUTYLPHENYL METHYLPROPIONAL, ALPHA-ISOMETHYL IONONE, LIMONENE, YELLOW 5 (CI 19140), GREEN 5 (CI 61570), CITRIC ACID, LAURETH-2, SODIUM HYDROXIDE, (F01).",
+   "scans": 9
+  },
+  {
+   "ean": "3560070922208",
+   "nom": "Gel shampooing douche Agrumes",
+   "marque": "Carrefour",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, PEG-4 RAPESEEDAMIDE, PEG-7 GLYCERYL COCOATE, PARFUM, GLYCERIN, LIMONENE, POLYQUATERNIUM-10, CITRIC ACID, TRIETHYLENE GLYCOL, BENZYL ALCOHOL, ALCOHOL DENAT., CITRUS GRANDIS FRUIT EXTRACT, PROPYLENE GLYCOL, OCTADECYL DI-T-BUTYL-4-HYDROXYHYDROCINNAMATE, MAGNESIUM CHLORIDE, MAGNESIUM NITRATE, METHYLCHLOROISOTHIAZOLINONE, METHYLISOTHIAZOLINONE, CI 47005, CI 14700.",
+   "scans": 9
+  },
+  {
+   "ean": "4005808780969",
+   "nom": "Réveil Express Fraîcheur 24H Agrumes",
+   "marque": "Nivea",
+   "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, PEG-7 Glyceryl Cocoate, Glycerin, Menthol, Sodium Chloride, Alcohol Denat., PEG-40 Hydrogenated Castor Oil, Polyquaternium-7, Citric Acid, PEG-200 Hydrogenated Glyceryl Palmate, Benzophenone-4, Sodium Benzoate, Limonene, Citronellol, Linalool, Parfum, CI 42090.",
+   "scans": 9
+  },
+  {
+   "ean": "3600542525800",
+   "nom": "ultra doux shampooing réparation intense érable guérisseur",
+   "marque": "Garnier",
+   "inci": "AQUA/WATER, SODIUM LAURYL SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, RICINUS COMMUNIS SEED OIL/CASTOR SEED OIL, PRUNUS AMYGDALUS DULCIS OIL/SWEET ALMOND OIL, ACER SACCHARUM EXTRACT/SUGAR MAPLE EXTRACT, CARBOMER, GLYCERYL OLEATE, GLYCOL DISTEARATE, TRIETHYL CITRATE, LECITHIN, SODIUM HYDROXIDE, COCO-BETAINE, COCO-GLUCOSIDE, HYDROGENATED PALM GLYCERIDES CITRATE, HYDROXYPROPYL GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CITRIC ACID, LAUROYL/MYRISTOYL METHYL GLUCAMIDE, TOCOPHEROL, ASCORBYL PALMITATE, SORBIC ACID, SODIUM BENZOATE, CI 15985/YELLOW 6, CI 19140/YELLOW 5, LINALOOL, BENZYL ALCOHOL, BENZYL SALICYLATE, PARFUM/ FRAGRANCE (F.I.L Z70051363/1).",
+   "scans": 8
+  },
+  {
+   "ean": "3600550038736",
+   "nom": "Shampooing raviveur de couleur, Cheveux colorés",
+   "marque": "Dessange",
+   "inci": "AQUA/WATER, SODIUM LAURETH SULFATE, DIMETHICONE, COCO-BETAINE, SODIUM CHLORIDE, GLYCOL DISTEARATE BHT, COCAMIDE MIPA, FUMARIC ACID, ROSA CANINA FLOWER EXTRACT, CARBOMER, ALPHA-ISOMETHYL IONONE, SODIUM BENZOATE, SALICYLIC ACID,SODIUM HYDROXIDE, COUMARIN,GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CAPRYLIC/CAPRIC GLYCERIDES, CITRONELLOL, CITRIC ACID, HEXYLENE GLYCOL, ETHYLHEXYL METHOXYCINNAMATE, BUTYLPHENYL METHYLPROPIONAL, BENZYL BENZOATE, BENZYL SALICYLATE, BENZYL ALCOHOL, PARFUM/ FRAGRANCE. (F.I.L. C215754/1).",
+   "scans": 8
+  },
+  {
+   "ean": "3600550274783",
+   "nom": "Shampooing micellaire nutri-regénérant cheveux dénaturés",
+   "marque": "Dessange",
+   "inci": "AQUA WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, SODIUM CHLORIDE, COCAMIDE MIPA, AMODIMETHICONE, PPG-5-CETETH-20, PEG-55 PROPYLENE GLYCOL OLEATE, CI 14700/ RED 4, LINALOOL, CARAMEL, GERANIOL ARGANIA SPINOSA KERNEL OIL, CAMELLIA OLEIFERA SEED OIL, SODIUM BENZOATE, SODIUM HYDROXIDE, SAUCYLC ACID,SODIUM ACETATE, COUMARIN, LIMONENE, TOCOPHERCOL, PROPYLENE GLYCOL, ISOPROPYL ALCOHOL, LAURETH-5 CARBOXYLIC ACID, CITRIC ACID, PENTACLETHRA MACROLOBA SEED OIL, POLYQUATERNIUM-10, HEXYL CINNAMAL, BENZYL SALICYLATE, BENZYL ALCOHOL PARFUM / FRAGRANCE. (FIL.L C53740/6)",
+   "scans": 8
+  },
+  {
+   "ean": "3560070902675",
+   "nom": "Energy Gel 3 en 1",
+   "marque": "Carrefour",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, GLYCERIN, PEG-7 GLYCERYL COCOATE, SODIUM CHLORIDE, PARFUM, LIMONENE, LINALOOL, COUMARIN, HEXYL CINNAMAL, COCAMIDE MIPA, LAURETH-4, SODIUM BENZOATE, CITRIC ACID, POTASSIUM SORBATE, POLYQUATERNIUM-10, MENTHOL, TETRASODIUM EDTA, SODIUM HYDROXIDE, CI 18965, CI 42090.",
+   "scans": 8
+  },
+  {
+   "ean": "3140100143119",
+   "nom": "Shampooing anti chute résistance",
+   "marque": "Pétrole Hahn",
+   "inci": "AQUA/WATER/EAU, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, CETYL PALMITATE, PEG-40 HYDROGENATED CASTOR OIL, ACRYLATES COPOLYMER, PARFUM (FRAGRANCE), GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, GLYCERIN, BEHENETH-10, DMDM HYDANTOIN, HYDROGENATED CASTOR OIL, GLYCERYL STEARATE, LIMONENE, LINALOOL, PANTHENOL, BENZYL SALICYLATE, SORBITOL, THYMUS VULGARIS (THYME) FLOWER/LEAF OIL, BUTYLPHENYL METHYLPROPIONAL, HYDROXYISOHEXYL 3-CYCLOHEXENE CARBOXALDEHYDE, COUMARIN, GERANIOL, CITRAL, PTEROCARPUS MARSUPIUM BARK EXTRACT, BENZYL BENZOATE, EUGENOL, CITRONELLOL, DISODIUM SUCCINATE, YELLOW 5 (CI 19140), GREEN 5 (CI 61570), GLUTAMIC ACID, CITRIC ACID, SODIUM HYDROXIDE, LAURETH-2, (F06)",
+   "scans": 8
+  },
+  {
+   "ean": "3760100682755",
+   "nom": "Shampooing Sublimateur Huile Précieuse",
+   "marque": "Evoluderm",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, SODIUM CHLORIDE, GLYCERIN, PEG-40 HYDROGENATED CASTOR OIL, LAURYL LACTYL LACTATE,PARFUM, COCAMIDOPROPYL BETAÏNE, PROPYLENE GLYCOL, POLYQUATERNIUM-7, CETRIMONIUM CHLORIDE, LINALOOL, ARGANIA SPINOSA KERNEL OIL, BORAGO OFFICINALIS SEED OIL, CAMELLIA OLEIFERA SEED OIL, HEXYL CINNAMAL, CITRONELLOL, 5-BROMO-5-NITRO-1,3-DIOXANE, SODIUM BENZOATE, CITRIC ACID, CARAMEL, CI 19140, CI 14700.",
+   "scans": 6
+  },
+  {
+   "ean": "3574661593951",
+   "nom": "Le Petit Marseillais Force & Éclat Pomme & Olivier Bio",
+   "marque": "Le Petit Marseillais",
+   "inci": "Aqua, Ammonium Lauryl Sulfate, Glycerin, Cocamidopropyl Betaine, Sodium Chloride, Parfum, Citric Acid, Sodium Benzoate, Coco-Glucoside, Glyceryl Oleate, Hydroxypropyl Guar Hydroxypropyltrimonium Chloride, Pyrus Malus Fruit Extract, Olea Europaea Leaf Extract, Potassium Sorbate, Tocopherol, Hydrogenated Palm Glycerides Citrate, Lecithin, Ascorbyl Palmitate",
+   "scans": 6
+  },
+  {
+   "ean": "6916790273613",
+   "nom": "Derhum muld formula onion professional",
+   "marque": "Derhum",
+   "inci": "Water, keratin essence, onion oil, collagen essence, amino acid, caviar essence, hyal uronic acid, cetearyl alcohoglycerin, poly dimethylsiloxane, cetyl stearyl base dime thyl amm-onium chloride, jojoba oilessen ce to copherol (vitamin E) methylisot-hiaz olinone, methylchloroisothiaz-olinone,ma gnesiumnitrate, magn-esiumchloride, met hylparaben, disodium EDTA.",
+   "scans": 6
+  },
+  {
+   "ean": "3600524138851",
+   "nom": "Elseve Total Repair 5 Shampoo",
+   "marque": "L'Oréal Paris",
+   "inci": "Aqua / Water, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Sodium Chloride, Glycol Distearate, Dimethicone, Sodium Benzoate, Guar Hydroxypropyltrimonium Chloride, Salicylic Acid, Sodium Hydroxide, Hydroxypropyltrimonium Hydrolyzed Wheat Protein, Hydrolyzed Wheat Protein, Hydrolyzed Wheat Starch, Amodimethicone, Cetrimonium Chloride, Trideceth-6, Polyquaternium-6, Polyquaternium-47, Limonene, Linalool, Benzyl Alcohol, Benzyl Salicylate, Hexyl Cinnamal, Alpha-Isomethyl Ionone, Citric Acid, Fumaric Acid, CI 19140 / Yellow 5, CI 14700 / Red 4, Parfum / Fragrance",
+   "scans": 6
+  },
+  {
+   "ean": "4056489564300",
+   "nom": "Shampooing douche extra doux pêche-abricot",
+   "marque": "Cien",
+   "inci": "Aqua, Glycerin, Cocamidopropyl Betaine, Sodium Laureth Sulfate, Decyl Glucoside, Sodium Chloride, Ammonium Lauryl Sulfate, Sodium Benzoate, Parfum, Citric Acid, Panthenol, Glycol Distearate, Cellulose, Cellulose Gum, Benzoic Acid, Glyceryl Oleate, Sodium Hydroxide. *Parfum de synthèse",
+   "scans": 6
+  },
+  {
+   "ean": "8714789880501",
+   "nom": "2 en 1 hydra balance",
+   "marque": "Palmolive",
+   "inci": "Aqua, Sodium C12-13 Pareth Sulfate (*A) / Sodium Laureth Sulfate (*B), Cocamidopropyl Betaine, Sodium Chloride, Parfum, Polyquaternium-7, Sodium Salicylate, Sodium Benzoate, Glycol Distearate, Citric Acid, Styrene/Acrylates Copolymer, Tetrasodium EDTA, Laureth-4, Methylisothiazolinone, Aloe Barbadensis Extract, Cedrus Atlantica Oil, Mel, Prunus Persica Juice, Lamium album Extract, Chamomilla Recutita Flower Extract, Mentha Aquatica leaf Extract, Hydrolyzed Silk, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citronellol, Hexyl Cinnamal, Linalool.",
+   "scans": 5
+  },
+  {
+   "ean": "3178040675278",
+   "nom": "Fa Men extreme cool douchegel",
+   "marque": "Fa",
+   "inci": "Aqua (Water, Eau),Sodium Laureth Sulfate,Cocamidopropyl Betaine,Sodium Chloride,Glyceryl Laurate,Menthol,Parfum (Fragrance),Benzophenone-4,Tetrasodium EDTA,Sodium Hydroxide,Citric Acid,Hexyl Cinnamal,Linalool,Sodium Benzoate,Benzyl Alcohol,CI 42090 (Blue 1),CI 19140 (Yellow 5)",
+   "scans": 5
+  },
+  {
+   "ean": "8718951087569",
+   "nom": "Cheveux & Corps parfum Fruits Exotiques",
+   "marque": "Tahiti",
+   "inci": "Aqua, Sodium Laureth Sulfate, Sodium Chloride, Cocamidopropyl Betaine, Parfum, Citric Acid, Sodium Benzoate, Coco-Glucoside, Glycol Distearate, Hydrogenated Castor Oil, Glyceryl Oleate, Glyceryl Stearate, Tocopheryl Acetate, Trisodium Ethylenediamine Disuccinate, Prunus Amygdalus Dulcis Seed Extract, Tocopherol, Hexyl Cinnamal, Linalool",
+   "scans": 5
+  },
+  {
+   "ean": "3538394920033",
+   "nom": "shampooing cheveux normaux à la reine des prés bio",
+   "marque": "COSLYS",
+   "inci": "Aqua (eau), spiraea ulmaria flower water* (eau florale de reine des prés bio), sodium coco-sulfate (tensioactif anionique issu du coco), decyl glucoside (tensioactif non ionique issu du coco et du glucose), cocamidopropyl betaine (tensioactif amphotère issu du coco), sodium chloride (sel), glycerin (glycérine d'origine végétale), mel* (miel), coco-glucoside (tensioactif non ionique issu du coco et du glucose), glyceryl oleate (tensioactif non ionique issu du coprah, huile de tournesol, glucose et glycérine végétale), simmondsia chinensis seed oil* (huile de jojoba bio), hydrolyzed wheat protein (peptides de blé), parfum (parfum 100% d'origine naturelle), coconut alcohol (alcool issu du coco), sodium sulfate (sel), dehydroacetic acid, sodium benzoate, benzyl alcohol (agents de conservation), linalol, limonene, citronellol (composants naturellement présents dans le parfum).\r\n\r\n*Ingrédient issu de l'Agriculture Biologique",
+   "scans": 5
+  },
+  {
+   "ean": "3140100143058",
+   "nom": "Shampooing Force Protection",
+   "marque": "Pétrole Hahn",
+   "inci": "AQUA/WATER/EAU, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, LAURETH-2, PEG-40 HYDROGENATED CASTOR OIL, PARFUM (FRAGRANCE), GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, LIMONENE, DMDM HYDANTOIN, CITRUS AURANTIUM BERGAMIA (BERGAMOT) PEEL OIL, CITRUS AURANTIUM DULCIS (ORANGE) PEEL OIL, CITRUS LIMON (LEMON) PEEL OIL, CITRIC ACID, PANTHENOL, SODIUM HYDROXIDE, LINALOOL, CITRAL, BLUE 1 (CI 42090), CITRONELLOL, GERANIOL, (F02).",
+   "scans": 5
+  },
+  {
+   "ean": "3140100143089",
+   "nom": "Shampooing Stop Pellicules Classique Gras",
+   "marque": "Petrole Hahn",
+   "inci": "AQUA/WATER/EAU, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, ZINC PYRITHIONE, PEG-40 HYDROGENATED CASTOR OIL, ACRYLATES COPOLYMER, PARFUM (FRAGRANCE), GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, LIMONENE, DMDM HYDANTOIN, CITRUS AURANTIUM DULCIS (ORANGE) PEEL OIL, CITRUS AURANTIUM BERGAMIA (BERGAMOT) PEEL OIL, CITRUS LIMON (LEMON) PEEL OIL, LINALOOL, PANTHENOL, HEXYL CINNAMAL, CITRAL, HYDROXYISOHEXYL 3-CYCLOHEXENE CARBOXALDEHYDE, YELLOW 5 (CI 19140), GREEN 5 (CI 61570), GERANIOL, CITRIC ACID, SODIUM HYDROXIDE, LAURETH-2, (F01)",
+   "scans": 5
+  },
+  {
+   "ean": "3264680004964",
+   "nom": "Gel douche multi-usages Nuxe men",
+   "marque": "Nuxe",
+   "inci": "Aqua/Water, Sodium Lauryl Sulfate, Coco-Glucoside, Glycerin, Parfum/Fragrance, Sodium Cocoamphoacetate, Phenoxyethanol, Gluconolactone, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Lauryl Glucoside, Sodium Cocoyl Glutamate, Sodium Hydroxide, Sodium Lauryl Glucose Carboxylate, Sodium Benzoate, Citric Acid, Hydroxypropyl Guar Hydroxypropyltrimonium Chloride, Tetrasodium EDTA, 1,2-Hexanediol, Caprylylglycol, Glyceryl Oleate, Alcohol, Calcium Gluconate, Tropolone, Carpinus Betulus Bud Extract, Quercus Robur Bark Extract, Hydrogenated Palm Glycerides Citrate, Tocopherol, Limonene [N1905/A]",
+   "scans": 4
+  },
+  {
+   "ean": "3256228974662",
+   "nom": "Shampooing familial oeuf & vanille",
+   "marque": "U",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, PARFUM, SODIUM BENZOATE, PEG-40 HYDROGENATED CASTOR OIL, CITRIC ACID, STYRENE/ACRYLATES COPOLYMER, PANTHENOL, DRIED EGG YOLK, POLYQUATERNIUM-10, GLYCERIN, TETRAMETHYL ACETYLOCTAHYDRONAPHTHA - LENES, HEXYL CINNAMAL, LINALYL ACETATE, PRUNUS AMYGDALUS DULCIS OIL, HYDROGENAT - ED LECITHIN, CI 19140, SODIUM HYDROXIDE, VANILLA PLANIFOLIA FRUIT EXTRACT, CI 14700.",
+   "scans": 4
+  },
+  {
+   "ean": "3140100143065",
+   "nom": "Shampooing force vitalité Huiles essentielles de citrus",
+   "marque": "Eugène Perma",
+   "inci": "AQUA/WATER/EAU, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, PEG-40 HYDROGENATED CASTOR OIL, PARFUM (FRAGRANCE), GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, LIMONENE, DMDM HYDANTOIN, CITRUS AURANTIUM DULCIS (ORANGE) PEEL OIL, CITRUS AURANTIUM BERGAMIA (BERGAMOT) PEEL OIL, CITRUS LIMON (LEMON) PEEL OIL, CITRIC ACID, PANTHENOL, LINALOOL, CITRAL, YELLOW 5 (CI 19140), GREEN 5 (CI 61570), CITRONELLOL, GERANIOL, SODIUM HYDROXIDE, LAURETH-2, (F04)",
+   "scans": 4
+  },
+  {
+   "ean": "3564700718490",
+   "nom": "shampooing extra-doux Nateïs au Beurre de Karité & Huile d'Avocat",
+   "marque": "Marque Repère",
+   "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Glycerin, Hexyl Glucoside, Coco-Glucoside, Glycol Distearate, Laureth-4, Parfum, Polyquaternium-10, Sodium Benzoate, Citric Acid, Tetrasodium Glutamate Diacetate, Polysorbate 20, Triamino Acetyl Hydroxypropyl Hexyl Dimethicone, PEG-40 Hydrogenated Castor Oil, Butylene Glycol, Hexyl Cinnamal, Persea Gratissima Oil, Copernicia Cerifera Cera, Hydrogenated Palm Glycerides Citrate, Sodium Hydroxide",
+   "scans": 3
+  },
+  {
+   "ean": "3560070947485",
+   "nom": "Carrefour Shampooing fortifiant aux œufs",
+   "marque": "Carrefour",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, SODIUM CHLORIDE, DISODIUM COCOAMPHODIACETATE, PHENOXYETHANOL, LAURETH-3, PARFUM, GLYCOL DISTEARATE, PEG-200 HYDROGENATED GLYCEYL PALMATE, LAURETH-4, SODIUM BENZOATE, PEG-40 HYDROGENATED CASTOR OIL, CITRIC ACID, OVUM, PEG-7 GLYCERYL COCOATE, COCAMIDOPROPYL BETAINE, PANTHENOL, PROPYLENE GLYCOL, POLYQUATERNIUM-10, HEXYL CINNAMAL, GLYCERIN, COUMARIN, FORMIC ACID, CI 47005, SODIUM ACETATE, SODIUM HYDROXIDE, ISOPROPYL ALCOHOL, CI 14700.",
+   "scans": 3
+  },
+  {
+   "ean": "4017645036949",
+   "nom": "Shampooing soin brillance",
+   "marque": "Logona",
+   "inci": "Aqua (water), Coco Glucoside, Alcohol*, Glycerin, Disodium Cocoyl Glutamate, Sodium Cocoyl Glutamate, Sodium PCA, Xanthan Gum, Glyceryl Oleate, Citric Acid, Urtica Dioica (Nettle) Extract*, Phytic Acid, Levulinic Acid, Sodium Levulinate, Tocopherol, Hydrogenated Palm Glycerides Citrate, Lecithin, Ascorbyl Palmitate, Parfum (Fragrance)**, Limonene**, Linalool**\n* issu de l’agriculture biologique",
+   "scans": 3
+  },
+  {
+   "ean": "0010181033056",
+   "nom": "Shampooing soin formule à l'huile de noix de coco",
+   "marque": "Palmer's",
+   "inci": "Aqua, Sodium C14-16 Olefin Sulfonate, Glycol Stearate, Cocamidopropyl Betaine, Cocamide DIPA, Sodium Chloride, PEG-120 Methyl Glucose Dioleate, Cocos Nucifera Oil, Hydrolyzed Keratin, Tocopheryl Acetate, Glycerin, Phenoxyethanol, Hydroxypropyl Methylcellulose, Polyquaternium-10, Tetrasodium EDTA, Phosphoric Acid, Methylisothiazolinone, Parfum, Coumarin",
+   "scans": 3
+  },
+  {
+   "ean": "3178040669536",
+   "nom": "Syoss Color Protect Shampooing",
+   "marque": "Syoss",
+   "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betain, Sodium Chloride, Amodimethicone/Morpholinomethyl Silsesquioxane Copolymer, Hydrolyzed Keratin, Prunus Armeniaca Kernel Oil, Panthenol, PEG-7 Glyceryl Cocoate, Disodium Cocoamphodiacetate, Glycol Distearate, Citric Acid, Sodium Benzoate, Cocamide MEA, Dimethicone, Laureth-4, PEG-40 Hydrogenated Castor Oil, Parfum, Guar Hydroxypropyltrimonium Chloride, Hydrogenated Castor Oil, PEG-120 Methyl Glucose Dioleate, Linalool, Glycerin, Trideceth-5, Laureth-23, Benzyl Alcohol, Limonene, Propylene Glycol, Mica, CI 77891.",
+   "scans": 3
+  },
+  {
+   "ean": "4017645036857",
+   "nom": "Shampooing normalisant à la mélisse",
+   "marque": "Logona",
+   "inci": "Aqua (Water), Alcohol Denat., Coco Glucoside, Glycerin, Disodium Cocoyl Glutamate, Sodium Cocoyl Glutamate, Sodium PCA, Glyceryl Oleate, Melissa Officinalis (Balm Mint) Leaf Extract, Hydrolyzed Silk, Betaine, Triticum Vulgare (Wheat) Bran Extract, Xanthan Gum, Citric Acid, Phytic Acid, Parfum (Fragrance), Limonene",
+   "scans": 3
+  },
+  {
+   "ean": "3600551177861",
+   "nom": "Shampooing",
+   "marque": "Dessange",
+   "inci": "AQUA / WATER, SODIUM LAURETH SULFATE, GLYCOL DISTEARATE, SODIUM CHLORIDE, COCAMIDOPROPYL BETAINE, DIMETHICONE, COCAMIDE MEA, STEARETH-6, FUMARIC ACID, CARBOMER, AMODIMETHICONE, TRIDECETH-10, TRIDECETH-3, CAMELLIA OLEIFERA SEED OIL, ALPHA-ISOMETHYL IONONE, SODIUM BENZOATE, SODIUM HYDROXIDE, SALICYLIC ACID, 2-OLEAMIDO-1,3-OCTADECANEDIOL, COUMARIN, PHENOXYETHANOL, COCO-BETAINE, TOCOPHEROL, CITRIC ACID, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, CITRONELLOL, ACETIC ACID, HEXYLENE GLYCOL, BENZYL SALICYLATE, BENZYL BENZOATE, BENZYL ALCOHOL, PEG-100 STEARATE, PARFUM / FRAGRANCE. (F.I.L. Z70058017/1).",
+   "scans": 3
+  },
+  {
+   "ean": "3600523128174",
+   "nom": "Elseve Liss-Intense Shampooing disciplinant (Maxi format)",
+   "marque": "L'Oréal Paris",
+   "inci": "AQUA / WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, COCAMIDE MIPA, SODIUM CHLORIDE, CI 19140 / YELLOW 5, CI 14700 / RED 4, SODIUM BENZOATE, SODIUM HYDROXIDE, PPG-5-CETETH-20, PEG-60 HYDROGENATED CASTOR OIL, PEG-55 PROPYLENE GLYCOL OLEATE, ARGANIA SPINOSA OIL / ARGANIA SPINOSA KERNEL OIL, POLYQUATERNIUM-10, SALICYLIC ACID, XYLOSE, LIMONENE, CAMELINA SATIVA OIL / CAMELINA SATIVA SEED OIL, LINALOOL, BENZYL ALCOHOL, BENZYL SALICYLATE, AMODIMETHICONE, PROPYLENE GLYCOL, BUTYLPHENYL METHYLPROPIONAL, CITRONELLOL, BHT, CITRIC ACID, LAURETH-5, CARBOXYLIC ACID, HEXYL CINNAMAL, AMYL CINNAMAL, PARFUM / FRAGRANCE. (F.I.L C172899/1)",
+   "scans": 3
+  },
+  {
+   "ean": "4005900023346",
+   "nom": "Power Shampoo Anti-pelliculaire",
+   "marque": "Nivea",
+   "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Laureth-9, PEG-3 Distearate, PEG-7 Glyceryl Cocoate, Piroctone Olamine, Climbazole, Undecylenamidopropyl Betaine, Bambusa Vulgaris Shoot Extract, Polyquaternium-7, Polyquaternium-10, Glycerin, Sodium Chloride, Citric Acid, PEG-40 Hydrogenated Castor Oil, PEG-200 Hydrogenated Glyceryl Palmate, Propylene Glycol, Sodium Benzoate, Sodium Salicylate, Parfum.",
+   "scans": 3
+  },
+  {
+   "ean": "3250391151905",
+   "nom": "Shampooing très doux Lait de Bambou Pêche Blanche",
+   "marque": "Labell",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, PEG-7 GLYCERYL COCOATE, DISODIUM LAURETH SULFOSUCCINATE, SODIUM CHLORIDE, GLYCERIN, PEG-4 RAPESEEDAMIDE, DIMETHICONE, PARFUM, STYRENE/ACRYLATES COPOLYMER, CETYL ALCOHOL, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, PEG/PPG-14/4 DIMETHICONE, TETRASODIUM EDTA, PANTHENOL, LAURETH-8, SODIUM BENZOATE, BENZYL ALCOHOL, PRUNUS PERSICA FRUIT EXTRACT, BENZOIC ACID, DEHYDROACETIC ACID, PHENOXYETHANOL, PROPYLENE GLYCOL, POTASSIUM SORBATE, SODIUM LAURYL SULFATE, BAMBUSA VULGARIS SHOOT EXTRACT, SINE ADIPE LAC, SUCCINOGLYCAN, PANTOLACTONE, CITRIC ACID, METHYLCHLOROISOTHIAZOLINONE, METHYLISOTHIAZOLINONE, SODIUM HYDROXIDE, PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE, MAGNESIUM NITRATE, MAGNESIUM CHLORIDE",
+   "scans": 3
+  },
+  {
+   "ean": "3564700718513",
+   "nom": "Shampooing extra-doux antipelliculaire",
+   "marque": "Marque Repère",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, SODIUM CHLORIDE, DISODIUM COCOAMPHODIACETAL LAURETH-3 PARFUM, PIROCTONE OLAMINE, CITRIC ACID POTASSIUM SORBATE, NIACINAMIDE, POLYQUATERNIUM O METHYLISOTHIAZOLINONE, SODIUM HYDROXIDE CI 42090 CI 28440.",
+   "scans": 3
+  },
+  {
+   "ean": "3600550845570",
+   "nom": "Shampooing dermo-apaisant antipelliculaire",
+   "marque": "Dessange",
+   "inci": "AQUA/ WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, GLYCERIN, GLYCOL DISTEARATE, SODIUM CHLORIDE, DIMETHICONE, PPG-5-CETETH-20, CI 17200/ RED 33, CARAMEL, LINALOOL CARBOMER, ZINC PYRITHIONE, AMODIMETHICONE, TRIDECETH-6, METHYLISOTHIAZOLINONE, SODIUM BENZOATE, SALICYLIC ACID, SODIUM POLYNAPHTHALENESULFONATE, SODIUM HYDROXIDE, KAOLIN, CELLULOSE GUM,  COUMARIN, CETRIMONIUM CHLORIDE, CITRIC ACID, POLYQUATERNIUM-6, HEXYL CINNAMAL, BENZYL SALICYLATE, BENZYL ALCOHOL, PARFUM/ FRAGRANCE. (F.IL C188790/1)",
+   "scans": 3
+  },
+  {
+   "ean": "3355312146401",
+   "nom": "Mon Shampoing Solide",
+   "marque": "Secrets de Provence",
+   "inci": "Disodium Lauryl Sulfosuccinate, Cetearyl Alcohol, Triticum Vulgare (Wheat) Starch*, Hydrogenated Castor Oil, Glycerin, Stearic Acid, Coco-Glucoside, Cocamidopropyl Betaine, Butyrospermum Parkii (Shea) Butter, Argania Spinosa Kernel Oil, Bentonite, Parfum (Fragrance), Sodium Chloride, Illite, Kaolin, Aqua (Water), Quartz, Limonene, Linalool, Geraniol",
+   "scans": 3
+  },
+  {
+   "ean": "3600550806700",
+   "nom": "Shampooing déjaunisseur Âge Sublime Blanc Chic",
+   "marque": "Dessange",
+   "inci": "AQUA / WATER, SODIUM LAURETH SULFATE, SODIUM CHLORIDE, COCO-BETAINE, GLYCOL DISTEARATE, CI 60730 / EXT. VIOLET 2, COCAMIDE MIPA, LINALOOL, ASPARTIC ACID, FUMARIC ACID, CARBOMER, GLYCINE, DIMETHICONE, SODIUM BENZOATE, SALICYLIC ACID, SODIUM HYALURONATE, ARGININE, SODIUM HYDROXIDE, MAGNESIUM ACETATE, PHENOXYETHANOL, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, HYDROXYPROPYLTRIMONIUM HYDROLYZED WHEAT PROTEIN, CITRIC ACID, GLUTAMIC ACID, HEXYLENE GLYCOL, BENZYL SALICYLATE, BENZYL ALCOHOL, PARFUM / FRAGRANCE. C178705/1.",
+   "scans": 3
+  },
+  {
+   "ean": "3474636974221",
+   "nom": "Absolut Repair",
+   "marque": "L'Oréal Professionnel",
+   "inci": "water, sodium laureth sulfate, cocamidopropyl betaine, dimethycone, sodium chloride, citric acid, hexylene glycol, sodium benzoate, sodium hydroxide, amodimethicone, carbomer, guar hydroxypropyltrimonoum chloride, trideceth 10, glycerin, salicylic acid, glycol distearate, linalool, mica, peg 100 stearate, hexyl cinnamal, phenoxyethanol, steareth 6, coco bethaine, trideceth 3, ci 77891 / titanium dioxyde, limonene, chenopodium quinoa seed extract, acetic acid, fumaric acid, hydrolyzed wheat protein, ci 19140 / yellow 5, hydrolyzed corn protein, hydrolyzed soy protein, ci 17200 / red 33, fragrance",
+   "scans": 3
+  },
+  {
+   "ean": "3760346072747",
+   "nom": "Shampoing nourrissant à éco-recharger",
+   "marque": "900.care",
+   "inci": "Sodium Cocoyl Isethionate, Sodium Cocoyl Glutamate,Hydroxypropyltrimonium Inulin, Citric Acid, Sodium Bicarbonate, Algin, Potassium Sorbate, Sodium Benzoate, Xanthan Gum, Sodium Methyl Oleoyl Taurate, Erythritol, Sodium Gluconate, Parfum, Aqua, Sodium Citrate, Sodium Chloride, Diutan Gum, Prunus Armeniaca Fruit Extract, Helianthus Annuus Seed Oil, Maltodextrin, Biosaccharide Gum-1",
+   "scans": 3
+  },
+  {
+   "ean": "3560070627950",
+   "nom": "Ultra Repair Shampooing régénérant",
+   "marque": "Carrefour",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, GLYCOL DISTEARATE, PARFUM, PROPYLENE GLYCOL, PANTHENOL, DIMETHICONE PROPYL PG-BETAINE, LAURETH-4, POLYQUATERNIUM-10, HYDROLYZED VEGETABLE PROTEIN PG-PROPYL SILANETRIOL, PEG-200 HYDROGENATED GLYCERYL PALMATE, STYRENE/ACRYLATES COPOLYMER, PEG-7 GLYCERYL COCOATE, SODIUM HYDROXIDE, MAGNESIUM NITRATE, FORMIC ACID, POTASSIUM SORBATE, SODIUM BENZOATE, MAGNESIUM CHLORIDE, CITRIC ACID, METHYLCHLOROISOTHIAZOLINONE, METHYLISOTHIAZOLINONE",
+   "scans": 2
+  },
+  {
+   "ean": "4017645046290",
+   "nom": "Shampooing sensitif à l'acacia bio",
+   "marque": "Logo à",
+   "inci": "Aqua (Water), Coco Glucoside, Alcohol denat., Glycerin, Disodium Cocoyl Glutamate, Sodium Cocoyl Glutamate, Inulin, Mel (Honey), Glyceryl Oleate, Xanthan Gum, PCA Glyceryl Oleate, Sucrose Laurate, Arginine, Sodium PCA, Lactic Acid, Dipotassium Glycyrrhizate, Equisetum Arvense Extract, Lilium Candidum Flower Extract, Moringa Pterygosperma Seed Extract, Punica Granatum Seed Extract, Phytic Acid, PCA Ethyl Cocoyl Arginate, Maltodextrin, Rosmarinus Officinalis (Rosemary) Leaf Extract, parfum (Fragrance), Linalool, Benzyl Salicylate",
+   "scans": 2
+  },
+  {
+   "ean": "3660005906867",
+   "nom": "Gel douche pomme",
+   "marque": "",
+   "inci": "AQUA/WATER/EAU, PYRUS MALUS (APPLE) FRUIT WATER, DISODIUM COCOYL GLUTAMATE, SODIUM COCOAMPHOACETATE DECYL GLUCOSIDE, GLYCERIN, CITRIC ACID, PYRUS MALUS(APPLE) FRUIT EXTRACT, PARFUM/FRAGRANCE, XANTHAN GUM, CAPRYLYL/CAPRYL GLUCOSE, SODIUM BENZOATE, SODIUM COCOYL ALANINATE, DICAPRYLYL ETHER, GLYCERYL OLEATE, POTASSIUM SORBATE, BENZOIC ACID",
+   "scans": 2
+  },
+  {
+   "ean": "3140100323047",
+   "nom": "Biorene Argent Shampooing déjaunissant intensif",
+   "marque": "Biorene",
+   "inci": "AQUA/WATER/EAU, SODIUM LAURETH SULFATE, PEG-4 RAPESEEDAMIDE, GLYCERIN, COCAMIDOPROPYL BETAINE, EXT. VIOLET 2 (CI 60730), GLYCOL DISTEARATE, COCAMIDE MEA, PARFUM (FRAGRANCE), POLYQUATERNIUM-7, DMDM HYDANTOIN, LAURETH-10, LINALOOL, CITRONELLOL, HEXYL CINNAMAL, BENZOIC ACID, HC BLUE NO. 2, LIMONENE, ALPHA-ISOMETHYL IONONE, CITRIC ACID, SODIUM CHLORIDE, (F03).",
+   "scans": 2
+  },
+  {
+   "ean": "3468080155053",
+   "nom": "Shampooing 2 en 1 ultra démêlant",
+   "marque": "Corine de Farme",
+   "inci": "Aqua, Sodium Laureth Sulfate, Coco-Betaine, Sodium Chloride, Glycerin, Parfum, Citric Acid, Sodium Benzoate, Guar Hydroxypropyltrimonium Chloride, Potassium Sorbate, Panthenol, Sodium Hydroxide.",
+   "scans": 2
+  },
+  {
+   "ean": "3600522992455",
+   "nom": "Elseve Nutri-gloss Luminizer Shampooing haute brillance",
+   "marque": "L'Oréal Paris",
+   "inci": "AQUA / WATER, SODIUM LAURETH SULFATE, COCO-BETAINE, COCAMIDE MIPA, SODIUM CHLORIDE, LACTIC ACID, SODIUM BENZOATE, HYDROLYZED SILK, SODIUM HYDROXIDE, PPG-5-CETETH-20, PEG-55 PROPYLENE GLYCOL OLEATE, POLYQUATERNIUM-10, SALICYLIC ACID, LIMONENE, LINALOOL, BENZYL ALCOHOL, AMODIMETHICONE, PROPYLENE GLYCOL, ALPHA-ISOMETHYL IONONE, CITRIC ACID, CITRONELLOL, LAURETH-5, CARBOXYLIC ACID, HEXYL CINNAMAL, GLYCOLIC ACID, PARFUM / FRAGRANCE. (F.I.L C171369/3)",
+   "scans": 2
+  },
+  {
+   "ean": "3489940070569",
+   "nom": "Shampooing & douche miel bio",
+   "marque": "Ce'Bio",
+   "inci": "Aqua, Sodium Coco-Sulfate. Lavandula Angustifolia (Lavender) Water Chamomilla Recutita (Matricaria) Extract&quot;, Coco-Glucoside, Coco-Betaine, Mel (Honey)&quot;, Alcohol**, Glycerin, Parfum*, Potassium Sorbate, Sodium Dehydroacetate, Sodium Chloride, Citric Acid, Limonène",
+   "scans": 2
+  },
+  {
+   "ean": "3250391375349",
+   "nom": "Shampooing extra doux Camomille & Germes de blé cheveux blonds",
+   "marque": "Netto",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, DISODIUM COCOAMPHODIACETATE, SODIUM CHLORIDE, GLYCERIN, COCAMIDOPROPYL BETAINE, PARFUM, PEG-60 ALMOND GLYCERIDES, CITRIC ACID, PANTHENOL, POLYQUATERNIUM-10, PROPYLENE GLYCOL, BENZYL SALICYLATE, 2-BROMO-2-NITROPROPANE-1,3-DIOL, TETRASODIUM EDTA, EUGENOL, LINALOOL, PEG-40 HYDROGENATED CASTOR OIL, TRITICUM VULGARE GERM EXTRACT, PANTOLACTONE, POTASSIUM SORBATE, BISABOLOL, TRIDECETH-9, TRITICUM VULGARE GERM OIL, SODIUM BENZOATE, CI 19140, CI 16255",
+   "scans": 2
+  },
+  {
+   "ean": "4017645036871",
+   "nom": "Shampooing volumateur au miel et à la bière",
+   "marque": "Logona",
+   "inci": "Aqua (Water), Beer, Alcohol Denat., Coco Glucoside, Glycerin, Disodium Cocoyl Glutamate, Sodium Cocoyl Glutamate, Sodium PCA, Glyceryl Oleate, Mel (Honey), Calendula Officinalis Flower Extract, Hydrolyzed Silk, Triticum Vulgare (Wheat) Bran Extract, Xanthan Gum, Citric Acid, Phytic Acid, Parfum (Fragrance), Limonene, Linalool.",
+   "scans": 2
+  },
+  {
+   "ean": "26023229",
+   "nom": "Man men's care Shampooing Douche 3 en 1 Ocean",
+   "marque": "Mc Bride",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, PARFUM, DECYL GLUCOSIDE, PEG-7 GLYCERYL COCOATE, POLYQUATERNIUM-7, MENTHOL, BENZOPHENONE-3, BENZYL ALCOHOL, CITRIC ACID, LINALOOL, TETRASODIUM EDTA, BENZYL SALICYLATE, BUTYLPHENYL METHYLPROPIONAL, SODIUM BENZOATE, LIMONENE, METHYLCHLOROISOTHIAZOLINONE, METHYLISOTHIAZOLINONE, SODIUM HYDROXIDE, CI 42090, CI 19140",
+   "scans": 2
+  },
+  {
+   "ean": "4005900127013",
+   "nom": "Active Clean Gel douche Charbon Actif",
+   "marque": "Nivea",
+   "inci": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Acrylates Copolymer, PEG-7 Glyceryl Cocoate, Glycerin, Sodium Chloride, PEG-3 Distearate, PEG-200 Hydrogenated Glyceryl Palmate, PEG-40 Hydrogenated Castor Oil, Trisodium EDTA, Citric Acid, Phenoxyethanol, Methylparaben, Ethylparaben, Sodium Benzoate, Linalool, Limonene, Coumarin, Butylphenyl Methylpropional, Citral, Geraniol, Citronellol, Parfum, CI 77266 (Carbon Black)",
+   "scans": 2
+  },
+  {
+   "ean": "3245678589823",
+   "nom": "Shampoing antipelliculaire",
+   "marque": "Auchan",
+   "inci": "Aqua, Sodium Laureth Sulfate, Sodium Chloride, Cocamidopropyl Betaine, PEG-7 Glyceryl Cocoate, Parfum, Climbazole, Citric Acid, Sodium Benzoate, Potassium Sorbate, Polyquaternium-10, CI 42090",
+   "scans": 2
+  },
+  {
+   "ean": "3178040429628",
+   "nom": "Gliss Shampooing - Color et Brillance",
+   "marque": "Schwarzkopf",
+   "inci": "AQUA, SODIUM LAURETH SULFATE, CO BETAINE, SODIUM CHLORIDE, SODIUM BENZOATE, PARFUM CADD GLYCERIN, POLYQUATERNIUM-10, HEXYL CINNAMAL CITRANTUN DULCIS FRUIT EXTRACT, ROSMARINUS OFFICINALIS LEAF EXTRA TASSIUM SORBATE, CI 19140, C 20470, SODIUM HYDROXIDE Interdis - TSA 91431-91343 MASSY Cedex-France N'Cristal 09 69 39 7000 B Tel: 0800/9.10.11 Numero verde 800-450650 1+03 PET1 PPS PLASTICA Per conferma consulta 12022 regola Made in France ME 12 M 24 235 003 250 mle EMB 611690 3 560070 968893",
+   "scans": 2
+  }
+ ],
+ "top": []
+}

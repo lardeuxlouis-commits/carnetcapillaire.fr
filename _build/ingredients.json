@@ -1,5 +1,5 @@
 {
- "_note": "Base de règles du scanner de composition (/composition-shampoing/). Faits sur la composition uniquement : pas de note globale, pas d'allégation santé, pas de mot alarmiste. Relue le 22/11/2026. Noms INCI en minuscules, sans accents. 'noms' = noms exacts (servent aussi au rapprochement tolérant aux fautes d'OCR), 'motifs' = expressions régulières sur le nom normalisé, 'exclut' = motifs qui annulent une correspondance. Les règles sont testées dans l'ordre, la première qui correspond gagne, sauf celles marquées 'multi' (testées en plus : allergènes, retirés du marché). Points de profil : [niveau, explication, rang maximum facultatif]. Niveaux : ok, prudence, peu, info. Clés de profil séparées par des virgules. texture = raides, ondules, boucles, frises, crepus ; cuir = equilibre, gras, sec, pellicules ; ep = fin.",
+ "_note": "Base de règles du scanner de composition (/composition-shampoing/). Faits sur la composition uniquement : pas d'allégation santé, pas de mot alarmiste, aucun jugement sur une marque. Le score /100 (bloc 'score') est indicatif, calculé dans le navigateur à partir de la liste seule (pas des quantités), et sa méthode est publiée sur /methode-score/. Relue le 22/11/2026. Noms INCI en minuscules, sans accents. 'noms' = noms exacts (servent aussi au rapprochement tolérant aux fautes d'OCR), 'motifs' = expressions régulières sur le nom normalisé, 'exclut' = motifs qui annulent une correspondance. Les règles sont testées dans l'ordre, la première qui correspond gagne, sauf celles marquées 'multi' (testées en plus : allergènes, retirés du marché). Points de profil : [niveau, explication, rang maximum facultatif]. Niveaux : ok, prudence, peu, info. Clés de profil séparées par des virgules. texture = raides, ondules, boucles, frises, crepus ; cuir = equilibre, gras, sec, pellicules ; ep = fin.",
  "version": "2026-11-22",
  "sources": [
   {
@@ -290,6 +290,48 @@
      "sec": [
       "prudence",
       "Sur un cuir chevelu sec ou sensible, il peut tirailler comme un sulfate."
+     ]
+    }
+   }
+  },
+  {
+   "id": "saponifie",
+   "label": "Savon (huile saponifiée)",
+   "groupe": "lavant-fort",
+   "noms": [
+    "sodium palmate",
+    "sodium palm kernelate",
+    "sodium cocoate",
+    "sodium tallowate",
+    "sodium olivate",
+    "sodium shea butterate",
+    "sodium sunflowerate",
+    "sodium sunflowerseedate",
+    "sodium rapeseedate",
+    "sodium castorate",
+    "sodium babassuate",
+    "sodium sweet almondate",
+    "sodium stearate",
+    "potassium cocoate",
+    "potassium oleate",
+    "potassium olivate",
+    "potassium palmate",
+    "potassium sunflowerate",
+    "potassium castorate",
+    "sodium cocoate/palm kernelate"
+   ],
+   "fait": "Base lavante des savons traditionnels, obtenue en saponifiant une huile ou un beurre. Elle lave bien, avec un pH plus élevé que celui de la peau et du cuir chevelu.",
+   "profil": {
+    "texture": {
+     "boucles,frises,crepus": [
+      "prudence",
+      "Un savon saponifié laisse souvent les boucles et les cheveux crépus plus rêches, surtout en eau calcaire."
+     ]
+    },
+    "cuir": {
+     "sec": [
+      "prudence",
+      "Le pH élevé d'un savon peut tirailler un cuir chevelu sec ou sensible."
      ]
     }
    }
@@ -951,6 +993,247 @@
    "notes": {
     "salicylic acid": "sert de conservateur ou d'exfoliant doux ; à dose plus élevée, on le trouve aussi dans des shampoings antipelliculaires"
    }
+  },
+  {
+   "id": "actif",
+   "multi": true,
+   "label": "Ingrédient soin",
+   "groupe": "actif",
+   "noms": [
+    "panthenol",
+    "allantoin",
+    "bisabolol",
+    "niacinamide",
+    "squalane",
+    "ceramide np",
+    "ceramide ap",
+    "ceramide eop",
+    "centella asiatica extract",
+    "madecassoside",
+    "avena sativa kernel extract",
+    "avena sativa kernel flour",
+    "avena sativa meal",
+    "sodium hyaluronate",
+    "hyaluronic acid",
+    "tocopherol",
+    "tocopheryl acetate",
+    "aloe barbadensis leaf juice",
+    "aloe barbadensis leaf extract",
+    "glycyrrhiza glabra root extract",
+    "dipotassium glycyrrhizate",
+    "zinc pca",
+    "urea",
+    "beta-glucan",
+    "phytosphingosine",
+    "cholesterol"
+   ],
+   "fait": "Ingrédient couramment utilisé pour son rôle de soin : apaiser, hydrater, protéger ou aider la barrière de la peau. Sa quantité n'est pas connue : en fin de liste, il est présent en petite dose.",
+   "profil": {}
   }
- ]
+ ],
+ "categories": {
+  "shampoing": {
+   "nom": "Shampoing",
+   "capillaire": true,
+   "lave": true
+  },
+  "apres": {
+   "nom": "Après-shampoing",
+   "capillaire": true
+  },
+  "masque": {
+   "nom": "Masque",
+   "capillaire": true
+  },
+  "huile": {
+   "nom": "Huile ou soin sans rinçage",
+   "capillaire": true
+  },
+  "gel_douche": {
+   "nom": "Gel douche",
+   "capillaire": false,
+   "lave": true
+  },
+  "savon": {
+   "nom": "Savon",
+   "capillaire": false,
+   "lave": true
+  },
+  "creme": {
+   "nom": "Crème ou autre soin",
+   "capillaire": false
+  }
+ },
+ "score": {
+  "_note": "Score indicatif /100 basé uniquement sur la liste INCI (ni les quantités, ni la qualité des matières premières). Mode 'compat' = produit capillaire + profil complet ; mode 'douceur' = autres produits, ou produit capillaire sans profil. Méthode publiée sur /methode-score/.",
+  "base": 70,
+  "position": [
+   [
+    3,
+    1.0
+   ],
+   [
+    6,
+    0.85
+   ],
+   [
+    10,
+    0.65
+   ],
+   [
+    20,
+    0.45
+   ],
+   [
+    999,
+    0.3
+   ]
+  ],
+  "profil": {
+   "peu": -24,
+   "prudence": -10,
+   "ok": 7,
+   "info": 0,
+   "plafond_bonus": 21,
+   "plafond_malus": -40
+  },
+  "criteres": [
+   {
+    "regle": "sulfate",
+    "label": "Tensioactif fort (sulfate)",
+    "douceur": -14,
+    "compat": 0,
+    "position": true,
+    "noms": {
+     "sodium lauryl sulfate": -20,
+     "ammonium lauryl sulfate": -20,
+     "tea-lauryl sulfate": -20
+    }
+   },
+   {
+    "regle": "sulfonate",
+    "label": "Tensioactif fort (sulfonate)",
+    "douceur": -12,
+    "compat": 0,
+    "position": true
+   },
+   {
+    "regle": "saponifie",
+    "label": "Savon saponifié (pH élevé)",
+    "douceur": -8,
+    "compat": 0,
+    "position": true
+   },
+   {
+    "regle": "doux",
+    "label": "Base lavante douce, sans sulfate",
+    "douceur": 6,
+    "compat": 0,
+    "sans": [
+     "sulfate",
+     "sulfonate"
+    ]
+   },
+   {
+    "regle": "parfum",
+    "label": "Parfum",
+    "douceur": -5,
+    "compat": -2
+   },
+   {
+    "regle": "allergene",
+    "label": "Allergènes parfumants déclarés",
+    "douceur": -2,
+    "compat": -2,
+    "par_ingredient": true,
+    "max": -8
+   },
+   {
+    "regle": "huile_essentielle",
+    "label": "Huiles essentielles",
+    "douceur": -2,
+    "compat": -1,
+    "par_ingredient": true,
+    "max": -6
+   },
+   {
+    "regle": "conservateur_mit",
+    "label": "Conservateur isothiazolinone",
+    "douceur": -10,
+    "compat": -6
+   },
+   {
+    "regle": "conservateur_formol",
+    "label": "Conservateur libérant du formaldéhyde",
+    "douceur": -8,
+    "compat": -4
+   },
+   {
+    "regle": "alcool_sec",
+    "label": "Alcool volatil haut placé",
+    "douceur": -10,
+    "compat": -3,
+    "position": true,
+    "rang_max": 8
+   },
+   {
+    "regle": "humectant",
+    "label": "Humectants",
+    "douceur": 4,
+    "compat": 0
+   },
+   {
+    "regle": "huile",
+    "label": "Huiles végétales",
+    "douceur": 3,
+    "compat": 0
+   },
+   {
+    "regle": "beurre",
+    "label": "Beurres végétaux",
+    "douceur": 3,
+    "compat": 0
+   },
+   {
+    "regle": "actif",
+    "label": "Ingrédients soin",
+    "douceur": 3,
+    "compat": 3,
+    "par_ingredient": true,
+    "max": 9
+   }
+  ],
+  "paliers": [
+   [
+    75,
+    "vert"
+   ],
+   [
+    50,
+    "jaune"
+   ],
+   [
+    25,
+    "orange"
+   ],
+   [
+    0,
+    "rouge"
+   ]
+  ],
+  "libelles": {
+   "compat": {
+    "vert": "Excellent pour ton profil",
+    "jaune": "Bon",
+    "orange": "Moyen",
+    "rouge": "Peu adapté"
+   },
+   "douceur": {
+    "vert": "Formule très douce",
+    "jaune": "Bonne",
+    "orange": "Moyenne",
+    "rouge": "Peu douce"
+   }
+  }
+ }
 }

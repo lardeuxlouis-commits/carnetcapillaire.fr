@@ -3,7 +3,7 @@
 import os, re, json, glob, html
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); OUT = os.path.join(ROOT, "site")
 pages = {("/" + os.path.relpath(os.path.dirname(f), OUT) + "/").replace("/./", "/"): f for f in glob.glob(OUT + "/**/index.html", recursive=True)}
-INTERDITS = re.compile(r"\b(guérit|guérir|soigne(?!nt pas| pas)|stoppe la chute|fait repousser|garanti)\b", re.I)
+INTERDITS = re.compile(r"\b(guérit|guérir|soigne(?!nt pas| pas)|stoppe la chute|fait repousser|garanti|toxiques?|dangereu(?:x|se|ses)|cancérigènes?|cancérogènes?|perturbateurs? endocriniens?|nocifs?|nocives?)\b", re.I)
 pb = 0
 for p, f in sorted(pages.items()):
     h = open(f, encoding="utf-8").read()
@@ -33,7 +33,7 @@ print(len(pages), "pages,", pb, "avec problème")
 # --- Contrôle SEO global : mot-clé unique, JSON-LD par type, canonical, sitemap, robots, maillage, orphelines ---
 DOMAIN = "https://carnetcapillaire.fr"
 ATTENDU = {"/": {"WebSite"}, "/quiz-type-de-cheveux/": {"WebApplication", "FAQPage", "BreadcrumbList"},
-           "/tests-cheveux/": {"ItemList", "BreadcrumbList"}, "/composition-shampoing/": {"WebApplication", "FAQPage", "BreadcrumbList"}, "/contact/": {"BreadcrumbList"}, "/mentions-legales/": {"BreadcrumbList"},
+           "/tests-cheveux/": {"ItemList", "BreadcrumbList"}, "/composition-shampoing/": {"WebApplication", "FAQPage", "BreadcrumbList"}, "/classement-shampoings/": {"ItemList", "BreadcrumbList"}, "/contact/": {"BreadcrumbList"}, "/mentions-legales/": {"BreadcrumbList"},
            "/guide-produits-cheveux-pdf/": {"Product", "BreadcrumbList", "FAQPage"}}
 SIMUL = {"/meilleur-shampoing/", "/cuir-chevelu-qui-gratte/", "/soins-cheveux/"}
 kws, entrants, seo_pb = {}, {p: set() for p in pages}, 0

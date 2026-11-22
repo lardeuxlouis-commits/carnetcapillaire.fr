@@ -7,6 +7,8 @@ cd "$(dirname "$0")"
 REMOTE="https://github.com/lardeuxlouis-commits/carnetcapillaire.fr.git"
 DOMAINE="carnetcapillaire.fr"
 
+# Données du classement (compositions + plus scannés) : réseau, sans bloquer la publication si le VPS ou OBF ne répondent pas
+python3 _build/classement_data.py || echo "classement_data.py en échec : on garde _build/classement.json actuel"
 python3 _build/build.py
 if ! python3 _build/verif.py > /tmp/verif-carnet.txt; then
   grep -v " OK$" /tmp/verif-carnet.txt; echo "verif.py a trouvé des problèmes : publication annulée."; exit 1

@@ -6,6 +6,8 @@ META = {
     "quiz-type-de-cheveux": {"court": "Quel est ton type de cheveux", "rubrique": "outil"},
     "tests-cheveux": {"court": "Les tests", "rubrique": "outil"},
     "composition-shampoing": {"court": "Scanner de composition", "rubrique": "outil"},
+    "methode-score": {"court": "Méthode du score", "rubrique": "outil"},
+    "classement-shampoings": {"court": "Classement des shampoings", "rubrique": "outil"},
     "guide-produits-cheveux-pdf": {"court": "Le guide PDF", "rubrique": "offre"},
     "contact": {"court": "Contact", "rubrique": "legal"},
     "mentions-legales": {"court": "Mentions légales", "rubrique": "legal"},
@@ -610,7 +612,7 @@ def mentions():
 <p>Aucun avis client n'est publié pour l'instant, aucun avis n'est acheté et aucune note n'est inventée. Les produits sont sélectionnés sur leur composition ; les tests en conditions réelles seront signalés et datés.</p>
 <h2 id="confidentialite">Confidentialité</h2>
 <ul><li><strong>Les tests</strong> fonctionnent entièrement dans ton navigateur : tes réponses ne sont pas envoyées.</li>
-<li><strong>Le scanner de composition</strong> : le code-barres ou le nom que tu tapes est envoyé à l'API publique d'Open Beauty Facts pour trouver le produit (c'est elle qui répond, le site ne garde rien). La caméra sert seulement à lire le code-barres, et la photo de l'étiquette est lue sur ton appareil : aucune image n'est envoyée ni enregistrée. Les outils de lecture (ZXing, Tesseract.js) sont téléchargés depuis cdn.jsdelivr.net seulement quand tu les utilises.</li>
+<li><strong>Le scanner de composition</strong> : le code-barres ou le nom que tu tapes est envoyé à la base du carnet (notre serveur, qui garde seulement un compteur du nombre de consultations par code-barres, sans adresse IP ni identifiant) et aux API publiques d'Open Beauty Facts, Open Products Facts et Open Food Facts pour trouver le produit. La caméra sert seulement à lire le code-barres, et les photos (code-barres ou étiquette) sont lues sur ton appareil : aucune image n'est envoyée ni enregistrée. Si tu coches « Partager cette composition pour aider les autres », le code-barres, le nom, la marque et la liste d'ingrédients sont enregistrés dans la base du carnet et réutilisés pour les prochaines recherches de ce produit ; rien de personnel n'est envoyé. Le lecteur de code-barres est hébergé sur le site, le lecteur de texte (Tesseract.js) est téléchargé depuis cdn.jsdelivr.net seulement quand tu l'utilises.</li>
 <li><strong>Les e-mails (mini-guide, résultat d'un test)</strong> :{MAIL_ETAT} seulement si tu remplis le formulaire et coches la case. On collecte ton e-mail, ton prénom si tu le donnes, la page et le test d'où tu viens, et le résultat du test que tu as demandé. But : t'envoyer ce que tu as demandé, puis 5 e-mails de conseils sur 10 jours et une lettre de temps en temps, avec parfois des liens affiliés signalés. Base légale : ton consentement. Tu confirmes ton adresse par un e-mail (double opt-in) et tu peux te désinscrire en un clic dans chaque e-mail. Durée : jusqu'à ta désinscription, et au plus 3 ans après ton dernier clic ou ta dernière ouverture. Ces données ne sont jamais vendues ni louées. {PRESTA_ETAT} Tu peux demander l'accès, la rectification ou la suppression de tes données via la page <a href="/contact/">contact</a>, et saisir la <a href="https://www.cnil.fr/fr/plaintes" rel="noopener" target="_blank">CNIL</a>. Responsable du traitement : l'éditrice du site (voir plus haut).</li>
 <li><strong>Stockage local</strong> : ton navigateur retient que tu as fermé l'encart du mini-guide ou la barre du test, et ton profil de cheveux (type, cuir chevelu, cheveux fins ou non) issu du quiz ou du scanner, pour ne pas te le redemander. Rien n'est envoyé. Tu l'effaces en vidant les données du site dans ton navigateur.</li>
 <li><strong>Aucun cookie</strong> n'est déposé par le site. La fréquentation est mesurée avec GoatCounter, un outil sans cookie qui ne collecte aucune donnée personnelle (pas d'adresse IP conservée, pas de suivi d'une page à l'autre) : il compte seulement les pages vues et les tests terminés.</li>
@@ -632,12 +634,15 @@ def mentions():
 # Différence avec /meilleur-shampoing-sans-sulfate/ (section « Lire une étiquette INCI en 30 secondes ») : là-bas, les tensioactifs
 # et le choix d'un sans sulfate ; ici, l'outil et les règles générales de l'étiquette (ordre, seuil de 1 %, noms latins, allergènes).
 SCAN_FAQ = [
-    ("Le scanner donne-t-il une note au shampoing ?", "Non, volontairement. Une note sur 100 ne dit rien de tes cheveux : un shampoing parfait pour des racines grasses peut assécher des boucles. Le scanner décrit la composition, puis dit si elle colle à ton profil, point par point."),
-    ("Un ingrédient « à surveiller » est-il dangereux ?", "Non. Les cosmétiques vendus dans l'Union européenne respectent le règlement 1223/2009, qui fixe les ingrédients autorisés et leurs doses. « À surveiller » veut dire : à regarder selon ton type de cheveux ou ton cuir chevelu, par exemple un sulfate sur des boucles sèches."),
-    ("Mon shampoing n'est pas trouvé, que faire ?", "Open Beauty Facts est une base collaborative : tous les produits n'y sont pas. Photographie la liste d'ingrédients au dos du flacon, ou colle-la depuis le site de la marque. L'analyse est la même."),
-    ("La photo de l'étiquette est-elle envoyée quelque part ?", "Non. Le texte est lu directement sur ton téléphone ou ton ordinateur. La photo ne quitte pas ton appareil et n'est pas enregistrée. Seuls le code-barres ou le nom que tu tapes partent vers Open Beauty Facts pour trouver le produit."),
+    ("Comment est calculé le score sur 100 ?", "Il part de 70 points, puis chaque famille d'ingrédients ajoute ou retire des points selon ton profil et sa place dans la liste. Pour un produit capillaire, c'est un score de compatibilité avec tes cheveux ; pour un gel douche, un savon ou une crème, un score de douceur de la formule. Toute la méthode est publique sur la page méthode du score, et le détail s'affiche sous chaque résultat."),
+    ("Pourquoi le même shampoing n'a pas le même score que pour mon amie ?", "C'est voulu. Un shampoing qui lave fort convient bien à des racines grasses et peut laisser des boucles rêches. Le score mesure l'accord entre une formule et un profil, pas la qualité absolue d'un produit."),
+    ("Un score bas veut-il dire que le produit est à éviter ?", "Non. Les cosmétiques vendus dans l'Union européenne respectent le règlement 1223/2009, qui fixe les ingrédients autorisés et leurs doses. Un score bas veut dire « moins adapté à ce profil » ou « formule moins douce ». Le score est indicatif, basé uniquement sur la liste d'ingrédients, pas sur les quantités ; il ne remplace pas un avis médical."),
+    ("Ça marche pour un gel douche, un savon ou une crème ?", "Oui. Le type de produit est détecté et tu peux le corriger. Pour ces produits, le score de douceur est le même pour tout le monde : il regarde surtout la base lavante, le parfum, les allergènes déclarés et certains conservateurs."),
+    ("Mon produit n'est pas trouvé, que faire ?", "Le scanner cherche dans la base du carnet, dans Open Beauty Facts et ses bases voisines, puis par nom et par marque. S'il ne trouve rien, photographie la liste d'ingrédients au dos du flacon ou colle-la : l'analyse est la même. Tu peux ensuite la partager pour la prochaine personne qui scannera ce produit."),
+    ("La photo est-elle envoyée quelque part ?", "Non. Le code-barres et le texte sont lus directement sur ton téléphone ou ton ordinateur. La photo ne quitte pas ton appareil et n'est pas enregistrée. Seuls le code-barres ou le nom partent vers la base du carnet et Open Beauty Facts pour trouver le produit, et la composition seulement si tu coches la case de partage."),
+    ("Le scanner ne lit pas le code-barres sur mon iPhone, que faire ?", "Tiens le flacon à 15 ou 20 cm (de trop près, l'appareil ne fait pas la mise au point), évite les reflets et allume la lampe si le bouton apparaît. Le plus fiable sur iPhone : le bouton « Photographier le code-barres », qui utilise l'appareil photo et sa mise au point automatique. Tu peux aussi taper les chiffres."),
     ("La lecture de la photo s'est trompée, c'est grave ?", "Le texte lu s'affiche avant l'analyse : tu peux le corriger. Le scanner tolère aussi les petites fautes de lecture (un 0 à la place d'un O, une lettre manquante) et les rapproche du bon ingrédient. Pour une meilleure lecture : photo nette, bien à plat, sans reflet, avec seulement la liste."),
-    ("Ça marche pour un après-shampoing ou un masque ?", "Oui, la composition se lit de la même façon. Les remarques sur le lavage (sulfates, tensioactifs) ne concernent que les produits qui lavent."),
+    ("Ça marche pour un après-shampoing ou un masque ?", "Oui, la composition se lit de la même façon. Les remarques sur le lavage (sulfates, tensioactifs) ne comptent que pour les produits qui lavent."),
 ]
 
 
@@ -651,9 +656,9 @@ def scanner():
     nb = sum(len(r.get("noms", [])) for r in db["regles"])
     body = f"""<div class="wrap">{G["crumbs_html"](crumbs)}
 <header class="ahead" style="grid-template-columns:1fr"><div style="max-width:780px">
-<p class="kicker">Outil gratuit · rien n'est enregistré</p>
+<p class="kicker">Outil gratuit · score sur 100 · aucune donnée personnelle</p>
 <h1>Composition de shampoing : scanne ton flacon et vois s'il te va</h1>
-<p class="chapo">Scanne le code-barres, cherche le nom ou photographie la liste d'ingrédients. Tu vois ce qu'il y a dedans, famille par famille, et si la formule colle à tes cheveux. Pas de note, pas de jugement sur la marque : des faits sur la composition.</p></div></header>
+<p class="chapo">Scanne le code-barres de ton shampoing, de ton gel douche ou de ta crème, cherche son nom ou photographie la liste d'ingrédients. Tu obtiens un score sur 100 pour tes cheveux, ce qu'il y a dedans famille par famille, et la raison de chaque point. <a href="/methode-score/">La méthode du score</a> est publique.</p></div></header>
 
 <section class="scan" id="scanner" aria-label="Scanner de composition">
 <div id="scan-profil"><noscript><p>Le scanner a besoin de JavaScript.</p></noscript></div>
@@ -664,8 +669,12 @@ def scanner():
 <button type="button" role="tab" id="t-coller" aria-controls="p-coller" aria-selected="false" tabindex="-1">Coller la liste</button>
 </div>
 <div role="tabpanel" id="p-code" aria-labelledby="t-code">
-<button type="button" class="btn" id="scan-go">Scanner avec la caméra</button>
-<div class="scan-cam" id="scan-cam" hidden><video id="scan-video" playsinline muted aria-label="Image de la caméra pour lire le code-barres"></video><div class="visee" aria-hidden="true"></div><button type="button" class="btn btn-s" id="scan-stop">Arrêter</button></div>
+<div class="scan-acts"><button type="button" class="btn" id="scan-go">Scanner avec la caméra</button>
+<label class="btn btn-o btn-file">Photographier le code-barres<input type="file" id="scan-photo-code" accept="image/*" capture="environment"></label></div>
+<div class="scan-cam" id="scan-cam" hidden><video id="scan-video" playsinline muted autoplay aria-label="Image de la caméra pour lire le code-barres"></video><div class="visee" aria-hidden="true"></div>
+<div class="cam-bar"><button type="button" class="btn btn-s" id="scan-torch" aria-pressed="false" hidden>Lampe</button><button type="button" class="btn btn-s" id="scan-switch" hidden>Changer de caméra</button><button type="button" class="btn btn-s" id="scan-stop">Arrêter</button></div>
+<label class="cam-zoom" id="scan-zoom-box" hidden>Zoom <input type="range" id="scan-zoom" min="1" max="2" step="0.1" value="1"></label></div>
+<p class="small">Sur iPhone, si la vidéo ne lit pas, « Photographier le code-barres » marche presque toujours : l'appareil photo fait une meilleure mise au point.</p>
 <form id="scan-form-code" class="scan-form"><label class="lab2" for="scan-ean">Ou tape les chiffres sous le code-barres</label>
 <div class="scan-row"><input id="scan-ean" inputmode="numeric" autocomplete="off" pattern="[0-9 ]*" placeholder="Ex. 3600542571951"><button class="btn" type="submit">Chercher</button></div></form>
 </div>
@@ -700,7 +709,8 @@ def scanner():
 </ol>
 <p>Deux pièges fréquents. « Cetyl alcohol » ou « cetearyl alcohol » ne sont pas des alcools qui assèchent : ce sont des corps gras qui adoucissent. Et « sans sulfate » ne veut pas dire « doux » : certains tensioactifs lavent presque aussi fort sans porter ce nom. Pour choisir ta base lavante en détail, lis notre guide du <a href="/meilleur-shampoing-sans-sulfate/">shampoing sans sulfate</a>.</p></section>
 <section aria-labelledby="comment-scan"><h2 id="comment-scan">Comment le scanner décide</h2>
-<p>Chaque ingrédient est rangé dans une famille (tensioactif doux ou fort, silicone, huile, protéine, humectant, conservateur, allergène…), avec une règle écrite pour chaque type de cheveux et chaque cuir chevelu. Le résultat te dit « plutôt adapté », « à utiliser avec précaution » ou « peu adapté à ton profil », avec la raison de chaque point. La même formule peut être parfaite pour toi et mal convenir à ta sœur.</p>
+<p>Chaque ingrédient est rangé dans une famille (tensioactif doux ou fort, silicone, huile, protéine, humectant, conservateur, allergène…), avec une règle écrite pour chaque type de cheveux et chaque cuir chevelu. Le score part de 70 sur 100, puis chaque règle ajoute ou retire des points, d'autant plus que l'ingrédient est haut placé. Vert à partir de 75 (« Excellent pour ton profil »), jaune de 50 à 74 (« Bon »), orange de 25 à 49 (« Moyen »), rouge en dessous (« Peu adapté »). La même formule peut être parfaite pour toi et mal convenir à ta sœur. Tout est détaillé sur la page <a href="/methode-score/">méthode du score</a>, et le <a href="/classement-shampoings/">classement des shampoings</a> applique le même calcul à chaque type de cheveux.</p>
+<p><strong>Score indicatif basé uniquement sur la liste d'ingrédients, pas sur les quantités ; ne remplace pas un avis médical.</strong></p>
 <p>Ce que le scanner ne fait pas : il ne connaît pas les quantités exactes, qui ne sont pas sur l'étiquette, il ne juge pas la qualité d'une marque, et il ne remplace pas l'avis d'un dermatologue. Si ton cuir chevelu gratte, rougit ou pèle depuis plusieurs semaines, fais plutôt le <a href="/cuir-chevelu-qui-gratte/#simulateur">diagnostic cuir chevelu</a> et parles-en à ton médecin.</p>
 <p>Tu ne connais pas ton type de cheveux ? <a href="/quiz-type-de-cheveux/">Fais le quiz</a> : le scanner reprendra ton profil tout seul.</p></section>
 <section aria-labelledby="faq"><h2 id="faq">Questions fréquentes</h2>{faq}</section>
@@ -716,7 +726,7 @@ def scanner():
                "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}},
               {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in SCAN_FAQ]}]
     js = (f'\n<script src="/simulateurs.js?v={G["ASSET_V"]}" defer></script>\n<script src="/scanner.js?v={G["ASSET_V"]}" defer></script>'
-          '\n<link rel="preconnect" href="https://world.openbeautyfacts.org" crossorigin>')
+          '\n<link rel="preconnect" href="https://187-124-173-12.sslip.io" crossorigin>\n<link rel="preconnect" href="https://world.openbeautyfacts.org" crossorigin>')
     return G["page"]("Composition shampoing : scanne et décode les ingrédients",
                      "Scanne le code-barres, cherche le nom ou photographie l'étiquette de ton shampoing : sa composition expliquée et sa compatibilité avec tes cheveux.",
                      "/composition-shampoing/", body, schema, "scanner",
@@ -725,7 +735,163 @@ def scanner():
 
 def pages():
     init_offres()
-    return [("/", accueil(), "1.0"), ("/tests-cheveux/", tests(), "0.9"), ("/composition-shampoing/", scanner(), "0.9"), ("/quiz-type-de-cheveux/", quiz(), "0.9"), (f"/{EB}/", ebook(), "0.8"),
+    return [("/", accueil(), "1.0"), ("/tests-cheveux/", tests(), "0.9"), ("/composition-shampoing/", scanner(), "0.9"), ("/methode-score/", methode(), "0.6"), ("/classement-shampoings/", classement(), "0.8"), ("/quiz-type-de-cheveux/", quiz(), "0.9"), (f"/{EB}/", ebook(), "0.8"),
             ("/merci/", merci(), None), ("/bienvenue/", bienvenue(), None)] + [
             (G["url_guide"](t["id"]), guide_type(t), None) for t in G["OFFRES"]["types"]] + [
             ("/contact/", contact(), "0.3"), ("/mentions-legales/", mentions(), "0.2")]
+
+
+# --- Score /100 : méthode publique (/methode-score/) et classement (/classement-shampoings/) ---
+# Les deux pages lisent le bloc « score » de _build/ingredients.json et calculent avec le moteur du navigateur (node _build/score_cli.js) :
+# ce qui est écrit sur la méthode est exactement ce qui tourne dans le scanner.
+MARQUES_FIX = {"Logo à": "Logona", "Ogx": "OGX", "Cantù": "Cantu"}  # fautes de saisie relevées dans Open Beauty Facts
+TEXT_TABS = [("raides", "Raides"), ("ondules", "Ondulés"), ("boucles", "Bouclés"), ("frises", "Frisés"), ("crepus", "Crépus")]
+
+
+def scores_node(produits, profils):
+    import subprocess
+    r = subprocess.run(["node", G["os"].path.join(G["B"], "score_cli.js")], input=G["json"].dumps({"produits": produits, "profils": profils}),
+                       capture_output=True, text=True, check=True, cwd=G["B"])
+    return G["json"].loads(r.stdout)
+
+
+def pastille(sc, petit=False):
+    return f'<span class="pst s-{sc["palier"]}{" pst-s" if petit else ""}"><b>{sc["score"]}</b><span>/100</span></span>'
+
+
+def methode():
+    E, DOMAIN = G["E"], G["DOMAIN"]
+    db = G["json"].load(open(G["os"].path.join(G["B"], "ingredients.json"), encoding="utf-8"))
+    S = db["score"]
+    crumbs = [("Accueil", "/"), ("Les tests", "/tests-cheveux/"), ("Méthode du score", "/methode-score/")]
+    pos = "".join(f"<tr><td>{'n°1 à 3' if i == 0 else ('n°' + str(S['position'][i-1][0] + 1) + ' à ' + str(r) if r < 999 else 'après le n°' + str(S['position'][i-1][0]))}</td><td>{int(f * 100)} %</td></tr>"
+                  for i, (r, f) in enumerate(S["position"]))
+    def v(x): return "0" if not x else (f"+{x}" if x > 0 else f"−{abs(x)}")
+    crit = "".join(f"<tr><th scope=\"row\">{E(c['label'])}</th><td>{v(c['douceur'])}{' (−' + str(abs(min(c['noms'].values()))) + ' pour le sodium lauryl sulfate)' if c.get('noms') else ''}</td><td>{v(c['compat'])}</td>"
+                   f"<td>{'par ingrédient, ' + v(c['max']).replace('−', 'jusqu’à −').replace('+', 'jusqu’à +') if c.get('par_ingredient') else ('selon sa place' + (' (dans les ' + str(c['rang_max']) + ' premiers)' if c.get('rang_max') else '') if c.get('position') else ('si aucun tensioactif fort' if c.get('sans') else 'une fois'))}</td></tr>"
+                   for c in S["criteres"])
+    P = S["profil"]
+    # Exemple réel : le même shampoing pour deux profils
+    cl = G["json"].load(open(G["os"].path.join(G["B"], "classement.json"), encoding="utf-8")) if G["os"].path.exists(G["os"].path.join(G["B"], "classement.json")) else {"catalogue": {}}
+    ex = cl["catalogue"].get("notino-garnier-ultra-doux-avocat-karite")
+    exemple = ""
+    if ex:
+        prof = {"a": {"texture": "raides", "cuir": "gras"}, "b": {"texture": "boucles", "cuir": "sec"}}
+        r = scores_node([{"id": "ex", "nom": ex["fiche"], "marque": ex["marque"], "inci": ex["inci"]}], prof).get("ex")
+        if r:
+            exemple = (f'<section aria-labelledby="exemple"><h2 id="exemple">Un exemple : le même shampoing, deux profils</h2>'
+                       f'<p>Le shampoing {E(ex["marque"])} « {E(ex["fiche"])} » (fiche Open Beauty Facts {E(ex["ean"])}) contient un sulfate en deuxième position, des humectants, une huile végétale et un parfum avec plusieurs allergènes déclarés.</p>'
+                       f'<div class="ex-sc"><p>{pastille(r["scores"]["a"])} <span><b>Cheveux raides, racines grasses</b> : {E(r["scores"]["a"]["libelle"])}. Le sulfate dégraisse bien des racines qui regraissent vite.</span></p>'
+                       f'<p>{pastille(r["scores"]["b"])} <span><b>Cheveux bouclés, cuir chevelu sec</b> : {E(r["scores"]["b"]["libelle"])}. Le même sulfate peut laisser des boucles rêches et tirailler un cuir chevelu sec.</span></p></div>'
+                       f'<p>Ce n\'est pas une contradiction : le score mesure l\'accord entre une formule et un profil, pas la qualité absolue d\'un produit.</p></section>')
+    body = f"""<div class="wrap">{G["crumbs_html"](crumbs)}
+<header class="ahead" style="grid-template-columns:1fr"><div style="max-width:780px">
+<p class="kicker">Méthode publique · mise à jour avec le scanner</p>
+<h1>Méthode du score sur 100 : comment le carnet lit une composition</h1>
+<p class="chapo">Le <a href="/composition-shampoing/">scanner de composition</a> donne un score sur 100 à chaque produit. Voici exactement comment il est calculé, avec les mêmes chiffres que ceux du scanner. Rien n'est caché, et aucune marque ne paie pour son score.</p></div></header>
+<div class="txt">
+<section aria-labelledby="deux"><h2 id="deux">Deux scores, selon le produit</h2>
+<ul><li><strong>Produits pour les cheveux</strong> (shampoing, après-shampoing, masque, huile ou soin sans rinçage) : un <strong>score de compatibilité avec tes cheveux</strong>, calculé pour ton profil (type de cheveux, cuir chevelu, cheveux fins ou non). Le même produit peut avoir un score différent selon le profil : c'est voulu.</li>
+<li><strong>Autres produits</strong> (gel douche, savon, crème ou lait) : un <strong>score de douceur de la formule</strong>, le même pour tout le monde. C'est aussi ce score qui s'affiche pour un produit capillaire tant que tu n'as pas indiqué ton profil.</li></ul>
+<p>Le type de produit est détecté à partir du nom et des catégories de la fiche. Tu peux toujours le corriger dans le résultat.</p></section>
+<section aria-labelledby="calcul"><h2 id="calcul">Le calcul, pas à pas</h2>
+<ol class="etapes"><li><strong>Point de départ : {S["base"]} sur 100</strong>, pour toutes les formules.</li>
+<li><strong>Chaque ingrédient est rangé dans une famille</strong> (tensioactif fort ou doux, silicone, huile, humectant, conservateur, allergène…) grâce à la base du carnet : {sum(len(r.get("noms", [])) for r in db["regles"])} noms classés en {len(db["regles"])} familles, plus les règles d'écriture des noms INCI.</li>
+<li><strong>Pour le score de compatibilité</strong>, chaque famille a une règle écrite par type de cheveux et par cuir chevelu (par exemple : un sulfate sur des boucles, une huile haut placée sur des cheveux fins). Une règle « peu adapté » retire {abs(P["peu"])} points, « à surveiller » {abs(P["prudence"])}, un point positif ajoute {P["ok"]}. Les bonus liés au profil sont plafonnés à +{P["plafond_bonus"]}, les retraits à −{abs(P["plafond_malus"])}.</li>
+<li><strong>La place dans la liste compte.</strong> Les ingrédients sont écrits du plus présent au moins présent : un ingrédient en tête pèse plus qu'en fin de liste.</li>
+<li><strong>Des critères communs</strong> s'ajoutent, ceux du tableau ci-dessous.</li>
+<li><strong>Le total est arrondi et ramené entre 0 et 100.</strong> Le détail ligne par ligne s'affiche sous chaque résultat du scanner.</li></ol>
+<div class="tw"><table class="tbl"><caption>Poids selon la place dans la liste</caption><thead><tr><th scope="col">Place de l'ingrédient</th><th scope="col">Poids</th></tr></thead><tbody>{pos}</tbody></table></div>
+<div class="tw"><table class="tbl"><caption>Critères communs, en points</caption><thead><tr><th scope="col">Critère</th><th scope="col">Score de douceur</th><th scope="col">Score de compatibilité</th><th scope="col">Comment il compte</th></tr></thead><tbody>{crit}</tbody></table></div>
+<p class="small">Dans le score de compatibilité, les tensioactifs, les huiles et les humectants sont jugés par les règles du profil (ligne 3), d'où le 0 dans la colonne. Les remarques sur le lavage ne comptent que pour un produit qui lave.</p></section>
+<section aria-labelledby="couleurs"><h2 id="couleurs">Les couleurs et les mots</h2>
+<ul class="paliers"><li>{pastille({"score": 75, "palier": "vert"}, True)} <b>75 et plus</b> : « {E(S["libelles"]["compat"]["vert"])} » (ou « {E(S["libelles"]["douceur"]["vert"])} » pour le score de douceur)</li>
+<li>{pastille({"score": 50, "palier": "jaune"}, True)} <b>50 à 74</b> : « {E(S["libelles"]["compat"]["jaune"])} »</li>
+<li>{pastille({"score": 25, "palier": "orange"}, True)} <b>25 à 49</b> : « {E(S["libelles"]["compat"]["orange"])} »</li>
+<li>{pastille({"score": 10, "palier": "rouge"}, True)} <b>moins de 25</b> : « {E(S["libelles"]["compat"]["rouge"])} » (« {E(S["libelles"]["douceur"]["rouge"])} » pour le score de douceur)</li></ul>
+<p>Les mots restent descriptifs. Tous les cosmétiques vendus dans l'Union européenne respectent le règlement 1223/2009, qui fixe les ingrédients autorisés et leurs doses : un score bas veut dire « moins adapté à ce profil » ou « formule moins douce », jamais « à éviter pour tout le monde ».</p></section>
+{exemple}
+<section aria-labelledby="limites"><h2 id="limites">Ce que le score ne dit pas</h2>
+<p><strong>Score indicatif basé uniquement sur la liste d'ingrédients, pas sur les quantités ; ne remplace pas un avis médical.</strong> Les doses exactes ne figurent pas sur l'étiquette, et deux produits avec la même liste peuvent se comporter différemment. Le score ne juge pas une marque, ni la qualité des matières premières, ni l'efficacité annoncée, ni l'emballage. Ta propre tolérance compte plus que tout : si un produit te réussit, garde-le. Une démangeaison, une rougeur ou une chute qui dure se montrent à un médecin ou à un dermatologue.</p></section>
+<section aria-labelledby="donnees"><h2 id="donnees">D'où viennent les compositions</h2>
+<ul><li><strong>Open Beauty Facts</strong>, base collaborative sous licence ODbL, et ses voisines Open Products Facts et Open Food Facts. Une copie est gardée sur le serveur du carnet pour répondre vite, mise à jour chaque semaine.</li>
+<li><strong>Les partages des utilisatrices</strong> : quand un produit manque, tu peux photographier ou coller sa liste, puis cocher « Partager cette composition pour aider les autres ». Seuls le code-barres, le nom, la marque et la liste sont envoyés.</li>
+<li><strong>Les fiches approchantes</strong> : si on connaît le nom d'un produit mais pas sa liste, le scanner peut proposer la fiche d'un produit au nom proche de la même marque. Elle est toujours signalée comme telle : vérifie sur ton flacon.</li></ul>
+<p>Les formules changent. Une fiche peut décrire une ancienne version : le scanner le signale quand il repère un ingrédient qui n'est plus autorisé. En cas d'écart, c'est la liste imprimée sur ton flacon qui fait foi. Une erreur dans une règle ? <a href="/contact/">Écris-nous</a>, on corrige et on date la correction.</p></section>
+<p><a class="btn" href="/composition-shampoing/">Scanner un produit</a> <a class="btn btn-o" href="/classement-shampoings/">Voir le classement des shampoings</a></p>
+</div>
+</div>"""
+    schema = [G["schema_crumbs"](crumbs),
+              {"@context": "https://schema.org", "@type": "Article", "headline": "Méthode du score sur 100 du scanner de composition", "inLanguage": "fr-FR",
+               "datePublished": "2026-11-22", "dateModified": db["version"], "author": G["AUTEUR"], "publisher": G["EDITEUR"], "mainEntityOfPage": DOMAIN + "/methode-score/",
+               "description": "Calcul public du score de compatibilité et du score de douceur des produits cosmétiques, à partir de la liste INCI."}]
+    return G["page"]("Méthode du score sur 100 des cosmétiques",
+                     "Comment le scanner du carnet calcule le score sur 100 d'un shampoing ou d'un gel douche : critères, pondérations, couleurs et limites, sans rien cacher.",
+                     "/methode-score/", body, schema, "scanner", ("score cosmétique sur 100 / méthode", "n.r."))
+
+
+def classement():
+    E, DOMAIN = G["E"], G["DOMAIN"]
+    f = G["os"].path.join(G["B"], "classement.json")
+    cl = G["json"].load(open(f, encoding="utf-8")) if G["os"].path.exists(f) else {"catalogue": {}, "populaires": [], "top": []}
+    cat = {x["id"]: x for x in G["catalogue"]()}
+    prods, vus = [], set()
+    def cle(m, n):
+        t = G["re"].findall(r"[a-z0-9]+", (m + " " + n).lower().translate(str.maketrans("àâäéèêëîïôöùûüç", "aaaeeeeiioouuuc")))
+        return " ".join(sorted(set(w for w in t if len(w) > 2 and w not in ("shampooing", "shampoing", "shampoo"))))
+    for i, x in cl["catalogue"].items():
+        if i in cat:
+            prods.append({"id": i, "nom": cat[i]["nom"], "marque": cat[i]["m"], "inci": x["inci"], "ean": x["ean"], "cat": True})
+            vus.add(x["ean"]); vus.add(cle(cat[i]["m"], cat[i]["nom"])); vus.add(cle(x["marque"], x["fiche"]))
+    for x in cl.get("top", []) + cl.get("populaires", []):
+        k = cle(x["marque"], x["nom"])
+        if x["ean"] in vus or k in vus or not x["marque"]:
+            continue
+        vus.add(x["ean"]); vus.add(k)
+        prods.append({"id": x["ean"], "nom": x["nom"], "marque": MARQUES_FIX.get(x["marque"], x["marque"]), "inci": x["inci"], "ean": x["ean"], "categories": x.get("categories", "")})
+    profils = {k: {"texture": k, "cuir": "equilibre"} for k, _ in TEXT_TABS}
+    sc = scores_node([{k: p.get(k, "") for k in ("id", "nom", "marque", "inci", "categories")} for p in prods], profils)
+    # Seulement les shampoings, fiche lisible (au moins 70 % d'ingrédients reconnus), sans ingrédient retiré du marché (ancienne formule)
+    ok = [p for p in prods if p["id"] in sc and sc[p["id"]]["cat"] == "shampoing" and not sc[p["id"]]["retire"] and sc[p["id"]]["reconnus"] >= 0.7 * sc[p["id"]]["n"]]
+    def propre(s):
+        s = G["re"].sub(r"\s+", " ", s).strip(" -,")
+        return s[:1].upper() + s[1:]
+    tabs, panels, TABIDX = [], [], ' tabindex="-1"'
+    for j, (k, lab) in enumerate(TEXT_TABS):
+        lst = sorted(ok, key=lambda p: (-sc[p["id"]]["scores"][k]["score"], p["marque"]))[:20]
+        tabs.append(f'<button type="button" role="tab" id="ct-{k}" aria-controls="cp-{k}" aria-selected="{"true" if j == 0 else "false"}"{"" if j == 0 else TABIDX}>{lab}</button>')
+        rows = "".join(
+            f'<li>{pastille(sc[p["id"]]["scores"][k], True)}<span class="cl-n"><span class="marque">{E(propre(p["marque"]))}</span>{E(propre(p["nom"]))}'
+            f'<small>{E(sc[p["id"]]["scores"][k]["libelle"])} · code {E(p["ean"])}</small></span><span class="cl-a">'
+            + (f'<a class="mlink" href="#affilie-{p["id"]}" rel="sponsored nofollow" target="_blank">Voir le prix<span class="sr"> de {E(p["nom"])}</span></a>' if p.get("cat") else "")
+            + f'<a href="/composition-shampoing/?ean={E(p["ean"])}">Détail<span class="sr"> de la composition de {E(p["nom"])}</span></a></span></li>' for p in lst)
+        panels.append(f'<div role="tabpanel" id="cp-{k}" aria-labelledby="ct-{k}"{"" if j == 0 else " hidden"}><h2 class="cl-h">Cheveux {lab.lower()} : les {len(lst)} meilleurs scores</h2><ol class="cl-list">{rows}</ol></div>')
+    maj = G["dt"].date.today().strftime("%d/%m/%Y")
+    crumbs = [("Accueil", "/"), ("Les tests", "/tests-cheveux/"), ("Classement des shampoings", "/classement-shampoings/")]
+    body = f"""<div class="wrap">{G["crumbs_html"](crumbs)}
+<header class="ahead" style="grid-template-columns:1fr"><div style="max-width:780px">
+<p class="kicker">Mis à jour le {maj} · {len(ok)} shampoings classés</p>
+<h1>Classement des shampoings par type de cheveux, selon leur composition</h1>
+<p class="chapo">Les shampoings les plus scannés et ceux de nos guides, classés par score de compatibilité pour chaque type de cheveux. Le calcul est celui du <a href="/composition-shampoing/">scanner</a>, sa <a href="/methode-score/">méthode est publique</a>, et aucune marque ne paie pour y figurer.</p></div></header>
+<section class="scan cl" aria-label="Classement par type de cheveux">
+<div class="scan-tabs" role="tablist" aria-label="Type de cheveux" data-tabs>{"".join(tabs)}</div>
+{"".join(panels)}
+<p class="small">Score calculé pour un cuir chevelu équilibré et des cheveux d'épaisseur moyenne. Pour ton profil exact (racines grasses, cuir chevelu sensible, cheveux fins), ouvre le détail d'un produit ou scanne le tien.</p>
+</section>
+<div class="txt">
+<section aria-labelledby="lire-cl"><h2 id="lire-cl">Comment lire ce classement</h2>
+<p><strong>Score indicatif basé uniquement sur la liste d'ingrédients, pas sur les quantités ; ne remplace pas un avis médical.</strong> Il dit si une formule colle à un type de cheveux, pas si un produit est bon ou mauvais dans l'absolu. Un shampoing qui lave fort peut être en bas de la liste des cheveux crépus et en haut de celle des cheveux raides : c'est le principe.</p>
+<p>Les compositions viennent d'Open Beauty Facts (licence ODbL) et des listes partagées par les utilisatrices du scanner. Une fiche peut décrire une version plus ancienne du produit : les produits dont la liste contient un ingrédient qui n'est plus autorisé sont retirés du classement, et c'est toujours l'étiquette de ton flacon qui fait foi. « Les plus scannés » veut dire les plus consultés sur Open Beauty Facts en France et sur le scanner du carnet, sans aucune donnée personnelle.</p>
+<p>Tu ne connais pas ton type de cheveux ? <a href="/quiz-type-de-cheveux/">Fais le quiz</a>. Tu cherches surtout une formule douce ? Lis le guide du <a href="/meilleur-shampoing-sans-sulfate/">shampoing sans sulfate</a>.</p></section>
+<section class="sources" aria-labelledby="src-cl"><h2 id="src-cl">Sources</h2><ul><li><a href="https://world.openbeautyfacts.org/" rel="noopener" target="_blank">Open Beauty Facts, base collaborative de produits cosmétiques (licence ODbL)</a></li><li><a href="/methode-score/">Méthode du score sur 100 du carnet</a></li></ul></section>
+</div>
+{G["cta_ebook"]()}
+</div>"""
+    first = sorted(ok, key=lambda p: -sc[p["id"]]["scores"]["boucles"]["score"])[:10]
+    schema = [G["schema_crumbs"](crumbs),
+              {"@context": "https://schema.org", "@type": "ItemList", "name": "Shampoings classés par score de compatibilité, cheveux bouclés",
+               "itemListElement": [{"@type": "ListItem", "position": i, "name": f'{p["marque"]} {p["nom"]}'} for i, p in enumerate(first, 1)]}]
+    js = f'\n<script src="/simulateurs.js?v={G["ASSET_V"]}" defer></script>'
+    return G["page"]("Classement des shampoings par type de cheveux",
+                     "Les shampoings les plus scannés, classés par score sur 100 pour cheveux raides, ondulés, bouclés, frisés ou crépus, selon leur composition.",
+                     "/classement-shampoings/", body, schema, "scanner", ("classement shampoing", "n.r."), extra_js=js)

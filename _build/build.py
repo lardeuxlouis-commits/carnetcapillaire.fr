@@ -621,6 +621,10 @@ def main():
                  "types": {t["id"]: {"nom": t["nom"], "url": url_guide(t["id"]), "accroche": t["accroche"]} for t in OFFRES["types"]}}
     open(os.path.join(OUT, "simulateurs.js"), "w", encoding="utf-8").write(
         f"{drapeau}window.CC_LIENS={json.dumps(LIENS)};\nwindow.CC_DIRECTS={json.dumps(DIRECTS)};\nwindow.CC_OFFRES={json.dumps(offres_js, ensure_ascii=False)};\n" + js_sims)
+    # Lecteur de code-barres zxing-cpp (WebAssembly : zxing-wasm sous licence MIT, zxing-cpp sous licence Apache 2.0), auto-hébergé : chargé au clic par scanner.js
+    os.makedirs(os.path.join(OUT, "lib"), exist_ok=True)
+    for x in glob.glob(os.path.join(B, "vendor", "zxing", "*")):
+        shutil.copy(x, os.path.join(OUT, "lib", os.path.basename(x)))
     # Images du site : _assets/*.webp -> site/images/
     os.makedirs(os.path.join(OUT, "images"), exist_ok=True)
     for im in [x for x in glob.glob(os.path.join(ROOT, "_assets", "*")) if x.rsplit(".", 1)[-1] in ("webp", "jpg", "webm", "mp4")]:

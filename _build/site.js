@@ -94,3 +94,7 @@ if(/^https?:\/\//.test(h)&&h.indexOf(location.host)<0)cc_evt("clic-produit-"+(a.
 // Vidéos plus bas dans la page : chargées seulement quand elles approchent de l'écran
 (function(){var v=document.querySelectorAll("video[data-lazyvid]");if(!v.length)return;function go(x){x.querySelectorAll("source[data-src]").forEach(function(s){s.src=s.getAttribute("data-src")});x.load();var p=x.play();if(p&&p.catch)p.catch(function(){})}
 if(!("IntersectionObserver" in window)){v.forEach(go);return}var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){go(e.target);o.unobserve(e.target)}})},{rootMargin:"300px"});v.forEach(function(x){o.observe(x)})})();
+
+// Onglets simples (classement des shampoings) : [data-tabs] > [role=tab] aria-controls ; flèches gauche/droite
+(function(){document.querySelectorAll("[data-tabs]").forEach(function(l){var t=[].slice.call(l.querySelectorAll("[role=tab]"));function on(x,f){t.forEach(function(b){var s=b===x;b.setAttribute("aria-selected",s);b.tabIndex=s?0:-1;document.getElementById(b.getAttribute("aria-controls")).hidden=!s});if(f)x.focus()}
+t.forEach(function(b,i){b.addEventListener("click",function(){on(b)});b.addEventListener("keydown",function(e){var d=e.key==="ArrowRight"?1:e.key==="ArrowLeft"?-1:0;if(d){e.preventDefault();on(t[(i+d+t.length)%t.length],true)}})})})})();

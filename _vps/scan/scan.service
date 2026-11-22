@@ -1,0 +1,15 @@
+[Unit]
+Description=Scanner carnetcapillaire.fr : base produits (Open Beauty Facts + partages)
+After=network.target
+[Service]
+User=scanobf
+WorkingDirectory=/opt/scan
+Environment=SCAN_DIR=/var/lib/scan
+ExecStart=/usr/bin/python3 /opt/scan/server.py serve --port 8083
+Restart=always
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/scan
+PrivateTmp=true
+[Install]
+WantedBy=multi-user.target
