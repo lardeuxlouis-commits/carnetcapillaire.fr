@@ -522,5 +522,15 @@
    "scans": 2
   }
  ],
- "top": []
+ "top": [
+  {
+   "ean": "4005800001192",
+   "nom": "Nivea Creme",
+   "marque": "Nivea",
+   "inci": "Aqua, Paraffinum Liquidum, Cera Microcristallina, Glycerin, Lanolin Alcohol (Eucerit), paraffin, Panthenol, Decyl Oleate, Octyldodecanol, Aluminum Stearates, Citric Acid, magnesium Sulfate, Magnesium Stearate, Parfum, Limonene, Geraniol, Hydroxycitronellal, Linalool, citronellol, benzyl Benzoate, Cinnamyl Alcohol.",
+   "categories": "en:body,en:face,en:facial-creams,en:body-creams,fr:cremes-hydratantes,en:open-beauty-facts",
+   "source": "obf",
+   "n": 1
+  }
+ ]
 }

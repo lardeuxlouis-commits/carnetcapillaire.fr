@@ -259,6 +259,8 @@ PHOTOS = {"cheveux-raides": ("type-raides", "Femme aux cheveux raides et lisses,
           "cheveux-ondules": ("type-ondules", "Femme aux cheveux ondulés mi-longs"),
           "cheveux-boucles": ("type-boucles", "Femme aux cheveux bouclés en spirales"),
           "cheveux-crepus": ("type-crepus", "Femme aux cheveux crépus portés au naturel"),
+          "cheveux-fins": ("type-fins", "Femme aux cheveux fins et raides, châtain clair"),
+          "cheveux-frises": ("type-frises", "Femme aux cheveux frisés en petites spirales"),
           "problemes-cheveux": ("probleme", "Femme qui observe les pointes de ses longueurs")}
 
 
@@ -660,3 +662,33 @@ if __name__ == "__main__":
     import sys
     sys.path.insert(0, B)
     main()
+
+# Bandeau photo (IA, droits OK) sous l'en-tête des pages outils qui n'ont pas d'image
+BANDEAUX = {"tests-cheveux": ("bandeau-test", "Femme qui regarde ses cheveux dans le miroir en faisant un test sur son téléphone"),
+            "quiz-type-de-cheveux": ("bandeau-test", "Femme qui regarde ses cheveux dans le miroir en faisant un test sur son téléphone"),
+            "composition-shampoing": ("bandeau-scanner", "Mains qui scannent le code-barres d'un flacon de shampoing avec un téléphone"),
+            "classement-shampoings": ("bandeau-classement", "Flacons de shampoing sans marque alignés sur une étagère"),
+            "methode-score": ("bandeau-classement", "Flacons de shampoing sans marque alignés sur une étagère"),
+            "soins-cheveux": ("routine", "Flacons de soins sans marque, peigne et serviette posés sur du lin")}
+
+
+def poser_bandeaux():
+    for slug, (nom, alt) in BANDEAUX.items():
+        f = os.path.join(OUT, slug, "index.html")
+        if not os.path.exists(f):
+            continue
+        h = open(f, encoding="utf-8").read()
+        if "class=\"bandeau\"" in h:
+            continue
+        fig = (f'<figure class="bandeau"><img src="/images/{nom}-480.webp" srcset="/images/{nom}-480.webp 480w, /images/{nom}-900.webp 900w" '
+               f'sizes="(min-width:900px) 900px, 92vw" width="900" height="1200" loading="lazy" decoding="async" alt="{E(alt)}"></figure>')
+        i = h.find("</header>", h.find("<h1"))
+        if i < 0:
+            continue
+        h = h[:i + 9] + fig + h[i + 9:]
+        open(f, "w", encoding="utf-8").write(h)
+
+
+
+if __name__ == "__main__":
+    poser_bandeaux()

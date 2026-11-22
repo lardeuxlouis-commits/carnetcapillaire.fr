@@ -658,3 +658,17 @@ details>p{margin:0 0 16px}
 .ex-sc p,.paliers li{display:flex;gap:12px;align-items:center}
 .paliers{list-style:none;padding:0;display:grid;gap:8px}
 .cl .scan-tabs{grid-template-columns:repeat(3,1fr)}.cl .scan-tabs [role=tab]{padding:10px 6px}
+
+/* Bandeau photo sous l'en-tête des pages outils */
+.bandeau{max-width:var(--max,1120px);margin:6px auto 28px;padding:0 20px}
+.bandeau img{width:100%;height:clamp(200px,32vw,340px);object-fit:cover;object-position:center 40%;border-radius:24px;display:block;box-shadow:0 20px 50px rgba(46,33,27,.10)}
+
+/* Bandeau déroulant des marques analysables */
+.marques{padding:30px 0 34px;background:#fbf6f1;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden}
+.marq{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);margin-top:12px}
+.marq ul{display:flex;gap:44px;list-style:none;margin:0;padding:0;width:max-content;animation:marq 60s linear infinite}
+.marq li{font:500 24px/1.2 var(--serif);color:var(--brun);opacity:.72;white-space:nowrap}
+.marq li:nth-child(3n+2){font-style:italic;color:var(--terra-d)}
+.marq-note{text-align:center;font-size:12px;color:var(--mut);margin:14px 20px 0}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.marq ul{animation:none;flex-wrap:wrap;width:auto;justify-content:center;row-gap:12px}}
