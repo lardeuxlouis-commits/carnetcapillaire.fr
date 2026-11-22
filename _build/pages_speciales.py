@@ -5,6 +5,7 @@ G = {}
 META = {
     "quiz-type-de-cheveux": {"court": "Quel est ton type de cheveux", "rubrique": "outil"},
     "tests-cheveux": {"court": "Les tests", "rubrique": "outil"},
+    "composition-shampoing": {"court": "Scanner de composition", "rubrique": "outil"},
     "guide-produits-cheveux-pdf": {"court": "Le guide PDF", "rubrique": "offre"},
     "contact": {"court": "Contact", "rubrique": "legal"},
     "mentions-legales": {"court": "Mentions légales", "rubrique": "legal"},
@@ -47,11 +48,14 @@ TESTS = [  # (url, titre, sous-titre, durée)
     ("/meilleur-shampoing/#simulateur", "Quel shampoing est fait pour toi ?", "Trois produits adaptés à ton cuir chevelu, tes longueurs et ton budget.", "6 questions"),
     ("/cuir-chevelu-qui-gratte/#simulateur", "Diagnostic cuir chevelu", "Gras, sec, pellicules, démangeaisons : les bons gestes, et quand consulter.", "6 questions"),
     ("/soins-cheveux/#simulateur", "Ta routine et ton budget", "Ta routine type, poste par poste, et ce qu'elle coûte par mois.", "6 questions"),
+    ("/composition-shampoing/", "Scanne ton shampoing", "Code-barres, nom ou photo de l'étiquette : ce qu'il contient, et s'il va à tes cheveux.", "30 secondes"),
 ]
+SCAN_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M7 8v8M10 8v8M13 8v8M16.5 8v8"/></svg>'
 TEST_ICO = ['<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3c3 3-3 6 0 9s-3 6 0 9M16 3c3 3-3 6 0 9s-3 6 0 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
             '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6v3l2 3v11a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V9l2-3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M7 13h10" stroke="currentColor" stroke-width="2"/></svg>',
             '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16.5 16.5 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
-            '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h3M13 12h3M8 16h3M13 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>']
+            '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h3M13 12h3M8 16h3M13 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+            SCAN_ICO]
 
 
 def tests_html(cls="tests"):
@@ -134,7 +138,7 @@ def accueil():
 </div></section>
 
 <section class="sec tight alt" id="tests" aria-labelledby="h-tests"><div class="wrap">
-<h2 id="h-tests" class="rv" style="margin-top:0">Les 4 tests gratuits</h2>
+<h2 id="h-tests" class="rv" style="margin-top:0">Les {len(TESTS)} tests gratuits</h2>
 {tests_html("tests-home rv")}
 </div></section>
 
@@ -186,13 +190,14 @@ def tests():
 <header class="ahead" style="grid-template-columns:1fr"><div style="max-width:760px">
 <p class="kicker">Tests gratuits · 2 minutes chacun</p>
 <h1>Tests cheveux : diagnostic capillaire gratuit en ligne</h1>
-<p class="chapo">Quatre tests rapides pour comprendre tes cheveux et arrêter d'acheter au hasard. Chacun te donne un résultat concret : ton profil, les gestes à adopter, et des produits adaptés. Tes réponses restent dans ton navigateur.</p></div></header>
+<p class="chapo">Cinq outils rapides pour comprendre tes cheveux et arrêter d'acheter au hasard. Chacun te donne un résultat concret : ton profil, les gestes à adopter, et des produits adaptés. Tes réponses restent dans ton navigateur.</p></div></header>
 {tests_html("tests tests-page")}
 <div class="txt" style="margin-top:40px">
 <section aria-labelledby="ordre"><h2 id="ordre">Par quel test commencer ?</h2>
 <ul><li><strong>Tu ne sais pas vraiment quel est ton type de cheveux</strong> : commence par <a href="/quiz-type-de-cheveux/">quel est ton type de cheveux</a>. C'est la base de tout le reste.</li>
 <li><strong>Tu cherches surtout un shampoing</strong> : le test <a href="/meilleur-shampoing/#simulateur">quel shampoing est fait pour toi</a> part de ton cuir chevelu, le vrai critère de choix.</li>
 <li><strong>Ton cuir chevelu gratte, regraisse ou pèle</strong> : fais le <a href="/cuir-chevelu-qui-gratte/#simulateur">diagnostic cuir chevelu</a>. Il te dit aussi quand il vaut mieux consulter.</li>
+<li><strong>Tu as déjà un shampoing et tu te demandes s'il te va</strong> : le <a href="/composition-shampoing/">scanner de composition</a> lit sa liste d'ingrédients et la compare à ton profil.</li>
 <li><strong>Tu veux simplifier ta salle de bains</strong> : le <a href="/soins-cheveux/#simulateur">simulateur de routine et de budget</a> te montre ce que tu dépenses vraiment, poste par poste.</li></ul></section>
 <section aria-labelledby="limites"><h2 id="limites">Ce que ces tests ne font pas</h2>
 <p>Ce sont des outils d'orientation, pas des diagnostics médicaux. Ils s'appuient sur ce que tu observes, et sur les repères expliqués dans nos guides, sources à l'appui. Une démangeaison qui dure, des plaques, des croûtes ou une chute importante se montrent à un médecin ou à un dermatologue, pas à un questionnaire.</p>
@@ -204,14 +209,14 @@ def tests():
               {"@context": "https://schema.org", "@type": "ItemList", "name": "Tests cheveux gratuits", "itemListElement": [
                   {"@type": "ListItem", "position": i, "name": t, "url": DOMAIN + u} for i, (u, t, s, d) in enumerate(TESTS, 1)]}]
     return G["page"]("Tests cheveux : diagnostic capillaire gratuit",
-                     "Quatre tests gratuits : ton type de cheveux, le shampoing fait pour toi, un diagnostic du cuir chevelu, et ta routine avec son budget mensuel.",
+                     "Cinq tests gratuits : ton type de cheveux, le shampoing fait pour toi, le cuir chevelu, ta routine et son budget, et un scanner de composition.",
                      "/tests-cheveux/", body, schema, "tests", ("diagnostic capillaire en ligne / test cheveux", "n.r."))
 
 
 QUIZ_FAQ = [
     ("Le quiz est-il fiable ?", "C'est une estimation à partir de ce que tu observes. Il donne une très bonne base pour choisir tes produits, mais tes cheveux restent la meilleure référence : si une routine ne te convient pas après quelques lavages, ajuste."),
     ("Pourquoi j'ai plusieurs types sur la tête ?", "C'est le cas de beaucoup de gens. Les cheveux sont souvent plus ondulés ou plus serrés à la nuque, et plus lâches sur le dessus. Choisis ta routine selon la zone majoritaire."),
-    ("Mes réponses sont-elles enregistrées ?", "Non. Le calcul se fait dans ton navigateur, rien n'est envoyé ni stocké. Si tu recharges la page, tout s'efface. Seule exception : si tu demandes ton résultat par e-mail à la fin, ton adresse et ton résultat sont envoyés pour te l'écrire, avec ton accord."),
+    ("Mes réponses sont-elles enregistrées ?", "Rien n'est envoyé : le calcul se fait dans ton navigateur. Ton navigateur garde seulement ton type de cheveux et ton cuir chevelu, pour que le scanner de composition te les propose sans te les redemander. Tu peux les effacer en vidant les données du site. Seule exception : si tu demandes ton résultat par e-mail à la fin, ton adresse et ton résultat sont envoyés pour te l'écrire, avec ton accord."),
     ("Faut-il faire le quiz sur cheveux mouillés ?", "Non, sur cheveux secs, lavés la veille ou l'avant-veille, sans crème, sans gel et sans lissage. L'eau et les produits changent la forme et le toucher des cheveux."),
     ("Mes cheveux sont raides, le quiz me concerne-t-il ?", "Oui. Il a été pensé pour toutes les textures, des raides aux crépus. Pour des cheveux raides, ce sont surtout l'épaisseur et le cuir chevelu qui orientent la routine."),
     ("Et si j'ai des démangeaisons, des plaques ou une chute importante ?", "Le test te le signalera. Une démangeaison qui dure, des plaques ou une chute importante ne se règlent pas avec une routine : parle-en à ton médecin ou à un dermatologue."),
@@ -228,7 +233,7 @@ def quiz():
 <h1>Quel est ton type de cheveux ?</h1>
 <p class="chapo" style="max-width:36em;margin:0 auto 22px">9 questions pour estimer ta texture (de raides à crépus), ton épaisseur, ton cuir chevelu et ta porosité, puis la routine qui va avec. Observe une mèche sèche, sans produit, et laisse-toi guider.</p></header>
 <div id="quiz" class="quiz" style="scroll-margin-top:90px" data-insta="{G["INSTAGRAM"]}" data-tiktok="{G["TIKTOK"]}"><noscript><p>Le quiz a besoin de JavaScript. En attendant, tu peux lire le guide des <a href="/types-de-cheveux/">types de cheveux de 1A à 4C</a>.</p></noscript></div>
-<p class="small" style="text-align:center;margin-top:12px">Tes réponses ne sont ni envoyées ni enregistrées, sauf si tu demandes ton résultat par e-mail. <a href="/mentions-legales/#confidentialite">Confidentialité</a></p>
+<p class="small" style="text-align:center;margin-top:12px">Tes réponses ne sont pas envoyées, sauf si tu demandes ton résultat par e-mail. Ton navigateur garde seulement ton type et ton cuir chevelu, pour le scanner. <a href="/mentions-legales/#confidentialite">Confidentialité</a></p>
 <div class="txt" style="margin:40px auto 0">
 <section aria-labelledby="comment"><h2 id="comment">Comment fonctionne ce quiz</h2>
 <p>Les deux premières questions estiment ta <strong>texture</strong>, d'après la forme de tes cheveux secs et leur rétraction : raides (type 1), ondulés (type 2), bouclés (type 3), frisés ou crépus (type 4). On s'appuie sur la classification de 1A à 4C, la plus utilisée par les coiffeurs et les créatrices, même si elle simplifie une réalité plus nuancée. Les chercheurs eux-mêmes décrivent toute une gamme de courbures, regroupées en 8 types dans une étude mondiale (<a href="https://pubmed.ncbi.nlm.nih.gov/18078200/" rel="noopener" target="_blank">De La Mettrie et al., 2007</a>).</p>
@@ -596,9 +601,10 @@ def mentions():
 <h2 id="avis">Avis et tests</h2>
 <p>Aucun avis client n'est publié pour l'instant, aucun avis n'est acheté et aucune note n'est inventée. Les produits sont sélectionnés sur leur composition ; les tests en conditions réelles seront signalés et datés.</p>
 <h2 id="confidentialite">Confidentialité</h2>
-<ul><li><strong>Les tests</strong> fonctionnent entièrement dans ton navigateur : tes réponses ne sont ni envoyées ni enregistrées.</li>
+<ul><li><strong>Les tests</strong> fonctionnent entièrement dans ton navigateur : tes réponses ne sont pas envoyées.</li>
+<li><strong>Le scanner de composition</strong> : le code-barres ou le nom que tu tapes est envoyé à l'API publique d'Open Beauty Facts pour trouver le produit (c'est elle qui répond, le site ne garde rien). La caméra sert seulement à lire le code-barres, et la photo de l'étiquette est lue sur ton appareil : aucune image n'est envoyée ni enregistrée. Les outils de lecture (ZXing, Tesseract.js) sont téléchargés depuis cdn.jsdelivr.net seulement quand tu les utilises.</li>
 <li><strong>Les e-mails (mini-guide, résultat d'un test)</strong> :{MAIL_ETAT} seulement si tu remplis le formulaire et coches la case. On collecte ton e-mail, ton prénom si tu le donnes, la page et le test d'où tu viens, et le résultat du test que tu as demandé. But : t'envoyer ce que tu as demandé, puis 5 e-mails de conseils sur 10 jours et une lettre de temps en temps, avec parfois des liens affiliés signalés. Base légale : ton consentement. Tu confirmes ton adresse par un e-mail (double opt-in) et tu peux te désinscrire en un clic dans chaque e-mail. Durée : jusqu'à ta désinscription, et au plus 3 ans après ton dernier clic ou ta dernière ouverture. Ces données ne sont jamais vendues ni louées. {PRESTA_ETAT} Tu peux demander l'accès, la rectification ou la suppression de tes données via la page <a href="/contact/">contact</a>, et saisir la <a href="https://www.cnil.fr/fr/plaintes" rel="noopener" target="_blank">CNIL</a>. Responsable du traitement : l'éditrice du site (voir plus haut).</li>
-<li><strong>Stockage local</strong> : ton navigateur retient seulement que tu as fermé l'encart du mini-guide ou la barre du test, pour ne pas te les remontrer. Rien n'est envoyé.</li>
+<li><strong>Stockage local</strong> : ton navigateur retient que tu as fermé l'encart du mini-guide ou la barre du test, et ton profil de cheveux (type, cuir chevelu, cheveux fins ou non) issu du quiz ou du scanner, pour ne pas te le redemander. Rien n'est envoyé. Tu l'effaces en vidant les données du site dans ton navigateur.</li>
 <li><strong>Aucun cookie</strong> n'est déposé par le site. La fréquentation est mesurée avec GoatCounter, un outil sans cookie qui ne collecte aucune donnée personnelle (pas d'adresse IP conservée, pas de suivi d'une page à l'autre) : il compte seulement les pages vues et les tests terminés.</li>
 <li><strong>Polices d'écriture</strong> : elles sont chargées depuis Google Fonts, ce qui transmet ton adresse IP à Google.</li><!-- TODO : héberger les polices sur le site -->
 <li>Quand tu cliques sur un lien affilié, la boutique concernée peut déposer ses propres cookies, selon sa politique.</li>
@@ -612,9 +618,106 @@ def mentions():
                   "Mentions légales, affiliation et confidentialité", h, ("mentions légales (obligatoire)", "n.r."))
 
 
+# --- Scanner de composition (/composition-shampoing/) : moteur _build/scanner.js, règles _build/ingredients.json ---
+# Mot-clé : « composition shampoing ». Absent du relevé Keyword Planner du 22/11/2026 (aucun mot-clé INCI relevé) ;
+# choisi sur les suggestions Google (requête populaire, déclinée par marque : kerastase, elseve, head and shoulders…).
+# Différence avec /meilleur-shampoing-sans-sulfate/ (section « Lire une étiquette INCI en 30 secondes ») : là-bas, les tensioactifs
+# et le choix d'un sans sulfate ; ici, l'outil et les règles générales de l'étiquette (ordre, seuil de 1 %, noms latins, allergènes).
+SCAN_FAQ = [
+    ("Le scanner donne-t-il une note au shampoing ?", "Non, volontairement. Une note sur 100 ne dit rien de tes cheveux : un shampoing parfait pour des racines grasses peut assécher des boucles. Le scanner décrit la composition, puis dit si elle colle à ton profil, point par point."),
+    ("Un ingrédient « à surveiller » est-il dangereux ?", "Non. Les cosmétiques vendus dans l'Union européenne respectent le règlement 1223/2009, qui fixe les ingrédients autorisés et leurs doses. « À surveiller » veut dire : à regarder selon ton type de cheveux ou ton cuir chevelu, par exemple un sulfate sur des boucles sèches."),
+    ("Mon shampoing n'est pas trouvé, que faire ?", "Open Beauty Facts est une base collaborative : tous les produits n'y sont pas. Photographie la liste d'ingrédients au dos du flacon, ou colle-la depuis le site de la marque. L'analyse est la même."),
+    ("La photo de l'étiquette est-elle envoyée quelque part ?", "Non. Le texte est lu directement sur ton téléphone ou ton ordinateur. La photo ne quitte pas ton appareil et n'est pas enregistrée. Seuls le code-barres ou le nom que tu tapes partent vers Open Beauty Facts pour trouver le produit."),
+    ("La lecture de la photo s'est trompée, c'est grave ?", "Le texte lu s'affiche avant l'analyse : tu peux le corriger. Le scanner tolère aussi les petites fautes de lecture (un 0 à la place d'un O, une lettre manquante) et les rapproche du bon ingrédient. Pour une meilleure lecture : photo nette, bien à plat, sans reflet, avec seulement la liste."),
+    ("Ça marche pour un après-shampoing ou un masque ?", "Oui, la composition se lit de la même façon. Les remarques sur le lavage (sulfates, tensioactifs) ne concernent que les produits qui lavent."),
+]
+
+
+def scanner():
+    E, DOMAIN = G["E"], G["DOMAIN"]
+    crumbs = [("Accueil", "/"), ("Les tests", "/tests-cheveux/"), ("Scanner de composition", "/composition-shampoing/")]
+    db = G["json"].load(open(G["os"].path.join(G["B"], "ingredients.json"), encoding="utf-8"))
+    srcs = "".join(f'<li><a href="{E(x["url"])}" rel="noopener" target="_blank">{E(x["titre"])}</a></li>' for x in db["sources"])
+    srcs += '<li><a href="https://world.openbeautyfacts.org/" rel="noopener" target="_blank">Open Beauty Facts, base collaborative de produits cosmétiques (licence ODbL)</a></li>'
+    faq = "".join(f"<details><summary>{E(q)}</summary><p>{E(r)}</p></details>" for q, r in SCAN_FAQ)
+    nb = sum(len(r.get("noms", [])) for r in db["regles"])
+    body = f"""<div class="wrap">{G["crumbs_html"](crumbs)}
+<header class="ahead" style="grid-template-columns:1fr"><div style="max-width:780px">
+<p class="kicker">Outil gratuit · rien n'est enregistré</p>
+<h1>Composition de shampoing : scanne ton flacon et vois s'il te va</h1>
+<p class="chapo">Scanne le code-barres, cherche le nom ou photographie la liste d'ingrédients. Tu vois ce qu'il y a dedans, famille par famille, et si la formule colle à tes cheveux. Pas de note, pas de jugement sur la marque : des faits sur la composition.</p></div></header>
+
+<section class="scan" id="scanner" aria-label="Scanner de composition">
+<div id="scan-profil"><noscript><p>Le scanner a besoin de JavaScript.</p></noscript></div>
+<div class="scan-tabs" role="tablist" aria-label="Comment trouver ton produit">
+<button type="button" role="tab" id="t-code" aria-controls="p-code" aria-selected="true">Code-barres</button>
+<button type="button" role="tab" id="t-nom" aria-controls="p-nom" aria-selected="false" tabindex="-1">Nom du produit</button>
+<button type="button" role="tab" id="t-photo" aria-controls="p-photo" aria-selected="false" tabindex="-1">Photo des ingrédients</button>
+<button type="button" role="tab" id="t-coller" aria-controls="p-coller" aria-selected="false" tabindex="-1">Coller la liste</button>
+</div>
+<div role="tabpanel" id="p-code" aria-labelledby="t-code">
+<button type="button" class="btn" id="scan-go">Scanner avec la caméra</button>
+<div class="scan-cam" id="scan-cam" hidden><video id="scan-video" playsinline muted aria-label="Image de la caméra pour lire le code-barres"></video><div class="visee" aria-hidden="true"></div><button type="button" class="btn btn-s" id="scan-stop">Arrêter</button></div>
+<form id="scan-form-code" class="scan-form"><label class="lab2" for="scan-ean">Ou tape les chiffres sous le code-barres</label>
+<div class="scan-row"><input id="scan-ean" inputmode="numeric" autocomplete="off" pattern="[0-9 ]*" placeholder="Ex. 3600542571951"><button class="btn" type="submit">Chercher</button></div></form>
+</div>
+<div role="tabpanel" id="p-nom" aria-labelledby="t-nom" hidden>
+<form id="scan-form-nom"><label class="lab2" for="scan-q">Marque et nom du produit</label>
+<div class="scan-row"><input id="scan-q" type="search" autocomplete="off" placeholder="Ex. elseve total repair"><button class="btn" type="submit">Chercher</button></div></form>
+<ul id="scan-liste" aria-label="Produits trouvés"></ul>
+</div>
+<div role="tabpanel" id="p-photo" aria-labelledby="t-photo" hidden>
+<p>Prends en photo la liste d'ingrédients au dos du flacon : bien à plat, nette, sans reflet, au plus près de la liste. Le texte est lu sur ton appareil, la photo n'est envoyée nulle part.</p>
+<label class="btn btn-file">Prendre ou choisir une photo<input type="file" id="scan-photo" accept="image/*" capture="environment"></label>
+<progress id="scan-prog" max="100" value="0" hidden aria-label="Lecture de la photo"></progress>
+</div>
+<div role="tabpanel" id="p-coller" aria-labelledby="t-coller" hidden>
+<form id="scan-form-inci"><label class="lab2" for="scan-inci">Liste des ingrédients (INCI), copiée du flacon ou d'un site</label>
+<textarea id="scan-inci" spellcheck="false" placeholder="Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Glycerin, Parfum…"></textarea>
+<button class="btn" type="submit">Analyser la composition</button></form>
+</div>
+<div id="scan-etat" aria-live="polite"></div>
+<div id="scan-res"></div>
+</section>
+<p class="small">Données produits : <a href="https://world.openbeautyfacts.org/" rel="noopener" target="_blank">Open Beauty Facts</a> (licence ODbL), ingrédients à vérifier sur l'emballage, les formules changent. Base du carnet : {nb} ingrédients classés en {len(db["regles"])} familles, relue le {E(G["dt"].date.fromisoformat(db["version"]).strftime("%d/%m/%Y"))}.</p>
+
+<div class="txt" style="margin-top:34px">
+<section aria-labelledby="lire-inci"><h2 id="lire-inci">Comment lire la composition d'un shampoing</h2>
+<p>Au dos du flacon, la liste qui commence par « Ingredients » ou « Ingrédients » s'appelle la liste INCI. C'est la même dans toute l'Union européenne : les ingrédients portent un nom international, souvent en anglais ou en latin, pour qu'on puisse les comparer d'un pays à l'autre.</p>
+<ol class="etapes">
+<li><strong>Regarde les cinq premiers.</strong> Les ingrédients sont classés du plus présent au moins présent. Après l'eau (aqua), les premières lignes font l'essentiel de la formule : c'est là que se trouve la base lavante.</li>
+<li><strong>Ne t'attarde pas sur la fin.</strong> En dessous de 1 %, la loi autorise à ranger les ingrédients dans n'importe quel ordre. Un « extrait d'avocat » en fin de liste est présent en très petite quantité.</li>
+<li><strong>Repère les familles, pas les noms.</strong> Un mot en « sulfate » lave fort, un « glucoside » ou une « betaine » lave plus doucement, un nom en « -cone » ou « -siloxane » est un silicone, un nom de plante en latin suivi de « oil » est une huile.</li>
+<li><strong>Lis la fin pour le parfum.</strong> « Parfum » désigne un mélange. Juste après, des noms comme limonene, linalool ou citronellol sont des allergènes que la loi oblige à nommer au-delà d'un seuil.</li>
+</ol>
+<p>Deux pièges fréquents. « Cetyl alcohol » ou « cetearyl alcohol » ne sont pas des alcools qui assèchent : ce sont des corps gras qui adoucissent. Et « sans sulfate » ne veut pas dire « doux » : certains tensioactifs lavent presque aussi fort sans porter ce nom. Pour choisir ta base lavante en détail, lis notre guide du <a href="/meilleur-shampoing-sans-sulfate/">shampoing sans sulfate</a>.</p></section>
+<section aria-labelledby="comment-scan"><h2 id="comment-scan">Comment le scanner décide</h2>
+<p>Chaque ingrédient est rangé dans une famille (tensioactif doux ou fort, silicone, huile, protéine, humectant, conservateur, allergène…), avec une règle écrite pour chaque type de cheveux et chaque cuir chevelu. Le résultat te dit « plutôt adapté », « à utiliser avec précaution » ou « peu adapté à ton profil », avec la raison de chaque point. La même formule peut être parfaite pour toi et mal convenir à ta sœur.</p>
+<p>Ce que le scanner ne fait pas : il ne connaît pas les quantités exactes, qui ne sont pas sur l'étiquette, il ne juge pas la qualité d'une marque, et il ne remplace pas l'avis d'un dermatologue. Si ton cuir chevelu gratte, rougit ou pèle depuis plusieurs semaines, fais plutôt le <a href="/cuir-chevelu-qui-gratte/#simulateur">diagnostic cuir chevelu</a> et parles-en à ton médecin.</p>
+<p>Tu ne connais pas ton type de cheveux ? <a href="/quiz-type-de-cheveux/">Fais le quiz</a> : le scanner reprendra ton profil tout seul.</p></section>
+<section aria-labelledby="faq"><h2 id="faq">Questions fréquentes</h2>{faq}</section>
+<section class="sources" id="sources-scan" aria-labelledby="sources"><h2 id="sources">Sources</h2><ul>{srcs}</ul></section>
+</div>
+{G["cta_ebook"]()}
+</div>"""
+    body = body.replace("« ", "«\u00a0").replace(" »", "\u00a0»")  # guillemets insécables : pas de « seul en fin de ligne
+    schema = [G["schema_crumbs"](crumbs),
+              {"@context": "https://schema.org", "@type": "WebApplication", "name": "Scanner de composition de shampoing", "url": DOMAIN + "/composition-shampoing/",
+               "description": "Analyse gratuite de la liste d'ingrédients (INCI) d'un shampoing par code-barres, nom ou photo, et compatibilité avec ton type de cheveux.",
+               "applicationCategory": "LifestyleApplication", "operatingSystem": "Tous navigateurs", "inLanguage": "fr-FR", "isAccessibleForFree": True,
+               "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}},
+              {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in SCAN_FAQ]}]
+    js = (f'\n<script src="/simulateurs.js?v={G["ASSET_V"]}" defer></script>\n<script src="/scanner.js?v={G["ASSET_V"]}" defer></script>'
+          '\n<link rel="preconnect" href="https://world.openbeautyfacts.org" crossorigin>')
+    return G["page"]("Composition shampoing : scanne et décode les ingrédients",
+                     "Scanne le code-barres, cherche le nom ou photographie l'étiquette de ton shampoing : sa composition expliquée et sa compatibilité avec tes cheveux.",
+                     "/composition-shampoing/", body, schema, "scanner",
+                     ("composition shampoing", "non relevé (absent du relevé KP du 22/11, suggestion Google populaire)"), extra_js=js)
+
+
 def pages():
     init_offres()
-    return [("/", accueil(), "1.0"), ("/tests-cheveux/", tests(), "0.9"), ("/quiz-type-de-cheveux/", quiz(), "0.9"), (f"/{EB}/", ebook(), "0.8"),
+    return [("/", accueil(), "1.0"), ("/tests-cheveux/", tests(), "0.9"), ("/composition-shampoing/", scanner(), "0.9"), ("/quiz-type-de-cheveux/", quiz(), "0.9"), (f"/{EB}/", ebook(), "0.8"),
             ("/merci/", merci(), None), ("/bienvenue/", bienvenue(), None)] + [
             (G["url_guide"](t["id"]), guide_type(t), None) for t in G["OFFRES"]["types"]] + [
             ("/contact/", contact(), "0.3"), ("/mentions-legales/", mentions(), "0.2")]

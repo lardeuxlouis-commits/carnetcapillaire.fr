@@ -1,6 +1,7 @@
 /* Quiz « Quel est ton type de cheveux ? » : 9 questions, calcul 100 % local.
    Texture (raides à crépus), épaisseur, cuir chevelu, porosité, souci principal.
-   Aucune donnée envoyée ni stockée (pas de cookie, pas de localStorage).
+   Aucune donnée envoyée, pas de cookie. Seul le profil (texture, cuir chevelu, cheveux fins) est gardé dans le navigateur
+   (localStorage « cc_profil », try/catch) pour que le scanner de composition le reprenne sans le redemander.
    Capture e-mail en fin de résultat (site.js, case de consentement non cochée, double opt-in) : seule donnée envoyée, et seulement si la personne la remplit. */
 (function () {
   var root = document.getElementById("quiz");
@@ -203,11 +204,13 @@
       "<li><b>Laver</b>" + esc(lavage) + "</li><li><b>Nourrir</b>" + esc(soin) + "</li><li><b>Hydrater</b>" + esc(hydra) + "</li><li><b>Coiffer</b>" + esc(coiff) + "</li></ol>" +
       (souci !== "chute" ? '<p class="astuce" style="margin:0"><strong>Le conseil du carnet :</strong> ' + esc(tips) + (cuir !== "alerte" && cuirTxt ? " " + esc(cuirTxt) : "") + "</p>" : "") +
       '<div class="res-links">' + cartes + "</div>" +
+      '<p class="small" style="text-align:center">Tu as déjà un shampoing ? <a href="/composition-shampoing/">Scanne-le</a> : le scanner reprend ton profil.</p>' +
       prodsHtml() +
       // Offre : LE guide du type détecté (cheveux raides et fins -> guide des cheveux fins), puis le pack
       (window.CC ? window.CC.capture("quiz-type") + window.CC.offre(g === "raides" && ep === "fin" ? "fins" : g) : '<div class="res-cta"><p class="ctat">Pour aller plus loin</p><p><a href="/guide-produits-cheveux-pdf/">Les guides PDF des meilleurs produits pour ton type de cheveux</a></p></div>') +
       '<p style="text-align:center;margin-top:16px"><button type="button" class="qback" id="qredo">Refaire le test</button></p></div>';
     body.innerHTML = h; if (window.cc_evt) cc_evt('quiz-termine');
+    try { localStorage.setItem("cc_profil", JSON.stringify({ texture: g, cuir: { ok: "equilibre", gras: "gras", sec: "sec", pellicules: "pellicules", alerte: "sec" }[cuir], fin: ep === "fin", src: "quiz" })); } catch (e) {}
     var t = body.querySelector("h2"); t.setAttribute("tabindex", "-1"); t.focus({ preventScroll: true });
     root.scrollIntoView({ behavior: "smooth", block: "start" });
     document.getElementById("qredo").addEventListener("click", function () { rep = {}; i = 0; show(); });

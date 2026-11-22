@@ -123,7 +123,7 @@ ICO = {
 
 def nav_html(actif=None):
     liens = [("types-de-cheveux", "Types", "types"), ("problemes-cheveux", "Problèmes", "problemes"),
-             ("soins-cheveux", "Soins", "soins"), ("tests-cheveux", "Tests", "tests"),
+             ("soins-cheveux", "Soins", "soins"), ("tests-cheveux", "Tests", "tests"), ("composition-shampoing", "Scanner", "scanner"),
              ("guide-produits-cheveux-pdf", "Guide PDF", "ebook")]
     cur = ' aria-current="page"'
     items = "".join(f'<li><a href="{url(s)}"{cur if actif == k else ""}>{E(t)}</a></li>' for s, t, k in liens)
@@ -207,6 +207,11 @@ AFFILIE_ENCART = ('<aside class="affil" role="note"><p><strong>Transparence :</s
 
 DERMATO = ("Si ça dure plus de quelques semaines, ou en cas de plaques, de rougeurs, de croûtes, de douleur ou de chute importante, "
            "parle-en à ton médecin ou à un dermatologue. Un cosmétique ne soigne pas.")
+
+
+SCAN_ENCART = ('<a class="scan-encart" href="/composition-shampoing/"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">'
+               '<path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M7 8v8M10 8v8M13 8v8M16.5 8v8"/></svg></span>'
+               '<span><b>Scanne ton shampoing actuel</b><span>Code-barres, nom ou photo de l\'étiquette : vois en 30 secondes si sa composition va à tes cheveux. →</span></span></a>')
 
 
 def cta_quiz(titre=None):
@@ -465,6 +470,10 @@ def article(d):
         fins = [m.end() for m in re.finditer("</section>", corps)]
         if len(fins) >= 3:
             corps = corps[:fins[1]] + cta_quiz() + corps[fins[1]:]
+    if '<div class="prods">' in corps:
+        i = corps.find("</section>", corps.find('<div class="prods">'))
+        if i > 0:
+            corps = corps[:i] + SCAN_ENCART + corps[i:]
     if d.get("hub"):
         enfants = sorted([(s2, x) for s2, x in PAGES.items() if x.get("parent") == slug], key=lambda x: x[1].get("ordre", 50))
         cartes = "".join(f'<a class="lcard" href="{url(s2)}"><span class="k">{E(RUB.get(x.get("rubrique"), ("",))[0])}</span><h3>{E(x["court"])}</h3>'
@@ -554,7 +563,9 @@ def main():
     js_site = open(os.path.join(B, "site.js"), encoding="utf-8").read()
     js_quiz = open(os.path.join(B, "quiz.js"), encoding="utf-8").read()
     js_sims = open(os.path.join(B, "simulateurs.js"), encoding="utf-8").read()
-    ASSET_V = hashlib.md5((CSS + js_site + js_quiz + js_sims + json.dumps(OFFRES)).encode()).hexdigest()[:8]
+    js_scan = open(os.path.join(B, "scanner.js"), encoding="utf-8").read()
+    ingr = json.dumps(json.load(open(os.path.join(B, "ingredients.json"), encoding="utf-8")), ensure_ascii=False, separators=(",", ":"))
+    ASSET_V = hashlib.md5((CSS + js_site + js_quiz + js_sims + js_scan + ingr + json.dumps(OFFRES)).encode()).hexdigest()[:8]
     if os.path.isdir(OUT):
         for x in os.listdir(OUT):
             p = os.path.join(OUT, x)
@@ -604,6 +615,8 @@ def main():
     drapeau = "window.CC_LANCEMENT=true;\n" if MODE_LANCEMENT else ""
     open(os.path.join(OUT, "site.js"), "w", encoding="utf-8").write(drapeau + js_site)
     open(os.path.join(OUT, "quiz.js"), "w", encoding="utf-8").write(js_quiz)
+    # Scanner de composition : règles (_build/ingredients.json) injectées devant le moteur
+    open(os.path.join(OUT, "scanner.js"), "w", encoding="utf-8").write(f"window.CC_INGR={ingr};\n" + js_scan)
     offres_js = {"prix_type": PRIX_TYPE, "prix_pack": PRIX_PACK, "bump": BUMP, "selecteur": "/guide-produits-cheveux-pdf/",
                  "types": {t["id"]: {"nom": t["nom"], "url": url_guide(t["id"]), "accroche": t["accroche"]} for t in OFFRES["types"]}}
     open(os.path.join(OUT, "simulateurs.js"), "w", encoding="utf-8").write(

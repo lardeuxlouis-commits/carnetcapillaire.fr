@@ -1,0 +1,956 @@
+{
+ "_note": "Base de règles du scanner de composition (/composition-shampoing/). Faits sur la composition uniquement : pas de note globale, pas d'allégation santé, pas de mot alarmiste. Relue le 22/11/2026. Noms INCI en minuscules, sans accents. 'noms' = noms exacts (servent aussi au rapprochement tolérant aux fautes d'OCR), 'motifs' = expressions régulières sur le nom normalisé, 'exclut' = motifs qui annulent une correspondance. Les règles sont testées dans l'ordre, la première qui correspond gagne, sauf celles marquées 'multi' (testées en plus : allergènes, retirés du marché). Points de profil : [niveau, explication, rang maximum facultatif]. Niveaux : ok, prudence, peu, info. Clés de profil séparées par des virgules. texture = raides, ondules, boucles, frises, crepus ; cuir = equilibre, gras, sec, pellicules ; ep = fin.",
+ "version": "2026-11-22",
+ "sources": [
+  {
+   "titre": "Règlement (CE) n° 1223/2009 relatif aux produits cosmétiques (texte consolidé)",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:02009R1223-20240424"
+  },
+  {
+   "titre": "CosIng, base de données de la Commission européenne sur les ingrédients cosmétiques",
+   "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en"
+  },
+  {
+   "titre": "Règlement (UE) 2023/1545 : étiquetage des allergènes parfumants",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023R1545"
+  },
+  {
+   "titre": "Règlement (UE) 2021/1902 : substances CMR interdites (zinc pyrithione, butylphenyl methylpropional)",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32021R1902"
+  },
+  {
+   "titre": "Règlement (UE) 2018/35 : D4 et D5 dans les produits rincés",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32018R0035"
+  },
+  {
+   "titre": "DGCCRF, allégations sur les produits cosmétiques",
+   "url": "https://www.economie.gouv.fr/dgccrf/allegations-sur-les-produits-cosmetiques-tout-nest-pas-permis"
+  },
+  {
+   "titre": "Gavazzoni Dias, Hair cosmetics: an overview, International Journal of Trichology, 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4387693/"
+  }
+ ],
+ "synonymes": {
+  "eau": "aqua",
+  "water": "aqua",
+  "aqua water": "aqua",
+  "aqua eau": "aqua",
+  "eau purifiee": "aqua",
+  "fragrance": "parfum",
+  "aroma": "parfum",
+  "parfum fragrance": "parfum",
+  "glycerine": "glycerin",
+  "glycerol": "glycerin",
+  "alcool": "alcohol",
+  "alcool denature": "alcohol denat",
+  "ethanol": "alcohol",
+  "beurre de karite": "butyrospermum parkii butter",
+  "shea butter": "butyrospermum parkii butter",
+  "huile d argan": "argania spinosa kernel oil",
+  "argan oil": "argania spinosa kernel oil",
+  "huile de coco": "cocos nucifera oil",
+  "coconut oil": "cocos nucifera oil",
+  "huile de ricin": "ricinus communis seed oil",
+  "castor oil": "ricinus communis seed oil",
+  "huile d avocat": "persea gratissima oil",
+  "avocado oil": "persea gratissima oil",
+  "huile de jojoba": "simmondsia chinensis seed oil",
+  "jojoba oil": "simmondsia chinensis seed oil",
+  "aloe vera": "aloe barbadensis leaf juice",
+  "miel": "mel",
+  "honey": "mel",
+  "acide citrique": "citric acid",
+  "acide lactique": "lactic acid",
+  "acide salicylique": "salicylic acid",
+  "sel": "sodium chloride",
+  "chlorure de sodium": "sodium chloride",
+  "huile minerale": "paraffinum liquidum",
+  "mineral oil": "paraffinum liquidum",
+  "vaseline": "petrolatum",
+  "panthenol provitamine b5": "panthenol",
+  "vitamine e": "tocopherol",
+  "sls": "sodium lauryl sulfate",
+  "sles": "sodium laureth sulfate",
+  "laurylsulfate de sodium": "sodium lauryl sulfate",
+  "lauryl ether sulfate de sodium": "sodium laureth sulfate",
+  "laurethsulfate de sodium": "sodium laureth sulfate",
+  "sodium lauryl ether sulfate": "sodium laureth sulfate",
+  "sodium dodecyl sulfate": "sodium lauryl sulfate",
+  "cocamidopropylbetaine": "cocamidopropyl betaine",
+  "cocoglucoside": "coco-glucoside",
+  "dimethiconol": "dimethiconol",
+  "keratine": "keratin",
+  "keratine hydrolysee": "hydrolyzed keratin",
+  "proteines de ble hydrolysees": "hydrolyzed wheat protein",
+  "proteines de riz hydrolysees": "hydrolyzed rice protein"
+ },
+ "communs": [
+  "aqua",
+  "citric acid",
+  "lactic acid",
+  "sodium hydroxide",
+  "sodium citrate",
+  "carbomer",
+  "xanthan gum",
+  "guar gum",
+  "glycol distearate",
+  "glycol stearate",
+  "ppg-5-ceteth-20",
+  "peg-40 hydrogenated castor oil",
+  "peg-7 glyceryl cocoate",
+  "peg-120 methyl glucose dioleate",
+  "peg-150 distearate",
+  "laureth-2",
+  "laureth-4",
+  "trideceth-6",
+  "trideceth-12",
+  "tetrasodium edta",
+  "disodium edta",
+  "tetrasodium glutamate diacetate",
+  "sodium gluconate",
+  "sodium phytate",
+  "styrene/acrylates copolymer",
+  "hydroxyethylcellulose",
+  "hydroxypropyl methylcellulose",
+  "sodium sulfate",
+  "tocopherol",
+  "tocopheryl acetate",
+  "rosmarinus officinalis leaf extract",
+  "hydrolyzed wheat starch",
+  "fumaric acid",
+  "polysorbate 20",
+  "polysorbate 80",
+  "cocamide mea",
+  "cocamide dea",
+  "lauramide dea",
+  "glyceryl oleate",
+  "glyceryl stearate",
+  "sodium lactate",
+  "zinc pca",
+  "fructose",
+  "inulin",
+  "arginine",
+  "niacinamide",
+  "caffeine",
+  "menthol",
+  "isopropyl myristate",
+  "mica",
+  "titanium dioxide",
+  "ci 15985",
+  "ci 19140",
+  "ci 14700",
+  "ci 42090",
+  "ci 61570",
+  "ci 17200",
+  "ci 60730",
+  "potassium hydroxide",
+  "triethanolamine",
+  "sodium cocoyl alaninate",
+  "fructosyl cocoate/olivate",
+  "hydroxypropyltrimonium inulin",
+  "sodium dehydroacetate",
+  "potassium sorbate"
+ ],
+ "regles": [
+  {
+   "id": "retire",
+   "multi": true,
+   "label": "Plus autorisé dans l'UE",
+   "groupe": "reglementaire",
+   "noms": [
+    "zinc pyrithione",
+    "butylphenyl methylpropional",
+    "hydroxyisohexyl 3-cyclohexene carboxaldehyde"
+   ],
+   "notes": {
+    "zinc pyrithione": "n'est plus autorisé dans les cosmétiques vendus dans l'UE depuis le 1er mars 2022 (règlement UE 2021/1902)",
+    "butylphenyl methylpropional": "n'est plus autorisé dans les cosmétiques vendus dans l'UE depuis le 1er mars 2022 (règlement UE 2021/1902)",
+    "hydroxyisohexyl 3-cyclohexene carboxaldehyde": "n'est plus autorisé dans les cosmétiques vendus dans l'UE depuis le 23 août 2021 (règlement UE 2017/1410)"
+   },
+   "fait": "Cet ingrédient n'est plus autorisé dans les cosmétiques vendus dans l'UE. La fiche correspond sans doute à une ancienne formule : vérifie la liste sur l'emballage actuel."
+  },
+  {
+   "id": "allergene",
+   "multi": true,
+   "label": "Allergène parfumant à déclarer",
+   "groupe": "allergene",
+   "noms": [
+    "amyl cinnamal",
+    "benzyl alcohol",
+    "cinnamyl alcohol",
+    "citral",
+    "eugenol",
+    "hydroxycitronellal",
+    "isoeugenol",
+    "amylcinnamyl alcohol",
+    "benzyl salicylate",
+    "cinnamal",
+    "coumarin",
+    "geraniol",
+    "hydroxyisohexyl 3-cyclohexene carboxaldehyde",
+    "anise alcohol",
+    "benzyl cinnamate",
+    "farnesol",
+    "butylphenyl methylpropional",
+    "linalool",
+    "benzyl benzoate",
+    "citronellol",
+    "hexyl cinnamal",
+    "limonene",
+    "methyl 2-octynoate",
+    "alpha-isomethyl ionone",
+    "evernia prunastri extract",
+    "evernia furfuracea extract"
+   ],
+   "fait": "Fait partie des 26 substances parfumantes que le règlement européen impose de nommer sur l'étiquette au-delà de 0,01 % dans un produit rincé (0,001 % sans rinçage). Ce n'est pas un défaut : c'est une information pour les personnes qui savent y être sensibles.",
+   "profil": {
+    "cuir": {
+     "sec": [
+      "prudence",
+      "Ton cuir chevelu est sensible : si tu as déjà réagi à un parfum, repère ces noms sur l'étiquette."
+     ]
+    }
+   }
+  },
+  {
+   "id": "sulfate",
+   "label": "Sulfate",
+   "groupe": "lavant-fort",
+   "noms": [
+    "sodium lauryl sulfate",
+    "sodium laureth sulfate",
+    "ammonium lauryl sulfate",
+    "ammonium laureth sulfate",
+    "sodium coco-sulfate",
+    "sodium coco sulfate",
+    "sodium myreth sulfate",
+    "tea-lauryl sulfate",
+    "magnesium laureth sulfate",
+    "sodium trideceth sulfate",
+    "mea-lauryl sulfate",
+    "sodium cetearyl sulfate",
+    "sodium laureth-8 sulfate"
+   ],
+   "motifs": [
+    "(lauryl|laureth|myreth|coco|trideceth|pareth|cetearyl)[ -]?sulfate$"
+   ],
+   "exclut": [
+    "sulfosuccinate"
+   ],
+   "fait": "Tensioactif qui lave fort et mousse beaucoup. Efficace pour enlever le sébum et les résidus, il peut aussi retirer une partie des lipides des longueurs.",
+   "profil": {
+    "texture": {
+     "boucles,frises,crepus": [
+      "peu",
+      "Un sulfate lave fort : sur des boucles, des frisures ou des cheveux crépus, souvent plus secs, il peut laisser les longueurs rêches. Garde-le plutôt en clarifiant, une fois par mois."
+     ],
+     "ondules": [
+      "prudence",
+      "Sur des ondulations, un sulfate au quotidien peut accentuer les frisottis. Pas un problème en usage occasionnel."
+     ]
+    },
+    "cuir": {
+     "gras": [
+      "ok",
+      "Un sulfate dégraisse efficacement des racines qui regraissent vite."
+     ],
+     "sec": [
+      "prudence",
+      "Sur un cuir chevelu sec ou sensible, un sulfate peut accentuer les tiraillements."
+     ]
+    }
+   }
+  },
+  {
+   "id": "sulfonate",
+   "label": "Tensioactif fort (non sulfate)",
+   "groupe": "lavant-fort",
+   "noms": [
+    "sodium c14-16 olefin sulfonate",
+    "sodium dodecylbenzenesulfonate",
+    "sodium xylenesulfonate"
+   ],
+   "motifs": [
+    "olefin sulfonate"
+   ],
+   "fait": "Tensioactif sans sulfate dans son nom, mais qui lave presque aussi fort qu'un sulfate. Une formule « sans sulfate » peut en contenir.",
+   "profil": {
+    "texture": {
+     "boucles,frises,crepus": [
+      "prudence",
+      "Il lave presque aussi fort qu'un sulfate : sur des boucles sèches, surveille la sensation de longueurs rêches."
+     ]
+    },
+    "cuir": {
+     "gras": [
+      "ok",
+      "Il dégraisse bien les racines grasses."
+     ],
+     "sec": [
+      "prudence",
+      "Sur un cuir chevelu sec ou sensible, il peut tirailler comme un sulfate."
+     ]
+    }
+   }
+  },
+  {
+   "id": "doux",
+   "label": "Tensioactif doux",
+   "groupe": "lavant-doux",
+   "si_absent": [
+    "sulfate",
+    "sulfonate"
+   ],
+   "noms": [
+    "coco-glucoside",
+    "decyl glucoside",
+    "lauryl glucoside",
+    "caprylyl/capryl glucoside",
+    "cocamidopropyl betaine",
+    "coco-betaine",
+    "lauryl betaine",
+    "sodium cocoyl isethionate",
+    "sodium lauroyl methyl isethionate",
+    "sodium cocoamphoacetate",
+    "disodium cocoamphodiacetate",
+    "sodium lauroamphoacetate",
+    "sodium lauroyl sarcosinate",
+    "sodium cocoyl glutamate",
+    "disodium cocoyl glutamate",
+    "sodium lauroyl glutamate",
+    "disodium laureth sulfosuccinate",
+    "disodium lauryl sulfosuccinate",
+    "sodium methyl cocoyl taurate",
+    "sodium cocoyl glycinate",
+    "sodium cocoyl alaninate",
+    "cocamidopropyl hydroxysultaine",
+    "sodium lauryl glucose carboxylate",
+    "sodium cocoyl apple amino acids",
+    "sodium cocoyl hydrolyzed wheat protein",
+    "sodium cocoyl/olivoyl hydrolyzed oat protein"
+   ],
+   "motifs": [
+    "glucoside$",
+    "betaine$",
+    "isethionate$",
+    "amphoacetate$",
+    "sarcosinate$",
+    "glutamate$",
+    "sulfosuccinate$",
+    "taurate$",
+    "glycinate$",
+    "sultaine$"
+   ],
+   "fait": "Tensioactif plus doux qu'un sulfate. Il lave en retirant moins de lipides des longueurs. Souvent utilisé seul ou en duo dans les formules sans sulfate.",
+   "profil": {
+    "texture": {
+     "ondules,boucles,frises,crepus": [
+      "ok",
+      "Base lavante douce, sans sulfate : elle respecte mieux l'hydratation des ondulations, des boucles et des cheveux crépus."
+     ]
+    },
+    "cuir": {
+     "sec": [
+      "ok",
+      "Une base lavante douce convient mieux à un cuir chevelu sec ou sensible."
+     ],
+     "gras": [
+      "info",
+      "Base lavante douce : si tes racines regraissent très vite, elle peut te sembler un peu juste. Masse bien et rince longtemps."
+     ]
+    }
+   },
+   "exclut": [
+    "^betaine$"
+   ]
+  },
+  {
+   "id": "silicone_soluble",
+   "label": "Silicone soluble dans l'eau",
+   "groupe": "silicone",
+   "noms": [
+    "peg-12 dimethicone",
+    "peg-8 dimethicone",
+    "peg/ppg-18/18 dimethicone",
+    "dimethicone copolyol",
+    "bis-peg-18 methyl ether dimethyl silane",
+    "lauryl peg/ppg-18/18 methicone",
+    "peg-7 amodimethicone"
+   ],
+   "motifs": [
+    "^(bis-)?(peg|ppg)[-/].*(dimethicone|methicone|siloxane|silane)",
+    "dimethicone copolyol"
+   ],
+   "fait": "Silicone modifié pour se dissoudre dans l'eau. Il apporte de la glisse et part au rinçage : il s'accumule peu.",
+   "profil": {
+    "texture": {
+     "raides,ondules,boucles,frises,crepus": [
+      "info",
+      "Silicone soluble : il facilite le démêlage sans s'accumuler, même avec un shampoing doux."
+     ]
+    }
+   }
+  },
+  {
+   "id": "silicone",
+   "label": "Silicone non soluble",
+   "groupe": "silicone",
+   "noms": [
+    "dimethicone",
+    "amodimethicone",
+    "dimethiconol",
+    "cyclopentasiloxane",
+    "cyclotetrasiloxane",
+    "cyclohexasiloxane",
+    "cyclomethicone",
+    "phenyl trimethicone",
+    "trimethylsilylamodimethicone",
+    "bis-aminopropyl dimethicone",
+    "stearyl dimethicone",
+    "cetyl dimethicone",
+    "trimethylsiloxysilicate",
+    "quaternium-80",
+    "bis-hydroxy/methoxy amodimethicone",
+    "divinyldimethicone/dimethicone copolymer"
+   ],
+   "motifs": [
+    "(dimethicone|methicone|siloxane|siloxysilicate)$",
+    "amodimethicone"
+   ],
+   "exclut": [
+    "^(bis-)?(peg|ppg)[-/]"
+   ],
+   "notes": {
+    "cyclopentasiloxane": "limité à 0,1 % dans les produits rincés depuis 2020, pour des raisons environnementales (règlement UE 2018/35)",
+    "cyclotetrasiloxane": "limité à 0,1 % dans les produits rincés depuis 2020, pour des raisons environnementales (règlement UE 2018/35)"
+   },
+   "fait": "Silicone qui forme un film lisse sur le cheveu : glisse, brillance, démêlage facile. Il ne part pas entièrement à l'eau et peut s'accumuler au fil des lavages, surtout avec des shampoings doux.",
+   "profil": {
+    "texture": {
+     "boucles,frises,crepus": [
+      "info",
+      "Il facilite le démêlage des boucles, mais s'accumule si tu laves toujours en douceur : un shampoing clarifiant de temps en temps suffit à repartir de zéro."
+     ]
+    },
+    "ep": {
+     "fin": [
+      "prudence",
+      "Sur des cheveux fins, un silicone non soluble peut alourdir et aplatir les racines au fil des lavages."
+     ]
+    },
+    "cuir": {
+     "gras": [
+      "prudence",
+      "Sur des racines grasses, il peut donner une impression de cheveux plus vite chargés. Applique le produit surtout sur les longueurs."
+     ]
+    }
+   }
+  },
+  {
+   "id": "alcool_sec",
+   "label": "Alcool volatil",
+   "groupe": "alcool",
+   "noms": [
+    "alcohol",
+    "alcohol denat",
+    "alcohol denat.",
+    "isopropyl alcohol",
+    "sd alcohol 40",
+    "sd alcohol"
+   ],
+   "motifs": [
+    "^alcohol( denat\\.?)?$",
+    "^sd alcohol",
+    "^isopropyl alcohol$"
+   ],
+   "fait": "Alcool léger qui s'évapore vite. Il sert à alléger la texture ou à faire sécher plus vite. Placé en tête de liste, il peut dessécher. Ce n'est pas un alcool gras.",
+   "profil": {
+    "texture": {
+     "boucles,frises,crepus": [
+      "prudence",
+      "Un alcool volatil en tête de liste peut dessécher des boucles déjà sèches.",
+      5
+     ]
+    },
+    "cuir": {
+     "sec": [
+      "prudence",
+      "En tête de liste, un alcool volatil peut accentuer les tiraillements d'un cuir chevelu sec.",
+      5
+     ]
+    }
+   }
+  },
+  {
+   "id": "alcool_gras",
+   "label": "Alcool gras",
+   "groupe": "alcool",
+   "noms": [
+    "cetyl alcohol",
+    "cetearyl alcohol",
+    "stearyl alcohol",
+    "behenyl alcohol",
+    "myristyl alcohol",
+    "arachidyl alcohol",
+    "lauryl alcohol",
+    "c12-16 alcohols",
+    "brassica alcohol"
+   ],
+   "motifs": [
+    "^(cetyl|cetearyl|stearyl|behenyl|myristyl|arachidyl|lauryl|oleyl|brassica) alcohol$",
+    "^c\\d+-\\d+ alcohols?$"
+   ],
+   "fait": "Malgré son nom, ce n'est pas un alcool qui assèche : c'est une matière grasse cireuse qui épaissit la texture et adoucit les longueurs.",
+   "profil": {
+    "texture": {
+     "boucles,frises,crepus": [
+      "ok",
+      "Alcool gras : il adoucit et aide à démêler, bien pour les boucles et les cheveux crépus."
+     ]
+    }
+   }
+  },
+  {
+   "id": "proteine",
+   "label": "Protéine",
+   "groupe": "proteine",
+   "noms": [
+    "keratin",
+    "hydrolyzed keratin",
+    "hydrolyzed wheat protein",
+    "hydrolyzed rice protein",
+    "hydrolyzed soy protein",
+    "hydrolyzed oat protein",
+    "hydrolyzed silk",
+    "silk amino acids",
+    "hydrolyzed collagen",
+    "collagen",
+    "hydrolyzed vegetable protein",
+    "hydroxypropyltrimonium hydrolyzed wheat protein",
+    "hydrolyzed pea protein",
+    "hydrolyzed quinoa",
+    "sericin",
+    "hydrolyzed elastin",
+    "hydrolyzed milk protein",
+    "hydroxypropyltrimonium hydrolyzed keratin"
+   ],
+   "motifs": [
+    "protein$",
+    "keratin$",
+    "collagen$",
+    "silk$",
+    "amino acids$",
+    "elastin$"
+   ],
+   "exclut": [
+    "^sodium cocoyl"
+   ],
+   "fait": "Protéine ou fragment de protéine qui se dépose sur la fibre. Utile sur des cheveux abîmés, colorés ou poreux. En excès sur des cheveux qui n'en ont pas besoin, elle peut donner un toucher rêche.",
+   "profil": {
+    "texture": {
+     "boucles,frises,crepus": [
+      "info",
+      "Les protéines aident les cheveux abîmés ou poreux. Si tes cheveux deviennent rêches ou cassants, alterne avec un produit sans protéine."
+     ]
+    }
+   }
+  },
+  {
+   "id": "beurre",
+   "label": "Beurre végétal",
+   "groupe": "gras",
+   "noms": [
+    "butyrospermum parkii butter",
+    "theobroma cacao seed butter",
+    "mangifera indica seed butter",
+    "shorea stenoptera seed butter",
+    "astrocaryum murumuru seed butter",
+    "theobroma grandiflorum seed butter"
+   ],
+   "motifs": [
+    " butter$",
+    "butter extract$"
+   ],
+   "exclut": [
+    "^peg"
+   ],
+   "fait": "Matière grasse végétale solide (karité, cacao, mangue…). Elle nourrit et gaine les longueurs.",
+   "profil": {
+    "texture": {
+     "frises,crepus": [
+      "ok",
+      "Un beurre nourrit les cheveux frisés et crépus, qui manquent souvent de lipides."
+     ],
+     "boucles": [
+      "ok",
+      "Un beurre apporte de la souplesse aux boucles sèches."
+     ]
+    },
+    "ep": {
+     "fin": [
+      "prudence",
+      "Haut placé dans la liste, un beurre peut alourdir des cheveux fins.",
+      6
+     ]
+    }
+   }
+  },
+  {
+   "id": "huile_essentielle",
+   "label": "Huile essentielle",
+   "groupe": "parfum",
+   "noms": [
+    "citrus aurantium dulcis peel oil",
+    "citrus limon peel oil",
+    "citrus aurantium bergamia peel oil",
+    "lavandula angustifolia oil",
+    "mentha piperita oil",
+    "melaleuca alternifolia leaf oil",
+    "rosmarinus officinalis leaf oil",
+    "eucalyptus globulus leaf oil",
+    "cymbopogon citratus leaf oil",
+    "pelargonium graveolens oil"
+   ],
+   "motifs": [
+    "peel oil$",
+    "^(lavandula|mentha|melaleuca|eucalyptus|cymbopogon|pelargonium|cananga|citrus|thymus|salvia|cedrus|pogostemon|litsea)\\b.*oil$",
+    "(leaf|flower|bark|herb|needle|wood) oil$"
+   ],
+   "fait": "Huile essentielle : elle parfume et contient naturellement des molécules odorantes, dont certaines figurent dans la liste des allergènes à déclarer.",
+   "profil": {
+    "cuir": {
+     "sec": [
+      "prudence",
+      "Les huiles essentielles parfument fort : sur un cuir chevelu sensible, teste d'abord le produit sur une petite zone."
+     ]
+    }
+   }
+  },
+  {
+   "id": "huile_minerale",
+   "label": "Huile minérale",
+   "groupe": "gras",
+   "noms": [
+    "paraffinum liquidum",
+    "petrolatum",
+    "paraffin",
+    "isohexadecane",
+    "isododecane",
+    "cera microcristallina"
+   ],
+   "fait": "Corps gras d'origine minérale, très stable. Il forme un film qui limite la perte d'eau et apporte de la brillance, sans pénétrer la fibre.",
+   "profil": {
+    "ep": {
+     "fin": [
+      "prudence",
+      "Sur des cheveux fins, ce film gras peut alourdir.",
+      6
+     ]
+    }
+   }
+  },
+  {
+   "id": "huile",
+   "label": "Huile végétale",
+   "groupe": "gras",
+   "noms": [
+    "cocos nucifera oil",
+    "argania spinosa kernel oil",
+    "ricinus communis seed oil",
+    "persea gratissima oil",
+    "simmondsia chinensis seed oil",
+    "olea europaea fruit oil",
+    "helianthus annuus seed oil",
+    "prunus amygdalus dulcis oil",
+    "camellia oleifera seed oil",
+    "vitis vinifera seed oil",
+    "macadamia ternifolia seed oil",
+    "orbignya oleifera seed oil",
+    "limnanthes alba seed oil",
+    "glycine soja oil",
+    "sesamum indicum seed oil",
+    "elaeis guineensis oil",
+    "moringa oleifera seed oil",
+    "linum usitatissimum seed oil",
+    "camelina sativa seed oil"
+   ],
+   "motifs": [
+    "(seed|kernel|nut|fruit|germ|bran|pulp)? ?oil$"
+   ],
+   "exclut": [
+    "^peg",
+    "hydrogenated castor oil$",
+    "peel oil$",
+    "^paraffin",
+    "^mineral"
+   ],
+   "fait": "Huile végétale (coco, argan, avocat, tournesol…). Elle nourrit les longueurs et limite la perte d'eau. Dans un shampoing, elle est souvent en petite quantité.",
+   "profil": {
+    "texture": {
+     "boucles,frises,crepus": [
+      "ok",
+      "Une huile végétale nourrit les longueurs des boucles et des cheveux crépus."
+     ]
+    },
+    "ep": {
+     "fin": [
+      "prudence",
+      "Haut placée dans la liste, une huile peut alourdir des cheveux fins.",
+      5
+     ]
+    }
+   }
+  },
+  {
+   "id": "humectant",
+   "label": "Humectant",
+   "groupe": "hydratant",
+   "noms": [
+    "glycerin",
+    "propanediol",
+    "butylene glycol",
+    "propylene glycol",
+    "pentylene glycol",
+    "sodium hyaluronate",
+    "hyaluronic acid",
+    "panthenol",
+    "sorbitol",
+    "sodium pca",
+    "urea",
+    "betaine",
+    "aloe barbadensis leaf juice",
+    "aloe barbadensis leaf extract",
+    "mel",
+    "glucose",
+    "sodium lactate",
+    "trehalose",
+    "hydroxyethyl urea",
+    "inositol",
+    "glycereth-26"
+   ],
+   "fait": "Humectant : il attire et retient l'eau dans la fibre, pour des cheveux plus souples.",
+   "profil": {
+    "texture": {
+     "ondules,boucles,frises,crepus": [
+      "ok",
+      "Un humectant aide les cheveux à garder leur eau : utile pour des ondulations, des boucles ou des cheveux crépus."
+     ]
+    },
+    "cuir": {
+     "sec": [
+      "ok",
+      "Un humectant aide à limiter la sensation de cuir chevelu qui tiraille."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cationique",
+   "label": "Agent démêlant",
+   "groupe": "demelant",
+   "noms": [
+    "guar hydroxypropyltrimonium chloride",
+    "behentrimonium chloride",
+    "cetrimonium chloride",
+    "behentrimonium methosulfate",
+    "stearamidopropyl dimethylamine",
+    "cetrimonium bromide",
+    "distearoylethyl hydroxyethylmonium methosulfate",
+    "dicetyldimonium chloride",
+    "hydroxypropyl guar hydroxypropyltrimonium chloride",
+    "hydroxypropyltrimonium inulin",
+    "brassicamidopropyl dimethylamine"
+   ],
+   "motifs": [
+    "^polyquaternium-\\d+$",
+    "trimonium (chloride|methosulfate|bromide)$",
+    "dimonium chloride$",
+    "amidopropyl dimethylamine$",
+    "hydroxypropyltrimonium"
+   ],
+   "fait": "Agent démêlant chargé positivement (polyquaternium, guar cationique, cetrimonium…). Il se fixe sur les zones abîmées, lisse la fibre et limite l'électricité statique.",
+   "profil": {
+    "texture": {
+     "boucles,frises,crepus": [
+      "ok",
+      "Les agents démêlants facilitent le démêlage des boucles et limitent la casse au coiffage."
+     ]
+    },
+    "ep": {
+     "fin": [
+      "info",
+      "En grande quantité, les agents démêlants peuvent alourdir légèrement des cheveux fins."
+     ]
+    }
+   }
+  },
+  {
+   "id": "filmogene",
+   "label": "Polymère filmogène",
+   "groupe": "filmogene",
+   "noms": [
+    "pvp",
+    "vp/va copolymer",
+    "acrylates copolymer",
+    "polyacrylate-14",
+    "vp/dmapa acrylates copolymer",
+    "polyurethane-14",
+    "amp-acrylates copolymer",
+    "acrylates/c10-30 alkyl acrylate crosspolymer"
+   ],
+   "motifs": [
+    "^vp/",
+    "acrylates? (cross)?polymer$",
+    "copolymer$",
+    "^polyurethane-",
+    "^polyacrylate-"
+   ],
+   "exclut": [
+    "dimethicone",
+    "^styrene"
+   ],
+   "fait": "Polymère qui forme un film léger sur le cheveu ou épaissit la formule. Il donne de la tenue ou de la texture.",
+   "profil": {}
+  },
+  {
+   "id": "sel",
+   "label": "Sel",
+   "groupe": "sel",
+   "noms": [
+    "sodium chloride"
+   ],
+   "fait": "Du sel de cuisine : il sert surtout à épaissir la formule.",
+   "profil": {
+    "texture": {
+     "frises,crepus": [
+      "info",
+      "Le sel peut assécher un peu des cheveux très secs. Il est aussi déconseillé juste après un lissage brésilien."
+     ]
+    }
+   }
+  },
+  {
+   "id": "parfum",
+   "label": "Parfum",
+   "groupe": "parfum",
+   "noms": [
+    "parfum"
+   ],
+   "fait": "Parfum : un mélange de molécules odorantes. Sa composition exacte n'est pas détaillée, seuls les allergènes réglementés au-delà d'un seuil sont nommés.",
+   "profil": {
+    "cuir": {
+     "sec": [
+      "prudence",
+      "Ton cuir chevelu est sensible : un parfum présent peut gêner. Une formule sans parfum est plus simple à tolérer."
+     ]
+    }
+   }
+  },
+  {
+   "id": "antipelliculaire",
+   "label": "Actif antipelliculaire",
+   "groupe": "actif",
+   "noms": [
+    "piroctone olamine",
+    "climbazole",
+    "selenium disulfide",
+    "zinc pyrithione",
+    "ciclopirox olamine",
+    "sulfur"
+   ],
+   "fait": "Actif utilisé dans les shampoings antipelliculaires, encadré par le règlement cosmétique européen (dose maximale).",
+   "profil": {
+    "cuir": {
+     "pellicules": [
+      "ok",
+      "Contient un actif antipelliculaire : cohérent avec ton cuir chevelu. Alterne avec un shampoing doux."
+     ],
+     "equilibre,sec": [
+      "info",
+      "Actif antipelliculaire : sans pellicules, il n'est pas utile au quotidien."
+     ]
+    }
+   }
+  },
+  {
+   "id": "conservateur_mit",
+   "label": "Conservateur (isothiazolinone)",
+   "groupe": "conservateur",
+   "noms": [
+    "methylisothiazolinone",
+    "methylchloroisothiazolinone",
+    "benzisothiazolinone"
+   ],
+   "fait": "Conservateur autorisé seulement dans les produits rincés, à très faible dose, par le règlement européen. Il est connu pour être un allergène de contact fréquent.",
+   "profil": {
+    "cuir": {
+     "sec": [
+      "prudence",
+      "Ton cuir chevelu est sensible : ce conservateur est un allergène de contact connu. Évite-le si tu y as déjà réagi."
+     ]
+    }
+   }
+  },
+  {
+   "id": "conservateur_formol",
+   "label": "Conservateur libérant du formaldéhyde",
+   "groupe": "conservateur",
+   "noms": [
+    "dmdm hydantoin",
+    "imidazolidinyl urea",
+    "diazolidinyl urea",
+    "sodium hydroxymethylglycinate",
+    "quaternium-15",
+    "bronopol",
+    "2-bromo-2-nitropropane-1,3-diol"
+   ],
+   "fait": "Conservateur autorisé qui libère de très petites quantités de formaldéhyde. Le règlement européen impose depuis 2024 la mention « libère du formaldéhyde » au-delà d'un très faible seuil.",
+   "profil": {
+    "cuir": {
+     "sec": [
+      "prudence",
+      "Ton cuir chevelu est sensible : ce type de conservateur peut gêner les personnes déjà sensibilisées."
+     ]
+    }
+   }
+  },
+  {
+   "id": "conservateur",
+   "label": "Conservateur",
+   "groupe": "conservateur",
+   "noms": [
+    "phenoxyethanol",
+    "sodium benzoate",
+    "potassium sorbate",
+    "benzoic acid",
+    "sorbic acid",
+    "dehydroacetic acid",
+    "sodium dehydroacetate",
+    "methylparaben",
+    "ethylparaben",
+    "propylparaben",
+    "butylparaben",
+    "chlorphenesin",
+    "ethylhexylglycerin",
+    "caprylyl glycol",
+    "sodium salicylate",
+    "sodium anisate",
+    "sodium levulinate",
+    "levulinic acid",
+    "p-anisic acid",
+    "glyceryl caprylate",
+    "benzyl alcohol",
+    "salicylic acid"
+   ],
+   "motifs": [
+    "paraben$"
+   ],
+   "fait": "Conservateur autorisé et encadré par le règlement européen (liste et dose maximale). Il empêche bactéries et moisissures de se développer dans le flacon.",
+   "profil": {},
+   "notes": {
+    "salicylic acid": "sert de conservateur ou d'exfoliant doux ; à dose plus élevée, on le trouve aussi dans des shampoings antipelliculaires"
+   }
+  }
+ ]
+}

@@ -33,7 +33,7 @@ print(len(pages), "pages,", pb, "avec problème")
 # --- Contrôle SEO global : mot-clé unique, JSON-LD par type, canonical, sitemap, robots, maillage, orphelines ---
 DOMAIN = "https://carnetcapillaire.fr"
 ATTENDU = {"/": {"WebSite"}, "/quiz-type-de-cheveux/": {"WebApplication", "FAQPage", "BreadcrumbList"},
-           "/tests-cheveux/": {"ItemList", "BreadcrumbList"}, "/contact/": {"BreadcrumbList"}, "/mentions-legales/": {"BreadcrumbList"},
+           "/tests-cheveux/": {"ItemList", "BreadcrumbList"}, "/composition-shampoing/": {"WebApplication", "FAQPage", "BreadcrumbList"}, "/contact/": {"BreadcrumbList"}, "/mentions-legales/": {"BreadcrumbList"},
            "/guide-produits-cheveux-pdf/": {"Product", "BreadcrumbList", "FAQPage"}}
 SIMUL = {"/meilleur-shampoing/", "/cuir-chevelu-qui-gratte/", "/soins-cheveux/"}
 kws, entrants, seo_pb = {}, {p: set() for p in pages}, 0
