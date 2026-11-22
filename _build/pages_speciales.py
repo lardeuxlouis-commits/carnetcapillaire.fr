@@ -120,7 +120,7 @@ def accueil():
     acc_cap = "" if LCT else ('<div class="rv" data-capture="accueil" data-titre="Le mini-guide gratuit" data-sous="« Les 5 erreurs qui abîment tes cheveux », 5 pages, dans ta boîte mail."></div>')
     acc_pop = "" if LCT else ('<div class="cap-pop" hidden role="dialog" aria-label="Mini-guide gratuit"><button type="button" class="pop-x" aria-label="Fermer">×</button>\n'
                               '<div data-capture="accueil-encart" data-titre="Avant de partir : le mini-guide gratuit" data-sous="Les 5 erreurs qui abîment tes cheveux, en 5 pages."></div></div>\n')
-    body = f"""<section class="hero hero-v">{VIDEO}
+    body = f"""<section class="hero hero-v hero-duo">
 <div class="wrap"><div>
 <p class="kicker">Carnet capillaire</p>
 <h1>Tes cheveux, <em>enfin</em> compris</h1>
@@ -129,6 +129,7 @@ def accueil():
 <a class="cta-sec" href="/meilleur-shampoing/#simulateur">ou trouve ton shampoing idéal</a></div>
 <p class="micro">Résultat immédiat · gratuit · sans inscription</p>
 </div>
+<div class="hero-arche" aria-hidden="true"><video autoplay muted loop playsinline preload="metadata" poster="/images/hero-boucles-poster.jpg" tabindex="-1"><source src="/images/hero-boucles.webm" type="video/webm"><source src="/images/hero-boucles.mp4" type="video/mp4"></video></div>
 </div></section>
 <aside class="saison" aria-label="Conseils de saison"><div class="wrap"><span><strong>Spécial {E(sai)} :</strong> {E(acc)}.</span> {bande} <a href="/tests-cheveux/">Fais le test</a></div></aside>
 
@@ -177,7 +178,7 @@ def accueil():
         {"@context": "https://schema.org", "@type": "Organization", "name": SITE, "url": DOMAIN + "/", "logo": DOMAIN + "/favicon.svg",
          "sameAs": []},  # TODO réseaux : ajouter les URL Instagram et TikTok de Carnet capillaire
     ]
-    pre = '\n<link rel="preload" as="image" href="/images/hero-femme-poster.jpg" fetchpriority="high">'
+    pre = '\n<link rel="preload" as="image" href="/images/hero-boucles-poster.jpg" fetchpriority="high">'
     return G["page"]("Carnet capillaire : tes cheveux, enfin compris",
                      "Raides, fins, bouclés ou crépus, gras ou secs : fais le test gratuit, puis découvre ta routine et les produits faits pour tes cheveux.",
                      "/", body, schema, None, ("carnet capillaire (marque ; entrée vers les tests, types, problèmes et soins)", "n.r. (marque)"), extra_js=pre)
