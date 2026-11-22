@@ -629,6 +629,9 @@ def main():
         shutil.copy(x, os.path.join(OUT, "lib", os.path.basename(x)))
     # Images du site : _assets/*.webp -> site/images/
     os.makedirs(os.path.join(OUT, "images"), exist_ok=True)
+    os.makedirs(os.path.join(OUT, "images", "logos"), exist_ok=True)
+    for lg in glob.glob(os.path.join(ROOT, "_assets", "logos", "*")):
+        shutil.copy(lg, os.path.join(OUT, "images", "logos", os.path.basename(lg)))
     for im in [x for x in glob.glob(os.path.join(ROOT, "_assets", "*")) if x.rsplit(".", 1)[-1] in ("webp", "jpg", "webm", "mp4")]:
         shutil.copy(im, os.path.join(OUT, "images", os.path.basename(im)))
     # Mini-guide gratuit (lien de l'e-mail J0 et de /bienvenue/) : copié seulement s'il a été généré en local

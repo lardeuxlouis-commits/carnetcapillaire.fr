@@ -531,6 +531,15 @@
    "categories": "en:body,en:face,en:facial-creams,en:body-creams,fr:cremes-hydratantes,en:open-beauty-facts",
    "source": "obf",
    "n": 1
+  },
+  {
+   "ean": "3600540539397",
+   "nom": "garnier",
+   "marque": "Garnier",
+   "inci": "aqua, cetearyl alcohol, glycerin, cocos nucifera oil, behentrimonium chloride, isopropyl myristate, parfum, persea gratissima oil, butyrospermum parkii butter, dicaprylyl ether, dicaprylyl carbonate, citric acid, sodium benzoate, cetrimonium chloride, linalool, benzyl alcohol, benzyl salicylate, citronellol, geraniol, limonene, alpha-isomethyl ionone, rosmarinus officinalis leaf extract",
+   "categories": "",
+   "source": "obf",
+   "n": 1
   }
  ]
 }
