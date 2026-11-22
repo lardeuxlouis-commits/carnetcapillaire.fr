@@ -28,7 +28,7 @@ p{margin:0 0 1em}
 .bar{display:flex;align-items:center;gap:14px;min-height:66px}
 .logo{display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--brun);font:500 22px/1 var(--serif);letter-spacing:-.02em;margin-right:auto}
 .logo b{font-weight:600;color:var(--terra-d);font-style:italic}
-.logo .mark{width:34px;height:34px;color:var(--brun)}
+.logo .mark{width:38px;height:38px;flex:none}
 .navd{display:none}
 .navd ul,.menu ul{list-style:none;margin:0;padding:0}
 .navd ul{display:flex;gap:4px}
@@ -400,7 +400,10 @@ details>p{margin:0 0 16px}
   .cmp-w{overflow:visible;border:0;background:none}
   .cmp thead{display:none}.cmp,.cmp tbody,.cmp tr,.cmp th,.cmp td{display:block;width:100%}
   .cmp caption{display:block;padding:0 0 8px}
-  .cmp tr{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 14px 14px;margin-bottom:10px}
+  .cmp tr{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 14px 14px;margin-bottom:10px;box-sizing:border-box}
+  .cmp{min-width:0!important}
+  .cmp th,.cmp td,.cmp tbody th{box-sizing:border-box;min-width:0;max-width:100%;overflow-wrap:anywhere}
+  .cmp .mlink{white-space:normal}
   .cmp th,.cmp td{border:0;padding:6px 0}
   .cmp td[data-l]::before{content:attr(data-l) " : ";font-weight:600;color:var(--mut);font-size:13px}
 }
@@ -520,3 +523,5 @@ details>p{margin:0 0 16px}
 .res-offre .kicker{justify-content:center}
 /* Mode lancement : mention non cliquable à la place des boutons d achat */
 .bientot{display:inline-flex;align-items:center;justify-content:center;padding:12px 22px;border-radius:999px;background:var(--sauge-l);color:var(--sauge-d);font-weight:600;font-size:15px;border:1px dashed var(--sauge);cursor:default;white-space:nowrap}
+
+.ph-ok{margin:1.6em 0}.ph-ok img{width:100%;height:auto;max-height:620px;object-fit:cover;border-radius:22px;display:block}.ph-ok figcaption{font-size:14px;color:var(--mut);margin-top:10px}

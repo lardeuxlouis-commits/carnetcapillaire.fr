@@ -112,9 +112,8 @@ FAMILLE = {"types": "types", "routines": "types", "problemes": "problemes", "soi
 CSS = open(os.path.join(B, "style.css"), encoding="utf-8").read()
 ASSET_V = ""
 
-LOGO_SVG = ('<svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 36V20a14 14 0 0 1 28 0v16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>'
-            '<path d="M14 15v17M20 13c3 4-3 8 0 12s-3 6 0 8M26 15c4 2-4 4 0 6s-4 4 0 6s-4 3 0 5" fill="none" stroke="#9a5236" stroke-width="2.2" stroke-linecap="round"/></svg>')
-LOGO_TXT = '<span>carnet<b>capillaire</b></span>'
+LOGO_SVG = ('<svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="ccg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eec0ad"/><stop offset="1" stop-color="#b45f45"/></linearGradient></defs><circle cx="24" cy="24" r="23" fill="url(#ccg)"/><path d="M15.5 9.5C24 8 31.5 12.5 31 19.5c-.4 5.8-7.2 7.4-8.6 11.6-1.2 3.6 1.6 6.4 5.4 6.2-6.6 2.6-11.4-1.4-10.2-6.4 1.3-5.4 9.2-6.4 9.4-11.8.2-4.4-3.6-8-11.5-9.6z" fill="#fff"/><path d="M21 8.6c8.6.4 14.6 5.6 13.4 12.4-.9 5.2-6.8 6.6-7.6 10.4-.6 2.8 1.2 4.6 3.6 4.8" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round"/></svg>')
+LOGO_TXT = '<span>Carnet <b>capillaire</b></span>'
 
 ICO = {
     "insta": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>',
@@ -262,6 +261,21 @@ def img(nom, alt, sizes="(min-width:900px) 340px, 92vw", lazy=True, cls=""):
             f'sizes="{sizes}" width="900" height="1200" {"loading=" + chr(34) + "lazy" + chr(34) + " " if lazy else "fetchpriority=" + chr(34) + "high" + chr(34) + " "}decoding="async" alt="{E(alt)}">')
 
 
+PAGE_SLUG = ""
+PHOTO_REUSE = {"masque-cheveux": "routine", "meilleur-shampoing-sans-sulfate": "routine", "shampoing-apres-lissage-bresilien": "routine"}
+
+
+def photo_page(alt, legende=""):
+    # Photo d'illustration générée par IA (droits OK) : _assets/<slug>-photo-480/900.webp, sinon rien (pas d'emplacement vide en ligne)
+    if PAGE_SLUG not in PHOTOS:
+        return ""
+    nom = f"{PAGE_SLUG}-photo" if os.path.exists(os.path.join(ROOT, "_assets", f"{PAGE_SLUG}-photo-900.webp")) else PHOTO_REUSE.get(PAGE_SLUG)
+    if not nom:
+        return ""
+    return (f'<figure class="ph-ok">{img(nom, alt, sizes="(min-width:900px) 720px, 92vw")}'
+            + (f'<figcaption>{inline(legende)}</figcaption>' if legende else "") + '</figure>')
+
+
 def photo_ph(alt, legende=""):
     # TODO photo : emplacement réservé à une photo (format conseillé 4:5, WebP < 120 ko)
     return (f'<figure class="ph"><div class="ph-box" role="img" aria-label="{E(alt)}"><span>Photo à venir</span></div>'
@@ -291,7 +305,9 @@ def bloc_html(b):
     if t == "dermato":
         return f'<aside class="attention" role="note"><p class="lab">Quand consulter</p><p>{inline(b.get("texte") or DERMATO)}</p></aside>'
     if t == "photo":
-        return photo_ph(b.get("alt", "Photo d'illustration"), b.get("legende", ""))
+        return photo_page(b.get("alt", "Photo d'illustration"), b.get("legende", ""))
+    if t == "video" and not b.get("url"):
+        return ""  # vidéo de Clara pas encore tournée : rien en ligne (TODO : ajouter "url" TikTok/Reel dans le JSON)
     if t == "video":
         # TODO vidéo : intégrer la vidéo TikTok/Reel (lite embed, chargée au clic)
         return (f'<figure class="vid"><div class="vid-box"><span class="play" aria-hidden="true"></span><p>{E(b.get("titre", "Vidéo"))}</p>'
@@ -428,7 +444,9 @@ def crumbs_html(items):
 
 
 def article(d):
+    global PAGE_SLUG
     slug = d["slug"]
+    PAGE_SLUG = slug
     path = url(slug)
     maj = d.get("maj") or LANCEMENT
     date_txt = dt.date.fromisoformat(maj).strftime("%d/%m/%Y")
@@ -480,8 +498,11 @@ def article(d):
     dermato = f'<aside class="attention" role="note"><p class="lab">Quand consulter</p><p>{inline(DERMATO)}</p></aside>' if d.get("dermato") else ""
     if slug in PHOTOS:
         hero_ph = f'<figure class="ph ph-img">{img(*PHOTOS[slug], lazy=True)}</figure>'
+    elif os.path.exists(os.path.join(ROOT, "_assets", f"{slug}-photo-900.webp")) or slug in PHOTO_REUSE:
+        nom = f"{slug}-photo" if os.path.exists(os.path.join(ROOT, "_assets", f"{slug}-photo-900.webp")) else PHOTO_REUSE[slug]
+        hero_ph = f'<figure class="ph ph-img">{img(nom, d.get("photo_alt") or d["court"], lazy=True)}</figure>'
     else:
-        hero_ph = photo_ph(d.get("photo_alt") or d['court']) if d.get("photo_haut", True) else ""
+        hero_ph = ""
     body = f"""<div class="wrap art">
 {crumbs_html(crumbs)}
 <header class="ahead"><div>
