@@ -17,8 +17,9 @@ SITE = "Carnet capillaire"
 AUTRICE = "Carnet capillaire"  # signature éditoriale discrète (pas de page auteur, choix de Louis le 22/11/2026)
 LANCEMENT = "2026-11-22"
 # TODO réseaux : comptes Instagram et TikTok de Carnet capillaire, à créer
-INSTAGRAM = "#todo-instagram"
-TIKTOK = "#todo-tiktok"
+INSTAGRAM = "https://www.instagram.com/drama.capillaire/"
+TIKTOK = "https://www.tiktok.com/@drama.capillaire"
+YOUTUBE = "https://www.youtube.com/@drama.capillaire"
 
 E = lambda s: html.escape(str(s or ""), quote=True)
 PAGES = {}  # slug -> données JSON (rempli dans main)
@@ -117,6 +118,7 @@ LOGO_TXT = '<span>Carnet <b>capillaire</b></span>'
 
 ICO = {
     "insta": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>',
+    "youtube": '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor"/></svg>',
     "tiktok": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3-3.46" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M14 3c.5 3 2.5 5 5.5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
 }
 
@@ -138,7 +140,8 @@ def social_html(cls="soc"):
     if not INSTAGRAM.startswith("https://") or not TIKTOK.startswith("https://"):
         return ""  # comptes pas encore créés : aucun lien mort en ligne
     return (f'<p class="{cls}"><a href="{INSTAGRAM}" rel="me noopener" aria-label="Carnet capillaire sur Instagram">{ICO["insta"]}<span>Instagram</span></a>'
-            f'<a href="{TIKTOK}" rel="me noopener" aria-label="Carnet capillaire sur TikTok">{ICO["tiktok"]}<span>TikTok</span></a></p>')
+            f'<a href="{TIKTOK}" rel="me noopener" aria-label="Carnet capillaire sur TikTok">{ICO["tiktok"]}<span>TikTok</span></a>'
+            f'<a href="{YOUTUBE}" rel="me noopener" aria-label="Carnet capillaire sur YouTube">{ICO["youtube"]}<span>YouTube</span></a></p>')
 
 
 def footer_html():

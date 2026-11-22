@@ -524,20 +524,20 @@
  ],
  "top": [
   {
-   "ean": "4005800001192",
-   "nom": "Nivea Creme",
-   "marque": "Nivea",
-   "inci": "Aqua, Paraffinum Liquidum, Cera Microcristallina, Glycerin, Lanolin Alcohol (Eucerit), paraffin, Panthenol, Decyl Oleate, Octyldodecanol, Aluminum Stearates, Citric Acid, magnesium Sulfate, Magnesium Stearate, Parfum, Limonene, Geraniol, Hydroxycitronellal, Linalool, citronellol, benzyl Benzoate, Cinnamyl Alcohol.",
-   "categories": "en:body,en:face,en:facial-creams,en:body-creams,fr:cremes-hydratantes,en:open-beauty-facts",
-   "source": "obf",
-   "n": 1
-  },
-  {
    "ean": "3600540539397",
    "nom": "garnier",
    "marque": "Garnier",
    "inci": "aqua, cetearyl alcohol, glycerin, cocos nucifera oil, behentrimonium chloride, isopropyl myristate, parfum, persea gratissima oil, butyrospermum parkii butter, dicaprylyl ether, dicaprylyl carbonate, citric acid, sodium benzoate, cetrimonium chloride, linalool, benzyl alcohol, benzyl salicylate, citronellol, geraniol, limonene, alpha-isomethyl ionone, rosmarinus officinalis leaf extract",
    "categories": "",
+   "source": "obf",
+   "n": 2
+  },
+  {
+   "ean": "4005800001192",
+   "nom": "Nivea Creme",
+   "marque": "Nivea",
+   "inci": "Aqua, Paraffinum Liquidum, Cera Microcristallina, Glycerin, Lanolin Alcohol (Eucerit), paraffin, Panthenol, Decyl Oleate, Octyldodecanol, Aluminum Stearates, Citric Acid, magnesium Sulfate, Magnesium Stearate, Parfum, Limonene, Geraniol, Hydroxycitronellal, Linalool, citronellol, benzyl Benzoate, Cinnamyl Alcohol.",
+   "categories": "en:body,en:face,en:facial-creams,en:body-creams,fr:cremes-hydratantes,en:open-beauty-facts",
    "source": "obf",
    "n": 1
   }

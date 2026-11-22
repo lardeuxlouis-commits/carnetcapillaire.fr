@@ -510,7 +510,7 @@
   function inciOBF(p) { return p.ingredients_text_fr || p.ingredients_text || p.ingredients_text_en || ""; }
   function fiche(o, source) { // fiche unique, quelle que soit la base
     if (!o) return null;
-    if (o.ean !== undefined) return { code: o.ean, nom: nomOK(o.nom), marque: o.marque || "", image: o.image || "", inci: o.inci || "", categories: o.categories || "", source: source || o.source || "carnet", licence: o.licence || "" };
+    if (o.ean !== undefined) return { code: o.ean, nom: nomOK(o.nom), marque: o.marque || "", image: o.image || "", inci: o.inci || "", categories: o.categories || "", source: source || o.source || "carnet", licence: o.licence || "", url_source: o.url_source || "" };
     return { code: o.code, nom: nomOBF(o), marque: (o.brands || "").split(",")[0].trim(), image: o.image_front_small_url || "", inci: inciOBF(o), categories: (o.categories_tags || []).join(","), source: source || "obf-live", licence: "ODbL Open Beauty Facts" };
   }
   function aInci(f) { return !!(f && M.decouper(f.inci).length >= 3); }
@@ -679,8 +679,9 @@
 
   /* ---------- Résultat : score /100, détail du calcul, composition ---------- */
   var NIV = { ok: ["Point positif", "+"], prudence: ["À surveiller", "!"], peu: ["Peu adapté", "×"], info: ["Bon à savoir", "i"] };
-  var SOURCES = { partage: "Composition partagée par une utilisatrice du carnet", obf: "Fiche Open Beauty Facts", "obf-live": "Fiche Open Beauty Facts", opf: "Fiche Open Products Facts", "opf-live": "Fiche Open Products Facts", off: "Fiche Open Food Facts", "off-live": "Fiche Open Food Facts" };
+  var SOURCES = { partage: "Composition partagée par une utilisatrice du carnet", obf: "Fiche Open Beauty Facts", "obf-live": "Fiche Open Beauty Facts", opf: "Fiche Open Products Facts", "opf-live": "Fiche Open Products Facts", off: "Fiche Open Food Facts", "off-live": "Fiche Open Food Facts", "carnet-enrichi": "Composition relevée par le carnet sur la fiche de la marque ou d\u2019un distributeur" };
   function lienSource(p) {
+    if (p.source === "carnet-enrichi" && /^https:\/\//.test(p.url_source || "")) return '<a href="' + esc(p.url_source) + '" rel="noopener nofollow" target="_blank">' + SOURCES["carnet-enrichi"] + "</a>";
     var s = String(p.source || ""), b = /^opf/.test(s) ? OPF : /^off/.test(s) ? OFF : /^obf/.test(s) ? OBF : "";
     return SOURCES[s] ? (b && p.code ? '<a href="' + b + "/product/" + esc(p.code) + '" rel="noopener" target="_blank">' + SOURCES[s] + "</a>" : SOURCES[s]) : "";
   }

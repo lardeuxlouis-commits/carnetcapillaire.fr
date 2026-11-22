@@ -674,3 +674,11 @@ details>p{margin:0 0 16px}
 @media (prefers-reduced-motion:reduce){.marq ul{animation:none;flex-wrap:wrap;width:auto;justify-content:center;row-gap:12px}}
 .marq li img{height:34px;width:auto;max-width:170px;object-fit:contain;filter:grayscale(1) contrast(.9);opacity:.62;display:block}
 .marq ul{align-items:center;gap:56px}
+/* Bande réseaux sociaux de l'accueil */
+.soc-band{background:linear-gradient(135deg,#f6e3d9,#fbf3ec)}
+.soc-wrap{display:grid;gap:22px;align-items:center}
+@media (min-width:900px){.soc-wrap{grid-template-columns:1.3fr 1fr}}
+.soc-btns{display:flex;flex-wrap:wrap;gap:12px}
+.sbtn{display:inline-flex;align-items:center;justify-content:center;min-width:120px;padding:14px 22px;border-radius:999px;background:var(--brun);color:#fff;font-weight:600;text-decoration:none;transition:transform .2s}
+.sbtn:hover{transform:translateY(-2px)}
+.sbtn:nth-child(2){background:var(--terra-d)}.sbtn:nth-child(3){background:#fff;color:var(--brun);border:1.5px solid var(--brun)}

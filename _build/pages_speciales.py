@@ -154,6 +154,12 @@ def accueil():
 <div class="cta-main"><a class="btn btn-xl" href="/quiz-type-de-cheveux/">Fais le test gratuit (2 min)</a></div></div>
 </div></section>
 
+<section class="sec tight soc-band" aria-labelledby="h-soc"><div class="wrap soc-wrap">
+<div><p class="kicker">En vidéo</p><h2 id="h-soc" style="margin-top:6px">Les scans et les routines, en vrai</h2>
+<p class="lead" style="font-size:17px">Produits passés au scanner, routines pas à pas, avant / après : retrouve-nous sur <strong>@drama.capillaire</strong>.</p></div>
+<div class="soc-btns"><a class="sbtn" href="{G["INSTAGRAM"]}" rel="me noopener" target="_blank">Instagram</a><a class="sbtn" href="{G["TIKTOK"]}" rel="me noopener" target="_blank">TikTok</a><a class="sbtn" href="{G["YOUTUBE"]}" rel="me noopener" target="_blank">YouTube</a></div>
+</div></section>
+
 <section class="sec tight" id="types" aria-labelledby="h-types"><div class="wrap">
 <h2 id="h-types" class="rv" style="margin-top:0">Par type de cheveux</h2>
 <div class="ptypes">{ptypes}</div>
@@ -187,7 +193,7 @@ def accueil():
         {"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": DOMAIN + "/", "inLanguage": "fr-FR",
          "description": "Tests, guides et sélections de produits pour tous les types de cheveux, des raides aux crépus.", "publisher": {"@type": "Organization", "name": SITE, "url": DOMAIN + "/"}},
         {"@context": "https://schema.org", "@type": "Organization", "name": SITE, "url": DOMAIN + "/", "logo": DOMAIN + "/favicon.svg",
-         "sameAs": []},  # TODO réseaux : ajouter les URL Instagram et TikTok de Carnet capillaire
+         "sameAs": [G["INSTAGRAM"], G["TIKTOK"], G["YOUTUBE"]]},
     ]
     pre = '\n<link rel="preload" as="image" href="/images/hero-femme-poster.jpg" fetchpriority="high">'
     return G["page"]("Carnet capillaire : tes cheveux, enfin compris",
