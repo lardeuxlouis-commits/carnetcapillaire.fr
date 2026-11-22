@@ -207,7 +207,7 @@
       // Offre : LE guide du type détecté (cheveux raides et fins -> guide des cheveux fins), puis le pack
       (window.CC ? window.CC.capture("quiz-type") + window.CC.offre(g === "raides" && ep === "fin" ? "fins" : g) : '<div class="res-cta"><p class="ctat">Pour aller plus loin</p><p><a href="/guide-produits-cheveux-pdf/">Les guides PDF des meilleurs produits pour ton type de cheveux</a></p></div>') +
       '<p style="text-align:center;margin-top:16px"><button type="button" class="qback" id="qredo">Refaire le test</button></p></div>';
-    body.innerHTML = h;
+    body.innerHTML = h; if (window.cc_evt) cc_evt('quiz-termine');
     var t = body.querySelector("h2"); t.setAttribute("tabindex", "-1"); t.focus({ preventScroll: true });
     root.scrollIntoView({ behavior: "smooth", block: "start" });
     document.getElementById("qredo").addEventListener("click", function () { rep = {}; i = 0; show(); });

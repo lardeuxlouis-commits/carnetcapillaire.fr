@@ -154,7 +154,7 @@
       bar.style.width = "100%";
       var v = {}; Object.keys(rep).forEach(function (k) { v[k] = rep[k].v; });
       var src = root.getAttribute("data-sim") || "test";
-      body.innerHTML = '<div class="qfade">' + result(v).replace('<div class="res-cta', capture("simulateur-" + src) + '<div class="res-cta') + '<p style="text-align:center;margin-top:16px"><button type="button" class="qback qredo">Refaire le test</button></p></div>';
+      body.innerHTML = '<div class="qfade">' + result(v).replace('<div class="res-cta', capture("simulateur-" + src) + '<div class="res-cta') + '<p style="text-align:center;margin-top:16px"><button type="button" class="qback qredo">Refaire le test</button></p></div>'; if (window.cc_evt) cc_evt('simulateur-termine-' + src);
       var t = body.querySelector("h3"); if (t) { t.setAttribute("tabindex", "-1"); t.focus({ preventScroll: true }); }
       root.scrollIntoView({ behavior: "smooth", block: "start" });
       body.querySelector(".qredo").addEventListener("click", function () { rep = {}; i = 0; show(); });

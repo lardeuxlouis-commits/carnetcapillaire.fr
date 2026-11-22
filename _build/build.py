@@ -188,6 +188,7 @@ def page(title, desc, path, body, schema, actif=None, kw=None, noindex=False, ex
 <link rel="stylesheet" href="/style.css?v={ASSET_V}">
 {ld}
 <script src="/site.js?v={ASSET_V}" defer></script>{extra_js}
+<script data-goatcounter="https://carnetcapillaire.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 <a class="skip" href="#contenu">Aller au contenu</a>

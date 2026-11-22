@@ -85,3 +85,8 @@
     st.querySelector(".stick-x").addEventListener("click",function(){st.remove();ecrire("cc-stick-x","1");});
   }
 })();
+
+// Statistiques GoatCounter (sans cookie) : événements de conversion
+window.cc_evt=function(n){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:n,title:n,event:true})}catch(e){}};
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var h=a.getAttribute("href")||"";
+if(/^https?:\/\//.test(h)&&h.indexOf(location.host)<0)cc_evt("clic-produit-"+(a.hostname||"").replace(/^www\./,""));});
