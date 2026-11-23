@@ -30,7 +30,9 @@ echo "Publié sur https://$DOMAINE/ (GitHub Pages met à jour en 1 à 2 minutes)
 
 if [ "$1" = "--ping" ]; then
   KEY=$(cat _build/indexnow.txt)
+  # Toutes les URL du sitemap (23/11/2026 : seules l'accueil et le sitemap étaient envoyés)
+  URLS=$(grep -o '<loc>[^<]*</loc>' site/sitemap.xml | sed 's#<loc>\(.*\)</loc>#"\1"#' | paste -sd, -)
   curl -s -o /dev/null -w "IndexNow : HTTP %{http_code}\n" -X POST "https://api.indexnow.org/indexnow" \
     -H "Content-Type: application/json; charset=utf-8" \
-    -d "{\"host\":\"$DOMAINE\",\"key\":\"$KEY\",\"keyLocation\":\"https://$DOMAINE/$KEY.txt\",\"urlList\":[\"https://$DOMAINE/\",\"https://$DOMAINE/sitemap.xml\"]}"
+    -d "{\"host\":\"$DOMAINE\",\"key\":\"$KEY\",\"keyLocation\":\"https://$DOMAINE/$KEY.txt\",\"urlList\":[$URLS]}"
 fi
